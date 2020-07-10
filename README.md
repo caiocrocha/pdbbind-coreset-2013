@@ -2,7 +2,7 @@
 
 Este é um experimento que conduzi durante um trabalho de Iniciação Científica como membro do GET da Engenharia Computacional na Universidade Federal de Juiz de Fora.
 
-Este ensaio faz parte do estudo da atracagem molecular, também conhecida como *docking* molecular, para seu uso na busca de candidatos a fármacos contra a SARS-CoV-2, a protease principal da COVID-19. Nesse contexto, com o objetivo de estudar a influência de parâmetros disponíveis em programas de *docking*, foram realizadas várias experimentos de atracagem molecular com base no banco de dados **PDBbind coreset**, versão 2013.
+Este ensaio faz parte do estudo da atracagem molecular, também conhecida como *docking* molecular, para seu uso na busca de candidatos a fármacos contra a SARS-CoV-2, a protease principal da COVID-19. Nesse contexto, com o objetivo de estudar a influência de parâmetros disponíveis em programas de *docking*, foram realizadas vários experimentos de atracagem molecular com base no banco de dados **PDBbind coreset**, versão 2013.
 
 ## Link para o artigo original (PDF)
 [A influência dos parâmetros no *docking* com o QuickVina 2](https://github.com/caiocrocha/COVID-19/blob/master/pdbbind-coreset-2013/A%20influência%20dos%20parâmetros%20no%20docking%20com%20o%20QuickVina%202.pdf)
