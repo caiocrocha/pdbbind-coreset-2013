@@ -1,0 +1,448 @@
+MODEL 1
+REMARK VINA RESULT:      -7.1      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -0.018  28.360  25.539  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -0.182  27.213  26.449  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -1.602  26.841  26.569  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d          -2.118  26.413  25.189  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d          -1.994  27.591  24.219  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -0.523  28.002  24.137  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -0.637  29.187  25.917  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d           0.174  27.460  27.359  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d           0.336  26.427  26.088  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -2.181  27.704  26.929  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d          -1.707  26.007  27.278  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d          -1.507  25.576  24.822  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d          -2.590  28.437  24.591  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -0.416  28.871  23.472  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d           1.439  28.837  25.532  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d           1.581  29.526  24.687  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d           1.750  29.572  26.840  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d           2.626  30.222  26.696  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d           1.964  28.839  27.631  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d           0.883  30.183  27.131  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d           2.407  27.660  25.381  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d           1.837  26.738  25.194  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d           2.993  27.547  26.305  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d           3.086  27.849  24.536  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d           0.238  26.906  23.626  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d           0.822  27.218  22.945  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d          -2.473  27.211  22.928  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d          -3.002  27.913  22.569  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d          -3.482  25.993  25.267  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d          -3.733  25.904  26.179  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.8      2.434      4.547
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -1.741  28.109  26.328  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -1.332  27.591  25.010  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -0.239  28.402  24.447  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d           0.976  28.306  25.378  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d           0.602  28.865  26.753  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -0.566  28.048  27.309  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -2.022  29.165  26.207  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -2.121  27.620  24.385  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -1.019  26.639  25.112  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -0.560  29.451  24.365  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d           0.028  28.021  23.450  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d           1.265  27.249  25.483  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d           0.297  29.917  26.650  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -0.875  28.457  28.283  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d          -2.973  27.357  26.843  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d          -2.638  26.494  27.438  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d          -3.813  28.283  27.728  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d          -4.796  27.824  27.910  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d          -3.948  29.251  27.221  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d          -3.298  28.441  28.687  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d          -3.840  26.855  25.684  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d          -4.433  27.688  25.282  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d          -4.515  26.066  26.047  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d          -3.194  26.449  24.892  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d          -0.149  26.690  27.466  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d           0.750  26.669  27.772  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d           1.724  28.786  27.633  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d           2.213  27.992  27.451  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d           2.082  29.038  24.844  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d           2.893  28.610  25.093  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.6      1.713      4.124
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -1.895  27.633  26.178  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -1.460  29.020  26.419  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d           0.009  29.119  26.386  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d           0.499  28.716  24.989  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d           0.094  27.267  24.712  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -1.430  27.163  24.796  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -1.415  26.989  26.930  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -1.791  29.318  27.322  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -1.847  29.617  25.705  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d           0.443  28.443  27.138  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d           0.315  30.153  26.601  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d           0.029  29.373  24.241  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d           0.547  26.608  25.467  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -1.741  26.120  24.635  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d          -3.412  27.506  26.360  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d          -3.912  28.145  25.617  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d          -3.840  26.051  26.143  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d          -3.143  25.382  26.668  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d          -3.828  25.823  25.067  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d          -4.856  25.905  26.536  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d          -3.840  27.946  27.763  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d          -3.194  28.769  28.103  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d          -3.749  27.098  28.457  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d          -4.886  28.288  27.737  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d          -2.009  27.999  23.793  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d          -2.423  27.458  23.130  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d           0.544  26.874  23.415  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d           1.439  27.167  23.289  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d           1.920  28.847  24.893  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d           2.329  28.023  25.131  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.6      1.723      2.492
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d           0.192  28.030  25.912  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -0.486  28.265  24.625  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -1.414  27.165  24.315  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d          -2.495  27.110  25.404  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d          -1.832  26.834  26.756  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -0.835  27.957  27.047  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d           0.700  27.056  25.856  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d           0.204  28.331  23.895  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -1.003  29.129  24.677  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -0.864  26.212  24.292  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d          -1.884  27.341  23.336  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d          -3.012  28.080  25.445  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d          -1.300  25.873  26.714  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -0.321  27.759  27.999  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d           1.262  29.099  26.159  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d           0.779  30.087  26.172  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d           1.939  28.851  27.511  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d           1.572  29.584  28.244  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d           3.029  28.957  27.401  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d           1.703  27.835  27.859  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d           2.327  29.081  25.059  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d           3.231  29.598  25.414  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d           1.940  29.593  24.166  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d           2.577  28.040  24.806  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d          -1.541  29.196  27.128  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d          -1.024  29.822  27.621  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d          -2.825  26.777  27.781  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d          -2.411  26.897  28.628  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d          -3.450  26.086  25.116  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d          -4.017  26.373  24.409  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.1      2.325      4.532
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -1.815  28.012  25.954  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -1.299  27.286  24.781  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -0.062  27.911  24.283  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d           1.006  27.832  25.381  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d           0.521  28.603  26.610  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -0.789  27.978  27.092  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -1.963  29.063  25.667  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -1.994  27.301  24.051  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -1.106  26.331  25.040  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -0.255  28.964  24.030  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d           0.288  27.376  23.387  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d           1.163  26.777  25.653  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d           0.347  29.654  26.339  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -1.174  28.540  27.955  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d          -3.177  27.451  26.378  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d          -3.968  28.107  25.985  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d          -3.360  26.043  25.801  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d          -2.413  25.488  25.881  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d          -3.654  26.116  24.743  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d          -4.143  25.515  26.363  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d          -3.299  27.383  27.903  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d          -2.453  27.914  28.362  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d          -3.290  26.331  28.225  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d          -4.242  27.855  28.217  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d          -0.545  26.622  27.469  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d           0.287  26.338  27.108  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d           1.506  28.542  27.643  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d           2.304  28.963  27.344  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d           2.244  28.382  24.923  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d           2.817  27.678  24.641  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.1      1.858      2.201
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d           0.132  28.880  25.982  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -0.476  29.544  27.148  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -1.945  29.467  27.085  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d          -2.363  27.991  27.124  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d          -1.776  27.270  25.908  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -0.253  27.398  25.955  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -0.274  29.348  25.073  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -0.196  30.512  27.160  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -0.157  29.092  27.990  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -2.301  29.927  26.152  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d          -2.381  29.997  27.945  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d          -1.969  27.531  28.042  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d          -2.154  27.738  24.987  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d           0.188  26.916  25.069  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d           1.650  29.092  25.974  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d           1.872  30.041  25.465  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d           2.172  29.158  27.413  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d           3.012  29.865  27.466  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d           2.512  28.160  27.726  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d           1.365  29.496  28.080  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d           2.364  27.955  25.237  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d           2.010  26.988  25.624  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d           3.449  28.039  25.398  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d           2.146  28.020  24.161  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d           0.230  26.762  27.140  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d           0.021  25.835  27.109  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d          -2.158  25.894  25.926  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d          -2.743  25.719  25.198  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d          -3.788  27.868  27.117  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d          -4.174  28.693  26.847  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.5      1.995      4.282
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -0.968  27.806  25.683  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -0.874  29.108  26.366  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d           0.388  29.212  27.118  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d           1.559  29.123  26.131  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d           1.516  27.767  25.421  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d           0.181  27.647  24.683  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -0.865  27.015  26.441  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -1.648  29.203  27.004  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -0.912  29.845  25.680  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d           0.455  28.390  27.846  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d           0.425  30.176  27.649  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d           1.461  29.925  25.385  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d           1.596  26.961  26.165  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d           0.114  26.664  24.194  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d          -2.343  27.642  25.026  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d          -2.628  28.597  24.560  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d          -2.276  26.556  23.948  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d          -3.220  26.540  23.384  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d          -2.117  25.577  24.424  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d          -1.442  26.770  23.263  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d          -3.408  27.255  26.057  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d          -2.971  27.289  27.066  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d          -3.767  26.237  25.848  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d          -4.250  27.960  25.998  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d           0.100  28.681  23.700  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d           0.826  28.597  23.093  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d           2.601  27.666  24.499  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d           3.189  28.402  24.621  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d           2.808  29.272  26.812  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d           3.070  30.185  26.793  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.2      2.246      4.004
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  CAH_2 
+REMARK    2  A    between atoms: CAH_2  and  CAB_3 
+REMARK    3  A    between atoms: CAH_2  and  CAL_4 
+REMARK    4  A    between atoms: CAI_7  and  OAC_8 
+REMARK    5  A    between atoms: CAJ_9  and  OAD_10 
+REMARK    6  A    between atoms: CAK_11  and  OAE_12 
+ROOT
+ATOM      1  CAL ZXD d          -2.592  27.845  25.817  0.00  0.00     0.131 C 
+ATOM      2  NAG ZXD d          -2.422  26.442  25.402  0.00  0.00    -0.066 N 
+ATOM      3  CAF ZXD d          -1.614  26.355  24.175  0.00  0.00     0.108 C 
+ATOM      4  CAI ZXD d          -0.218  26.924  24.462  0.00  0.00     0.086 C 
+ATOM      5  CAJ ZXD d          -0.349  28.395  24.867  0.00  0.00     0.088 C 
+ATOM      6  CAK ZXD d          -1.230  28.480  26.114  0.00  0.00     0.090 C 
+ATOM      7  H8  ZXD d          -3.043  28.396  24.979  0.00  0.00     0.089 H 
+ATOM      8  H9  ZXD d          -3.328  26.035  25.231  0.00  0.00     0.277 HD
+ATOM      9  H10 ZXD d          -1.960  25.933  26.139  0.00  0.00     0.277 HD
+ATOM     10  H11 ZXD d          -2.093  26.937  23.374  0.00  0.00     0.079 H 
+ATOM     11  H12 ZXD d          -1.527  25.304  23.862  0.00  0.00     0.079 H 
+ATOM     12  H13 ZXD d           0.236  26.360  25.290  0.00  0.00     0.089 H 
+ATOM     13  H15 ZXD d          -0.817  28.960  24.048  0.00  0.00     0.091 H 
+ATOM     14  H17 ZXD d          -1.366  29.533  26.402  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAH ZXD d          -3.555  27.941  27.007  0.00  0.00    -0.031 C 
+ATOM     16  H4  ZXD d          -4.575  28.093  26.624  0.00  0.00     0.042 H 
+BRANCH  15  17
+ATOM     17  CAA ZXD d          -3.508  26.642  27.817  0.00  0.00    -0.071 C 
+ATOM     18  H1  ZXD d          -4.533  26.322  28.056  0.00  0.00     0.028 H 
+ATOM     19  H2  ZXD d          -2.950  26.812  28.750  0.00  0.00     0.028 H 
+ATOM     20  H3  ZXD d          -3.008  25.860  27.228  0.00  0.00     0.028 H 
+ENDBRANCH  15  17
+BRANCH  15  21
+ATOM     21  CAB ZXD d          -3.188  29.113  27.922  0.00  0.00    -0.071 C 
+ATOM     22  H5  ZXD d          -2.901  28.729  28.912  0.00  0.00     0.028 H 
+ATOM     23  H6  ZXD d          -4.055  29.782  28.026  0.00  0.00     0.028 H 
+ATOM     24  H7  ZXD d          -2.345  29.669  27.487  0.00  0.00     0.028 H 
+ENDBRANCH  15  21
+ENDBRANCH   1  15
+BRANCH   6  25
+ATOM     25  OAE ZXD d          -0.597  27.767  27.179  0.00  0.00    -0.391 OA
+ATOM     26  H18 ZXD d          -0.758  28.218  28.000  0.00  0.00     0.210 HD
+ENDBRANCH   6  25
+BRANCH   5  27
+ATOM     27  OAD ZXD d           0.943  28.942  25.136  0.00  0.00    -0.390 OA
+ATOM     28  H16 ZXD d           1.252  29.412  24.370  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   4  29
+ATOM     29  OAC ZXD d           0.621  26.813  23.310  0.00  0.00    -0.391 OA
+ATOM     30  H14 ZXD d           0.146  26.370  22.615  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 6
+ENDMDL

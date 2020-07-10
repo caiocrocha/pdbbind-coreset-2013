@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CD2_9  and  CE2_10 
+ROOT
+ATOM      1  CB  MOL d          45.872  25.734  42.002  0.00  0.00     0.002 C 
+ATOM      2  H5  MOL d          45.104  26.520  42.053  0.00  0.00     0.044 H 
+ATOM      3  H6  MOL d          45.496  24.822  42.489  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  MOL d          47.123  26.221  42.775  0.00  0.00     0.186 C 
+ATOM      5  H4  MOL d          47.523  27.114  42.273  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   MOL d          48.164  25.145  42.780  0.00  0.00    -0.065 N 
+ATOM      7  H1  MOL d          48.398  24.900  41.831  0.00  0.00     0.275 HD
+ATOM      8  H2  MOL d          47.806  24.333  43.258  0.00  0.00     0.275 HD
+ATOM      9  H3  MOL d          48.989  25.478  43.254  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   MOL d          46.777  26.584  44.269  0.00  0.00     0.204 C 
+ATOM     11  OT1 MOL d          45.833  27.397  44.469  0.00  0.00    -0.646 OA
+ATOM     12  OT2 MOL d          47.514  26.087  45.168  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  MOL d          46.138  25.424  40.556  0.00  0.00     0.031 A 
+ATOM     14  CD1 MOL d          46.041  26.293  39.435  0.00  0.00     0.207 A 
+ATOM     15  OE1 MOL d          45.554  27.514  39.668  0.00  0.00    -0.170 OA
+ATOM     16  NE1 MOL d          46.401  25.848  38.267  0.00  0.00    -0.236 N 
+ATOM     17  OE2 MOL d          46.793  24.497  38.599  0.00  0.00    -0.240 OA
+ATOM     18  H10 MOL d          46.405  26.313  37.382  0.00  0.00     0.197 HD
+ATOM     19  CD2 MOL d          46.618  24.303  39.952  0.00  0.00     0.083 A 
+BRANCH  19  20
+ATOM     20  CE2 MOL d          46.898  22.932  40.451  0.00  0.00    -0.029 C 
+ATOM     21  H7  MOL d          47.284  22.314  39.627  0.00  0.00     0.036 H 
+ATOM     22  H8  MOL d          45.970  22.487  40.840  0.00  0.00     0.036 H 
+ATOM     23  H9  MOL d          47.647  22.980  41.255  0.00  0.00     0.036 H 
+ENDBRANCH  19  20
+ENDBRANCH   1  13
+TORSDOF 5

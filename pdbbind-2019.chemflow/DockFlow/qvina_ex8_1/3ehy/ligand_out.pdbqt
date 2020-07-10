@@ -1,0 +1,58 @@
+MODEL 1
+REMARK VINA RESULT:      -6.7      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N1_4 
+REMARK    2  A    between atoms: S1_2  and  C3_10 
+REMARK    3  A    between atoms: N1_4  and  C2_5 
+REMARK    4  A    between atoms: C2_5  and  C10_6 
+REMARK    5  A    between atoms: C2_5  and  C1_7 
+REMARK    6  A    between atoms: C6_13  and  O5_16 
+REMARK    7  A    between atoms: O5_16  and  C7_17 
+ROOT
+ATOM      1  C3  TBL d          -1.834  -5.787  -6.203  0.00  0.00     0.079 A 
+ATOM      2  C4  TBL d          -3.016  -6.115  -5.544  0.00  0.00    -0.058 A 
+ATOM      3  C5  TBL d          -4.219  -6.259  -6.259  0.00  0.00    -0.049 A 
+ATOM      4  C6  TBL d          -4.242  -6.158  -7.656  0.00  0.00     0.068 A 
+ATOM      5  C8  TBL d          -3.088  -5.831  -8.345  0.00  0.00    -0.049 A 
+ATOM      6  C9  TBL d          -1.885  -5.641  -7.612  0.00  0.00    -0.058 A 
+ATOM      7  H6  TBL d          -3.009  -6.260  -4.469  0.00  0.00     0.086 H 
+ATOM      8  H7  TBL d          -5.140  -6.451  -5.721  0.00  0.00     0.087 H 
+ATOM      9  H8  TBL d          -3.101  -5.723  -9.423  0.00  0.00     0.087 H 
+ATOM     10  H9  TBL d          -0.980  -5.375  -8.147  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  S1  TBL d          -0.456  -5.665  -5.343  0.00  0.00     0.259 S 
+ATOM     12  O4  TBL d          -0.183  -6.979  -4.853  0.00  0.00    -0.201 OA
+ATOM     13  O3  TBL d           0.517  -5.158  -6.274  0.00  0.00    -0.201 OA
+BRANCH  11  14
+ATOM     14  N1  TBL d          -0.567  -4.725  -4.039  0.00  0.00    -0.301 N 
+ATOM     15  H1  TBL d          -0.764  -5.125  -3.144  0.00  0.00     0.173 HD
+BRANCH  14  16
+ATOM     16  C2  TBL d          -0.375  -3.273  -4.177  0.00  0.00     0.100 C 
+ATOM     17  H2  TBL d           0.329  -3.087  -5.001  0.00  0.00     0.089 H 
+BRANCH  16  18
+ATOM     18  C10 TBL d           0.212  -2.700  -2.884  0.00  0.00    -0.048 C 
+ATOM     19  H3  TBL d           0.352  -1.615  -2.994  0.00  0.00     0.030 H 
+ATOM     20  H4  TBL d           1.182  -3.177  -2.679  0.00  0.00     0.030 H 
+ATOM     21  H5  TBL d          -0.478  -2.897  -2.050  0.00  0.00     0.030 H 
+ENDBRANCH  16  18
+BRANCH  16  22
+ATOM     22  C1  TBL d          -1.678  -2.584  -4.489  0.00  0.00     0.196 C 
+ATOM     23  O2  TBL d          -1.731  -1.519  -5.070  0.00  0.00    -0.646 OA
+ATOM     24  O1  TBL d          -2.819  -3.165  -4.118  0.00  0.00    -0.646 OA
+ENDBRANCH  16  22
+ENDBRANCH  14  16
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   4  25
+ATOM     25  O5  TBL d          -5.458  -6.312  -8.301  0.00  0.00    -0.356 OA
+BRANCH  25  26
+ATOM     26  C7  TBL d          -5.645  -6.979  -9.540  0.00  0.00     0.010 C 
+ATOM     27  H10 TBL d          -6.709  -6.950  -9.816  0.00  0.00     0.066 H 
+ATOM     28  H11 TBL d          -5.318  -8.025  -9.446  0.00  0.00     0.066 H 
+ATOM     29  H12 TBL d          -5.051  -6.478 -10.320  0.00  0.00     0.066 H 
+ENDBRANCH  25  26
+ENDBRANCH   4  25
+TORSDOF 7
+ENDMDL

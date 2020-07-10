@@ -1,0 +1,77 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  S27_27 
+REMARK    2  A    between atoms: C4_4  and  N7_7 
+REMARK    3  A    between atoms: C11_11  and  C14_14 
+REMARK    4  A    between atoms: C14_14  and  C16_16 
+REMARK    5  A    between atoms: C21_21  and  O22_22 
+REMARK    6  A    between atoms: O22_22  and  C23_23 
+REMARK    7  A    between atoms: S27_27  and  C28_28 
+ROOT
+ATOM      1  N7  LIA d           2.853  29.193   6.145  0.00  0.00    -0.218 N 
+ATOM      2  C8  LIA d           1.769  29.532   6.900  0.00  0.00     0.724 A 
+ATOM      3  N9  LIA d           1.069  28.596   7.597  0.00  0.00    -0.074 NA
+ATOM      4  C10 LIA d           0.049  28.949   8.317  0.00  0.00     0.038 A 
+ATOM      5  C11 LIA d          -0.400  30.325   8.422  0.00  0.00     0.079 A 
+ATOM      6  C12 LIA d           0.364  31.287   7.659  0.00  0.00     0.156 A 
+ATOM      7  N13 LIA d           1.437  30.856   6.914  0.00  0.00    -0.045 NA
+ATOM      8  N26 LIA d           0.083  32.603   7.639  0.00  0.00    -0.383 N 
+ATOM      9  H10 LIA d           3.208  29.787   5.382  0.00  0.00     0.178 HD
+ATOM     10  H11 LIA d          -0.491  28.184   8.863  0.00  0.00     0.117 H 
+ATOM     11  H17 LIA d           0.661  33.245   7.077  0.00  0.00     0.157 HD
+ATOM     12  H18 LIA d          -0.710  32.969   8.185  0.00  0.00     0.157 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C4  LIA d           3.474  27.912   6.508  0.00  0.00     0.029 C 
+ATOM     14  C3  LIA d           4.425  27.497   5.356  0.00  0.00    -0.034 C 
+ATOM     15  C2  LIA d           5.228  26.235   5.737  0.00  0.00    -0.005 C 
+ATOM     16  H3  LIA d           3.830  27.288   4.455  0.00  0.00     0.037 H 
+ATOM     17  H4  LIA d           5.124  28.321   5.151  0.00  0.00     0.037 H 
+ATOM     18  N1  LIA d           6.006  26.497   6.980  0.00  0.00    -0.211 NA
+ATOM     19  H1  LIA d           4.535  25.398   5.908  0.00  0.00     0.057 H 
+ATOM     20  H2  LIA d           5.918  25.979   4.920  0.00  0.00     0.057 H 
+ATOM     21  C6  LIA d           5.084  26.743   8.129  0.00  0.00    -0.005 C 
+ATOM     22  C5  LIA d           4.263  28.022   7.859  0.00  0.00    -0.034 C 
+ATOM     23  H8  LIA d           5.671  26.871   9.050  0.00  0.00     0.057 H 
+ATOM     24  H9  LIA d           4.403  25.887   8.244  0.00  0.00     0.057 H 
+ATOM     25  H6  LIA d           3.548  28.170   8.682  0.00  0.00     0.037 H 
+ATOM     26  H7  LIA d           4.946  28.883   7.807  0.00  0.00     0.037 H 
+ATOM     27  H5  LIA d           2.688  27.151   6.622  0.00  0.00     0.073 H 
+BRANCH  18  28
+ATOM     28  S27 LIA d           7.063  25.211   7.310  0.00  0.00     0.207 S 
+ATOM     29  O29 LIA d           7.871  25.586   8.449  0.00  0.00    -0.212 OA
+ATOM     30  O30 LIA d           7.911  25.002   6.168  0.00  0.00    -0.212 OA
+BRANCH  28  31
+ATOM     31  C28 LIA d           6.179  23.662   7.710  0.00  0.00     0.028 C 
+ATOM     32  H19 LIA d           6.909  22.865   7.914  0.00  0.00     0.050 H 
+ATOM     33  H20 LIA d           5.547  23.370   6.858  0.00  0.00     0.050 H 
+ATOM     34  H21 LIA d           5.549  23.818   8.598  0.00  0.00     0.050 H 
+ENDBRANCH  28  31
+ENDBRANCH  18  28
+ENDBRANCH   1  13
+BRANCH   5  35
+ATOM     35  C14 LIA d          -1.543  30.655   9.260  0.00  0.00     0.203 C 
+ATOM     36  O15 LIA d          -1.970  31.821   9.319  0.00  0.00    -0.286 OA
+BRANCH  35  37
+ATOM     37  C16 LIA d          -2.197  29.647  10.064  0.00  0.00     0.090 A 
+ATOM     38  C17 LIA d          -3.548  29.259   9.750  0.00  0.00     0.171 A 
+ATOM     39  C18 LIA d          -4.212  28.257  10.524  0.00  0.00     0.156 A 
+ATOM     40  F24 LIA d          -4.202  29.825   8.740  0.00  0.00    -0.202 F 
+ATOM     41  C19 LIA d          -3.548  27.625  11.616  0.00  0.00    -0.040 A 
+ATOM     42  F25 LIA d          -5.450  27.907  10.229  0.00  0.00    -0.203 F 
+ATOM     43  C20 LIA d          -2.214  27.992  11.950  0.00  0.00    -0.047 A 
+ATOM     44  H12 LIA d          -4.060  26.863  12.193  0.00  0.00     0.088 H 
+ATOM     45  C21 LIA d          -1.510  29.004  11.189  0.00  0.00     0.085 A 
+ATOM     46  H13 LIA d          -1.719  27.508  12.784  0.00  0.00     0.087 H 
+BRANCH  45  47
+ATOM     47  O22 LIA d          -0.188  29.401  11.490  0.00  0.00    -0.355 OA
+BRANCH  47  48
+ATOM     48  C23 LIA d           0.555  28.398  12.227  0.00  0.00     0.010 C 
+ATOM     49  H14 LIA d           1.571  28.768  12.428  0.00  0.00     0.066 H 
+ATOM     50  H15 LIA d           0.613  27.474  11.633  0.00  0.00     0.066 H 
+ATOM     51  H16 LIA d           0.045  28.190  13.179  0.00  0.00     0.066 H 
+ENDBRANCH  47  48
+ENDBRANCH  45  47
+ENDBRANCH  35  37
+ENDBRANCH   5  35
+TORSDOF 7

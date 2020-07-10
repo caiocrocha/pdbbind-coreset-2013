@@ -1,0 +1,41 @@
+MODEL 1
+REMARK VINA RESULT:      -5.6      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_4  and  N1_2 
+REMARK    2  A    between atoms: C3_7  and  O1_3 
+REMARK    3  A    between atoms: O1_3  and  C6_11 
+REMARK    4  A    between atoms: C5_10  and  S1_4 
+ROOT
+ATOM      1  C1  M4S d           2.453  -5.555   7.910  0.00  0.00    -0.058 A 
+ATOM      2  C2  M4S d           3.375  -5.677   8.938  0.00  0.00    -0.049 A 
+ATOM      3  C3  M4S d           4.554  -6.394   8.769  0.00  0.00     0.068 A 
+ATOM      4  C4  M4S d           4.842  -6.980   7.533  0.00  0.00    -0.049 A 
+ATOM      5  C5  M4S d           2.708  -6.153   6.677  0.00  0.00     0.079 A 
+ATOM      6  C7  M4S d           3.906  -6.865   6.493  0.00  0.00    -0.058 A 
+ATOM      7  H1  M4S d           1.537  -4.997   8.065  0.00  0.00     0.086 H 
+ATOM      8  H4  M4S d           3.173  -5.204   9.893  0.00  0.00     0.087 H 
+ATOM      9  H5  M4S d           5.773  -7.514   7.380  0.00  0.00     0.087 H 
+ATOM     10  H9  M4S d           4.109  -7.333   5.537  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  S1  M4S d           1.631  -6.020   5.482  0.00  0.00     0.256 S 
+ATOM     12  O2  M4S d           1.363  -7.425   5.058  0.00  0.00    -0.201 OA
+ATOM     13  O3  M4S d           0.317  -5.396   5.813  0.00  0.00    -0.201 OA
+BRANCH  11  14
+ATOM     14  N1  M4S d           2.318  -5.297   4.380  0.00  0.00    -0.324 N 
+ATOM     15  H2  M4S d           3.212  -5.611   4.058  0.00  0.00     0.169 HD
+ATOM     16  H3  M4S d           1.888  -4.497   3.961  0.00  0.00     0.169 HD
+ENDBRANCH  11  14
+ENDBRANCH   5  11
+BRANCH   3  17
+ATOM     17  O1  M4S d           5.410  -6.490   9.838  0.00  0.00    -0.356 OA
+BRANCH  17  18
+ATOM     18  C6  M4S d           6.554  -7.337   9.783  0.00  0.00     0.010 C 
+ATOM     19  H6  M4S d           7.105  -7.271  10.733  0.00  0.00     0.066 H 
+ATOM     20  H7  M4S d           7.207  -7.018   8.958  0.00  0.00     0.066 H 
+ATOM     21  H8  M4S d           6.234  -8.375   9.616  0.00  0.00     0.066 H 
+ENDBRANCH  17  18
+ENDBRANCH   3  17
+TORSDOF 4
+ENDMDL

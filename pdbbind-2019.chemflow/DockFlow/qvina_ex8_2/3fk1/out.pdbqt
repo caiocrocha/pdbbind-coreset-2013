@@ -1,0 +1,72 @@
+MODEL 1
+REMARK VINA RESULT:      -5.0      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  P1_8 
+REMARK    2  A    between atoms: N1_10  and  C1_1 
+REMARK    3  A    between atoms: C2_2  and  C3_3 
+REMARK    4  A    between atoms: C2_2  and  N1_10 
+ROOT
+ATOM      1  N1  GPF d          60.224   8.100  29.381  0.00  0.00    -0.053 N 
+ATOM      2  H5  GPF d          61.231   8.127  29.348  0.00  0.00     0.278 HD
+ATOM      3  H6  GPF d          59.920   7.163  29.595  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  GPF d          59.748   8.408  28.061  0.00  0.00     0.183 C 
+ATOM      5  H1  GPF d          59.431   7.479  27.564  0.00  0.00     0.097 H 
+ATOM      6  H2  GPF d          58.893   9.095  28.134  0.00  0.00     0.097 H 
+BRANCH   4   7
+ATOM      7  P1  GPF d          60.980   9.142  27.145  0.00  0.00     0.285 P 
+ATOM      8  O1  GPF d          61.950   9.846  28.066  0.00  0.00    -0.638 OA
+ATOM      9  O2  GPF d          60.223  10.078  26.242  0.00  0.00    -0.638 OA
+ATOM     10  O3  GPF d          61.675   7.989  26.409  0.00  0.00    -0.638 OA
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C2  GPF d          59.809   8.948  30.479  0.00  0.00     0.161 C 
+ATOM     12  H3  GPF d          59.524   9.935  30.087  0.00  0.00     0.092 H 
+ATOM     13  H4  GPF d          58.944   8.491  30.983  0.00  0.00     0.092 H 
+BRANCH  11  14
+ATOM     14  C3  GPF d          60.892   9.105  31.434  0.00  0.00     0.199 C 
+ATOM     15  O4  GPF d          61.682  10.133  31.326  0.00  0.00    -0.647 OA
+ATOM     16  O5  GPF d          60.962   8.251  32.278  0.00  0.00    -0.647 OA
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -2.2      1.438      2.038
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  P1_8 
+REMARK    2  A    between atoms: N1_10  and  C1_1 
+REMARK    3  A    between atoms: C2_2  and  C3_3 
+REMARK    4  A    between atoms: C2_2  and  N1_10 
+ROOT
+ATOM      1  N1  GPF d          61.379   9.297  29.322  0.00  0.00    -0.053 N 
+ATOM      2  H5  GPF d          62.185   9.644  29.818  0.00  0.00     0.278 HD
+ATOM      3  H6  GPF d          61.510   8.320  29.110  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  GPF d          61.318   9.998  28.070  0.00  0.00     0.183 C 
+ATOM      5  H1  GPF d          60.750  10.931  28.204  0.00  0.00     0.097 H 
+ATOM      6  H2  GPF d          62.338  10.236  27.736  0.00  0.00     0.097 H 
+BRANCH   4   7
+ATOM      7  P1  GPF d          60.551   9.039  26.893  0.00  0.00     0.285 P 
+ATOM      8  O1  GPF d          59.480   8.193  27.542  0.00  0.00    -0.638 OA
+ATOM      9  O2  GPF d          61.685   8.233  26.318  0.00  0.00    -0.638 OA
+ATOM     10  O3  GPF d          59.928  10.034  25.906  0.00  0.00    -0.638 OA
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C2  GPF d          60.249   9.393  30.223  0.00  0.00     0.161 C 
+ATOM     12  H3  GPF d          60.325  10.325  30.802  0.00  0.00     0.092 H 
+ATOM     13  H4  GPF d          59.318   9.401  29.637  0.00  0.00     0.092 H 
+BRANCH  11  14
+ATOM     14  C3  GPF d          60.232   8.262  31.134  0.00  0.00     0.199 C 
+ATOM     15  O4  GPF d          60.968   8.307  32.206  0.00  0.00    -0.647 OA
+ATOM     16  O5  GPF d          59.506   7.357  30.817  0.00  0.00    -0.647 OA
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 4
+ENDMDL

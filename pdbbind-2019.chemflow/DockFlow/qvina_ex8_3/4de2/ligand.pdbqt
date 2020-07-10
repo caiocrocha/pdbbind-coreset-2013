@@ -1,0 +1,70 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  C15_3 
+REMARK       I    between atoms: C13_2  and  N12_13 
+REMARK    2  A    between atoms: C19_7  and  C21_8 
+REMARK    3  A    between atoms: C21_8  and  N22_9 
+REMARK    4  A    between atoms: N22_9  and  C23_10 
+REMARK    5  A    between atoms: N22_9  and  C24_11 
+REMARK    6  A    between atoms: N12_13  and  C10_14 
+REMARK    7  A    between atoms: C6_16  and  C2_20 
+ROOT
+ATOM      1  C15 DN3 d          -9.634  56.884  11.514  0.00  0.00     0.032 A 
+ATOM      2  C16 DN3 d          -9.281  56.999  10.171  0.00  0.00    -0.068 A 
+ATOM      3  C17 DN3 d          -9.964  57.906   9.361  0.00  0.00    -0.081 A 
+ATOM      4  C18 DN3 d         -11.013  58.666   9.865  0.00  0.00    -0.075 A 
+ATOM      5  C19 DN3 d         -11.293  58.623  11.231  0.00  0.00    -0.032 A 
+ATOM      6  C20 DN3 d         -10.620  57.715  12.038  0.00  0.00    -0.060 A 
+ATOM      7  H1  DN3 d          -8.484  56.390   9.760  0.00  0.00     0.085 H 
+ATOM      8  H2  DN3 d          -9.672  58.020   8.323  0.00  0.00     0.083 H 
+ATOM      9  H3  DN3 d         -11.607  59.286   9.203  0.00  0.00     0.084 H 
+ATOM     10  H13 DN3 d         -10.866  57.653  13.092  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C13 DN3 d          -8.859  55.981  12.446  0.00  0.00     0.256 C 
+ATOM     12  O14 DN3 d          -9.257  55.822  13.596  0.00  0.00    -0.267 OA
+ATOM     13  N12 DN3 d          -7.760  55.374  11.980  0.00  0.00    -0.323 N 
+ATOM     14  H14 DN3 d          -7.529  55.505  11.016  0.00  0.00     0.169 HD
+BRANCH  13  15
+ATOM     15  C10 DN3 d          -6.904  54.561  12.758  0.00  0.00     0.035 A 
+ATOM     16  C11 DN3 d          -5.558  54.519  12.408  0.00  0.00    -0.043 A 
+ATOM     17  C6  DN3 d          -4.657  53.762  13.150  0.00  0.00     0.017 A 
+ATOM     18  H15 DN3 d          -5.208  55.081  11.550  0.00  0.00     0.088 H 
+ATOM     19  C7  DN3 d          -5.090  53.035  14.254  0.00  0.00    -0.069 A 
+ATOM     20  C8  DN3 d          -6.425  53.092  14.624  0.00  0.00    -0.080 A 
+ATOM     21  H16 DN3 d          -4.391  52.430  14.819  0.00  0.00     0.085 H 
+ATOM     22  C9  DN3 d          -7.341  53.832  13.864  0.00  0.00    -0.057 A 
+ATOM     23  H17 DN3 d          -6.762  52.561  15.507  0.00  0.00     0.083 H 
+ATOM     24  H18 DN3 d          -8.390  53.838  14.136  0.00  0.00     0.086 H 
+BRANCH  17  25
+ATOM     25  C2  DN3 d          -3.228  53.718  12.762  0.00  0.00     0.198 A 
+ATOM     26  N1  DN3 d          -2.751  53.983  11.529  0.00  0.00    -0.139 NA
+ATOM     27  N5  DN3 d          -1.372  53.813  11.538  0.00  0.00    -0.200 N 
+ATOM     28  N4  DN3 d          -1.023  53.445  12.838  0.00  0.00     0.022 NA
+ATOM     29  H19 DN3 d          -0.732  53.935  10.740  0.00  0.00     0.208 HD
+ATOM     30  N3  DN3 d          -2.204  53.376  13.580  0.00  0.00    -0.136 NA
+ENDBRANCH  17  25
+ENDBRANCH  13  15
+ENDBRANCH   1  11
+BRANCH   5  31
+ATOM     31  C21 DN3 d         -12.410  59.466  11.825  0.00  0.00     0.106 C 
+ATOM     32  H4  DN3 d         -12.261  60.523  11.561  0.00  0.00     0.083 H 
+ATOM     33  H5  DN3 d         -12.418  59.359  12.920  0.00  0.00     0.083 H 
+BRANCH  31  34
+ATOM     34  N22 DN3 d         -13.688  58.984  11.265  0.00  0.00    -0.075 N 
+ATOM     35  H6  DN3 d         -13.602  58.903  10.264  0.00  0.00     0.279 HD
+BRANCH  34  36
+ATOM     36  C23 DN3 d         -13.984  57.663  11.846  0.00  0.00     0.066 C 
+ATOM     37  H7  DN3 d         -14.935  57.288  11.439  0.00  0.00     0.068 H 
+ATOM     38  H8  DN3 d         -14.063  57.753  12.939  0.00  0.00     0.068 H 
+ATOM     39  H9  DN3 d         -13.175  56.962  11.593  0.00  0.00     0.068 H 
+ENDBRANCH  34  36
+BRANCH  34  40
+ATOM     40  C24 DN3 d         -14.793  59.902  11.581  0.00  0.00     0.066 C 
+ATOM     41  H10 DN3 d         -14.581  60.892  11.151  0.00  0.00     0.068 H 
+ATOM     42  H11 DN3 d         -14.895  59.990  12.673  0.00  0.00     0.068 H 
+ATOM     43  H12 DN3 d         -15.729  59.510  11.155  0.00  0.00     0.068 H 
+ENDBRANCH  34  40
+ENDBRANCH  31  34
+ENDBRANCH   5  31
+TORSDOF 7

@@ -1,0 +1,50 @@
+############################################################################
+# If you used Quick Vina 2 in your work, please cite:                      #
+#                                                                          #
+# Amr Alhossary, Stephanus Daniel Handoko, Yuguang Mu, and Chee-Keong Kwoh,#
+# Fast, Accurate, and Reliable Molecular Docking with QuickVina 2,         #
+# Bioinformatics (2015), doi: 10.1093/bioinformatics/btv082                #
+#                                                                          #
+# You are also encouraged to cite Quick Vina 1:                            #
+# Stephanus Daniel Handoko, Xuchang Ouyang, Chinh Tran To Su, Chee Keong   #
+# Kwoh, Yew Soon Ong,                                                      #
+# QuickVina: Accelerating AutoDock Vina Using Gradient-Based Heuristics for#
+# Global Optimization,                                                     #
+# IEEE/ACM Transactions on Computational Biology and Bioinformatics,vol.9, #
+# no. 5, pp. 1266-1272, Sept.-Oct. 2012, doi: 10.1109/TCBB.2012.82         #
+#                                                                          #
+# and original AutoDock Vina paper:                                        #
+# O. Trott, A. J. Olson,                                                   #
+# AutoDock Vina: improving the speed and accuracy of docking with a        #
+# new scoring function, efficient optimization and multithreading,         #
+# Journal of Computational Chemistry 31 (2010) 455-461                     #
+# doi: 10.1002/jcc.21334                                                   #
+############################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1076033729
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... 
+searching finished in 23.185 seconds
+done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.7      0.000      0.000
+   2         -9.5      2.261      6.508
+   3         -9.4      1.554      5.832
+   4         -9.3      2.094      5.556
+   5         -9.2      1.144      1.327
+   6         -9.0      2.138      3.256
+   7         -8.9      2.024      6.571
+   8         -8.7      2.212      3.365
+   9         -8.2      2.213      6.605
+  10         -7.7      1.781      2.450
+Writing output ... done.

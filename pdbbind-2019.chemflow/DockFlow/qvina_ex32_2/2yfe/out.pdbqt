@@ -1,0 +1,712 @@
+MODEL 1
+REMARK VINA RESULT:      -7.4      0.000      0.000
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          17.050  20.371  47.812  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          15.700  20.726  47.824  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          15.276  22.008  48.177  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          17.956  21.360  48.195  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          17.548  22.648  48.549  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          16.185  22.982  48.561  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          14.219  22.245  48.152  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          15.590  24.359  48.910  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          15.056  24.738  48.026  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          16.418  25.040  49.158  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          14.622  24.340  50.079  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          14.513  23.303  50.431  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          13.647  24.716  49.737  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          15.107  25.213  51.253  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          16.454  25.287  51.603  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          16.867  26.092  52.672  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          17.187  24.717  51.044  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          15.923  26.821  53.393  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          17.917  26.148  52.937  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          14.565  26.752  53.047  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          16.238  27.443  54.224  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          14.166  25.947  51.980  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          13.831  27.321  53.605  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          13.117  25.890  51.713  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          18.631  23.668  48.954  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          18.935  24.540  48.106  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          19.173  23.560  50.078  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          14.758  19.802  47.486  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          14.025  19.372  48.667  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          13.614  20.252  49.184  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          14.703  18.832  49.344  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          13.202  18.707  48.366  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          19.285  21.071  48.211  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          19.698  21.526  48.935  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          17.538  18.953  47.397  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          18.481  18.721  47.913  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          16.778  18.206  47.669  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          17.745  18.932  46.006  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          17.091  18.303  44.925  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          18.597  19.535  45.695  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          15.842  17.416  45.072  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          15.133  17.644  44.263  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          15.365  17.613  46.044  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          16.134  16.357  45.015  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          17.630  18.531  43.493  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          17.490  19.585  43.212  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          17.082  17.887  42.788  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          18.701  18.283  43.460  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.9      1.341      3.421
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          17.252  19.810  47.413  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          17.645  21.123  47.683  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          16.806  22.025  48.338  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          15.965  19.452  47.813  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          15.114  20.342  48.471  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          15.526  21.660  48.727  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          17.161  23.027  48.546  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          14.709  22.742  49.455  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          14.745  22.534  50.535  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          13.667  22.682  49.106  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          15.206  24.157  49.225  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          14.461  24.702  48.627  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          16.158  24.113  48.675  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          15.434  24.918  50.546  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          16.706  25.071  51.094  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          16.885  25.771  52.294  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          17.565  24.644  50.587  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          15.780  26.315  52.947  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          17.878  25.889  52.712  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          14.496  26.166  52.402  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          15.913  26.855  53.878  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          14.331  25.467  51.207  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          13.636  26.591  52.907  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          13.339  25.348  50.786  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          13.711  19.845  48.872  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          13.603  19.297  49.994  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          12.767  19.977  48.059  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          18.880  21.548  47.297  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.264  22.734  48.048  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          20.253  23.077  47.710  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          19.307  22.491  49.120  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          18.523  23.529  47.882  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          15.523  18.189  47.568  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          16.240  17.576  47.680  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          18.187  18.787  46.704  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          19.193  19.218  46.597  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          18.245  17.865  47.302  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          17.660  18.495  45.434  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          18.113  17.736  44.333  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          16.689  18.956  45.261  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          19.439  16.953  44.313  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          19.525  16.355  45.232  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          20.281  17.660  44.254  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          19.459  16.286  43.439  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          17.222  17.647  43.071  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          17.373  16.673  42.583  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          17.495  18.453  42.373  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          16.167  17.753  43.359  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.7      1.246      8.288
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          16.357  22.961  48.550  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          17.617  22.450  48.233  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          17.811  21.105  47.918  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          15.301  22.049  48.558  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          15.478  20.700  48.243  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          16.755  20.206  47.934  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          18.803  20.756  47.657  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          17.099  18.755  47.551  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          16.163  18.234  47.298  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          17.565  18.269  48.421  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          18.048  18.631  46.372  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          18.890  17.985  46.663  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          18.424  19.632  46.115  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          17.362  18.024  45.132  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          16.041  17.583  45.168  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          15.441  17.039  44.025  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          15.472  17.661  46.088  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          16.175  16.935  42.843  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          14.412  16.702  44.058  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          17.506  17.377  42.800  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          15.716  16.512  41.957  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          18.091  17.917  43.945  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          18.076  17.300  41.881  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          19.120  18.256  43.913  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          14.244  19.778  48.279  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          13.606  19.641  47.209  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          13.919  19.244  49.365  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          18.698  23.279  48.231  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.908  22.532  47.922  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          20.514  23.098  47.199  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          19.637  21.557  47.489  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          20.488  22.375  48.843  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          14.051  22.487  48.868  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          14.100  23.379  49.191  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          16.123  24.464  48.879  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          16.945  25.065  48.465  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          15.170  24.794  48.441  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          16.080  24.621  50.276  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          15.330  25.436  51.151  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          16.782  23.971  50.798  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          14.247  26.427  50.688  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          13.559  25.921  49.994  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          14.723  27.278  50.178  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          13.684  26.791  51.560  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          15.573  25.317  52.674  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          16.143  24.400  52.884  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          14.607  25.277  53.198  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          16.144  26.190  53.023  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.9      1.889      3.389
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          17.222  21.875  47.746  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          18.547  22.109  48.122  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          18.910  23.204  48.906  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          16.280  22.808  48.179  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          16.627  23.908  48.967  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          17.966  24.128  49.327  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          19.947  23.335  49.192  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          18.493  25.280  50.201  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          17.984  26.207  49.895  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          19.575  25.381  50.025  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          18.271  25.084  51.690  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          19.156  25.448  52.231  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          18.135  24.010  51.888  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          17.030  25.843  52.200  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          16.865  27.209  51.979  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          15.726  27.874  52.450  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          17.625  27.762  51.437  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          14.753  27.163  53.151  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          15.603  28.936  52.271  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          14.912  25.788  53.378  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          13.871  27.675  53.520  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          16.050  25.138  52.903  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          14.154  25.234  53.920  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          16.176  24.076  53.080  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          15.508  24.878  49.393  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          14.571  24.399  50.075  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          15.566  26.072  49.017  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          19.523  21.252  47.712  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.386  19.970  48.386  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          20.160  19.279  48.020  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          18.391  19.550  48.175  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          19.502  20.110  49.470  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          14.975  22.638  47.837  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          14.923  22.255  46.970  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          16.800  20.645  46.891  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          16.575  20.968  45.865  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          17.618  19.910  46.873  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          15.656  20.064  47.465  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          15.290  18.745  47.809  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          14.880  20.794  47.696  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          16.204  17.521  47.619  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          15.841  16.692  48.245  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          17.232  17.782  47.915  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          16.194  17.215  46.563  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          13.901  18.497  48.444  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          13.216  18.095  47.683  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          13.502  19.446  48.833  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          13.998  17.774  49.267  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.8      2.016      3.350
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          16.542  22.004  48.413  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          17.859  22.235  48.011  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          18.493  23.459  48.224  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          15.882  23.072  49.021  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          16.503  24.303  49.243  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          17.826  24.516  48.824  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          19.523  23.587  47.914  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          18.642  25.807  49.016  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          17.941  26.652  49.085  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          19.290  25.940  48.137  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          19.516  25.811  50.257  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          20.333  26.534  50.112  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          19.938  24.805  50.396  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          18.730  26.198  51.525  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          18.546  25.301  52.575  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          17.831  25.680  53.718  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          18.960  24.301  52.507  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          17.296  26.964  53.803  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          17.695  24.978  54.533  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          17.476  27.874  52.750  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          16.738  27.261  54.684  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          18.191  27.484  51.617  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          17.063  28.873  52.816  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          18.329  28.184  50.802  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          15.684  25.417  49.925  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          15.464  26.451  49.252  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          15.312  25.256  51.110  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          18.556  21.244  47.388  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.792  20.967  48.104  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          19.647  21.166  49.176  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          20.593  21.612  47.715  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          20.070  19.912  47.961  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          14.594  22.909  49.426  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          14.469  22.019  49.733  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          15.831  20.635  48.204  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          16.031  19.980  49.064  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          14.747  20.793  48.107  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          16.329  20.039  47.032  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          16.456  18.707  46.583  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          16.699  20.767  46.310  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          15.989  17.480  47.388  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          15.242  17.793  48.132  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          16.851  17.028  47.900  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          15.540  16.743  46.706  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          17.072  18.444  45.188  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          17.211  17.363  45.047  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          18.045  18.953  45.116  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          16.397  18.831  44.411  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.5      1.507      3.583
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          17.977  21.442  48.092  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          18.168  22.614  48.828  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          17.108  23.280  49.443  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          16.664  20.983  47.984  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          15.593  21.638  48.596  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          15.806  22.818  49.325  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          17.305  24.174  50.023  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          14.731  23.634  50.066  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          14.854  23.467  51.146  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          13.742  23.271  49.749  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          14.795  25.128  49.804  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          13.992  25.400  49.104  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          15.771  25.367  49.355  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          14.628  25.955  51.095  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          15.287  25.613  52.274  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          15.121  26.384  53.431  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          15.934  24.743  52.296  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          14.285  27.500  53.403  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          15.639  26.114  54.344  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          13.619  27.850  52.220  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          14.151  28.098  54.298  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          13.793  27.075  51.075  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          12.972  28.720  52.196  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          13.276  27.343  50.160  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          14.181  21.045  48.416  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          13.806  20.205  49.267  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          13.499  21.398  47.427  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          19.421  23.133  48.953  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.535  24.367  48.191  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          19.592  25.221  48.882  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          18.655  24.480  47.540  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          20.445  24.334  47.573  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          16.415  19.852  47.272  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          16.380  20.062  46.346  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          19.154  20.675  47.420  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          19.017  20.673  46.329  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          20.105  21.167  47.670  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          19.165  19.353  47.898  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          19.044  18.086  47.287  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          19.295  19.293  48.978  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          18.880  17.874  45.771  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          18.091  17.129  45.589  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          19.829  17.515  45.346  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          18.602  18.826  45.295  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          19.111  16.821  48.175  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          18.248  16.805  48.856  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          20.042  16.833  48.760  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          19.089  15.925  47.537  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.2      2.825      5.006
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          16.624  23.161  49.289  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          17.992  23.280  49.540  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          18.493  24.156  50.503  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          15.781  23.983  50.038  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          16.267  24.863  51.007  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          17.647  24.973  51.238  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          19.561  24.200  50.679  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          18.324  25.881  52.280  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          19.331  25.486  52.481  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          17.728  25.851  53.204  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          18.458  27.330  51.847  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          19.359  27.757  52.315  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          17.571  27.884  52.187  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          18.578  27.475  50.318  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          19.803  27.352  49.664  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          19.883  27.485  48.272  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          20.701  27.153  50.238  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          18.728  27.745  47.536  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          20.838  27.384  47.770  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          17.491  27.869  48.187  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          18.785  27.851  46.458  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          17.425  27.736  49.573  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          16.592  28.069  47.615  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          16.471  27.835  50.078  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          15.249  25.726  51.779  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          14.557  26.526  51.106  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          15.185  25.616  53.025  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          18.875  22.526  48.828  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          19.569  23.349  47.849  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          20.639  23.095  47.849  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          19.444  24.411  48.108  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          19.148  23.164  46.849  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          14.439  23.918  49.831  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          13.985  24.274  50.585  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          16.050  22.170  48.235  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          15.325  22.692  47.593  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          16.869  21.774  47.616  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          15.410  21.113  48.906  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          14.196  20.420  48.716  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          15.978  20.748  49.762  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          13.211  20.707  47.568  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          13.770  20.839  46.630  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          12.645  21.624  47.791  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          12.514  19.863  47.462  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          13.827  19.278  49.693  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          12.752  19.062  49.616  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          14.067  19.584  50.722  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          14.401  18.376  49.435  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.9      1.538      2.047
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  CAR_2 
+REMARK    2  A    between atoms: CAR_2  and  CAC_3 
+REMARK    3  A    between atoms: CAG_4  and  CAN_5 
+REMARK    4  A    between atoms: CAN_5  and  CAX_6 
+REMARK    5  A    between atoms: CAW_7  and  OAQ_9 
+REMARK    6  A    between atoms: OAQ_9  and  CAA_10 
+REMARK    7  A    between atoms: CAU_11  and  OAF_12 
+REMARK    8  A    between atoms: CAY_13  and  CAS_14 
+REMARK    9  A    between atoms: CAV_17  and  CAP_18 
+REMARK   10  A    between atoms: CAP_18  and  CAO_19 
+REMARK   11  A    between atoms: CAO_19  and  CAT_20 
+ROOT
+ATOM      1  CAX YFE d          16.629  20.899  47.553  0.00  0.00     0.013 A 
+ATOM      2  CAW YFE d          15.401  20.853  48.216  0.00  0.00     0.078 A 
+ATOM      3  CAM YFE d          15.126  21.660  49.320  0.00  0.00    -0.043 A 
+ATOM      4  CAU YFE d          17.580  21.781  48.068  0.00  0.00     0.092 A 
+ATOM      5  CAY YFE d          17.320  22.597  49.171  0.00  0.00     0.080 A 
+ATOM      6  CAV YFE d          16.080  22.529  49.827  0.00  0.00    -0.035 A 
+ATOM      7  H10 YFE d          14.151  21.606  49.790  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAP YFE d          15.646  23.375  51.038  0.00  0.00    -0.036 C 
+ATOM      9  H15 YFE d          16.530  23.552  51.670  0.00  0.00     0.040 H 
+ATOM     10  H16 YFE d          14.897  22.805  51.607  0.00  0.00     0.040 H 
+BRANCH   8  11
+ATOM     11  CAO YFE d          15.045  24.720  50.673  0.00  0.00    -0.037 C 
+ATOM     12  H17 YFE d          14.361  25.032  51.477  0.00  0.00     0.040 H 
+ATOM     13  H18 YFE d          14.482  24.613  49.734  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAT YFE d          16.119  25.810  50.486  0.00  0.00    -0.058 A 
+ATOM     15  CAK YFE d          16.889  26.269  51.552  0.00  0.00    -0.077 A 
+ATOM     16  CAI YFE d          17.862  27.257  51.353  0.00  0.00    -0.082 A 
+ATOM     17  H19 YFE d          16.735  25.858  52.544  0.00  0.00     0.084 H 
+ATOM     18  CAH YFE d          18.056  27.788  50.079  0.00  0.00    -0.083 A 
+ATOM     19  H20 YFE d          18.460  27.608  52.186  0.00  0.00     0.083 H 
+ATOM     20  CAJ YFE d          17.284  27.330  49.000  0.00  0.00    -0.082 A 
+ATOM     21  H21 YFE d          18.806  28.555  49.921  0.00  0.00     0.083 H 
+ATOM     22  CAL YFE d          16.320  26.346  49.211  0.00  0.00    -0.077 A 
+ATOM     23  H22 YFE d          17.437  27.740  48.008  0.00  0.00     0.083 H 
+ATOM     24  H23 YFE d          15.720  25.994  48.380  0.00  0.00     0.084 H 
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   6   8
+BRANCH   5  25
+ATOM     25  CAS YFE d          18.439  23.537  49.659  0.00  0.00     0.212 C 
+ATOM     26  OAE YFE d          19.030  24.217  48.786  0.00  0.00    -0.644 OA
+ATOM     27  OAD YFE d          18.727  23.554  50.878  0.00  0.00    -0.644 OA
+ENDBRANCH   5  25
+BRANCH   2  28
+ATOM     28  OAQ YFE d          14.435  19.996  47.783  0.00  0.00    -0.355 OA
+BRANCH  28  29
+ATOM     29  CAA YFE d          13.755  19.386  48.915  0.00  0.00     0.010 C 
+ATOM     30  H11 YFE d          14.139  19.818  49.851  0.00  0.00     0.066 H 
+ATOM     31  H12 YFE d          13.937  18.301  48.911  0.00  0.00     0.066 H 
+ATOM     32  H13 YFE d          12.674  19.576  48.840  0.00  0.00     0.066 H 
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+BRANCH   4  33
+ATOM     33  OAF YFE d          18.798  21.863  47.470  0.00  0.00    -0.359 OA
+ATOM     34  H14 YFE d          18.783  21.378  46.653  0.00  0.00     0.217 HD
+ENDBRANCH   4  33
+BRANCH   1  35
+ATOM     35  CAN YFE d          16.940  20.022  46.305  0.00  0.00    -0.020 C 
+ATOM     36  H8  YFE d          16.019  19.526  45.965  0.00  0.00     0.046 H 
+ATOM     37  H9  YFE d          17.335  20.656  45.498  0.00  0.00     0.046 H 
+BRANCH  35  38
+ATOM     38  CAG YFE d          17.896  19.053  46.658  0.00  0.00    -0.097 C 
+ATOM     39  CAR YFE d          18.584  18.047  45.947  0.00  0.00    -0.091 C 
+ATOM     40  H7  YFE d          18.165  19.087  47.713  0.00  0.00     0.077 H 
+BRANCH  39  41
+ATOM     41  CAB YFE d          18.419  17.795  44.437  0.00  0.00    -0.055 C 
+ATOM     42  H1  YFE d          17.795  18.587  43.999  0.00  0.00     0.033 H 
+ATOM     43  H2  YFE d          17.938  16.818  44.279  0.00  0.00     0.033 H 
+ATOM     44  H3  YFE d          19.408  17.799  43.954  0.00  0.00     0.033 H 
+ENDBRANCH  39  41
+BRANCH  39  45
+ATOM     45  CAC YFE d          19.593  17.153  46.706  0.00  0.00    -0.055 C 
+ATOM     46  H4  YFE d          20.601  17.584  46.621  0.00  0.00     0.033 H 
+ATOM     47  H5  YFE d          19.587  16.143  46.271  0.00  0.00     0.033 H 
+ATOM     48  H6  YFE d          19.307  17.098  47.767  0.00  0.00     0.033 H 
+ENDBRANCH  39  45
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 11
+ENDMDL

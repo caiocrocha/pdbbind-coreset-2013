@@ -1,0 +1,51 @@
+MODEL 1
+REMARK VINA RESULT:      -7.9      0.000      0.000
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  O4_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C2_5  and  O2_6 
+REMARK    4  A    between atoms: C5_14  and  C6_15 
+REMARK    5  A    between atoms: C6_15  and  O6_16 
+ROOT
+ATOM      1  C4  KIF d          31.421  66.679   6.962  0.00  0.00     0.084 C 
+ATOM      2  C3  KIF d          32.447  66.779   8.155  0.00  0.00     0.090 C 
+ATOM      3  C2  KIF d          32.120  65.997   9.472  0.00  0.00     0.099 C 
+ATOM      4  C1  KIF d          30.631  65.226   9.289  0.00  0.00     0.111 A 
+ATOM      5  N9  KIF d          30.095  64.998  10.630  0.00  0.00    -0.329 N 
+ATOM      6  C8  KIF d          29.000  65.691  10.848  0.00  0.00     0.311 A 
+ATOM      7  O8  KIF d          28.375  65.653  11.908  0.00  0.00    -0.262 OA
+ATOM      8  C7  KIF d          28.703  66.488   9.594  0.00  0.00     0.313 A 
+ATOM      9  O7  KIF d          27.746  67.264   9.418  0.00  0.00    -0.262 OA
+ATOM     10  N   KIF d          29.685  66.192   8.716  0.00  0.00    -0.311 N 
+ATOM     11  C5  KIF d          29.916  66.906   7.398  0.00  0.00     0.064 C 
+ATOM     12  H1  KIF d          31.509  65.683   6.505  0.00  0.00     0.090 H 
+ATOM     13  H3  KIF d          32.455  67.839   8.450  0.00  0.00     0.091 H 
+ATOM     14  H5  KIF d          31.994  66.783  10.229  0.00  0.00     0.093 H 
+ATOM     15  H7  KIF d          30.712  64.304   8.694  0.00  0.00     0.111 H 
+ATOM     16  H8  KIF d          30.513  64.387  11.302  0.00  0.00     0.165 HD
+ATOM     17  H9  KIF d          29.731  67.981   7.534  0.00  0.00     0.080 H 
+ENDROOT
+BRANCH  11  18
+ATOM     18  C6  KIF d          28.971  66.369   6.289  0.00  0.00     0.038 C 
+ATOM     19  H10 KIF d          28.850  65.283   6.419  0.00  0.00     0.077 H 
+ATOM     20  H11 KIF d          29.423  66.572   5.307  0.00  0.00     0.077 H 
+BRANCH  18  21
+ATOM     21  O6  KIF d          27.676  66.989   6.341  0.00  0.00    -0.399 OA
+ATOM     22  H12 KIF d          27.127  66.634   5.652  0.00  0.00     0.209 HD
+ENDBRANCH  18  21
+ENDBRANCH  11  18
+BRANCH   1  23
+ATOM     23  O4  KIF d          31.752  67.686   6.002  0.00  0.00    -0.391 OA
+ATOM     24  H2  KIF d          31.015  67.818   5.417  0.00  0.00     0.210 HD
+ENDBRANCH   1  23
+BRANCH   2  25
+ATOM     25  O3  KIF d          33.748  66.482   7.665  0.00  0.00    -0.390 OA
+ATOM     26  H4  KIF d          33.694  65.764   7.045  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O2  KIF d          32.872  65.208   9.979  0.00  0.00    -0.389 OA
+ATOM     28  H6  KIF d          33.766  65.429   9.746  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+TORSDOF 5
+ENDMDL

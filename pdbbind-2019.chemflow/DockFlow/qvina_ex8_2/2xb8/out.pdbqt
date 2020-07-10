@@ -1,0 +1,71 @@
+MODEL 1
+REMARK VINA RESULT:     -10.6      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  OAN_2 
+REMARK    2  A    between atoms: OAN_2  and  CAR_3 
+REMARK    3  A    between atoms: CAQ_8  and  CAL_9 
+REMARK    4  A    between atoms: CAL_9  and  CAU_10 
+REMARK    5  A    between atoms: CAT_13  and  OAF_14 
+REMARK    6  A    between atoms: CAS_15  and  OAE_16 
+REMARK    7  A    between atoms: CAV_18  and  CAO_19 
+REMARK    8  A    between atoms: CAV_18  and  OAG_22 
+ROOT
+ATOM      1  CAU XNW d          13.654   2.627  38.649  0.00  0.00     0.050 C 
+ATOM      2  CAP XNW d          13.936   3.247  40.017  0.00  0.00     0.165 C 
+ATOM      3  OAC XNW d          14.671   4.229  40.145  0.00  0.00    -0.294 OA
+ATOM      4  CAT XNW d          13.282   2.650  41.244  0.00  0.00     0.118 C 
+ATOM      5  CAS XNW d          11.786   2.501  40.964  0.00  0.00     0.070 C 
+ATOM      6  CAM XNW d          11.474   1.848  39.595  0.00  0.00     0.001 C 
+ATOM      7  CAV XNW d          12.143   2.557  38.409  0.00  0.00     0.158 C 
+ATOM      8  H10 XNW d          14.054   1.602  38.633  0.00  0.00     0.058 H 
+ATOM      9  H11 XNW d          13.730   1.675  41.486  0.00  0.00     0.099 H 
+ATOM     10  H13 XNW d          11.341   3.508  40.958  0.00  0.00     0.087 H 
+ATOM     11  H15 XNW d          10.385   1.866  39.441  0.00  0.00     0.042 H 
+ATOM     12  H16 XNW d          11.824   0.805  39.619  0.00  0.00     0.042 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  CAL XNW d          14.375   3.442  37.583  0.00  0.00    -0.028 C 
+ATOM     14  H8  XNW d          13.791   3.382  36.654  0.00  0.00     0.041 H 
+ATOM     15  H9  XNW d          14.417   4.487  37.923  0.00  0.00     0.041 H 
+BRANCH  13  16
+ATOM     16  CAQ XNW d          15.805   2.983  37.278  0.00  0.00    -0.057 A 
+ATOM     17  CAI XNW d          16.030   2.498  36.025  0.00  0.00    -0.074 A 
+ATOM     18  CAK XNW d          17.287   2.085  35.627  0.00  0.00    -0.050 A 
+ATOM     19  H5  XNW d          15.204   2.435  35.324  0.00  0.00     0.084 H 
+ATOM     20  CAR XNW d          18.379   2.115  36.453  0.00  0.00     0.068 A 
+ATOM     21  H4  XNW d          17.415   1.721  34.614  0.00  0.00     0.087 H 
+ATOM     22  CAJ XNW d          18.180   2.599  37.745  0.00  0.00    -0.050 A 
+ATOM     23  CAH XNW d          16.895   3.028  38.144  0.00  0.00    -0.074 A 
+ATOM     24  H6  XNW d          19.010   2.648  38.441  0.00  0.00     0.087 H 
+ATOM     25  H7  XNW d          16.753   3.403  39.151  0.00  0.00     0.084 H 
+BRANCH  20  26
+ATOM     26  OAN XNW d          19.572   1.660  35.917  0.00  0.00    -0.356 OA
+BRANCH  26  27
+ATOM     27  CAA XNW d          20.159   0.651  36.739  0.00  0.00     0.010 C 
+ATOM     28  H1  XNW d          20.744   1.126  37.540  0.00  0.00     0.066 H 
+ATOM     29  H2  XNW d          20.820   0.019  36.129  0.00  0.00     0.066 H 
+ATOM     30  H3  XNW d          19.365   0.032  37.182  0.00  0.00     0.066 H 
+ENDBRANCH  26  27
+ENDBRANCH  20  26
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   7  31
+ATOM     31  CAO XNW d          11.871   1.744  37.124  0.00  0.00     0.210 C 
+ATOM     32  OAD XNW d          11.538   0.533  37.271  0.00  0.00    -0.646 OA
+ATOM     33  OAB XNW d          11.924   2.368  36.028  0.00  0.00    -0.646 OA
+ENDBRANCH   7  31
+BRANCH   7  34
+ATOM     34  OAG XNW d          11.554   3.878  38.245  0.00  0.00    -0.378 OA
+ATOM     35  H17 XNW d          11.722   4.398  39.022  0.00  0.00     0.211 HD
+ENDBRANCH   7  34
+BRANCH   4  36
+ATOM     36  OAF XNW d          13.444   3.572  42.345  0.00  0.00    -0.385 OA
+ATOM     37  H12 XNW d          13.391   4.464  42.021  0.00  0.00     0.210 HD
+ENDBRANCH   4  36
+BRANCH   5  38
+ATOM     38  OAE XNW d          11.197   1.753  42.035  0.00  0.00    -0.392 OA
+ATOM     39  H14 XNW d          10.359   2.136  42.265  0.00  0.00     0.210 HD
+ENDBRANCH   5  38
+TORSDOF 8
+ENDMDL

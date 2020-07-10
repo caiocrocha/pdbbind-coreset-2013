@@ -1,0 +1,38 @@
+MODEL 1
+REMARK VINA RESULT:      -4.4      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_1  and  C2_7 
+REMARK    2  A    between atoms: C2_7  and  C1_8 
+REMARK    3  A    between atoms: C1_8  and  N_9 
+ROOT
+ATOM      1  C1' PEA d          45.327  20.201  50.675  0.00  0.00    -0.057 A 
+ATOM      2  C6' PEA d          46.348  21.115  50.869  0.00  0.00    -0.077 A 
+ATOM      3  C5' PEA d          46.242  22.452  50.519  0.00  0.00    -0.082 A 
+ATOM      4  C4' PEA d          45.080  22.931  49.932  0.00  0.00    -0.083 A 
+ATOM      5  C3' PEA d          44.058  22.026  49.717  0.00  0.00    -0.082 A 
+ATOM      6  C2' PEA d          44.181  20.705  50.078  0.00  0.00    -0.077 A 
+ATOM      7  H1  PEA d          47.274  20.769  51.314  0.00  0.00     0.084 H 
+ATOM      8  H2  PEA d          47.070  23.126  50.704  0.00  0.00     0.083 H 
+ATOM      9  H3  PEA d          44.978  23.974  49.652  0.00  0.00     0.083 H 
+ATOM     10  H4  PEA d          43.138  22.365  49.254  0.00  0.00     0.083 H 
+ATOM     11  H5  PEA d          43.353  20.032  49.889  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C2  PEA d          45.468  18.854  51.071  0.00  0.00    -0.019 C 
+ATOM     13  H6  PEA d          46.377  18.440  50.610  0.00  0.00     0.042 H 
+ATOM     14  H7  PEA d          44.590  18.287  50.727  0.00  0.00     0.042 H 
+BRANCH  12  15
+ATOM     15  C1  PEA d          45.580  18.721  52.620  0.00  0.00     0.083 C 
+ATOM     16  H8  PEA d          44.666  19.122  53.080  0.00  0.00     0.075 H 
+ATOM     17  H9  PEA d          46.449  19.299  52.967  0.00  0.00     0.075 H 
+BRANCH  15  18
+ATOM     18  N   PEA d          45.749  17.295  53.038  0.00  0.00    -0.079 N 
+ATOM     19  H10 PEA d          45.818  17.246  54.042  0.00  0.00     0.274 HD
+ATOM     20  H11 PEA d          46.588  16.921  52.625  0.00  0.00     0.274 HD
+ATOM     21  H12 PEA d          44.953  16.758  52.730  0.00  0.00     0.274 HD
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 3
+ENDMDL

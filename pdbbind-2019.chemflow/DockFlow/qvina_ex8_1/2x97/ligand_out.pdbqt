@@ -1,0 +1,123 @@
+MODEL 1
+REMARK VINA RESULT:      -7.2      0.000      0.000
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_6  and  CAS_7 
+REMARK    2  A    between atoms: CAS_7  and  CBG_8 
+REMARK    3  A    between atoms: CBG_8  and  NAW_9 
+REMARK    4  A    between atoms: CBG_8  and  P1_21 
+REMARK       I    between atoms: NAW_9  and  CBB_10 
+REMARK    5  A    between atoms: CBB_10  and  CBF_12 
+REMARK    6  A    between atoms: CBF_12  and  CAR_13 
+REMARK    7  A    between atoms: CBF_12  and  NAU_17 
+REMARK    8  A    between atoms: CAR_13  and  CAZ_14 
+REMARK       I    between atoms: NAU_17  and  CAX_18 
+REMARK    9  A    between atoms: CAX_18  and  CAA_19 
+REMARK   10  A    between atoms: P1_21  and  CAT_24 
+REMARK   11  A    between atoms: CAT_24  and  CBD_25 
+REMARK   12  A    between atoms: CBD_25  and  CAB_26 
+REMARK   13  A    between atoms: CBD_25  and  CBA_27 
+REMARK       I    between atoms: CBA_27  and  N_29 
+REMARK   14  A    between atoms: N_29  and  CA_30 
+REMARK   15  A    between atoms: CA_30  and  CB_31 
+REMARK   16  A    between atoms: CA_30  and  C_32 
+REMARK       I    between atoms: C_32  and  NAD_34 
+ROOT
+ATOM      1  CBG RX4 d          26.605   0.662  44.701  0.00  0.00     0.091 C 
+ATOM      2  H8  RX4 d          25.707   0.782  44.077  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CAS RX4 d          27.854   1.146  43.871  0.00  0.00    -0.013 C 
+ATOM      4  H6  RX4 d          28.740   1.221  44.519  0.00  0.00     0.044 H 
+ATOM      5  H7  RX4 d          28.061   0.447  43.047  0.00  0.00     0.044 H 
+BRANCH   3   6
+ATOM      6  CBC RX4 d          27.472   2.541  43.314  0.00  0.00    -0.056 A 
+ATOM      7  CAP RX4 d          28.058   3.653  43.970  0.00  0.00    -0.077 A 
+ATOM      8  CAN RX4 d          27.784   4.970  43.628  0.00  0.00    -0.082 A 
+ATOM      9  H1  RX4 d          28.754   3.465  44.780  0.00  0.00     0.084 H 
+ATOM     10  CAM RX4 d          26.840   5.117  42.587  0.00  0.00    -0.083 A 
+ATOM     11  H2  RX4 d          28.256   5.814  44.118  0.00  0.00     0.083 H 
+ATOM     12  CAO RX4 d          26.213   4.029  41.935  0.00  0.00    -0.082 A 
+ATOM     13  H3  RX4 d          26.580   6.120  42.271  0.00  0.00     0.083 H 
+ATOM     14  CAQ RX4 d          26.528   2.710  42.304  0.00  0.00    -0.077 A 
+ATOM     15  H4  RX4 d          25.489   4.213  41.149  0.00  0.00     0.083 H 
+ATOM     16  H5  RX4 d          26.056   1.861  41.822  0.00  0.00     0.084 H 
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  17
+ATOM     17  NAW RX4 d          26.462   1.439  45.929  0.00  0.00    -0.345 N 
+ATOM     18  CBB RX4 d          25.305   2.078  46.125  0.00  0.00     0.241 C 
+ATOM     19  OAI RX4 d          24.347   1.979  45.338  0.00  0.00    -0.271 OA
+ATOM     20  H9  RX4 d          27.203   1.491  46.598  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  CBF RX4 d          25.206   3.134  47.239  0.00  0.00     0.098 C 
+ATOM     22  H10 RX4 d          26.200   3.565  47.434  0.00  0.00     0.088 H 
+BRANCH  21  23
+ATOM     23  CAR RX4 d          24.693   2.551  48.517  0.00  0.00     0.043 C 
+ATOM     24  H11 RX4 d          25.222   1.614  48.748  0.00  0.00     0.052 H 
+ATOM     25  H12 RX4 d          23.613   2.354  48.440  0.00  0.00     0.052 H 
+BRANCH  23  26
+ATOM     26  CAZ RX4 d          24.969   3.607  49.612  0.00  0.00     0.175 C 
+ATOM     27  OAK RX4 d          26.144   3.756  50.054  0.00  0.00    -0.648 OA
+ATOM     28  OAG RX4 d          24.008   4.296  49.946  0.00  0.00    -0.648 OA
+ENDBRANCH  23  26
+ENDBRANCH  21  23
+BRANCH  21  29
+ATOM     29  NAU RX4 d          24.301   4.192  46.667  0.00  0.00    -0.348 N 
+ATOM     30  CAX RX4 d          24.715   5.447  46.413  0.00  0.00     0.214 C 
+ATOM     31  OAE RX4 d          25.869   5.868  46.667  0.00  0.00    -0.274 OA
+ATOM     32  H13 RX4 d          23.351   3.952  46.469  0.00  0.00     0.163 HD
+BRANCH  30  33
+ATOM     33  CAA RX4 d          23.653   6.389  45.772  0.00  0.00    -0.003 C 
+ATOM     34  H14 RX4 d          24.096   7.382  45.608  0.00  0.00     0.040 H 
+ATOM     35  H15 RX4 d          22.789   6.479  46.446  0.00  0.00     0.040 H 
+ATOM     36  H16 RX4 d          23.325   5.970  44.809  0.00  0.00     0.040 H 
+ENDBRANCH  30  33
+ENDBRANCH  21  29
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH   1  37
+ATOM     37  P1  RX4 d          26.737  -1.059  45.237  0.00  0.00     0.130 P 
+ATOM     38  O4  RX4 d          25.401  -1.565  45.751  0.00  0.00    -0.666 OA
+ATOM     39  O3  RX4 d          27.612  -1.251  46.456  0.00  0.00    -0.666 OA
+BRANCH  37  40
+ATOM     40  CAT RX4 d          27.280  -2.011  43.826  0.00  0.00     0.020 C 
+ATOM     41  H17 RX4 d          28.332  -1.754  43.636  0.00  0.00     0.050 H 
+ATOM     42  H18 RX4 d          26.667  -1.707  42.965  0.00  0.00     0.050 H 
+BRANCH  40  43
+ATOM     43  CBD RX4 d          27.191  -3.536  43.943  0.00  0.00     0.029 C 
+ATOM     44  H19 RX4 d          26.313  -3.823  44.542  0.00  0.00     0.054 H 
+BRANCH  43  45
+ATOM     45  CAB RX4 d          27.181  -4.285  42.518  0.00  0.00    -0.064 C 
+ATOM     46  H20 RX4 d          27.115  -5.371  42.676  0.00  0.00     0.028 H 
+ATOM     47  H21 RX4 d          28.106  -4.048  41.974  0.00  0.00     0.028 H 
+ATOM     48  H22 RX4 d          26.313  -3.946  41.932  0.00  0.00     0.028 H 
+ENDBRANCH  43  45
+BRANCH  43  49
+ATOM     49  CBA RX4 d          28.544  -4.006  44.602  0.00  0.00     0.222 C 
+ATOM     50  OAH RX4 d          29.567  -3.311  44.495  0.00  0.00    -0.273 OA
+ATOM     51  N   RX4 d          28.554  -5.199  45.182  0.00  0.00    -0.348 N 
+ATOM     52  H23 RX4 d          27.722  -5.750  45.233  0.00  0.00     0.163 HD
+BRANCH  51  53
+ATOM     53  CA  RX4 d          29.854  -5.705  45.762  0.00  0.00     0.086 C 
+ATOM     54  H24 RX4 d          30.431  -4.885  46.214  0.00  0.00     0.086 H 
+BRANCH  53  55
+ATOM     55  CB  RX4 d          29.565  -6.790  46.809  0.00  0.00    -0.049 C 
+ATOM     56  H25 RX4 d          30.514  -7.157  47.229  0.00  0.00     0.030 H 
+ATOM     57  H26 RX4 d          29.028  -7.625  46.334  0.00  0.00     0.030 H 
+ATOM     58  H27 RX4 d          28.947  -6.367  47.615  0.00  0.00     0.030 H 
+ENDBRANCH  53  55
+BRANCH  53  59
+ATOM     59  C   RX4 d          30.624  -6.336  44.552  0.00  0.00     0.237 C 
+ATOM     60  O   RX4 d          30.021  -7.165  43.790  0.00  0.00    -0.271 OA
+ATOM     61  NAD RX4 d          31.871  -5.952  44.342  0.00  0.00    -0.368 N 
+ATOM     62  H28 RX4 d          32.390  -6.335  43.578  0.00  0.00     0.159 HD
+ATOM     63  H29 RX4 d          32.295  -5.278  44.948  0.00  0.00     0.159 HD
+ENDBRANCH  53  59
+ENDBRANCH  51  53
+ENDBRANCH  43  49
+ENDBRANCH  40  43
+ENDBRANCH  37  40
+ENDBRANCH   1  37
+TORSDOF 16
+ENDMDL

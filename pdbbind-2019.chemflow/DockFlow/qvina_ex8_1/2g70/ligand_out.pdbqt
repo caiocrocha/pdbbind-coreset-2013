@@ -1,0 +1,45 @@
+MODEL 1
+REMARK VINA RESULT:      -8.8      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C22_10 
+REMARK    2  A    between atoms: C6_6  and  N1_12 
+REMARK    3  A    between atoms: C22_10  and  O22_9 
+ROOT
+ATOM      1  C1  HNT d          28.063  45.471  18.400  0.00  0.00    -0.012 C 
+ATOM      2  C2  HNT d          27.508  44.739  19.624  0.00  0.00     0.126 C 
+ATOM      3  C4  HNT d          27.176  42.592  18.512  0.00  0.00     0.106 C 
+ATOM      4  C5  HNT d          26.835  42.728  16.030  0.00  0.00    -0.043 A 
+ATOM      5  C6  HNT d          26.846  43.394  14.810  0.00  0.00     0.103 A 
+ATOM      6  C7  HNT d          27.246  44.726  14.764  0.00  0.00    -0.050 A 
+ATOM      7  C8  HNT d          27.636  45.380  15.929  0.00  0.00    -0.074 A 
+ATOM      8  C8A HNT d          27.627  44.709  17.146  0.00  0.00    -0.048 A 
+ATOM      9  C4A HNT d          27.224  43.378  17.200  0.00  0.00    -0.024 A 
+ATOM     10  N41 HNT d          27.886  43.317  19.580  0.00  0.00    -0.065 N 
+ATOM     11  H1  HNT d          29.161  45.504  18.453  0.00  0.00     0.043 H 
+ATOM     12  H2  HNT d          27.667  46.496  18.369  0.00  0.00     0.043 H 
+ATOM     13  H3  HNT d          26.410  44.800  19.593  0.00  0.00     0.088 H 
+ATOM     14  H4  HNT d          27.652  41.612  18.364  0.00  0.00     0.083 H 
+ATOM     15  H5  HNT d          26.126  42.450  18.809  0.00  0.00     0.083 H 
+ATOM     16  H6  HNT d          26.521  41.691  16.071  0.00  0.00     0.088 H 
+ATOM     17  H7  HNT d          27.254  45.256  13.818  0.00  0.00     0.087 H 
+ATOM     18  H8  HNT d          27.948  46.418  15.887  0.00  0.00     0.084 H 
+ATOM     19  H12 HNT d          27.662  42.893  20.467  0.00  0.00     0.278 HD
+ATOM     20  H13 HNT d          28.878  43.248  19.416  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   2  21
+ATOM     21  C22 HNT d          27.983  45.411  20.914  0.00  0.00     0.044 C 
+ATOM     22  H10 HNT d          27.928  46.504  20.800  0.00  0.00     0.077 H 
+ATOM     23  H11 HNT d          29.022  45.115  21.121  0.00  0.00     0.077 H 
+BRANCH  21  24
+ATOM     24  O22 HNT d          27.145  45.003  21.998  0.00  0.00    -0.399 OA
+ATOM     25  H9  HNT d          27.440  45.420  22.799  0.00  0.00     0.209 HD
+ENDBRANCH  21  24
+ENDBRANCH   2  21
+BRANCH   5  26
+ATOM     26  N1  HNT d          26.537  42.749  13.684  0.00  0.00    -0.116 N 
+ATOM     27  O2  HNT d          26.577  41.330  13.627  0.00  0.00    -0.532 OA
+ATOM     28  O3  HNT d          26.159  43.476  12.523  0.00  0.00    -0.532 OA
+ENDBRANCH   5  26
+TORSDOF 3
+ENDMDL

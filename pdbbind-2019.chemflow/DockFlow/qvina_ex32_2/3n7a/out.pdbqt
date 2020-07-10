@@ -1,0 +1,123 @@
+MODEL 1
+REMARK VINA RESULT:      -7.5      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  O3_3 
+REMARK    2  A    between atoms: C4_4  and  O4_5 
+REMARK    3  A    between atoms: C_8  and  C1_12 
+REMARK    4  A    between atoms: C1_12  and  O30_10 
+ROOT
+ATOM      1  C2  FA1 d          44.236   7.439  26.826  0.00  0.00    -0.001 C 
+ATOM      2  C3  FA1 d          43.208   7.684  25.733  0.00  0.00     0.067 C 
+ATOM      3  C4  FA1 d          43.844   7.396  24.371  0.00  0.00     0.076 C 
+ATOM      4  C5  FA1 d          44.504   6.029  24.374  0.00  0.00    -0.074 C 
+ATOM      5  C6  FA1 d          44.892   5.419  25.561  0.00  0.00    -0.066 C 
+ATOM      6  C1  FA1 d          44.687   5.956  26.856  0.00  0.00     0.145 C 
+ATOM      7  H1  FA1 d          43.792   7.699  27.799  0.00  0.00     0.042 H 
+ATOM      8  H2  FA1 d          45.113   8.076  26.640  0.00  0.00     0.042 H 
+ATOM      9  H3  FA1 d          42.357   7.001  25.882  0.00  0.00     0.087 H 
+ATOM     10  H5  FA1 d          44.599   8.162  24.140  0.00  0.00     0.093 H 
+ATOM     11  H7  FA1 d          44.678   5.518  23.428  0.00  0.00     0.080 H 
+ATOM     12  H8  FA1 d          45.391   4.454  25.489  0.00  0.00     0.081 H 
+ENDROOT
+BRANCH   6  13
+ATOM     13  C   FA1 d          46.057   5.788  27.540  0.00  0.00     0.327 C 
+ATOM     14  O1  FA1 d          46.328   6.673  28.622  0.00  0.00    -0.184 OA
+ATOM     15  O2  FA1 d          46.311   4.430  27.805  0.00  0.00    -0.184 OA
+ENDBRANCH   6  13
+BRANCH   6  16
+ATOM     16  O30 FA1 d          43.680   5.082  27.486  0.00  0.00    -0.380 OA
+ATOM     17  H9  FA1 d          43.396   4.426  26.860  0.00  0.00     0.211 HD
+ENDBRANCH   6  16
+BRANCH   2  18
+ATOM     18  O3  FA1 d          42.723   9.053  25.794  0.00  0.00    -0.393 OA
+ATOM     19  H4  FA1 d          41.774   9.051  25.827  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   3  20
+ATOM     20  O4  FA1 d          42.808   7.441  23.421  0.00  0.00    -0.389 OA
+ATOM     21  H6  FA1 d          42.045   6.991  23.764  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.5      1.266      4.136
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  O3_3 
+REMARK    2  A    between atoms: C4_4  and  O4_5 
+REMARK    3  A    between atoms: C_8  and  C1_12 
+REMARK    4  A    between atoms: C1_12  and  O30_10 
+ROOT
+ATOM      1  C2  FA1 d          44.663   7.501  27.091  0.00  0.00    -0.001 C 
+ATOM      2  C3  FA1 d          45.774   6.476  27.247  0.00  0.00     0.067 C 
+ATOM      3  C4  FA1 d          45.220   5.083  26.938  0.00  0.00     0.076 C 
+ATOM      4  C5  FA1 d          44.495   5.085  25.604  0.00  0.00    -0.074 C 
+ATOM      5  C6  FA1 d          43.998   6.262  25.058  0.00  0.00    -0.066 C 
+ATOM      6  C1  FA1 d          44.139   7.549  25.632  0.00  0.00     0.145 C 
+ATOM      7  H1  FA1 d          45.050   8.493  27.366  0.00  0.00     0.042 H 
+ATOM      8  H2  FA1 d          43.832   7.232  27.761  0.00  0.00     0.042 H 
+ATOM      9  H3  FA1 d          46.578   6.707  26.532  0.00  0.00     0.087 H 
+ATOM     10  H5  FA1 d          44.521   4.773  27.729  0.00  0.00     0.093 H 
+ATOM     11  H7  FA1 d          44.363   4.147  25.067  0.00  0.00     0.080 H 
+ATOM     12  H8  FA1 d          43.459   6.188  24.115  0.00  0.00     0.081 H 
+ENDROOT
+BRANCH   6  13
+ATOM     13  C   FA1 d          42.718   8.140  25.553  0.00  0.00     0.327 C 
+ATOM     14  O1  FA1 d          42.124   8.168  24.259  0.00  0.00    -0.184 OA
+ATOM     15  O2  FA1 d          41.905   7.603  26.568  0.00  0.00    -0.184 OA
+ENDBRANCH   6  13
+BRANCH   6  16
+ATOM     16  O30 FA1 d          45.056   8.278  24.737  0.00  0.00    -0.380 OA
+ATOM     17  H9  FA1 d          44.847   8.070  23.834  0.00  0.00     0.211 HD
+ENDBRANCH   6  16
+BRANCH   2  18
+ATOM     18  O3  FA1 d          46.320   6.524  28.593  0.00  0.00    -0.393 OA
+ATOM     19  H4  FA1 d          46.237   5.669  28.999  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   3  20
+ATOM     20  O4  FA1 d          46.321   4.207  26.900  0.00  0.00    -0.389 OA
+ATOM     21  H6  FA1 d          46.099   3.402  27.353  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.6      1.320      2.263
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  O3_3 
+REMARK    2  A    between atoms: C4_4  and  O4_5 
+REMARK    3  A    between atoms: C_8  and  C1_12 
+REMARK    4  A    between atoms: C1_12  and  O30_10 
+ROOT
+ATOM      1  C2  FA1 d          45.060   6.831  25.382  0.00  0.00    -0.001 C 
+ATOM      2  C3  FA1 d          44.175   7.925  24.807  0.00  0.00     0.067 C 
+ATOM      3  C4  FA1 d          42.707   7.550  25.026  0.00  0.00     0.076 C 
+ATOM      4  C5  FA1 d          42.463   7.189  26.479  0.00  0.00    -0.074 C 
+ATOM      5  C6  FA1 d          43.505   6.779  27.303  0.00  0.00    -0.066 C 
+ATOM      6  C1  FA1 d          44.865   6.693  26.914  0.00  0.00     0.145 C 
+ATOM      7  H1  FA1 d          46.112   7.077  25.175  0.00  0.00     0.042 H 
+ATOM      8  H2  FA1 d          44.805   5.875  24.901  0.00  0.00     0.042 H 
+ATOM      9  H3  FA1 d          44.384   8.869  25.332  0.00  0.00     0.087 H 
+ATOM     10  H5  FA1 d          42.440   6.693  24.390  0.00  0.00     0.093 H 
+ATOM     11  H7  FA1 d          41.454   7.253  26.884  0.00  0.00     0.080 H 
+ATOM     12  H8  FA1 d          43.256   6.501  28.326  0.00  0.00     0.081 H 
+ENDROOT
+BRANCH   6  13
+ATOM     13  C   FA1 d          45.302   5.307  27.425  0.00  0.00     0.327 C 
+ATOM     14  O1  FA1 d          45.518   4.313  26.428  0.00  0.00    -0.184 OA
+ATOM     15  O2  FA1 d          46.336   5.435  28.369  0.00  0.00    -0.184 OA
+ENDBRANCH   6  13
+BRANCH   6  16
+ATOM     16  O30 FA1 d          45.551   7.763  27.660  0.00  0.00    -0.380 OA
+ATOM     17  H9  FA1 d          44.989   8.071  28.360  0.00  0.00     0.211 HD
+ENDBRANCH   6  16
+BRANCH   2  18
+ATOM     18  O3  FA1 d          44.452   8.107  23.392  0.00  0.00    -0.393 OA
+ATOM     19  H4  FA1 d          43.656   7.967  22.893  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   3  20
+ATOM     20  O4  FA1 d          41.942   8.674  24.661  0.00  0.00    -0.389 OA
+ATOM     21  H6  FA1 d          41.020   8.481  24.786  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+TORSDOF 4
+ENDMDL

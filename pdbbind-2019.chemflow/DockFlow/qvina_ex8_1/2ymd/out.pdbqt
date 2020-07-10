@@ -1,0 +1,230 @@
+MODEL 1
+REMARK VINA RESULT:      -7.5      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          13.353   9.984   9.819  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          14.374  10.412   8.955  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          14.391  10.015   7.617  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          13.362   9.184   7.116  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          13.138   8.645   5.858  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          12.010   7.904   5.888  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          11.500   7.953   7.184  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.364   8.760   7.960  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          12.350   9.154   9.320  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d          15.158  11.058   9.332  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          15.191  10.343   6.964  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          13.737   8.789   5.032  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d          11.576   7.364   5.048  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          11.557   8.810   9.974  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          10.270   7.291   7.705  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d           9.411   7.745   7.189  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d          10.209   7.512   8.781  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          10.154   5.820   7.549  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d           9.641   5.626   6.595  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d           9.538   5.445   8.379  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          11.374   5.072   7.543  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          12.031   5.506   6.915  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          11.189   4.130   7.237  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          11.761   5.054   8.474  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d          13.331  10.365  11.153  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d          14.181  10.198  11.543  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.5      2.514      4.539
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          10.607   6.506   7.454  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          10.918   6.420   6.087  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          11.890   7.245   5.523  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          12.586   8.172   6.334  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          13.576   9.098   6.042  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          13.912   9.758   7.171  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          13.124   9.262   8.208  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.281   8.261   7.671  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          11.287   7.431   8.244  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d          10.396   5.703   5.464  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          12.113   7.177   4.464  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          13.989   9.256   5.112  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d          14.665  10.539   7.256  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          11.055   7.515   9.300  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          13.133   9.679   9.639  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d          13.925   9.105  10.142  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d          12.156   9.407  10.066  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          13.364  11.114   9.943  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d          13.022  11.295  10.972  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d          12.753  11.704   9.244  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          14.711  11.586   9.845  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          14.978  12.022  10.714  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          14.778  12.259   9.098  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          15.326  10.810   9.655  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d           9.634   5.697   8.025  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d           9.961   5.339   8.842  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.3      2.146      2.671
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          14.423   9.848   6.559  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          14.649  10.366   7.844  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          13.789  10.060   8.899  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          12.682   9.207   8.680  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          11.684   8.750   9.528  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          10.843   7.954   8.834  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          11.294   7.901   7.515  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.456   8.702   7.423  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          13.323   9.018   6.349  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d          15.503  11.011   8.019  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          13.968  10.476   9.884  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          11.599   8.980  10.528  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d           9.968   7.444   9.232  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          13.130   8.614   5.361  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          10.694   7.150   6.377  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d          11.374   7.256   5.519  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d           9.730   7.626   6.142  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          10.437   5.700   6.561  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d          10.592   5.209   5.589  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d           9.387   5.584   6.867  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          11.245   5.017   7.523  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          10.654   4.599   8.223  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          11.872   5.673   7.962  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          11.781   4.297   7.062  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d          15.268  10.153   5.500  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d          15.600   9.348   5.119  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.0      2.704      4.920
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          11.536   7.383   5.841  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          10.635   6.897   6.803  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          10.709   7.322   8.130  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          11.691   8.264   8.514  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          11.987   8.845   9.738  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          13.032   9.687   9.587  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          13.426   9.646   8.251  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.576   8.738   7.576  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          12.510   8.301   6.232  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d           9.873   6.183   6.511  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          10.014   6.931   8.864  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          11.490   8.663  10.621  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d          13.487  10.291  10.371  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          13.217   8.682   5.503  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          14.534  10.404   7.604  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d          15.411  10.330   8.265  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d          14.216  11.454   7.533  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          14.966   9.980   6.248  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d          14.512   9.000   6.046  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d          16.061   9.882   6.263  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          14.625  10.847   5.161  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          13.769  10.529   4.734  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          15.365  10.836   4.478  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          14.500  11.786   5.507  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d          11.479   6.959   4.521  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d          10.798   7.440   4.065  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.5      2.338      2.961
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          14.542  10.030   6.439  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          15.020  10.498   7.674  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          14.334  10.222   8.856  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          13.149   9.450   8.820  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          12.282   9.037   9.820  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          11.281   8.318   9.270  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          11.494   8.271   7.893  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.676   8.995   7.613  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          13.366   9.282   6.410  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d          15.934  11.079   7.708  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          14.708  10.598   9.801  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          12.386   9.246  10.823  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d          10.454   7.857   9.806  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          12.979   8.918   5.465  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          10.656   7.592   6.864  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d          10.261   8.372   6.197  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d           9.823   7.103   7.390  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          11.303   6.565   6.010  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d          10.621   5.704   5.952  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d          12.236   6.260   6.505  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          11.629   6.949   4.671  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          12.524   7.411   4.663  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          10.924   7.577   4.320  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          11.670   6.128   4.087  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d          15.211  10.307   5.254  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d          16.068  10.666   5.453  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4
+ENDMDL

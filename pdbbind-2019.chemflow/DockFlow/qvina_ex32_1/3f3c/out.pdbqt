@@ -1,0 +1,86 @@
+MODEL 1
+REMARK VINA RESULT:      -7.5      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+ROOT
+ATOM      1  CB  PFF d          27.623  31.183  20.599  0.00  0.00    -0.005 C 
+ATOM      2  H5  PFF d          28.510  30.533  20.602  0.00  0.00     0.044 H 
+ATOM      3  H6  PFF d          26.807  30.690  21.149  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  PFF d          27.188  31.461  19.164  0.00  0.00     0.186 C 
+ATOM      5  H4  PFF d          27.934  32.101  18.671  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   PFF d          25.909  32.150  19.174  0.00  0.00    -0.065 N 
+ATOM      7  H1  PFF d          25.800  32.645  20.046  0.00  0.00     0.275 HD
+ATOM      8  H2  PFF d          25.164  31.478  19.075  0.00  0.00     0.275 HD
+ATOM      9  H3  PFF d          25.874  32.805  18.410  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   PFF d          27.101  30.153  18.431  0.00  0.00     0.204 C 
+ATOM     11  O   PFF d          26.017  29.848  17.869  0.00  0.00    -0.646 OA
+ATOM     12  OXT PFF d          28.113  29.427  18.402  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  PFF d          27.952  32.504  21.244  0.00  0.00    -0.056 A 
+ATOM     14  CD1 PFF d          27.539  32.727  22.550  0.00  0.00    -0.074 A 
+ATOM     15  CE1 PFF d          27.833  33.928  23.172  0.00  0.00    -0.045 A 
+ATOM     16  H7  PFF d          26.986  31.962  23.082  0.00  0.00     0.084 H 
+ATOM     17  CZ  PFF d          28.547  34.903  22.483  0.00  0.00     0.116 A 
+ATOM     18  H9  PFF d          27.509  34.108  24.191  0.00  0.00     0.088 H 
+ATOM     19  CE2 PFF d          28.967  34.690  21.174  0.00  0.00    -0.045 A 
+ATOM     20  F   PFF d          28.820  36.060  23.100  0.00  0.00    -0.206 F 
+ATOM     21  CD2 PFF d          28.667  33.479  20.549  0.00  0.00    -0.074 A 
+ATOM     22  H10 PFF d          29.522  35.457  20.645  0.00  0.00     0.088 H 
+ATOM     23  H8  PFF d          28.989  33.298  19.530  0.00  0.00     0.084 H 
+ENDBRANCH   1  13
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.7      3.985      5.338
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+ROOT
+ATOM      1  CB  PFF d          28.981  32.714  20.833  0.00  0.00    -0.005 C 
+ATOM      2  H5  PFF d          29.161  32.222  21.800  0.00  0.00     0.044 H 
+ATOM      3  H6  PFF d          29.936  32.842  20.304  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  PFF d          28.326  34.074  21.058  0.00  0.00     0.186 C 
+ATOM      5  H4  PFF d          27.355  34.104  20.541  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   PFF d          29.181  35.115  20.515  0.00  0.00    -0.065 N 
+ATOM      7  H1  PFF d          28.822  36.018  20.783  0.00  0.00     0.275 HD
+ATOM      8  H2  PFF d          29.198  35.046  19.509  0.00  0.00     0.275 HD
+ATOM      9  H3  PFF d          30.115  35.004  20.876  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   PFF d          28.104  34.257  22.533  0.00  0.00     0.204 C 
+ATOM     11  O   PFF d          27.668  35.364  22.942  0.00  0.00    -0.646 OA
+ATOM     12  OXT PFF d          28.354  33.299  23.288  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  PFF d          28.040  31.883  20.001  0.00  0.00    -0.056 A 
+ATOM     14  CD1 PFF d          26.801  32.414  19.669  0.00  0.00    -0.074 A 
+ATOM     15  CE1 PFF d          25.918  31.677  18.898  0.00  0.00    -0.045 A 
+ATOM     16  H7  PFF d          26.525  33.403  20.013  0.00  0.00     0.084 H 
+ATOM     17  CZ  PFF d          26.282  30.409  18.458  0.00  0.00     0.116 A 
+ATOM     18  H9  PFF d          24.947  32.087  18.640  0.00  0.00     0.088 H 
+ATOM     19  CE2 PFF d          27.521  29.867  18.784  0.00  0.00    -0.045 A 
+ATOM     20  F   PFF d          25.413  29.710  17.716  0.00  0.00    -0.206 F 
+ATOM     21  CD2 PFF d          28.408  30.611  19.562  0.00  0.00    -0.074 A 
+ATOM     22  H10 PFF d          27.794  28.877  18.437  0.00  0.00     0.088 H 
+ATOM     23  H8  PFF d          29.377  30.204  19.823  0.00  0.00     0.084 H 
+ENDBRANCH   1  13
+TORSDOF 4
+ENDMDL

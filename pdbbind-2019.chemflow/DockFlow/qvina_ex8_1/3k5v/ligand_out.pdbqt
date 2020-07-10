@@ -1,0 +1,67 @@
+MODEL 1
+REMARK VINA RESULT:      -8.9      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O5_5 
+REMARK    2  A    between atoms: O5_5  and  C6_6 
+REMARK    3  A    between atoms: C11_9  and  N16_12 
+REMARK    4  A    between atoms: N16_12  and  C18_13 
+REMARK    5  A    between atoms: C23_17  and  C26_19 
+REMARK    6  A    between atoms: C29_21  and  C36_25 
+REMARK       I    between atoms: C36_25  and  N38_27 
+ROOT
+ATOM      1  C18 STJ d          20.881  43.926  53.948  0.00  0.00     0.131 A 
+ATOM      2  N19 STJ d          21.965  43.413  53.302  0.00  0.00    -0.224 NA
+ATOM      3  C20 STJ d          23.227  43.739  53.674  0.00  0.00     0.089 A 
+ATOM      4  N22 STJ d          23.430  44.595  54.704  0.00  0.00    -0.241 NA
+ATOM      5  C23 STJ d          22.388  45.141  55.383  0.00  0.00     0.072 A 
+ATOM      6  C24 STJ d          21.073  44.812  55.007  0.00  0.00    -0.010 A 
+ATOM      7  H6  STJ d          24.075  43.314  53.147  0.00  0.00     0.146 H 
+ATOM      8  H7  STJ d          20.226  45.240  55.530  0.00  0.00     0.093 H 
+ENDROOT
+BRANCH   1   9
+ATOM      9  N16 STJ d          19.601  43.622  53.608  0.00  0.00    -0.341 N 
+ATOM     10  H5  STJ d          18.874  44.113  54.149  0.00  0.00     0.167 HD
+BRANCH   9  11
+ATOM     11  C11 STJ d          19.142  42.771  52.664  0.00  0.00     0.033 A 
+ATOM     12  C9  STJ d          19.932  42.182  51.673  0.00  0.00    -0.055 A 
+ATOM     13  C7  STJ d          19.367  41.322  50.727  0.00  0.00    -0.048 A 
+ATOM     14  H2  STJ d          20.995  42.395  51.637  0.00  0.00     0.087 H 
+ATOM     15  C6  STJ d          17.981  41.051  50.760  0.00  0.00     0.078 A 
+ATOM     16  H1  STJ d          19.992  40.863  49.970  0.00  0.00     0.087 H 
+ATOM     17  C14 STJ d          17.185  41.650  51.732  0.00  0.00    -0.048 A 
+ATOM     18  C12 STJ d          17.758  42.507  52.679  0.00  0.00    -0.055 A 
+ATOM     19  H4  STJ d          16.120  41.453  51.756  0.00  0.00     0.087 H 
+ATOM     20  H3  STJ d          17.131  42.973  53.432  0.00  0.00     0.087 H 
+BRANCH  15  21
+ATOM     21  O5  STJ d          17.385  40.210  49.816  0.00  0.00    -0.255 OA
+BRANCH  21  22
+ATOM     22  C2  STJ d          17.131  38.857  50.143  0.00  0.00     0.530 C 
+ATOM     23  F1  STJ d          16.538  38.307  49.055  0.00  0.00    -0.144 F 
+ATOM     24  F3  STJ d          16.318  38.799  51.235  0.00  0.00    -0.144 F 
+ATOM     25  F4  STJ d          18.307  38.229  50.407  0.00  0.00    -0.144 F 
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   5  26
+ATOM     26  C26 STJ d          22.665  46.079  56.494  0.00  0.00    -0.006 A 
+ATOM     27  C27 STJ d          23.958  46.605  56.584  0.00  0.00    -0.056 A 
+ATOM     28  C29 STJ d          24.312  47.504  57.590  0.00  0.00     0.032 A 
+ATOM     29  H8  STJ d          24.702  46.306  55.856  0.00  0.00     0.086 H 
+ATOM     30  C30 STJ d          23.349  47.886  58.544  0.00  0.00    -0.068 A 
+ATOM     31  C32 STJ d          22.045  47.362  58.465  0.00  0.00    -0.081 A 
+ATOM     32  H9  STJ d          23.611  48.579  59.335  0.00  0.00     0.085 H 
+ATOM     33  C34 STJ d          21.699  46.459  57.440  0.00  0.00    -0.071 A 
+ATOM     34  H10 STJ d          21.302  47.656  59.197  0.00  0.00     0.083 H 
+ATOM     35  H11 STJ d          20.693  46.059  57.383  0.00  0.00     0.084 H 
+BRANCH  28  36
+ATOM     36  C36 STJ d          25.749  47.985  57.553  0.00  0.00     0.249 C 
+ATOM     37  O37 STJ d          26.041  48.791  56.684  0.00  0.00    -0.268 OA
+ATOM     38  N38 STJ d          26.688  47.516  58.406  0.00  0.00    -0.366 N 
+ATOM     39  H12 STJ d          27.626  47.855  58.353  0.00  0.00     0.159 HD
+ATOM     40  H13 STJ d          26.442  46.828  59.090  0.00  0.00     0.159 HD
+ENDBRANCH  28  36
+ENDBRANCH   5  26
+TORSDOF 6
+ENDMDL

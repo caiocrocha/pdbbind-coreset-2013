@@ -1,0 +1,89 @@
+MODEL 1
+REMARK VINA RESULT:      -5.1      0.000      0.000
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O4'_21 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C1'_12  and  O1'_18 
+REMARK    8  A    between atoms: C2'_13  and  O2'_19 
+REMARK    9  A    between atoms: C3'_14  and  O3'_20 
+REMARK   10  A    between atoms: O4'_21  and  C4'_15 
+REMARK   11  A    between atoms: C5'_16  and  C6'_17 
+REMARK   12  A    between atoms: C6'_17  and  O6'_23 
+ROOT
+ATOM      1  O4' CBI d          -3.100  42.465  12.507  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  CBI d          -4.316  43.200  12.429  0.00  0.00     0.159 C 
+ATOM      3  O5  CBI d          -4.675  43.699  13.713  0.00  0.00    -0.348 OA
+ATOM      4  C5  CBI d          -5.914  44.412  13.875  0.00  0.00     0.089 C 
+ATOM      5  C4  CBI d          -7.105  43.474  13.503  0.00  0.00     0.090 C 
+ATOM      6  H5  CBI d          -5.937  45.298  13.224  0.00  0.00     0.090 H 
+ATOM      7  C3  CBI d          -6.896  42.856  12.087  0.00  0.00     0.092 C 
+ATOM      8  H4  CBI d          -7.128  42.653  14.235  0.00  0.00     0.091 H 
+ATOM      9  C2  CBI d          -5.471  42.204  11.981  0.00  0.00     0.110 C 
+ATOM     10  H3  CBI d          -6.989  43.640  11.322  0.00  0.00     0.091 H 
+ATOM     11  H2  CBI d          -5.447  41.334  12.654  0.00  0.00     0.094 H 
+ATOM     12  H1  CBI d          -4.214  44.027  11.711  0.00  0.00     0.133 H 
+BRANCH   4  13
+ATOM     13  C6  CBI d          -5.940  44.846  15.356  0.00  0.00     0.043 C 
+ATOM     14  H6  CBI d          -6.520  45.778  15.401  0.00  0.00     0.078 H 
+ATOM     15  H7  CBI d          -4.898  45.048  15.643  0.00  0.00     0.078 H 
+BRANCH  13  16
+ATOM     16  O6  CBI d          -6.474  43.990  16.350  0.00  0.00    -0.398 OA
+ATOM     17  H11 CBI d          -6.409  44.414  17.198  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   4  13
+BRANCH   5  18
+ATOM     18  O4  CBI d          -8.356  44.158  13.572  0.00  0.00    -0.390 OA
+ATOM     19  H10 CBI d          -9.061  43.545  13.395  0.00  0.00     0.210 HD
+ENDBRANCH   5  18
+BRANCH   7  20
+ATOM     20  O3  CBI d          -7.921  41.876  11.898  0.00  0.00    -0.390 OA
+ATOM     21  H9  CBI d          -8.772  42.293  11.966  0.00  0.00     0.210 HD
+ENDBRANCH   7  20
+BRANCH   9  22
+ATOM     22  O2  CBI d          -5.237  41.749  10.656  0.00  0.00    -0.388 OA
+ATOM     23  H8  CBI d          -4.402  41.297  10.621  0.00  0.00     0.210 HD
+ENDBRANCH   9  22
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C4' CBI d          -1.884  43.167  12.425  0.00  0.00     0.096 C 
+ATOM     25  C5' CBI d          -1.094  42.943  11.066  0.00  0.00     0.089 C 
+ATOM     26  O5' CBI d           0.144  43.659  11.056  0.00  0.00    -0.349 OA
+ATOM     27  H16 CBI d          -0.890  41.867  10.955  0.00  0.00     0.090 H 
+ATOM     28  C1' CBI d           1.063  43.366  12.101  0.00  0.00     0.156 C 
+ATOM     29  C2' CBI d           0.452  43.450  13.524  0.00  0.00     0.110 C 
+ATOM     30  H12 CBI d           1.442  42.341  11.970  0.00  0.00     0.133 H 
+ATOM     31  C3' CBI d          -0.939  42.747  13.626  0.00  0.00     0.092 C 
+ATOM     32  H13 CBI d           0.290  44.514  13.753  0.00  0.00     0.094 H 
+ATOM     33  H14 CBI d          -0.765  41.663  13.555  0.00  0.00     0.091 H 
+ATOM     34  H15 CBI d          -2.111  44.240  12.512  0.00  0.00     0.091 H 
+BRANCH  25  35
+ATOM     35  C6' CBI d          -1.928  43.431   9.851  0.00  0.00     0.043 C 
+ATOM     36  H17 CBI d          -2.858  42.848   9.797  0.00  0.00     0.078 H 
+ATOM     37  H18 CBI d          -1.345  43.276   8.931  0.00  0.00     0.078 H 
+BRANCH  35  38
+ATOM     38  O6' CBI d          -2.251  44.807   9.967  0.00  0.00    -0.398 OA
+ATOM     39  H22 CBI d          -2.760  45.076   9.211  0.00  0.00     0.209 HD
+ENDBRANCH  35  38
+ENDBRANCH  25  35
+BRANCH  28  40
+ATOM     40  O1' CBI d           2.118  44.281  11.891  0.00  0.00    -0.369 OA
+ATOM     41  H19 CBI d           2.495  44.137  11.031  0.00  0.00     0.212 HD
+ENDBRANCH  28  40
+BRANCH  29  42
+ATOM     42  O2' CBI d           1.381  42.944  14.465  0.00  0.00    -0.388 OA
+ATOM     43  H20 CBI d           2.209  43.400  14.367  0.00  0.00     0.210 HD
+ENDBRANCH  29  42
+BRANCH  31  44
+ATOM     44  O3' CBI d          -1.592  42.998  14.866  0.00  0.00    -0.390 OA
+ATOM     45  H21 CBI d          -2.396  42.494  14.907  0.00  0.00     0.210 HD
+ENDBRANCH  31  44
+ENDBRANCH   1  24
+TORSDOF 12
+ENDMDL

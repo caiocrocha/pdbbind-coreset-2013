@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+ROOT
+ATOM      1  CB  PFF d          27.724  31.357  20.552  0.00  0.00    -0.005 C 
+ATOM      2  H5  PFF d          28.631  30.735  20.536  0.00  0.00     0.044 H 
+ATOM      3  H6  PFF d          26.934  30.838  21.115  0.00  0.00     0.044 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  PFF d          27.254  31.626  19.126  0.00  0.00     0.186 C 
+ATOM      5  H4  PFF d          27.969  32.294  18.623  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   PFF d          25.952  32.270  19.162  0.00  0.00    -0.065 N 
+ATOM      7  H1  PFF d          26.022  33.142  19.663  0.00  0.00     0.275 HD
+ATOM      8  H2  PFF d          25.292  31.667  19.628  0.00  0.00     0.275 HD
+ATOM      9  H3  PFF d          25.639  32.447  18.221  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   PFF d          27.200  30.318  18.388  0.00  0.00     0.204 C 
+ATOM     11  O   PFF d          28.274  29.691  18.195  0.00  0.00    -0.646 OA
+ATOM     12  OXT PFF d          26.089  29.905  18.006  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  PFF d          28.024  32.686  21.195  0.00  0.00    -0.056 A 
+ATOM     14  CD1 PFF d          28.655  33.663  20.438  0.00  0.00    -0.074 A 
+ATOM     15  CE1 PFF d          28.937  34.897  20.998  0.00  0.00    -0.045 A 
+ATOM     16  H7  PFF d          28.927  33.460  19.409  0.00  0.00     0.084 H 
+ATOM     17  CZ  PFF d          28.580  35.150  22.319  0.00  0.00     0.116 A 
+ATOM     18  H9  PFF d          29.433  35.662  20.411  0.00  0.00     0.088 H 
+ATOM     19  CE2 PFF d          27.947  34.179  23.087  0.00  0.00    -0.045 A 
+ATOM     20  F   PFF d          28.864  36.349  22.845  0.00  0.00    -0.206 F 
+ATOM     21  CD2 PFF d          27.666  32.936  22.520  0.00  0.00    -0.074 A 
+ATOM     22  H10 PFF d          27.675  34.386  24.116  0.00  0.00     0.088 H 
+ATOM     23  H8  PFF d          27.172  32.169  23.105  0.00  0.00     0.084 H 
+ENDBRANCH   1  13
+TORSDOF 4

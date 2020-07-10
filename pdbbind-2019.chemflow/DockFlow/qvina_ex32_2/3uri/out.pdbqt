@@ -1,0 +1,2440 @@
+MODEL 1
+REMARK VINA RESULT:      -6.2      0.000      0.000
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           1.832  30.776  16.243  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           1.262  31.517  17.072  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           2.837  31.230  15.488  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           3.209  30.640  14.772  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           3.407  32.559  15.673  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           3.280  32.838  16.729  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           4.881  32.539  15.340  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           5.072  33.380  14.657  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           5.085  31.592  14.821  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           5.880  32.651  16.489  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           6.768  33.734  16.478  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           7.685  33.890  17.516  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           6.742  34.449  15.664  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           7.729  32.972  18.563  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           8.368  34.731  17.508  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           6.853  31.891  18.568  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           8.442  33.099  19.369  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           5.928  31.728  17.542  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           6.892  31.171  19.377  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           5.244  30.887  17.558  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           2.748  33.632  14.808  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           2.223  34.341  15.465  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           2.022  33.148  14.138  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           3.699  34.362  14.008  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           4.031  33.747  13.282  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           4.469  34.625  14.604  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           3.188  35.581  13.368  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           2.620  36.148  14.120  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           4.387  36.438  12.902  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           5.044  35.780  12.312  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           4.917  36.771  13.806  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           4.118  37.688  12.050  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           3.212  37.504  11.453  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           4.977  37.832  11.377  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           3.874  39.220  12.977  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           2.111  39.273  12.958  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           1.716  38.269  12.745  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           1.774  39.973  12.179  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           1.743  39.612  13.937  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           2.237  35.292  12.171  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           2.710  34.878  11.100  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           0.918  35.391  12.327  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           0.531  35.550  13.235  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           0.039  35.266  11.172  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           0.465  35.685  10.249  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d          -1.112  36.093  11.744  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d          -2.155  35.553  12.141  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d          -0.790  37.368  11.942  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           0.116  37.683  11.662  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d          -1.706  38.323  12.549  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d          -2.741  37.999  12.371  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d          -1.517  39.705  11.931  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d          -0.965  39.756  10.824  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d          -2.013  40.665  12.530  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d          -1.434  38.334  14.079  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d          -1.362  39.387  14.389  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d          -0.466  37.836  14.240  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -2.450  37.657  15.009  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -3.205  36.581  14.786  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -3.979  36.396  15.832  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d          -3.185  35.995  13.939  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -3.728  37.344  16.729  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -4.709  35.596  15.944  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -2.795  38.135  16.268  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -2.370  39.001  16.773  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d          -0.380  33.823  10.960  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d          -0.284  33.270  11.906  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           0.266  33.361  10.199  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d          -1.426  33.791  10.621  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           1.421  29.313  16.002  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           2.130  28.853  15.298  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           1.455  28.554  17.263  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           2.497  27.831  17.690  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           3.490  27.674  16.960  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           0.641  28.581  17.843  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           2.352  27.083  19.017  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           2.678  26.049  18.834  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           3.177  27.661  20.067  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           4.300  27.048  20.434  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           4.690  26.039  19.836  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           2.902  28.514  20.510  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           5.152  27.508  21.602  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           6.044  28.054  21.260  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           4.300  28.385  22.420  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           4.724  29.249  23.372  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           5.926  29.463  23.612  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           3.314  28.339  22.257  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           3.698  30.031  24.206  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           3.576  31.340  23.576  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           2.170  31.736  23.635  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           3.877  31.287  22.615  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           4.142  32.012  24.070  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           1.455  30.678  24.481  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           1.741  31.768  22.623  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d           2.073  32.726  24.104  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           2.295  29.437  24.191  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           1.476  30.936  25.549  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           0.412  30.541  24.157  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           2.170  28.673  24.971  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           2.050  29.002  23.210  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           4.054  30.116  25.243  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           5.559  26.248  22.350  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           5.582  25.409  21.640  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           4.814  26.046  23.133  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           6.911  26.374  22.992  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           7.130  26.536  24.287  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           8.419  26.662  24.412  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           6.427  26.558  25.040  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           9.005  26.571  23.236  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           8.940  26.819  25.355  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           8.109  26.389  22.313  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           8.269  26.274  21.242  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           0.916  27.038  19.627  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           0.563  25.997  19.567  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           0.273  27.680  19.006  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           0.751  27.511  21.133  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           1.719  27.878  21.503  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d          -0.332  28.574  21.289  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d          -0.217  29.334  20.503  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d          -0.239  29.050  22.276  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d          -1.323  28.103  21.202  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           0.216  26.391  22.011  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           0.159  26.737  23.053  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           0.889  25.523  21.948  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d          -0.788  26.103  21.665  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d          -0.006  29.291  15.367  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d          -0.731  29.117  16.177  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d          -0.044  28.453  14.656  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -0.411  30.474  14.668  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -0.929  30.231  13.910  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.1      3.432     11.647
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           4.496  29.282  20.240  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           5.421  28.442  20.211  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           4.594  30.393  20.975  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           3.801  30.997  21.048  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           5.821  30.753  21.676  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           6.596  30.025  21.399  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           6.268  32.135  21.257  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           6.669  32.633  22.152  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           5.376  32.674  20.906  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           7.325  32.248  20.162  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           8.513  31.526  20.325  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           9.500  31.581  19.342  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           8.666  30.925  21.214  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           9.315  32.357  18.200  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d          10.417  31.018  19.467  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           8.139  33.082  18.043  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d          10.084  32.395  17.437  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           7.143  33.029  19.012  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           7.997  33.693  17.158  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           6.225  33.591  18.879  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           5.678  30.751  23.197  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           5.794  31.782  23.563  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           6.471  30.120  23.624  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           4.401  30.247  23.635  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           3.872  29.989  22.816  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           3.925  30.990  24.122  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           4.450  29.082  24.526  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           4.906  29.397  25.476  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           3.005  28.606  24.803  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           3.073  27.752  25.493  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           2.586  28.271  23.844  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           2.001  29.598  25.411  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           2.559  30.491  25.734  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           1.538  29.119  26.286  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           0.678  30.138  24.305  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           1.026  29.088  22.930  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           0.818  28.044  23.204  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           2.085  29.190  22.650  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           0.393  29.377  22.078  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           5.300  27.910  23.956  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           6.530  28.042  23.847  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           4.725  26.739  23.683  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           3.772  26.578  23.937  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           5.487  25.695  23.012  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           5.970  26.031  22.083  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           4.311  24.747  22.780  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           4.216  23.678  23.400  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           3.353  25.279  22.027  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           3.495  26.191  21.643  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           2.105  24.587  21.738  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           1.910  23.845  22.527  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           2.200  23.858  20.402  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           2.915  24.371  19.531  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           1.637  22.762  20.313  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           0.965  25.642  21.741  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d           0.981  26.139  20.760  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           1.203  26.375  22.527  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -0.473  25.168  21.985  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -0.998  23.955  21.807  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -2.283  24.018  22.077  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d          -0.485  23.113  21.508  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -2.591  25.262  22.431  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -2.983  23.186  22.020  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -1.511  25.998  22.393  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -1.439  27.058  22.634  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d           6.508  25.077  23.951  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d           6.990  24.221  23.456  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           6.003  24.734  24.866  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d           7.269  25.828  24.211  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           3.176  29.102  19.470  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           2.341  29.421  20.111  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           3.173  29.932  18.253  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           3.410  29.475  17.018  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           3.763  28.297  16.845  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           2.980  30.908  18.358  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           3.393  30.484  15.868  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           4.048  30.080  15.083  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           2.058  30.670  15.320  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           1.166  31.395  15.991  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           1.485  31.978  17.032  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           1.812  30.256  14.444  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d          -0.283  31.534  15.560  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d          -0.882  32.052  16.323  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d          -0.273  32.307  14.308  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d          -1.206  33.206  13.917  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d          -2.164  33.549  14.633  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           0.497  32.155  13.688  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d          -1.100  33.865  12.534  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d          -0.890  35.288  12.778  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           0.062  35.777  11.781  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d          -0.518  35.425  13.704  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d          -1.764  35.783  12.689  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           0.305  34.620  10.807  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           1.004  36.069  12.267  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d          -0.359  36.642  11.247  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           0.100  33.410  11.713  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d          -0.422  34.632   9.981  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           1.326  34.647  10.397  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d          -0.126  32.504  11.132  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           0.980  33.227  12.349  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d          -2.026  33.687  11.968  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d          -0.800  30.120  15.354  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           0.024  29.494  14.981  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d          -1.608  30.144  14.608  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d          -1.331  29.513  16.621  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d          -0.638  28.752  17.453  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d          -1.478  28.389  18.378  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           0.359  28.500  17.383  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d          -2.666  28.910  18.150  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d          -1.234  27.745  19.221  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d          -2.630  29.624  17.065  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d          -3.444  30.185  16.609  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           3.880  31.927  16.211  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           4.626  31.841  17.016  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           3.010  32.492  16.577  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           4.538  32.770  15.039  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           4.783  32.097  14.204  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d           3.639  33.912  14.574  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d           3.369  33.761  13.518  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d           4.173  34.867  14.683  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d           2.725  33.932  15.187  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           5.770  33.521  15.518  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           6.576  33.415  14.777  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           6.100  33.105  16.482  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d           5.524  34.586  15.643  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           2.998  27.589  19.124  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           3.306  27.006  20.004  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           3.665  27.358  18.280  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d           1.678  27.169  18.763  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d           1.091  27.305  19.497  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.0      3.282     11.624
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           4.852  28.675  19.630  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           5.193  27.648  20.254  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           5.763  29.479  19.073  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           5.462  30.339  18.660  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           7.181  29.143  19.047  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           7.269  28.051  18.956  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           7.844  29.794  17.855  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           7.473  29.281  16.955  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           8.927  29.625  17.952  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           7.635  31.291  17.642  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           7.798  31.795  16.347  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           7.598  33.151  16.099  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           8.080  31.131  15.537  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           7.242  34.013  17.136  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           7.719  33.540  15.095  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           7.090  33.513  18.424  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           7.085  35.067  16.938  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           7.279  32.160  18.683  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           6.822  34.183  19.233  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           7.151  31.777  19.689  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           7.936  29.586  20.299  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           8.606  30.416  20.031  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           8.533  28.738  20.668  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           7.056  30.024  21.353  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           6.113  29.787  21.088  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           7.142  31.025  21.433  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           7.312  29.442  22.677  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           8.220  29.910  23.085  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           6.121  29.776  23.605  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           6.520  30.371  24.440  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           5.733  28.820  23.987  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           4.926  30.551  23.029  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           5.097  30.687  21.951  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           4.890  31.534  23.521  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           3.315  29.761  23.244  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           2.408  31.148  23.849  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           2.599  31.269  24.925  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           1.333  30.984  23.684  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           2.726  32.055  23.316  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           7.546  27.905  22.636  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           8.680  27.464  22.387  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           6.560  27.070  22.964  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           5.703  27.428  23.335  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           6.733  25.636  22.783  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           6.955  25.347  21.745  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           5.331  25.236  23.240  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           5.031  25.209  24.443  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           4.466  25.128  22.237  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           4.797  25.255  21.302  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           3.055  24.832  22.444  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           2.933  24.289  23.393  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           2.525  23.957  21.314  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           1.719  23.068  21.620  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           2.860  24.254  20.162  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           2.295  26.184  22.532  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d           2.565  26.767  21.639  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           2.658  26.703  23.432  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d           0.763  26.161  22.611  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -0.031  25.302  23.252  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -1.279  25.622  22.991  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d           0.280  24.522  23.847  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -1.297  26.682  22.190  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -2.158  25.101  23.371  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -0.068  27.047  21.936  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d           0.245  27.885  21.315  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d           7.790  25.090  23.726  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d           7.614  25.482  24.740  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           8.786  25.403  23.381  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d           7.735  23.992  23.743  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           3.386  29.114  19.473  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           3.084  29.684  20.364  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           3.232  29.980  18.292  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           2.919  29.549  17.065  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           2.844  28.331  16.831  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           3.371  30.963  18.417  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           2.824  30.587  15.945  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           2.792  30.029  14.998  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           1.625  31.405  16.053  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           0.563  31.117  15.305  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           0.556  30.115  14.582  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           1.599  32.178  16.686  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d          -0.680  31.988  15.259  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d          -0.689  32.719  16.080  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d          -0.657  32.678  13.960  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d          -1.472  33.689  13.579  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d          -2.304  34.218  14.339  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           0.026  32.372  13.296  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d          -1.383  34.246  12.151  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d          -1.383  35.698  12.280  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d          -0.455  36.237  11.287  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d          -1.084  35.960  13.207  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d          -2.310  36.057  12.113  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d          -0.004  35.053  10.426  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           0.411  36.697  11.786  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d          -0.960  36.990  10.664  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d          -0.089  33.901  11.423  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d          -0.679  34.897   9.573  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           1.025  35.191  10.060  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d          -0.158  32.929  10.913  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           0.771  33.894  12.109  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d          -2.244  33.895  11.563  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d          -1.863  31.041  15.382  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d          -1.706  30.190  14.703  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d          -2.777  31.579  15.091  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d          -2.036  30.518  16.779  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d          -2.251  29.251  17.100  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d          -2.403  29.238  18.392  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d          -2.290  28.445  16.460  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d          -2.277  30.454  18.882  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d          -2.605  28.348  18.985  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d          -2.045  31.293  17.917  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d          -1.891  32.369  17.992  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           3.994  31.617  15.861  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           4.916  31.054  15.649  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           4.078  32.102  16.845  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           3.875  32.765  14.772  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           2.897  32.691  14.275  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d           4.080  34.153  15.371  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d           4.596  34.795  14.641  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d           4.690  34.073  16.282  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d           3.103  34.593  15.621  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           5.010  32.692  13.763  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           4.817  31.875  13.052  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           5.957  32.503  14.290  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d           5.077  33.644  13.217  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           2.489  27.840  19.360  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           1.680  28.061  18.649  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           2.061  27.644  20.354  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d           3.139  26.641  18.921  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d           2.544  26.143  18.373  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.9      3.890     11.731
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           1.251  28.166  17.910  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           0.490  27.176  17.946  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           1.142  29.154  18.802  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           1.705  29.973  18.689  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           0.227  29.078  19.935  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           0.091  30.096  20.330  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d          -1.110  28.540  19.483  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d          -1.623  28.150  20.375  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d          -0.910  27.713  18.785  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d          -2.075  29.497  18.788  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d          -3.447  29.275  18.953  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d          -4.366  30.135  18.355  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d          -3.794  28.436  19.546  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d          -3.929  31.211  17.586  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d          -5.428  29.964  18.488  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d          -2.566  31.426  17.414  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d          -4.648  31.879  17.125  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d          -1.638  30.580  18.013  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d          -2.224  32.258  16.809  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d          -0.577  30.758  17.880  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           0.731  28.185  21.067  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           1.400  27.422  20.642  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d          -0.133  27.693  21.538  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           1.451  28.920  22.076  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           1.762  28.264  22.775  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           0.813  29.579  22.494  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           2.624  29.665  21.603  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           2.343  30.196  20.681  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           3.017  30.708  22.676  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           3.168  31.665  22.155  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           3.968  30.375  23.116  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           2.050  30.975  23.840  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           1.055  30.606  23.547  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           2.004  32.062  24.001  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           2.493  30.197  25.410  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           4.214  29.944  25.113  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           4.636  29.321  25.915  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           4.729  30.916  25.094  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           4.349  29.438  24.146  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           3.840  28.751  21.275  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           4.624  29.077  20.368  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           4.093  27.681  22.026  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           3.567  27.519  22.861  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           5.137  26.746  21.631  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           5.247  26.646  20.541  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           4.527  25.515  22.298  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           5.102  24.940  23.235  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           3.278  25.276  21.910  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           2.875  25.858  21.204  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           2.473  24.200  22.471  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           3.061  23.663  23.230  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           2.073  23.212  21.380  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           2.240  23.571  20.207  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           1.701  22.091  21.740  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           1.232  24.842  23.152  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d           1.279  25.924  22.958  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           1.324  24.658  24.233  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -0.164  24.367  22.729  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -0.921  23.408  23.263  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -2.014  23.294  22.541  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d          -0.690  22.852  24.099  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -1.968  24.173  21.545  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -2.825  22.591  22.727  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -0.854  24.854  21.626  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -0.531  25.650  20.957  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d           6.465  27.110  22.270  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d           6.524  28.202  22.397  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           7.288  26.773  21.624  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d           6.546  26.622  23.253  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           2.343  28.347  16.840  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           2.179  27.618  16.033  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           2.282  29.701  16.267  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           1.263  30.178  15.543  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           0.325  29.432  15.218  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           3.060  30.309  16.430  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           1.378  31.605  15.002  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           1.034  32.275  15.803  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           2.747  31.951  14.650  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           3.424  32.809  15.409  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           2.932  33.250  16.452  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           3.176  31.546  13.844  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           4.806  33.323  15.048  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           4.975  34.335  15.445  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           5.769  32.378  15.634  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           6.742  32.679  16.525  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           6.883  33.809  17.026  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           5.697  31.422  15.348  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           7.730  31.592  16.975  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           8.917  32.293  17.450  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           9.421  31.579  18.622  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           8.677  33.240  17.701  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           9.620  32.305  16.727  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           8.579  30.305  18.750  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           9.310  32.200  19.522  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d          10.481  31.321  18.483  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           7.248  30.758  18.156  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           9.015  29.476  18.174  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           8.467  30.002  19.802  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           6.641  29.902  17.827  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           6.671  31.363  18.871  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           7.965  30.933  16.127  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           4.869  33.334  13.529  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           4.282  32.487  13.146  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           5.918  33.224  13.219  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           4.322  34.604  12.942  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           4.973  35.755  12.871  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           4.130  36.603  12.357  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           5.944  35.941  13.162  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           2.982  36.010  12.098  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           4.342  37.654  12.168  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           3.049  34.759  12.442  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           2.271  34.001  12.355  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           0.551  31.921  13.716  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d          -0.139  31.080  13.552  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           1.258  31.984  12.875  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d          -0.311  33.253  13.715  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           0.209  34.020  14.308  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d          -0.598  33.755  12.303  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d          -0.290  34.807  12.218  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d          -1.675  33.671  12.096  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d          -0.037  33.148  11.577  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d          -1.714  33.006  14.248  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d          -2.284  32.412  13.518  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d          -2.219  33.970  14.411  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d          -1.653  32.458  15.199  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           3.735  28.070  17.493  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           3.655  27.137  18.071  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           3.958  28.905  18.173  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d           4.844  27.932  16.596  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d           5.252  28.780  16.467  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.8      1.816      2.225
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           2.206  30.169  16.522  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           1.783  30.777  17.528  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           2.953  30.789  15.603  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           3.198  30.298  14.767  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           3.422  32.157  15.781  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           3.283  32.429  16.837  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           4.890  32.249  15.435  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           5.008  33.089  14.734  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           5.166  31.311  14.932  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           5.886  32.464  16.572  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           6.708  33.595  16.514  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           7.619  33.845  17.539  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           6.637  34.276  15.673  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           7.721  32.971  18.620  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           8.251  34.723  17.495  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           6.910  31.842  18.672  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           8.429  33.171  19.416  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           5.992  31.586  17.659  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           6.995  31.157  19.508  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           5.359  30.708  17.711  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           2.676  33.175  14.919  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           2.234  33.937  15.577  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           1.875  32.654  14.374  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           3.534  33.830  13.964  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           3.649  33.213  13.176  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           4.427  33.984  14.405  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           3.052  35.121  13.459  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           2.559  35.650  14.288  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           4.266  35.956  12.991  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           4.813  35.346  12.256  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           4.901  36.126  13.872  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           4.018  37.328  12.343  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           3.560  37.159  11.356  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           4.991  37.823  12.214  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           2.943  38.442  13.274  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           3.576  39.983  12.693  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           3.835  40.620  13.551  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           2.812  40.485  12.080  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           4.474  39.804  12.084  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           2.020  34.981  12.303  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           2.405  34.623  11.178  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           0.720  35.147  12.545  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           0.396  35.260  13.484  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d          -0.228  35.162  11.439  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           0.245  35.317  10.458  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d          -1.036  36.364  11.924  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d          -1.644  36.336  13.005  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d          -0.846  37.454  11.185  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d          -0.263  37.389  10.376  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d          -1.455  38.737  11.506  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d          -2.329  38.573  12.153  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d          -1.918  39.437  10.233  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d          -1.063  40.063   9.592  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d          -3.087  39.254   9.880  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d          -0.403  39.580  12.279  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d          -0.267  40.519  11.722  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           0.538  39.010  12.273  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -0.694  39.957  13.738  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d           0.164  40.256  14.714  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -0.520  40.450  15.819  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d           1.187  40.323  14.618  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -1.814  40.281  15.563  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -0.096  40.707  16.789  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -1.965  39.982  14.299  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -2.906  39.791  13.786  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d          -1.076  33.903  11.430  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d          -1.121  33.485  12.447  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d          -0.628  33.165  10.750  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d          -2.093  34.148  11.089  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           1.890  28.689  16.241  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           2.479  28.355  15.374  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           2.252  27.857  17.400  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           1.821  26.607  17.606  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           0.973  26.106  16.849  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           2.865  28.254  18.083  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           2.277  25.895  18.882  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           3.179  25.323  18.618  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           2.605  26.831  19.946  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           3.850  26.888  20.412  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           4.747  26.214  19.894  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           1.899  27.429  20.325  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           4.252  27.740  21.602  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           4.720  28.683  21.283  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           3.019  28.011  22.356  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           2.181  29.057  22.167  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           2.322  29.886  21.249  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           2.776  27.362  23.077  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           0.977  29.251  23.101  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           0.753  30.690  23.180  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d          -0.691  30.919  23.199  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           1.161  31.145  22.378  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           1.169  31.056  24.022  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d          -1.349  29.538  23.294  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d          -1.008  31.428  22.278  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d          -0.967  31.531  24.070  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d          -0.327  28.663  22.573  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d          -1.478  29.226  24.340  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d          -2.323  29.521  22.783  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d          -0.434  27.604  22.850  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d          -0.404  28.766  21.481  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           1.203  28.825  24.089  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           5.239  26.906  22.404  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           5.303  25.905  21.953  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           4.873  26.820  23.437  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           6.614  27.511  22.428  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           6.983  28.596  21.765  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           8.253  28.740  22.009  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           6.390  29.199  21.178  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           8.678  27.786  22.812  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           8.877  29.537  21.607  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           7.694  26.992  23.107  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           7.716  26.111  23.748  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           1.250  24.912  19.526  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           0.474  24.705  18.774  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           0.797  25.426  20.388  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           1.803  23.516  20.039  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           2.836  23.386  19.686  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d           1.724  23.386  21.558  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d           0.869  23.969  21.932  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d           2.652  23.768  22.007  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d           1.594  22.328  21.829  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           0.917  22.367  19.584  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           0.379  21.953  20.449  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           1.540  21.583  19.129  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d           0.192  22.736  18.843  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           0.372  28.556  15.900  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           0.185  27.514  15.600  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           0.159  29.224  15.053  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -0.548  28.877  16.951  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -0.521  28.197  17.613  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.6      2.415      4.959
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d          -0.316  29.751  18.076  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d          -0.929  29.463  17.026  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           0.983  30.063  18.054  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           1.463  30.199  18.921  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           1.724  30.212  16.808  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           2.355  31.108  16.893  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           2.605  29.005  16.583  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           3.631  29.296  16.856  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           2.564  28.767  15.511  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           2.279  27.723  17.346  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           2.923  27.511  18.570  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           2.643  26.365  19.312  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           3.639  28.236  18.940  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           1.729  25.425  18.841  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           3.139  26.204  20.263  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           1.097  25.632  17.620  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           1.512  24.537  19.423  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           1.362  26.775  16.873  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           0.392  24.897  17.247  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           0.859  26.932  15.926  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           0.827  30.368  15.580  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d          -0.153  29.920  15.800  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           1.291  29.837  14.736  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           0.631  31.747  15.207  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           0.981  32.323  15.957  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d          -0.359  31.901  15.098  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           1.293  32.169  13.967  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           1.821  31.300  13.548  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           0.214  32.627  12.959  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d          -0.401  31.746  12.721  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           0.739  32.963  12.053  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d          -0.751  33.753  13.364  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d          -0.216  34.428  14.050  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d          -1.603  33.298  13.889  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d          -1.401  34.745  12.001  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d          -2.822  35.415  12.803  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d          -2.504  36.101  13.601  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d          -3.417  34.597  13.238  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d          -3.433  35.962  12.071  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           2.338  33.302  14.184  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           2.891  33.420  15.290  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           2.709  34.073  13.164  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           2.397  33.863  12.237  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           3.572  35.223  13.398  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           3.605  35.539  14.451  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           2.813  36.193  12.494  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           1.931  35.793  11.719  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           3.059  37.469  12.775  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           3.730  37.684  13.483  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           2.388  38.567  12.092  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           1.556  38.169  11.494  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           3.358  39.281  11.157  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           2.973  40.343  10.651  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           4.492  38.804  11.045  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           1.821  39.524  13.177  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d           1.575  40.472  12.676  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           2.623  39.694  13.911  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d           0.575  39.089  13.960  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d           0.165  39.479  15.167  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -0.917  38.799  15.475  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d           0.619  40.190  15.758  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -1.210  37.975  14.474  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -1.482  38.895  16.401  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -0.324  38.124  13.523  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -0.297  37.593  12.573  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d           4.973  34.970  12.872  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d           5.101  35.484  11.908  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           5.123  33.889  12.733  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d           5.710  35.353  13.593  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d          -0.980  29.746  19.464  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d          -1.500  28.788  19.610  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           0.034  29.892  20.521  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           0.516  28.886  21.260  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           0.031  27.747  21.157  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           0.390  30.810  20.699  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           1.552  29.222  22.336  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           1.521  28.404  23.070  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           2.898  29.318  21.791  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           3.827  28.446  22.175  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           3.538  27.508  22.924  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           3.123  30.035  21.131  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           5.283  28.549  21.758  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           5.641  27.610  21.312  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           5.360  29.642  20.777  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           5.876  29.560  19.529  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           6.282  28.495  19.027  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           4.996  30.530  21.058  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           5.967  30.819  18.654  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           6.192  31.933  19.568  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           7.133  32.853  18.931  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           6.578  31.592  20.435  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           5.321  32.407  19.751  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           7.354  32.332  17.507  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           8.085  32.865  19.483  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d           6.713  33.868  18.904  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           7.153  30.832  17.696  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           6.616  32.752  16.808  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           8.369  32.559  17.149  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           6.911  30.333  16.746  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           8.039  30.357  18.143  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           5.033  30.945  18.089  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           6.063  28.863  23.025  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           5.418  28.669  23.894  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           6.348  29.925  23.010  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           7.308  28.031  23.152  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           7.793  27.551  24.286  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           8.901  26.949  23.966  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           7.379  27.635  25.226  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           9.111  27.032  22.668  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           9.562  26.447  24.671  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           8.144  27.697  22.111  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           8.021  27.936  21.055  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           1.340  30.567  23.098  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           0.316  30.910  22.886  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           2.061  31.293  22.693  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           1.520  30.545  24.675  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           0.669  31.062  25.142  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d           1.663  29.126  25.219  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d           2.462  28.603  24.673  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d           0.714  28.586  25.088  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d           1.916  29.169  26.289  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           2.840  31.172  25.091  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           3.585  30.380  25.260  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           2.697  31.745  26.020  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d           3.194  31.844  24.296  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d          -2.029  30.903  19.523  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d          -2.972  30.521  19.105  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d          -1.656  31.725  18.895  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -2.313  31.440  20.820  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -2.028  30.826  21.485  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.5      3.051      5.025
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d          -0.541  29.269  17.376  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d          -0.314  28.754  16.261  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           0.432  29.864  18.073  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           0.237  30.184  19.000  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           1.768  30.062  17.526  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           2.167  31.002  17.935  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           2.669  28.922  17.938  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           2.980  28.403  17.019  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           2.069  28.240  18.559  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           3.936  29.252  18.723  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           5.156  29.216  18.038  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           6.338  29.530  18.707  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           5.182  28.943  16.989  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           6.314  29.875  20.057  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           7.281  29.506  18.174  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           5.103  29.902  20.739  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           7.235  30.122  20.572  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           3.916  29.598  20.081  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           5.084  30.162  21.792  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           2.975  29.629  20.619  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           1.796  30.150  16.001  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           0.797  30.444  15.646  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           2.051  29.159  15.596  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           2.758  31.108  15.517  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           3.148  30.750  14.659  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           3.486  31.193  16.208  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           2.234  32.453  15.247  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           1.569  32.733  16.077  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           3.417  33.447  15.201  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           3.352  34.067  16.108  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           3.273  34.079  14.313  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           4.849  32.894  15.134  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           5.401  33.473  14.378  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           4.792  31.842  14.819  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           5.780  32.965  16.681  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           7.396  32.657  16.042  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           8.118  33.323  16.536  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           7.403  32.845  14.958  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           7.673  31.610  16.234  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           1.412  32.537  13.929  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           0.783  31.541  13.534  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           1.302  33.697  13.283  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           1.660  34.535  13.694  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           0.660  33.743  11.976  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           0.773  32.814  11.398  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           1.478  34.909  11.425  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           2.148  34.790  10.389  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           1.230  36.060  12.044  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           0.601  36.061  12.821  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           1.837  37.318  11.636  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           2.312  37.191  10.652  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           2.905  37.741  12.638  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           3.531  38.780  12.389  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           3.006  37.075  13.673  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           0.705  38.376  11.518  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d          -0.195  37.850  11.165  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           1.023  39.109  10.762  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d           0.304  39.164  12.772  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d           0.696  40.378  13.160  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d           0.155  40.631  14.332  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d           1.317  41.009  12.633  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -0.585  39.591  14.701  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d           0.292  41.546  14.907  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -0.525  38.672  13.773  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -1.029  37.706  13.782  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d          -0.806  34.117  12.103  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d          -1.429  33.240  11.871  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d          -1.039  34.928  11.398  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d          -1.012  34.452  13.130  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d          -1.925  29.241  18.048  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d          -2.701  29.338  17.274  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d          -2.128  27.967  18.756  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d          -1.495  27.609  19.879  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d          -0.588  28.323  20.340  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d          -2.787  27.321  18.370  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d          -1.809  26.232  20.469  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d          -2.405  25.695  19.717  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d          -0.603  25.467  20.751  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d          -0.172  24.569  19.869  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d          -0.737  24.438  18.778  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d          -0.101  25.616  21.603  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           0.998  23.640  20.135  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           1.372  23.187  19.205  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           2.047  24.460  20.762  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           2.622  25.563  20.230  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           2.258  26.071  19.153  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           2.365  24.174  21.666  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           3.774  26.258  20.972  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           3.831  25.648  22.295  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           5.240  25.512  22.665  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           3.393  24.740  22.273  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           3.357  26.234  22.964  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           6.047  26.219  21.572  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           5.518  24.449  22.715  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d           5.424  25.986  23.640  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           5.148  26.025  20.354  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           6.186  27.286  21.803  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           7.028  25.745  21.426  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           5.368  26.761  19.567  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           5.239  25.010  19.941  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           3.574  27.337  21.036  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           0.477  22.564  21.075  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           0.642  21.581  20.611  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d          -0.601  22.721  21.228  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           1.162  22.589  22.411  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           0.845  23.387  23.418  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           1.714  23.133  24.353  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           0.073  24.067  23.454  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           2.551  22.194  23.960  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           1.744  23.625  25.324  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           2.250  21.817  22.754  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           2.747  21.059  22.150  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d          -2.601  26.225  21.814  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d          -3.663  26.065  21.571  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d          -2.475  27.214  22.277  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d          -2.190  25.136  22.893  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d          -1.099  25.002  22.872  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d          -2.669  25.503  24.295  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d          -3.190  24.643  24.741  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d          -3.358  26.358  24.234  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d          -1.804  25.772  24.919  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d          -2.909  23.819  22.654  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d          -3.995  23.971  22.747  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d          -2.578  23.080  23.399  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d          -2.676  23.452  21.644  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d          -2.034  30.455  19.025  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d          -1.166  30.420  19.701  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d          -2.958  30.334  19.608  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -2.065  31.756  18.425  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -2.722  31.771  17.739  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.3      2.058      3.694
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           2.181  30.184  16.518  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           1.751  30.791  17.522  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           2.925  30.808  15.600  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           3.176  30.317  14.766  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           3.384  32.180  15.776  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           3.250  32.450  16.834  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           4.850  32.284  15.422  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           4.956  33.121  14.716  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           5.132  31.346  14.922  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           5.849  32.513  16.552  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           6.674  33.642  16.475  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           7.588  33.905  17.494  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           6.601  34.310  15.624  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           7.692  33.048  18.587  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           8.222  34.782  17.435  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           6.879  31.922  18.659  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           8.402  33.259  19.378  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           5.957  31.652  17.653  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           6.965  31.249  19.505  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           5.322  30.776  17.720  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           2.625  33.192  14.919  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           2.189  33.955  15.580  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           1.820  32.666  14.385  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           3.470  33.847  13.953  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           3.550  33.242  13.150  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           4.379  33.973  14.370  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           3.003  35.157  13.485  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           2.588  35.700  14.348  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d           4.211  35.950  12.936  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d           4.697  35.314  12.180  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           4.901  36.112  13.778  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           3.966  37.320  12.284  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           3.471  37.151  11.316  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           4.943  37.795  12.117  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           2.946  38.462  13.242  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d           3.575  39.985  12.611  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d           3.878  40.631  13.448  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d           2.794  40.489  12.023  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d           4.445  39.785  11.969  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           1.889  35.061  12.403  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           2.186  34.718  11.247  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           0.613  35.246  12.739  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           0.358  35.346  13.701  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d          -0.410  35.302  11.705  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d          -0.015  35.554  10.709  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d          -1.231  36.425  12.337  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d          -1.768  36.283  13.445  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d          -1.129  37.578  11.682  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d          -0.596  37.605  10.837  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d          -1.764  38.804  12.146  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d          -2.617  38.550  12.791  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d          -2.278  39.616  10.962  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d          -1.455  40.325  10.367  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d          -3.451  39.439  10.620  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d          -0.717  39.595  12.978  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d          -0.557  40.556  12.468  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           0.216  39.012  12.963  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -1.031  39.907  14.446  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -2.186  40.286  14.995  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -1.982  40.509  16.274  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d          -3.085  40.386  14.501  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -0.705  40.276  16.556  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -2.738  40.834  16.988  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -0.087  39.900  15.466  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d           0.965  39.634  15.376  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d          -1.205  34.010  11.652  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d          -1.161  33.513  12.633  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d          -0.776  33.347  10.886  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d          -2.252  34.233  11.400  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           1.876  28.701  16.239  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           2.439  28.381  15.351  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           2.290  27.868  17.380  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           1.843  26.630  17.622  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           0.938  26.145  16.923  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           2.953  28.255  18.021  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           2.361  25.915  18.872  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           3.241  25.334  18.561  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           2.756  26.850  19.916  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           1.823  27.442  20.656  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           0.632  27.145  20.522  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           3.723  27.045  20.075  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           2.135  28.522  21.676  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           2.097  28.130  22.703  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           3.488  29.010  21.365  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           4.649  28.498  21.836  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           4.707  27.474  22.541  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           3.556  29.794  20.748  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           5.981  29.180  21.490  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           6.875  28.917  22.612  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           8.212  28.673  22.073  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           6.557  28.107  23.121  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           6.894  29.715  23.228  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           8.134  28.959  20.570  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           8.506  27.627  22.246  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d           8.942  29.343  22.550  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           6.682  28.601  20.266  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           8.341  30.017  20.351  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           8.830  28.324  20.003  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           6.333  29.077  19.338  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           6.539  27.512  20.195  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           5.819  30.258  21.350  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           1.081  29.601  21.484  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           0.509  29.377  20.572  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           1.586  30.571  21.371  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           0.129  29.684  22.642  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d          -0.864  28.840  22.877  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d          -1.474  29.302  23.930  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d          -1.104  27.995  22.339  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d          -0.883  30.398  24.360  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d          -2.349  28.846  24.391  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           0.126  30.680  23.593  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           0.817  31.518  23.681  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           1.360  24.944  19.574  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           0.527  24.768  18.877  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           0.985  25.451  20.475  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d           1.916  23.526  20.021  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d           2.917  23.379  19.589  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d           1.947  23.371  21.539  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d           1.137  23.966  21.985  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d           2.915  23.723  21.924  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d           1.812  22.311  21.801  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d           0.972  22.407  19.613  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d           0.490  21.989  20.509  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d           1.541  21.617  19.100  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d           0.203  22.805  18.935  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           0.349  28.549  15.951  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           0.172  27.515  15.617  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           0.090  29.245  15.140  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -0.536  28.809  17.047  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -0.470  28.105  17.680  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.9      2.878      5.425
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d          -0.729  29.306  17.700  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d          -1.073  28.939  16.556  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           0.533  29.660  17.961  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           0.793  29.859  18.906  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           1.542  29.763  16.915  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           2.183  30.626  17.146  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           2.387  28.511  16.887  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           3.400  28.795  17.210  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           2.419  28.162  15.845  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           1.951  27.328  17.748  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           1.283  26.272  17.117  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           0.884  25.161  17.857  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           1.076  26.319  16.054  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           1.141  25.096  19.226  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           0.371  24.343  17.366  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           1.796  26.150  19.854  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           0.831  24.229  19.797  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           2.206  27.260  19.125  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           1.988  26.104  20.920  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           2.724  28.074  19.621  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           0.954  29.959  15.518  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           0.158  29.216  15.363  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           1.751  29.801  14.776  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           0.401  31.276  15.328  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           0.647  31.835  16.130  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d          -0.602  31.186  15.275  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           0.853  31.988  14.126  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           1.225  31.243  13.407  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d          -0.353  32.724  13.500  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d          -1.021  33.010  14.326  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d          -0.867  32.004  12.846  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d          -0.100  33.989  12.665  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           0.234  33.674  11.665  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d           0.700  34.563  13.154  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d          -1.525  35.081  12.460  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d          -2.382  34.695  13.953  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d          -3.454  34.898  13.823  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d          -1.988  35.315  14.772  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d          -2.236  33.633  14.196  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d           2.007  32.994  14.408  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d           2.427  33.135  15.568  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d           2.606  33.623  13.397  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           2.388  33.375  12.454  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d           3.580  34.670  13.670  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d           3.374  35.232  14.593  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d           3.326  35.475  12.396  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d           2.887  34.933  11.371  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d           3.433  36.788  12.578  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d           3.712  37.127  13.476  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d           3.158  37.752  11.522  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d           3.403  37.305  10.548  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d           4.012  39.002  11.710  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d           4.290  39.324  12.873  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d           4.446  39.549  10.691  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d           1.640  38.079  11.562  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d           1.100  37.143  11.356  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d           1.442  38.801  10.756  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d           1.049  38.668  12.850  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d           1.186  39.896  13.351  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d           0.564  39.941  14.509  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d           1.692  40.675  12.908  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d           0.025  38.752  14.757  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d           0.501  40.812  15.159  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d           0.294  37.943  13.765  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -0.014  36.903  13.674  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d           4.991  34.111  13.689  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d           5.019  33.167  13.125  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d           5.298  33.926  14.728  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d           5.679  34.835  13.226  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d          -1.701  29.357  18.892  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d          -2.205  28.384  18.986  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d          -0.968  29.624  20.141  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d          -0.831  28.753  21.147  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d          -1.431  27.666  21.118  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d          -0.542  30.523  20.245  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d          -0.056  29.208  22.386  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d          -0.257  28.467  23.173  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           1.378  29.267  22.146  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           2.210  28.637  22.972  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           1.773  27.936  23.890  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           1.736  29.778  21.365  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           3.720  28.750  22.873  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           4.216  27.829  23.213  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           4.027  29.002  21.456  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           5.189  28.709  20.827  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           6.127  28.100  21.374  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           3.310  29.430  20.906  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           5.389  29.119  19.360  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           5.518  30.571  19.359  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           6.533  30.931  18.370  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           5.801  30.891  20.272  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           4.636  30.993  19.113  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           6.909  29.636  17.642  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           7.416  31.356  18.868  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d           6.127  31.663  17.656  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           6.676  28.594  18.733  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           6.259  29.460  16.773  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           7.960  29.647  17.317  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           6.538  27.589  18.309  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           7.502  28.576  19.459  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           4.525  28.792  18.764  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           4.115  29.921  23.759  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           4.528  29.528  24.699  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           3.217  30.519  23.975  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           5.142  30.808  23.114  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           6.452  30.625  23.170  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           6.973  31.639  22.542  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           6.954  29.844  23.616  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           6.027  32.436  22.090  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           8.041  31.805  22.408  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           4.862  31.962  22.418  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           3.884  32.384  22.192  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d          -0.419  30.620  22.944  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d          -0.184  31.355  22.160  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           0.218  30.803  23.821  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d          -1.924  30.861  23.388  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d          -2.563  30.893  22.494  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d          -2.412  29.800  24.371  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d          -2.644  30.275  25.336  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d          -1.627  29.044  24.514  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d          -3.317  29.319  23.972  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d          -2.063  32.133  24.209  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d          -2.900  32.024  24.915  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d          -2.256  32.983  23.538  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d          -1.133  32.311  24.769  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d          -2.774  30.458  18.619  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d          -2.392  31.407  19.023  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d          -3.690  30.173  19.157  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d          -3.125  30.679  17.248  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d          -3.501  31.546  17.155  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -4.8      4.112     10.986
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  33 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    2  A    between atoms: N_8  and  CA_9 
+REMARK    3  A    between atoms: CA_9  and  C_10 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_18 
+REMARK    5  A    between atoms: CB_12  and  CG_13 
+REMARK    6  A    between atoms: N_18  and  CA_19 
+REMARK    7  A    between atoms: CA_19  and  C_20 
+REMARK    8  A    between atoms: CA_19  and  CB_22 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK    9  A    between atoms: CB_22  and  CG_23 
+REMARK   10  A    between atoms: CG_23  and  CD1_24 
+REMARK   11  A    between atoms: CG_23  and  CD2_25 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+REMARK   14  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_32 
+REMARK   15  A    between atoms: CB_30  and  OG_31 
+REMARK   16  A    between atoms: N_32  and  C1_33 
+REMARK   17  A    between atoms: C1_33  and  C2_34 
+REMARK   18  A    between atoms: C1_33  and  C9_41 
+REMARK   19  A    between atoms: C2_34  and  C3_35 
+REMARK   20  A    between atoms: C9_41  and  N2_42 
+REMARK   21  A    between atoms: N2_42  and  C10_43 
+REMARK   22  A    between atoms: C10_43  and  C11_44 
+REMARK   23  A    between atoms: C10_43  and  C_48 
+REMARK   24  A    between atoms: C11_44  and  C12_45 
+REMARK   25  A    between atoms: C12_45  and  SD_46 
+REMARK   26  A    between atoms: SD_46  and  C13_47 
+REMARK       I    between atoms: C_48  and  N_50 
+REMARK   27  A    between atoms: N_50  and  CA_51 
+REMARK   28  A    between atoms: CA_51  and  C_52 
+REMARK   29  A    between atoms: CA_51  and  CB_54 
+REMARK       I    between atoms: C_52  and  N_55 
+REMARK   30  A    between atoms: N_55  and  CA_56 
+REMARK   31  A    between atoms: CA_56  and  C_57 
+REMARK   32  A    between atoms: CA_56  and  CB_59 
+REMARK   33  A    between atoms: CB_59  and  CG_60 
+ROOT
+ATOM      1  C   PRO d           3.212  28.641  20.409  0.00  0.00     0.242 C 
+ATOM      2  O   PRO d           2.065  29.041  20.700  0.00  0.00    -0.271 OA
+ATOM      3  N   PRO d           4.086  28.298  21.361  0.00  0.00    -0.353 N 
+ATOM      4  H33 PRO d           5.023  28.070  21.098  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C1  PRO d           3.716  28.246  22.770  0.00  0.00     0.039 C 
+ATOM      6  H34 PRO d           3.859  27.213  23.120  0.00  0.00     0.075 H 
+BRANCH   5   7
+ATOM      7  C2  PRO d           4.606  29.168  23.572  0.00  0.00    -0.021 C 
+ATOM      8  H35 PRO d           5.254  28.534  24.195  0.00  0.00     0.043 H 
+ATOM      9  H36 PRO d           3.952  29.771  24.218  0.00  0.00     0.043 H 
+BRANCH   7  10
+ATOM     10  C3  PRO d           5.511  30.135  22.813  0.00  0.00    -0.056 A 
+ATOM     11  C4  PRO d           4.999  31.400  22.502  0.00  0.00    -0.077 A 
+ATOM     12  C6  PRO d           5.795  32.325  21.829  0.00  0.00    -0.082 A 
+ATOM     13  H37 PRO d           3.985  31.660  22.785  0.00  0.00     0.084 H 
+ATOM     14  C8  PRO d           7.097  31.996  21.457  0.00  0.00    -0.083 A 
+ATOM     15  H39 PRO d           5.400  33.306  21.594  0.00  0.00     0.083 H 
+ATOM     16  C7  PRO d           7.602  30.736  21.757  0.00  0.00    -0.082 A 
+ATOM     17  H41 PRO d           7.714  32.720  20.936  0.00  0.00     0.083 H 
+ATOM     18  C5  PRO d           6.820  29.807  22.436  0.00  0.00    -0.077 A 
+ATOM     19  H40 PRO d           8.612  30.475  21.460  0.00  0.00     0.083 H 
+ATOM     20  H38 PRO d           7.224  28.829  22.672  0.00  0.00     0.084 H 
+ENDBRANCH   7  10
+ENDBRANCH   5   7
+BRANCH   5  21
+ATOM     21  C9  PRO d           2.267  28.650  23.036  0.00  0.00     0.101 C 
+ATOM     22  H42 PRO d           1.913  29.266  22.196  0.00  0.00     0.079 H 
+ATOM     23  H43 PRO d           2.231  29.240  23.964  0.00  0.00     0.079 H 
+BRANCH  21  24
+ATOM     24  N2  PRO d           1.390  27.514  23.176  0.00  0.00    -0.060 N 
+ATOM     25  H44 PRO d           1.950  26.723  23.452  0.00  0.00     0.278 HD
+ATOM     26  H45 PRO d           0.971  27.333  22.278  0.00  0.00     0.278 HD
+BRANCH  24  27
+ATOM     27  C10 PRO d           0.308  27.665  24.157  0.00  0.00     0.178 C 
+ATOM     28  H46 PRO d           0.706  27.403  25.148  0.00  0.00     0.099 H 
+BRANCH  27  29
+ATOM     29  C11 PRO d          -0.142  29.144  24.177  0.00  0.00    -0.022 C 
+ATOM     30  H47 PRO d          -1.239  29.149  24.092  0.00  0.00     0.037 H 
+ATOM     31  H48 PRO d           0.296  29.627  23.291  0.00  0.00     0.037 H 
+BRANCH  29  32
+ATOM     32  C12 PRO d           0.221  30.013  25.391  0.00  0.00    -0.021 C 
+ATOM     33  H49 PRO d           1.253  29.771  25.685  0.00  0.00     0.049 H 
+ATOM     34  H50 PRO d          -0.464  29.754  26.211  0.00  0.00     0.049 H 
+BRANCH  32  35
+ATOM     35  SD  PRO d           0.120  31.798  25.123  0.00  0.00    -0.173 SA
+BRANCH  35  36
+ATOM     36  C13 PRO d          -1.501  31.880  24.434  0.00  0.00    -0.035 C 
+ATOM     37  H51 PRO d          -1.431  32.039  23.349  0.00  0.00     0.041 H 
+ATOM     38  H52 PRO d          -2.052  32.715  24.892  0.00  0.00     0.041 H 
+ATOM     39  H53 PRO d          -2.033  30.938  24.633  0.00  0.00     0.041 H 
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+BRANCH  27  40
+ATOM     40  C   PRO d          -0.909  26.738  23.873  0.00  0.00     0.249 C 
+ATOM     41  O   PRO d          -1.928  27.210  23.342  0.00  0.00    -0.271 OA
+ATOM     42  N   PRO d          -0.821  25.429  24.105  0.00  0.00    -0.346 N 
+ATOM     43  H54 PRO d           0.056  25.024  24.364  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  PRO d          -2.003  24.588  23.981  0.00  0.00     0.086 C 
+ATOM     45  H55 PRO d          -2.028  23.757  24.701  0.00  0.00     0.086 H 
+BRANCH  44  46
+ATOM     46  C   PRO d          -1.745  24.141  22.543  0.00  0.00     0.240 C 
+ATOM     47  O   PRO d          -1.210  23.049  22.296  0.00  0.00    -0.271 OA
+ATOM     48  N   PRO d          -2.319  24.930  21.639  0.00  0.00    -0.344 N 
+ATOM     49  H59 PRO d          -2.803  25.746  21.954  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  PRO d          -2.270  24.653  20.211  0.00  0.00     0.101 C 
+ATOM     51  H60 PRO d          -2.289  23.566  20.050  0.00  0.00     0.090 H 
+BRANCH  50  52
+ATOM     52  C   PRO d          -0.986  25.211  19.606  0.00  0.00     0.197 C 
+ATOM     53  O   PRO d          -0.501  26.216  20.143  0.00  0.00    -0.646 OA
+ATOM     54  OXT PRO d          -0.468  24.569  18.687  0.00  0.00    -0.646 OA
+ENDBRANCH  50  52
+BRANCH  50  55
+ATOM     55  CB  PRO d          -3.534  25.283  19.563  0.00  0.00     0.003 C 
+ATOM     56  H61 PRO d          -4.406  24.739  19.955  0.00  0.00     0.046 H 
+ATOM     57  H62 PRO d          -3.458  25.120  18.477  0.00  0.00     0.046 H 
+BRANCH  55  58
+ATOM     58  CG  PRO d          -3.801  26.779  19.778  0.00  0.00     0.030 A 
+ATOM     59  ND1 PRO d          -3.571  27.799  18.951  0.00  0.00    -0.353 N 
+ATOM     60  CE1 PRO d          -3.889  28.913  19.572  0.00  0.00     0.063 A 
+ATOM     61  H63 PRO d          -3.206  27.727  17.991  0.00  0.00     0.166 HD
+ATOM     62  NE2 PRO d          -4.326  28.619  20.792  0.00  0.00    -0.254 NA
+ATOM     63  H65 PRO d          -3.808  29.916  19.154  0.00  0.00     0.143 H 
+ATOM     64  CD2 PRO d          -4.293  27.323  20.959  0.00  0.00     0.025 A 
+ATOM     65  H64 PRO d          -4.592  26.775  21.851  0.00  0.00     0.117 H 
+ENDBRANCH  55  58
+ENDBRANCH  50  55
+ENDBRANCH  48  50
+ENDBRANCH  44  46
+BRANCH  44  66
+ATOM     66  CB  PRO d          -3.273  25.414  24.074  0.00  0.00    -0.049 C 
+ATOM     67  H56 PRO d          -3.888  25.047  24.909  0.00  0.00     0.030 H 
+ATOM     68  H57 PRO d          -3.838  25.325  23.136  0.00  0.00     0.030 H 
+ATOM     69  H58 PRO d          -3.012  26.469  24.247  0.00  0.00     0.030 H 
+ENDBRANCH  44  66
+ENDBRANCH  42  44
+ENDBRANCH  27  40
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   1  70
+ATOM     70  CA  PRO d           3.723  28.534  18.961  0.00  0.00     0.109 C 
+ATOM     71  H29 PRO d           3.282  27.643  18.490  0.00  0.00     0.090 H 
+BRANCH  70  72
+ATOM     72  N   PRO d           3.322  29.719  18.186  0.00  0.00    -0.344 N 
+ATOM     73  C   PRO d           2.255  29.779  17.381  0.00  0.00     0.241 C 
+ATOM     74  O   PRO d           1.583  28.759  17.158  0.00  0.00    -0.271 OA
+ATOM     75  H28 PRO d           3.888  30.540  18.267  0.00  0.00     0.163 HD
+BRANCH  73  76
+ATOM     76  CA  PRO d           2.000  31.087  16.628  0.00  0.00     0.089 C 
+ATOM     77  H18 PRO d           1.727  31.838  17.384  0.00  0.00     0.087 H 
+BRANCH  76  78
+ATOM     78  N   PRO d           3.179  31.546  15.909  0.00  0.00    -0.346 N 
+ATOM     79  C   PRO d           3.520  32.831  15.957  0.00  0.00     0.241 C 
+ATOM     80  O   PRO d           2.895  33.621  16.671  0.00  0.00    -0.271 OA
+ATOM     81  H17 PRO d           3.729  30.899  15.382  0.00  0.00     0.163 HD
+BRANCH  79  82
+ATOM     82  CA  PRO d           4.655  33.419  15.138  0.00  0.00     0.094 C 
+ATOM     83  H11 PRO d           4.760  34.500  15.312  0.00  0.00     0.088 H 
+BRANCH  82  84
+ATOM     84  N   PRO d           5.878  32.714  15.553  0.00  0.00    -0.346 N 
+ATOM     85  C   PRO d           6.509  32.844  16.743  0.00  0.00     0.249 C 
+ATOM     86  O   PRO d           6.066  33.535  17.678  0.00  0.00    -0.271 OA
+ATOM     87  H10 PRO d           6.280  32.078  14.894  0.00  0.00     0.163 HD
+BRANCH  85  88
+ATOM     88  CA  PRO d           7.833  32.105  16.991  0.00  0.00     0.178 C 
+ATOM     89  N   PRO d           8.648  32.996  17.808  0.00  0.00    -0.062 N 
+ATOM     90  CD  PRO d           9.369  32.177  18.781  0.00  0.00     0.083 C 
+ATOM     91  H1  PRO d           8.057  33.658  18.287  0.00  0.00     0.278 HD
+ATOM     92  H2  PRO d           9.304  33.491  17.224  0.00  0.00     0.278 HD
+ATOM     93  CG  PRO d           9.083  30.716  18.418  0.00  0.00    -0.040 C 
+ATOM     94  H8  PRO d           9.012  32.392  19.799  0.00  0.00     0.075 H 
+ATOM     95  H9  PRO d          10.449  32.379  18.722  0.00  0.00     0.075 H 
+ATOM     96  CB  PRO d           7.691  30.822  17.802  0.00  0.00    -0.028 C 
+ATOM     97  H6  PRO d           9.816  30.333  17.692  0.00  0.00     0.035 H 
+ATOM     98  H7  PRO d           9.079  30.073  19.310  0.00  0.00     0.035 H 
+ATOM     99  H4  PRO d           7.467  29.959  17.158  0.00  0.00     0.036 H 
+ATOM    100  H5  PRO d           6.913  30.915  18.574  0.00  0.00     0.036 H 
+ATOM    101  H3  PRO d           8.319  31.884  16.030  0.00  0.00     0.099 H 
+ENDBRANCH  85  88
+ENDBRANCH  82  84
+BRANCH  82 102
+ATOM    102  CB  PRO d           4.308  33.150  13.682  0.00  0.00     0.002 C 
+ATOM    103  H12 PRO d           3.754  32.202  13.621  0.00  0.00     0.046 H 
+ATOM    104  H13 PRO d           5.240  33.068  13.106  0.00  0.00     0.046 H 
+BRANCH 102 105
+ATOM    105  CG  PRO d           3.466  34.240  13.083  0.00  0.00     0.030 A 
+ATOM    106  ND1 PRO d           3.924  35.393  12.620  0.00  0.00    -0.353 N 
+ATOM    107  CE1 PRO d           2.872  36.066  12.253  0.00  0.00     0.063 A 
+ATOM    108  H14 PRO d           4.908  35.694  12.561  0.00  0.00     0.166 HD
+ATOM    109  NE2 PRO d           1.779  35.362  12.464  0.00  0.00    -0.254 NA
+ATOM    110  H16 PRO d           2.893  37.069  11.831  0.00  0.00     0.143 H 
+ATOM    111  CD2 PRO d           2.093  34.212  12.980  0.00  0.00     0.025 A 
+ATOM    112  H15 PRO d           1.420  33.404  13.267  0.00  0.00     0.117 H 
+ENDBRANCH 102 105
+ENDBRANCH  82 102
+ENDBRANCH  79  82
+ENDBRANCH  76  78
+BRANCH  76 113
+ATOM    113  CB  PRO d           0.872  31.052  15.550  0.00  0.00    -0.035 C 
+ATOM    114  H19 PRO d           0.822  30.025  15.158  0.00  0.00     0.037 H 
+ATOM    115  H20 PRO d           1.164  31.739  14.743  0.00  0.00     0.037 H 
+BRANCH 113 116
+ATOM    116  CG  PRO d          -0.591  31.456  16.015  0.00  0.00    -0.059 C 
+ATOM    117  H21 PRO d          -0.804  32.482  15.682  0.00  0.00     0.038 H 
+BRANCH 116 118
+ATOM    118  CD1 PRO d          -1.649  30.483  15.504  0.00  0.00    -0.073 C 
+ATOM    119  H22 PRO d          -1.607  30.439  14.406  0.00  0.00     0.028 H 
+ATOM    120  H23 PRO d          -2.645  30.826  15.819  0.00  0.00     0.028 H 
+ATOM    121  H24 PRO d          -1.458  29.482  15.919  0.00  0.00     0.028 H 
+ENDBRANCH 116 118
+BRANCH 116 122
+ATOM    122  CD2 PRO d          -0.750  31.324  17.521  0.00  0.00    -0.073 C 
+ATOM    123  H25 PRO d          -1.819  31.263  17.774  0.00  0.00     0.028 H 
+ATOM    124  H26 PRO d          -0.306  32.202  18.015  0.00  0.00     0.028 H 
+ATOM    125  H27 PRO d          -0.239  30.413  17.865  0.00  0.00     0.028 H 
+ENDBRANCH 116 122
+ENDBRANCH 113 116
+ENDBRANCH  76 113
+ENDBRANCH  73  76
+ENDBRANCH  70  72
+BRANCH  70 126
+ATOM    126  CB  PRO d           5.277  28.374  18.988  0.00  0.00     0.044 C 
+ATOM    127  H30 PRO d           5.626  28.657  19.993  0.00  0.00     0.077 H 
+ATOM    128  H31 PRO d           5.698  29.068  18.246  0.00  0.00     0.077 H 
+BRANCH 126 129
+ATOM    129  OG  PRO d           5.788  27.068  18.701  0.00  0.00    -0.398 OA
+ATOM    130  H32 PRO d           6.329  27.105  17.922  0.00  0.00     0.209 HD
+ENDBRANCH 126 129
+ENDBRANCH  70 126
+ENDBRANCH   1  70
+TORSDOF 33
+ENDMDL

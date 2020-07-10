@@ -1,0 +1,1270 @@
+MODEL 1
+REMARK VINA RESULT:      -7.4      0.000      0.000
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.225   9.189 111.839  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          41.510   8.527 111.329  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          43.548   8.982 111.252  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          43.807   9.791 110.709  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          44.224   8.840 111.987  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          43.508   7.797 110.383  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          43.858   6.923 110.953  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          44.424   8.010 109.173  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          44.587   7.069 108.366  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          44.977   9.120 109.017  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          42.078   7.541 109.900  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          41.369   7.919 110.653  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          41.930   6.459 109.768  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          41.823   8.250 108.568  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          42.406   7.745 107.783  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          42.154   9.295 108.656  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.345   8.237 108.165  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          39.986   7.881 106.869  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          38.646   7.808 106.508  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          40.755   7.659 106.138  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          37.658   8.094 107.444  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          38.371   7.528 105.497  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          38.014   8.453 108.739  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          36.612   8.037 107.164  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          39.356   8.525 109.100  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          37.245   8.678 109.469  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          39.631   8.805 110.110  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          42.242   8.833 113.338  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          42.612   9.711 113.887  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          41.207   8.619 113.643  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          43.112   7.623 113.744  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          43.592   7.201 112.849  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          43.886   7.950 114.454  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          42.226   6.546 114.408  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          41.221   6.967 114.562  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          42.161   5.681 113.732  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          42.768   6.067 115.766  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          41.927   5.955 116.467  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          43.264   5.095 115.629  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          43.754   7.040 116.341  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          43.374   7.446 117.181  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          43.939   7.767 115.669  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          44.612   6.558 116.560  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          41.768  10.638 111.648  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          40.570  10.888 111.510  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          42.701  11.595 111.654  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          43.660  11.358 111.805  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          42.316  12.997 111.441  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          43.209  13.555 111.124  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          41.232  13.148 110.362  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          40.423  12.439 110.595  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          40.845  14.177 110.415  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          41.668  12.899 108.970  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          42.912  13.132 108.439  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.912  12.800 107.083  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          43.769  13.517 108.991  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          41.662  12.350 106.741  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          43.716  12.880 106.445  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          41.175  11.909 105.509  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          40.855  12.394 107.904  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          39.862  11.509 105.451  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          41.810  11.882 104.631  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          39.031  11.537 106.590  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          39.455  11.165 104.507  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          39.519  11.976 107.820  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          37.999  11.213 106.509  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          38.877  11.995 108.694  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          41.783  13.603 112.746  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          42.587  13.827 113.686  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          40.563  13.874 112.806  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -7.1      2.929      8.235
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.204   8.543 111.287  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          41.295   8.053 110.909  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          42.115   9.973 110.996  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          41.146  10.247 110.945  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          42.574  10.495 111.726  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          42.772  10.243 109.709  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          43.327   9.347 109.395  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          43.748  11.414 109.861  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          44.820  11.394 109.218  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          43.447  12.364 110.615  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          41.728  10.586 108.642  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          41.939  10.006 107.731  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          41.785  11.661 108.413  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          40.319  10.251 109.138  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          39.775  11.191 109.315  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          40.401   9.691 110.081  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          39.525   9.407 108.135  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          38.421   8.680 108.568  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          37.658   7.957 107.658  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          38.155   8.678 109.619  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          37.999   7.958 106.310  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          36.797   7.394 107.999  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          39.105   8.681 105.876  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          37.405   7.395 105.600  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          39.867   9.405 106.787  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          39.373   8.681 104.826  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          40.728   9.968 106.447  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          43.425   7.927 110.578  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          44.133   8.741 110.362  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          43.890   7.211 111.271  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          43.145   7.185 109.252  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          43.360   7.854 108.406  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          43.787   6.294 109.188  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          41.662   6.754 109.203  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          41.474   6.052 110.028  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          41.034   7.648 109.333  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          41.272   6.071 107.881  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          41.215   6.832 107.089  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          42.042   5.329 107.622  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          39.947   5.378 107.986  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          40.093   4.403 108.196  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          39.453   5.464 107.112  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          39.405   5.803 108.722  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          42.296   8.302 112.796  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          41.940   9.184 113.579  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          42.750   7.117 113.216  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.996   6.412 112.551  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          42.888   6.851 114.654  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          42.171   7.488 115.192  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          42.602   5.383 115.007  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          41.573   5.154 114.691  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          43.308   4.756 114.441  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          42.727   5.027 116.438  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          41.850   5.339 117.447  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.343   4.856 118.661  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          40.913   5.879 117.320  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          43.541   4.231 118.431  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          41.882   4.954 119.577  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.408   3.599 119.325  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.812   4.315 117.043  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          45.558   3.048 118.815  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          44.181   3.544 120.384  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          45.858   3.111 117.438  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          46.251   2.554 119.485  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          44.991   3.740 116.546  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          46.774   2.664 117.068  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          45.224   3.785 115.488  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          44.309   7.188 115.121  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          45.271   6.982 114.338  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          44.446   7.682 116.262  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -7.0      2.261      7.160
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          43.923  11.135 109.173  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          44.400  10.949 108.199  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          42.588  11.681 108.938  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          41.924  11.220 109.539  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          42.589  12.670 109.135  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          42.217  11.460 107.533  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          42.876  10.689 107.106  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          42.383  12.761 106.741  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          41.418  13.552 106.669  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          43.481  13.004 106.193  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          40.764  10.986 107.436  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          40.123  11.840 107.170  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          40.450  10.581 108.409  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          40.621   9.899 106.368  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          41.396  10.053 105.602  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          39.626   9.987 105.907  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.773   8.486 106.940  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          39.652   7.808 107.408  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          39.765   6.504 107.876  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          38.685   8.299 107.409  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          41.005   5.873 107.878  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          38.889   5.979 108.238  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          42.128   6.550 107.413  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          41.096   4.856 108.242  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          42.012   7.854 106.945  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          43.095   6.060 107.416  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          42.888   8.380 106.583  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          44.785  12.143 109.957  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          44.719  11.882 111.023  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          45.824  12.032 109.615  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          44.398  13.632 109.813  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          45.224  14.179 109.334  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          43.494  13.716 109.192  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          44.123  14.233 111.208  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          44.848  13.812 111.920  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          44.257  15.324 111.151  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          42.703  13.941 111.725  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          42.179  14.895 111.886  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          42.165  13.348 110.972  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          42.732  13.179 113.016  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          42.030  13.546 113.638  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          43.641  13.272 113.441  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          42.544  12.205 112.834  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          43.840   9.809 109.934  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          44.434   8.819 109.506  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          43.127   9.780 111.065  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.688  10.613 111.401  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          42.990   8.524 111.814  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          43.935   7.967 111.730  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          42.688   8.760 113.302  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          43.412   9.497 113.680  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          41.670   9.171 113.378  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          42.761   7.564 114.173  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          41.729   6.724 114.511  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.196   5.737 115.381  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          40.704   6.813 114.155  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          43.534   5.943 115.601  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          41.630   4.980 115.789  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.432   5.225 116.394  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.924   7.082 114.854  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          45.735   5.661 116.433  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          44.113   4.356 116.958  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          46.158   6.789 115.699  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          46.454   5.125 117.042  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          45.261   7.503 114.907  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          47.194   7.104 115.752  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          45.590   8.369 114.343  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          41.856   7.676 111.223  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          40.760   8.230 110.955  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          42.084   6.466 111.009  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -7.0      1.466      2.187
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.135   9.873 111.328  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          41.279   9.658 110.672  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          43.333   9.279 110.736  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          44.077   9.959 110.724  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          43.617   8.480 111.281  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          43.030   8.855 109.362  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          42.259   8.071 109.390  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          44.294   8.295 108.701  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          45.319   9.009 108.655  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          44.273   7.136 108.233  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          42.510  10.040 108.543  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          43.358  10.680 108.255  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          41.805  10.621 109.155  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          41.796   9.552 107.280  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          42.405   8.762 106.814  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          41.695  10.397 106.583  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.402   8.988 107.571  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          39.976   7.835 106.920  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          38.737   7.279 107.218  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          40.612   7.367 106.178  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          37.917   7.879 108.168  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          38.409   6.380 106.710  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          38.341   9.034 108.818  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          36.951   7.447 108.402  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          39.581   9.587 108.519  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          37.702   9.504 109.557  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          39.909  10.488 109.026  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          41.860   9.258 112.713  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          42.389   9.866 113.461  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          40.777   9.313 112.895  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          42.296   7.789 112.908  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          41.454   7.123 112.667  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          43.142   7.566 112.242  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          42.724   7.565 114.375  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          43.819   7.471 114.410  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          42.413   8.438 114.967  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          42.105   6.303 115.002  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          41.060   6.216 114.670  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          42.672   5.423 114.665  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          42.137   6.358 116.500  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          42.210   5.423 116.869  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          41.290   6.788 116.838  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          42.932   6.901 116.799  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          42.287  11.392 111.448  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          43.406  11.902 111.377  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          41.179  12.122 111.609  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          40.284  11.676 111.626  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          41.276  13.580 111.763  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          42.330  13.869 111.647  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          40.441  14.335 110.716  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          39.378  14.181 110.958  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          40.685  15.404 110.798  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          40.650  13.928 109.308  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          39.686  13.564 108.401  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          40.291  13.215 107.192  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          38.615  13.551 108.594  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          41.648  13.355 107.323  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          39.798  12.902 106.343  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          42.666  13.124 106.394  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          41.911  13.806 108.639  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          43.960  13.349 106.800  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          42.444  12.780 105.391  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          44.256  13.801 108.102  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          44.771  13.175 106.102  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          43.239  14.034 109.027  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          45.289  13.971 108.388  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          43.471  14.383 110.027  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          40.791  13.999 113.156  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          39.556  14.115 113.361  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          41.654  14.184 114.042  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.8      2.855      8.494
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.803   9.497 111.546  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          43.615  10.234 111.464  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          42.409   9.090 110.198  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          42.842   9.700 109.521  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          42.704   8.141 110.032  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          40.947   9.179 110.077  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          40.515   9.362 111.072  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          40.391   7.864 109.520  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          41.109   6.841 109.557  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          39.232   7.844 109.052  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          40.561  10.330 109.143  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          40.487  11.260 109.728  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          39.587  10.110 108.681  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          41.611  10.509 108.044  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          41.118  10.400 107.066  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          42.377   9.729 108.159  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          42.295  11.879 108.098  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          43.507  12.018 108.766  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          44.167  13.241 108.773  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          43.938  11.169 109.284  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          43.614  14.332 108.111  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          45.112  13.344 109.293  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          42.401  14.196 107.445  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          44.128  15.287 108.115  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          41.742  12.971 107.438  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          41.968  15.046 106.931  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          40.797  12.867 106.919  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          41.615  10.154 112.275  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          40.786  10.237 111.558  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          41.321   9.491 113.101  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          41.868  11.559 112.867  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          41.365  11.640 113.842  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          42.949  11.712 112.999  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          41.309  12.633 111.908  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          41.210  12.191 110.906  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          40.319  12.945 112.271  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          42.207  13.879 111.805  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          42.839  13.790 110.909  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          41.569  14.771 111.718  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          43.087  14.027 113.009  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          43.870  14.620 112.782  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          43.424  13.120 113.293  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          42.559  14.440 113.762  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          43.313   8.297 112.347  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          43.873   7.367 111.765  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          43.145   8.310 113.673  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.718   9.099 114.114  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          43.588   7.166 114.481  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          44.505   6.759 114.029  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          43.889   7.559 115.936  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          44.524   8.458 115.918  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          42.933   7.796 116.426  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          44.576   6.533 116.752  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          45.930   6.335 116.863  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          46.176   5.245 117.700  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          46.695   6.935 116.373  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          44.975   4.742 118.130  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          47.105   4.879 117.952  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.707   3.661 118.974  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.947   5.530 117.558  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          43.391   3.374 119.241  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          45.509   3.071 119.403  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          42.342   4.140 118.690  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          43.152   2.540 119.890  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          42.610   5.219 117.850  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          41.314   3.886 118.924  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          41.802   5.807 117.430  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          42.508   6.076 114.492  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          41.324   6.396 114.768  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          42.854   4.911 114.198  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.7      2.591      7.986
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.526   9.382 111.450  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          43.321   9.979 110.978  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          41.702   8.794 110.395  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          40.957   8.256 110.809  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          41.310   9.527 109.825  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          42.539   7.918 109.563  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          43.259   7.392 110.208  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          43.303   8.756 108.532  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          42.827   9.855 108.175  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          44.386   8.325 108.081  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          41.670   6.887 108.837  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          40.637   6.960 109.208  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          42.062   5.878 109.039  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          41.682   7.138 107.327  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          41.854   6.181 106.812  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          42.501   7.834 107.092  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.367   7.739 106.819  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          40.396   8.838 105.967  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          39.214   9.357 105.451  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          41.345   9.293 105.704  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          37.996   8.777 105.790  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          39.241  10.212 104.787  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          37.965   7.679 106.644  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          37.073   9.179 105.388  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          39.149   7.161 107.157  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          37.016   7.227 106.909  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          39.122   6.306 107.823  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          41.676  10.311 112.338  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          40.620  10.153 112.075  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          41.842  10.018 113.385  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          41.968  11.824 112.222  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          41.019  12.381 112.227  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          42.585  12.144 113.074  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          42.723  12.107 110.904  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          43.659  12.633 111.144  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          42.956  11.147 110.422  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          41.917  12.968 109.916  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          41.207  13.590 110.482  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          42.610  13.616 109.360  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          41.154  12.122 108.942  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          41.438  11.160 109.038  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          41.344  12.437 108.003  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          40.167  12.202 109.130  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          43.177   8.290 112.302  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          43.956   7.491 111.781  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          42.883   8.254 113.606  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.274   8.941 114.000  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          43.456   7.204 114.458  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          44.392   6.856 113.995  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          43.767   7.707 115.877  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          44.317   8.656 115.785  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          42.810   7.886 116.388  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          44.571   6.796 116.723  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          45.939   6.760 116.831  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          46.312   5.735 117.702  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          46.628   7.428 116.315  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          45.179   5.112 118.158  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          47.279   5.489 117.960  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          45.041   4.037 119.040  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          44.065   5.755 117.566  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          43.768   3.609 119.325  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          45.908   3.559 119.483  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          42.635   4.229 118.756  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          43.629   2.775 120.004  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          42.775   5.302 117.878  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          41.644   3.866 119.005  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          41.902   5.777 117.444  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          42.483   6.023 114.571  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          41.314   6.236 114.979  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          42.894   4.894 114.224  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.3      2.776      8.427
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          41.510   8.578 111.591  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          40.804   7.830 111.202  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          40.898   9.900 111.469  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          40.177   9.875 110.765  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          40.495  10.168 112.354  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          41.929  10.874 111.084  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          42.919  10.399 111.164  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          41.875  12.085 112.021  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          41.490  13.184 111.565  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          42.208  11.945 113.218  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          41.710  11.336 109.641  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          42.585  11.056 109.035  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          41.588  12.430 109.626  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          40.458  10.683 109.049  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          39.749  11.474 108.763  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          40.002  10.039 109.815  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.765   9.831 107.813  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          41.670  10.295 106.864  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          42.002   9.507 105.768  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          42.117  11.275 106.979  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          41.426   8.250 105.617  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          42.708   9.871 105.031  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          40.519   7.785 106.564  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          41.684   7.633 104.764  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          40.190   8.574 107.660  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          40.069   6.806 106.447  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          39.482   8.210 108.397  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          42.806   8.509 110.759  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          42.891   9.448 110.193  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          43.649   8.426 111.460  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          42.912   7.342 109.753  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          43.351   6.466 110.254  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          41.909   7.087 109.381  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          43.810   7.760 108.568  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          44.563   6.974 108.405  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          43.182   7.856 107.670  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          44.541   9.094 108.801  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          44.623   9.627 107.842  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          43.958   9.700 109.509  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          45.916   8.881 109.359  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          46.214   9.713 109.843  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          46.556   8.682 108.606  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          45.900   8.105 110.001  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          41.807   8.251 113.056  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          41.394   8.997 113.945  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          42.502   7.140 113.322  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.790   6.540 112.577  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          42.841   6.801 114.711  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          42.145   7.334 115.376  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          42.730   5.294 114.989  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          41.766   4.947 114.586  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          43.552   4.792 114.459  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          42.796   4.894 116.413  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          41.872   5.163 117.392  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.318   4.647 118.610  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          40.935   5.696 117.241  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          43.533   4.043 118.413  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          41.817   4.710 119.508  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.368   3.392 119.324  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.863   4.175 117.042  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          45.546   2.871 118.848  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          44.096   3.301 120.370  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          45.905   2.981 117.488  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          46.216   2.363 119.532  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          45.070   3.630 116.579  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          46.842   2.557 117.145  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          45.348   3.711 115.534  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          44.275   7.243 115.029  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          45.132   7.232 114.109  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          44.523   7.622 116.194  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.0      2.611      7.999
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          42.648   9.440 111.176  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          43.350  10.287 111.161  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          42.422   9.002 109.800  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          42.186   9.797 109.227  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          43.258   8.566 109.443  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          41.316   8.034 109.779  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          41.162   7.643 110.796  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          41.658   6.874 108.838  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          40.975   5.828 108.895  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          42.604   7.004 108.031  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          40.027   8.712 109.303  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          40.062   9.780 109.567  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          39.166   8.239 109.798  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          39.873   8.573 107.786  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          38.841   8.260 107.564  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          40.575   7.805 107.430  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.158   9.881 107.041  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          39.182  10.870 106.986  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          39.448  12.084 106.364  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          38.208  10.693 107.429  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          40.696  12.312 105.793  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          38.685  12.853 106.324  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          41.673  11.324 105.845  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          40.906  13.259 105.308  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          41.405  10.110 106.468  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          42.645  11.500 105.398  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          42.167   9.341 106.507  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          41.326   9.909 111.813  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          40.521   9.729 111.085  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          41.152   9.300 112.711  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          41.257  11.395 112.231  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          40.244  11.626 112.595  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          41.986  11.584 113.033  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          41.584  12.291 111.016  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          42.152  11.697 110.286  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          40.638  12.623 110.562  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          42.412  13.534 111.385  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          43.270  13.607 110.700  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          41.781  14.428 111.280  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          42.920  13.461 112.794  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          42.140  13.463 113.433  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          43.509  14.257 112.980  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          43.452  12.614 112.915  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          43.262   8.313 112.010  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          43.942   7.446 111.459  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          43.049   8.321 113.329  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.522   9.061 113.746  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          43.589   7.242 114.167  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          44.487   6.840 113.675  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          43.976   7.730 115.572  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          44.620   8.614 115.456  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          43.051   8.016 116.096  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          44.694   6.752 116.420  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          46.050   6.540 116.471  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          46.328   5.507 117.367  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          46.794   7.094 115.900  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          45.147   5.054 117.896  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          47.266   5.145 117.594  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.913   4.039 118.826  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          44.098   5.817 117.326  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          43.610   3.791 119.184  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          45.730   3.467 119.252  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          42.542   4.534 118.638  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          43.397   3.007 119.901  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          42.776   5.548 117.711  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          41.525   4.313 118.944  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          41.953   6.118 117.295  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          42.555   6.119 114.317  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          42.901   4.936 114.073  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          41.407   6.433 114.703  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.8      2.413      7.554
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          40.589   9.138 108.558  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          39.947   8.404 108.049  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          40.107  10.479 108.232  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          39.466  10.790 108.945  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          40.888  11.116 108.181  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          39.419  10.441 106.934  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          38.675  11.251 106.898  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          38.707   9.095 106.763  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          38.968   8.396 105.760  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          37.890   8.724 107.634  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          40.424  10.633 105.794  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          40.046  10.131 104.891  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          41.388  10.189 106.084  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          40.624  12.121 105.497  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          39.640  12.613 105.481  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          41.101  12.222 104.510  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          41.504  12.819 106.539  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          40.933  13.721 107.430  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          41.708  14.317 108.418  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          39.879  13.962 107.353  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          43.062  14.011 108.517  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          41.259  15.018 109.112  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          43.635  13.111 107.625  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          43.668  14.474 109.287  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          42.858  12.516 106.638  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          44.691  12.874 107.700  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          43.307  11.815 105.943  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          42.036   8.953 108.060  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          42.376   9.917 107.652  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          42.656   8.682 108.926  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          42.253   7.879 106.971  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          41.527   8.031 106.158  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          43.274   7.964 106.571  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          42.055   6.474 107.582  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          42.683   5.760 107.029  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          42.373   6.503 108.635  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          40.596   5.987 107.524  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          39.935   6.804 107.849  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          40.354   5.709 106.488  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          40.375   4.800 108.411  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          41.048   4.084 108.188  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          39.444   4.442 108.267  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          40.483   5.076 109.374  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          40.516   8.888 110.066  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          39.425   8.908 110.637  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          41.657   8.634 110.716  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          42.519   8.590 110.212  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          41.642   8.420 112.169  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          40.796   7.761 112.412  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          42.936   7.766 112.677  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          43.219   6.978 111.963  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          43.719   8.540 112.699  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          42.865   7.155 114.024  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          41.738   6.723 114.677  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.085   6.243 115.941  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          40.728   6.751 114.272  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          43.441   6.366 116.100  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          41.431   5.860 116.639  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.250   6.026 117.187  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.966   6.932 114.912  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          45.599   6.262 117.074  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          43.829   5.593 118.087  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          46.155   6.821 115.905  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          46.251   6.011 117.903  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          45.347   7.157 114.820  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          47.225   6.992 115.849  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          45.778   7.586 113.922  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          41.462   9.758 112.899  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          40.506   9.886 113.706  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          42.297  10.661 112.674  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -5.7      2.405      5.651
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI LSW d          39.691   9.313 108.860  0.00  0.00     0.179 C 
+ATOM      2  H32 LSW d          39.348   8.271 108.780  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   LSW d          38.717  10.174 108.191  0.00  0.00    -0.048 N 
+ATOM      4  H1  LSW d          37.925  10.321 108.796  0.00  0.00     0.279 HD
+ATOM      5  H2  LSW d          39.144  11.061 107.973  0.00  0.00     0.279 HD
+BRANCH   3   6
+ATOM      6  CA  LSW d          38.274   9.524 106.949  0.00  0.00     0.185 C 
+ATOM      7  H3  LSW d          37.293   9.931 106.662  0.00  0.00     0.101 H 
+BRANCH   6   8
+ATOM      8  C   LSW d          38.147   8.013 107.170  0.00  0.00     0.204 C 
+ATOM      9  O   LSW d          37.673   7.598 108.249  0.00  0.00    -0.646 OA
+ATOM     10  OXT LSW d          38.512   7.233 106.264  0.00  0.00    -0.646 OA
+ENDBRANCH   6   8
+BRANCH   6  11
+ATOM     11  CB  LSW d          39.277   9.791 105.823  0.00  0.00    -0.025 C 
+ATOM     12  H4  LSW d          38.984   9.213 104.934  0.00  0.00     0.037 H 
+ATOM     13  H5  LSW d          40.279   9.478 106.150  0.00  0.00     0.037 H 
+BRANCH  11  14
+ATOM     14  CAT LSW d          39.306  11.280 105.468  0.00  0.00    -0.039 C 
+ATOM     15  H25 LSW d          38.322  11.717 105.700  0.00  0.00     0.040 H 
+ATOM     16  H26 LSW d          39.508  11.382 104.392  0.00  0.00     0.040 H 
+BRANCH  14  17
+ATOM     17  CBD LSW d          40.379  12.051 106.243  0.00  0.00    -0.058 A 
+ATOM     18  CAL LSW d          41.713  11.946 105.863  0.00  0.00    -0.077 A 
+ATOM     19  CAH LSW d          42.689  12.685 106.520  0.00  0.00    -0.082 A 
+ATOM     20  H14 LSW d          41.992  11.285 105.050  0.00  0.00     0.084 H 
+ATOM     21  CAG LSW d          42.334  13.532 107.564  0.00  0.00    -0.083 A 
+ATOM     22  H10 LSW d          43.727  12.602 106.219  0.00  0.00     0.083 H 
+ATOM     23  CAI LSW d          41.001  13.636 107.948  0.00  0.00    -0.082 A 
+ATOM     24  H9  LSW d          43.094  14.110 108.077  0.00  0.00     0.083 H 
+ATOM     25  CAM LSW d          40.025  12.897 107.289  0.00  0.00    -0.077 A 
+ATOM     26  H11 LSW d          40.723  14.295 108.763  0.00  0.00     0.083 H 
+ATOM     27  H15 LSW d          38.987  12.979 107.590  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  CAU LSW d          41.068   9.431 108.178  0.00  0.00    -0.030 C 
+ATOM     29  H27 LSW d          40.970  10.145 107.347  0.00  0.00     0.036 H 
+ATOM     30  H28 LSW d          41.776   9.825 108.920  0.00  0.00     0.036 H 
+BRANCH  28  31
+ATOM     31  CAS LSW d          41.662   8.124 107.607  0.00  0.00    -0.061 C 
+ATOM     32  H23 LSW d          41.335   7.998 106.564  0.00  0.00     0.033 H 
+ATOM     33  H24 LSW d          42.761   8.176 107.642  0.00  0.00     0.033 H 
+BRANCH  31  34
+ATOM     34  CAR LSW d          41.177   6.923 108.447  0.00  0.00    -0.043 C 
+ATOM     35  H21 LSW d          41.795   6.858 109.355  0.00  0.00     0.035 H 
+ATOM     36  H22 LSW d          40.128   7.095 108.730  0.00  0.00     0.035 H 
+BRANCH  34  37
+ATOM     37  CAQ LSW d          41.268   5.582 107.698  0.00  0.00     0.080 C 
+ATOM     38  H19 LSW d          41.198   5.772 106.616  0.00  0.00     0.075 H 
+ATOM     39  H20 LSW d          42.235   5.111 107.926  0.00  0.00     0.075 H 
+BRANCH  37  40
+ATOM     40  NAA LSW d          40.166   4.648 108.100  0.00  0.00    -0.079 N 
+ATOM     41  H6  LSW d          40.436   4.149 108.932  0.00  0.00     0.274 HD
+ATOM     42  H7  LSW d          39.994   3.992 107.355  0.00  0.00     0.274 HD
+ATOM     43  H8  LSW d          39.328   5.178 108.282  0.00  0.00     0.274 HD
+ENDBRANCH  37  40
+ENDBRANCH  34  37
+ENDBRANCH  31  34
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   1  44
+ATOM     44  CBC LSW d          39.806   9.675 110.343  0.00  0.00     0.249 C 
+ATOM     45  OAD LSW d          39.111   9.086 111.172  0.00  0.00    -0.271 OA
+ATOM     46  NAX LSW d          40.684  10.622 110.690  0.00  0.00    -0.344 N 
+ATOM     47  H31 LSW d          41.256  11.053 109.994  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  CBJ LSW d          40.806  11.028 112.097  0.00  0.00     0.100 C 
+ATOM     49  H33 LSW d          39.813  10.960 112.563  0.00  0.00     0.090 H 
+BRANCH  48  50
+ATOM     50  CAW LSW d          41.780  10.134 112.881  0.00  0.00    -0.011 C 
+ATOM     51  H29 LSW d          42.596  10.771 113.255  0.00  0.00     0.044 H 
+ATOM     52  H30 LSW d          41.231   9.703 113.732  0.00  0.00     0.044 H 
+BRANCH  50  53
+ATOM     53  CBE LSW d          42.387   9.019 112.120  0.00  0.00    -0.028 A 
+ATOM     54  CAP LSW d          42.207   7.675 112.337  0.00  0.00    -0.015 A 
+ATOM     55  NXZ LSW d          42.981   6.947 111.432  0.00  0.00    -0.365 N 
+ATOM     56  H18 LSW d          41.559   7.244 113.099  0.00  0.00     0.112 H 
+ATOM     57  CBF LSW d          43.660   7.826 110.628  0.00  0.00     0.042 A 
+ATOM     58  H34 LSW d          43.033   5.920 111.377  0.00  0.00     0.165 HD
+ATOM     59  CAN LSW d          44.553   7.578 109.584  0.00  0.00    -0.056 A 
+ATOM     60  CBG LSW d          43.308   9.138 111.030  0.00  0.00    -0.002 A 
+ATOM     61  CAJ LSW d          45.096   8.664 108.940  0.00  0.00    -0.081 A 
+ATOM     62  H16 LSW d          44.809   6.566 109.291  0.00  0.00     0.086 H 
+ATOM     63  CAK LSW d          44.765   9.984 109.311  0.00  0.00    -0.082 A 
+ATOM     64  H12 LSW d          45.794   8.502 108.127  0.00  0.00     0.083 H 
+ATOM     65  CAO LSW d          43.872  10.230 110.353  0.00  0.00    -0.070 A 
+ATOM     66  H13 LSW d          45.210  10.817 108.780  0.00  0.00     0.083 H 
+ATOM     67  H17 LSW d          43.618  11.246 110.635  0.00  0.00     0.084 H 
+ENDBRANCH  50  53
+ENDBRANCH  48  50
+BRANCH  48  68
+ATOM     68  CBB LSW d          41.305  12.476 112.188  0.00  0.00     0.197 C 
+ATOM     69  OAC LSW d          40.879  13.319 111.358  0.00  0.00    -0.646 OA
+ATOM     70  OAF LSW d          42.103  12.761 113.108  0.00  0.00    -0.646 OA
+ENDBRANCH  48  68
+ENDBRANCH  46  48
+ENDBRANCH   1  44
+TORSDOF 16
+ENDMDL

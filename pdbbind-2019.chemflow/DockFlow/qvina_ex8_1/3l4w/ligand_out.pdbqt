@@ -1,0 +1,64 @@
+MODEL 1
+REMARK VINA RESULT:      -5.9      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAF_6  and  OAA_1 
+REMARK    2  A    between atoms: CAG_7  and  OAB_2 
+REMARK    3  A    between atoms: CAJ_10  and  OAC_3 
+REMARK    4  A    between atoms: CAK_11  and  OAD_4 
+REMARK    5  A    between atoms: CAL_12  and  OAE_5 
+REMARK    6  A    between atoms: CAH_8  and  CAF_6 
+REMARK    7  A    between atoms: CAM_13  and  CAG_7 
+REMARK    8  A    between atoms: NAN_14  and  CAH_8 
+ROOT
+ATOM      1  CAI MIG d          45.295  91.382  33.518  0.00  0.00     0.110 C 
+ATOM      2  CAJ MIG d          46.406  92.416  33.223  0.00  0.00     0.086 C 
+ATOM      3  CAK MIG d          47.236  92.702  34.481  0.00  0.00     0.088 C 
+ATOM      4  CAL MIG d          46.290  93.196  35.593  0.00  0.00     0.092 C 
+ATOM      5  CAM MIG d          45.155  92.176  35.843  0.00  0.00     0.151 C 
+ATOM      6  NAN MIG d          44.441  91.956  34.546  0.00  0.00    -0.058 N 
+ATOM      7  H12 MIG d          45.739  90.442  33.877  0.00  0.00     0.080 H 
+ATOM      8  H13 MIG d          44.710  91.186  32.607  0.00  0.00     0.080 H 
+ATOM      9  H14 MIG d          45.926  93.359  32.926  0.00  0.00     0.089 H 
+ATOM     10  H15 MIG d          47.724  91.768  34.798  0.00  0.00     0.091 H 
+ATOM     11  H16 MIG d          45.835  94.150  35.287  0.00  0.00     0.090 H 
+ATOM     12  H17 MIG d          45.586  91.229  36.201  0.00  0.00     0.092 H 
+ATOM     13  H18 MIG d          44.208  92.880  34.217  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   6  14
+ATOM     14  CAH MIG d          43.146  91.249  34.660  0.00  0.00     0.103 C 
+ATOM     15  H10 MIG d          42.573  91.700  35.484  0.00  0.00     0.079 H 
+ATOM     16  H11 MIG d          42.594  91.376  33.718  0.00  0.00     0.079 H 
+BRANCH  14  17
+ATOM     17  CAF MIG d          43.298  89.751  34.936  0.00  0.00     0.039 C 
+ATOM     18  H6  MIG d          44.340  89.436  34.777  0.00  0.00     0.076 H 
+ATOM     19  H7  MIG d          42.998  89.520  35.969  0.00  0.00     0.076 H 
+BRANCH  17  20
+ATOM     20  OAA MIG d          42.436  89.095  34.011  0.00  0.00    -0.399 OA
+ATOM     21  H1  MIG d          42.491  88.155  34.140  0.00  0.00     0.209 HD
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH   6  14
+BRANCH   5  22
+ATOM     22  CAG MIG d          44.148  92.697  36.875  0.00  0.00     0.046 C 
+ATOM     23  H8  MIG d          43.307  91.993  36.957  0.00  0.00     0.077 H 
+ATOM     24  H9  MIG d          44.641  92.796  37.853  0.00  0.00     0.077 H 
+BRANCH  22  25
+ATOM     25  OAB MIG d          43.658  93.994  36.443  0.00  0.00    -0.399 OA
+ATOM     26  H2  MIG d          43.033  94.324  37.078  0.00  0.00     0.209 HD
+ENDBRANCH  22  25
+ENDBRANCH   5  22
+BRANCH   2  27
+ATOM     27  OAC MIG d          47.191  91.963  32.125  0.00  0.00    -0.391 OA
+ATOM     28  H3  MIG d          47.874  92.597  31.943  0.00  0.00     0.210 HD
+ENDBRANCH   2  27
+BRANCH   4  29
+ATOM     29  OAE MIG d          47.084  93.414  36.745  0.00  0.00    -0.391 OA
+ATOM     30  H5  MIG d          47.746  94.067  36.552  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+BRANCH   3  31
+ATOM     31  OAD MIG d          48.254  93.710  34.279  0.00  0.00    -0.390 OA
+ATOM     32  H4  MIG d          48.732  93.843  35.090  0.00  0.00     0.210 HD
+ENDBRANCH   3  31
+TORSDOF 8
+ENDMDL

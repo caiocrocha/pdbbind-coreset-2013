@@ -1,0 +1,35 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C0_1  and  C1_2 
+REMARK    2  A    between atoms: C0_1  and  N1_3 
+ROOT
+ATOM      1  C1  ESI d           8.431   0.485  25.391  0.00  0.00     0.049 A 
+ATOM      2  S2  ESI d           9.358   0.911  23.953  0.00  0.00    -0.086 SA
+ATOM      3  C3  ESI d           9.353   2.609  24.281  0.00  0.00     0.017 A 
+ATOM      4  C4  ESI d           8.653   2.807  25.462  0.00  0.00    -0.001 A 
+ATOM      5  C5  ESI d           8.163   1.670  26.044  0.00  0.00    -0.050 A 
+ATOM      6  C6  ESI d           9.899   3.653  23.570  0.00  0.00    -0.066 A 
+ATOM      7  C7  ESI d           9.744   4.938  24.064  0.00  0.00    -0.080 A 
+ATOM      8  C8  ESI d           9.056   5.152  25.245  0.00  0.00    -0.066 A 
+ATOM      9  C9  ESI d           8.507   4.103  25.960  0.00  0.00     0.018 A 
+ATOM     10  I9  ESI d           7.581   4.613  27.694  0.00  0.00    -0.044 I 
+ATOM     11  H5  ESI d           7.592   1.700  26.971  0.00  0.00     0.087 H 
+ATOM     12  H6  ESI d          10.438   3.474  22.646  0.00  0.00     0.085 H 
+ATOM     13  H7  ESI d          10.164   5.779  23.524  0.00  0.00     0.083 H 
+ATOM     14  H8  ESI d           8.944   6.163  25.619  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  15
+ATOM     15  C0  ESI d           8.111  -0.816  25.720  0.00  0.00     0.109 C 
+ATOM     16  N2  ESI d           8.644  -1.735  24.970  0.00  0.00    -0.385 N 
+ATOM     17  H3  ESI d           9.263  -1.470  24.191  0.00  0.00     0.157 HD
+ATOM     18  H4  ESI d           8.449  -2.729  25.156  0.00  0.00     0.157 HD
+BRANCH  15  19
+ATOM     19  N1  ESI d           7.318  -1.037  26.727  0.00  0.00    -0.385 N 
+ATOM     20  H1  ESI d           7.070  -2.003  26.986  0.00  0.00     0.157 HD
+ATOM     21  H2  ESI d           6.939  -0.246  27.267  0.00  0.00     0.157 HD
+ENDBRANCH  15  19
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL

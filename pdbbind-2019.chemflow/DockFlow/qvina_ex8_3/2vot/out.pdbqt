@@ -1,0 +1,438 @@
+MODEL 1
+REMARK VINA RESULT:      -6.7      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          32.484  49.392  -5.146  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          31.467  49.394  -6.316  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          31.352  48.022  -7.032  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          31.892  48.406  -4.214  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          31.486  48.527  -2.937  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          30.833  47.344  -2.641  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          30.935  46.504  -3.709  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          31.543  47.224  -4.677  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          31.801  46.863  -6.124  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          33.457  49.018  -5.497  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          30.477  49.639  -5.903  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          32.016  48.038  -7.909  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          31.639  49.378  -2.274  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          32.888  46.770  -6.265  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          30.237  47.007  -1.313  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          30.445  47.826  -0.609  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          30.694  46.078  -0.941  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          28.794  46.821  -1.409  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          28.401  45.941  -1.043  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          27.916  47.735  -1.952  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          27.599  47.737  -3.319  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          26.689  48.700  -3.829  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          28.047  47.006  -3.982  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          26.082  49.663  -2.997  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          26.453  48.695  -4.887  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          26.399  49.674  -1.622  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          25.384  50.384  -3.408  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          27.312  48.713  -1.124  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          25.952  50.406  -0.959  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          27.558  48.726  -0.069  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          32.715  50.805  -4.571  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          33.256  51.413  -5.311  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          31.742  51.272  -4.354  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          33.477  50.735  -3.377  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          33.628  49.824  -3.152  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          31.248  45.549  -6.354  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          31.868  45.029  -6.851  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          31.831  50.410  -7.253  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          32.156  51.170  -6.785  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          30.009  47.825  -7.491  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          29.825  46.895  -7.537  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.0      3.283      5.986
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          27.502  48.469  -2.548  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          27.843  48.583  -1.040  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          28.444  47.280  -0.447  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          28.830  48.227  -3.155  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          29.521  48.919  -4.080  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          30.778  48.343  -4.112  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          30.793  47.268  -3.276  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          29.589  47.271  -2.662  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          29.084  46.398  -1.534  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          26.860  47.593  -2.722  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          28.591  49.380  -0.922  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          27.626  46.706   0.013  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          29.165  49.757  -4.679  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          28.275  45.766  -1.927  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          31.886  48.763  -5.022  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          32.827  48.313  -4.672  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          31.973  49.860  -4.998  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          31.639  48.337  -6.394  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          31.881  48.995  -7.149  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          31.105  47.118  -6.756  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          31.915  46.033  -7.124  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          31.315  44.799  -7.489  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          32.994  46.137  -7.128  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          29.916  44.624  -7.491  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          31.950  43.968  -7.775  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          29.092  45.711  -7.130  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          29.481  43.670  -7.765  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          29.699  46.939  -6.772  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          28.013  45.608  -7.126  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          29.065  47.774  -6.500  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          26.740  49.706  -3.069  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          27.219  50.617  -2.681  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          26.773  49.715  -4.169  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          25.388  49.671  -2.642  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          25.358  49.670  -1.692  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          30.153  45.503  -1.158  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          30.393  45.662  -0.253  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          26.666  48.955  -0.319  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          26.217  49.650  -0.786  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          29.393  47.607   0.575  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          30.190  47.109   0.437  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.9      2.969      5.938
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          28.118  47.539  -2.822  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          27.476  48.169  -1.560  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          28.065  47.620  -0.233  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          29.531  47.965  -2.705  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          30.309  48.691  -3.529  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          31.467  48.946  -2.817  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          31.401  48.298  -1.621  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          30.165  47.756  -1.570  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          29.476  47.039  -0.430  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          28.065  46.442  -2.761  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          27.668  49.252  -1.589  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          27.412  46.807   0.119  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          30.075  49.012  -4.543  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          29.333  45.988  -0.723  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          32.645  49.699  -3.345  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          33.445  49.685  -2.591  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          32.345  50.738  -3.544  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          33.147  49.106  -4.578  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          34.162  49.143  -4.747  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          32.363  48.499  -5.537  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          31.669  49.239  -6.506  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          30.874  48.565  -7.471  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          31.740  50.321  -6.518  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          30.761  47.161  -7.491  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          30.340  49.147  -8.213  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          31.449  46.407  -6.516  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          30.155  46.668  -8.242  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          32.235  47.088  -5.555  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          31.378  45.325  -6.504  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          32.759  46.507  -4.805  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          27.394  47.961  -4.118  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          28.130  48.051  -4.931  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          26.647  47.197  -4.382  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          26.744  49.208  -3.937  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          26.277  49.439  -4.732  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          30.383  47.027   0.693  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          30.638  46.132   0.884  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          26.062  47.959  -1.597  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          25.873  47.050  -1.395  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          28.068  48.653   0.759  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          28.938  48.728   1.134  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.6      1.463      3.236
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          30.050  47.022  -5.591  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          31.541  47.158  -5.996  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          32.100  48.593  -5.802  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          30.085  47.338  -4.145  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          29.718  46.616  -3.070  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          30.162  47.332  -1.973  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          30.705  48.505  -2.401  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          30.691  48.439  -3.751  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          31.287  49.389  -4.765  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          29.449  47.781  -6.113  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          32.127  46.482  -5.356  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          32.025  49.121  -6.765  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          29.183  45.667  -3.066  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          30.462  49.858  -5.321  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          29.949  46.930  -0.550  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          30.677  47.457   0.083  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          30.102  45.844  -0.458  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          28.603  47.259  -0.098  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          28.306  46.898   0.820  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          27.698  48.019  -0.809  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          27.402  49.344  -0.455  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          26.461  50.084  -1.219  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          27.890  49.801   0.399  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          25.810  49.527  -2.338  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          26.238  51.106  -0.935  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          26.095  48.192  -2.699  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          25.102  50.113  -2.912  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          27.030  47.461  -1.927  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          25.607  47.735  -3.552  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          27.244  46.435  -2.203  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          29.469  45.641  -5.962  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          28.694  45.366  -5.231  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          29.023  45.694  -6.967  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          30.489  44.656  -5.954  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          31.292  45.037  -5.617  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          31.943  50.451  -4.040  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          32.715  50.107  -3.607  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          31.697  46.747  -7.356  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          31.066  46.065  -7.554  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          33.482  48.528  -5.433  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          33.834  49.409  -5.371  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.6      1.884      3.561
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          29.798  46.306  -5.850  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          31.064  45.840  -6.614  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          31.754  46.980  -7.409  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          30.348  47.298  -4.899  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          30.323  47.345  -3.554  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          31.165  48.385  -3.204  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          31.609  48.995  -4.337  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          31.128  48.254  -5.359  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          31.404  48.368  -6.842  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          29.108  46.812  -6.542  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          31.786  45.466  -5.873  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          31.391  46.940  -8.447  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          29.757  46.700  -2.883  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          30.474  48.674  -7.342  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          31.426  48.836  -1.803  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          32.020  49.761  -1.830  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          31.991  48.053  -1.275  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          30.184  49.091  -1.085  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          30.110  49.973  -0.558  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          29.100  48.238  -1.058  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          29.118  47.038  -0.333  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          27.975  46.195  -0.339  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          30.000  46.755   0.230  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          26.808  46.529  -1.054  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          28.001  45.267   0.222  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          26.782  47.732  -1.793  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          25.945  45.874  -1.037  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          27.928  48.563  -1.785  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          25.900  48.014  -2.356  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          27.907  49.484  -2.357  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          29.030  45.125  -5.220  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          28.345  44.698  -5.967  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          29.748  44.356  -4.898  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          28.281  45.565  -4.098  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          28.867  45.963  -3.465  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          32.342  49.449  -7.032  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          32.194  50.115  -6.371  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          30.716  44.767  -7.491  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          29.855  44.927  -7.859  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          33.171  46.772  -7.423  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          33.354  45.842  -7.371  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.6      2.076      4.280
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C20_22  and  O2B_8 
+REMARK    6  A    between atoms: C7B_11  and  C7_14 
+REMARK    7  A    between atoms: C7_14  and  N1_15 
+REMARK    8  A    between atoms: N1_15  and  C1_16 
+ROOT
+ATOM      1  C5B NHV d          29.724  46.662  -5.959  0.00  0.00     0.065 C 
+ATOM      2  C4B NHV d          30.922  46.288  -5.048  0.00  0.00     0.085 C 
+ATOM      3  C3B NHV d          31.870  47.483  -4.760  0.00  0.00     0.093 C 
+ATOM      4  N1B NHV d          29.006  47.666  -5.143  0.00  0.00    -0.332 N 
+ATOM      5  C8B NHV d          27.747  47.686  -4.667  0.00  0.00     0.007 A 
+ATOM      6  C7B NHV d          27.692  48.766  -3.806  0.00  0.00     0.069 A 
+ATOM      7  N2B NHV d          28.884  49.424  -3.846  0.00  0.00    -0.234 NA
+ATOM      8  C1B NHV d          29.684  48.676  -4.637  0.00  0.00     0.138 A 
+ATOM      9  C20 NHV d          31.157  48.836  -4.939  0.00  0.00     0.119 C 
+ATOM     10  H4  NHV d          30.090  47.140  -6.880  0.00  0.00     0.080 H 
+ATOM     11  H5  NHV d          30.517  45.942  -4.085  0.00  0.00     0.090 H 
+ATOM     12  H7  NHV d          32.699  47.441  -5.481  0.00  0.00     0.091 H 
+ATOM     13  H10 NHV d          26.940  46.995  -4.910  0.00  0.00     0.114 H 
+ATOM     14  H19 NHV d          31.263  49.095  -6.002  0.00  0.00     0.099 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C7  NHV d          26.472  49.204  -3.063  0.00  0.00     0.034 C 
+ATOM     16  H11 NHV d          25.602  48.654  -3.449  0.00  0.00     0.073 H 
+ATOM     17  H12 NHV d          26.324  50.283  -3.223  0.00  0.00     0.073 H 
+BRANCH  15  18
+ATOM     18  N1  NHV d          26.598  48.949  -1.634  0.00  0.00    -0.384 N 
+ATOM     19  H13 NHV d          25.995  49.491  -0.997  0.00  0.00     0.160 HD
+BRANCH  18  20
+ATOM     20  C1  NHV d          27.464  48.037  -1.069  0.00  0.00     0.028 A 
+ATOM     21  C6  NHV d          27.137  46.678  -0.952  0.00  0.00    -0.058 A 
+ATOM     22  C5  NHV d          28.065  45.779  -0.362  0.00  0.00    -0.081 A 
+ATOM     23  H14 NHV d          26.179  46.316  -1.309  0.00  0.00     0.086 H 
+ATOM     24  C4  NHV d          29.321  46.210   0.110  0.00  0.00    -0.083 A 
+ATOM     25  H15 NHV d          27.800  44.731  -0.272  0.00  0.00     0.083 H 
+ATOM     26  C3  NHV d          29.657  47.576   0.002  0.00  0.00    -0.081 A 
+ATOM     27  H16 NHV d          30.016  45.504   0.549  0.00  0.00     0.083 H 
+ATOM     28  C2  NHV d          28.724  48.466  -0.582  0.00  0.00    -0.058 A 
+ATOM     29  H17 NHV d          30.615  47.938   0.360  0.00  0.00     0.083 H 
+ATOM     30  H18 NHV d          28.982  49.515  -0.659  0.00  0.00     0.086 H 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH   6  15
+BRANCH   1  31
+ATOM     31  C6B NHV d          28.902  45.426  -6.380  0.00  0.00     0.038 C 
+ATOM     32  H2  NHV d          28.852  44.720  -5.537  0.00  0.00     0.077 H 
+ATOM     33  H3  NHV d          27.885  45.743  -6.654  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O6B NHV d          29.507  44.784  -7.491  0.00  0.00    -0.399 OA
+ATOM     35  H1  NHV d          30.432  44.658  -7.317  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   1  31
+BRANCH   9  36
+ATOM     36  O2B NHV d          31.638  49.974  -4.193  0.00  0.00    -0.385 OA
+ATOM     37  H9  NHV d          31.678  50.732  -4.765  0.00  0.00     0.210 HD
+ENDBRANCH   9  36
+BRANCH   2  38
+ATOM     38  O4B NHV d          31.650  45.213  -5.646  0.00  0.00    -0.391 OA
+ATOM     39  H6  NHV d          32.475  45.540  -5.984  0.00  0.00     0.210 HD
+ENDBRANCH   2  38
+BRANCH   3  40
+ATOM     40  O3B NHV d          32.416  47.360  -3.441  0.00  0.00    -0.390 OA
+ATOM     41  H8  NHV d          33.300  47.017  -3.497  0.00  0.00     0.210 HD
+ENDBRANCH   3  40
+TORSDOF 8
+ENDMDL

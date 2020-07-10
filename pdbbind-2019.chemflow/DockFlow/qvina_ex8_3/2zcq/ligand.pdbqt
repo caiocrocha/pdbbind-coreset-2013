@@ -1,0 +1,70 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_6  and  OAS_7 
+REMARK    2  A    between atoms: OAS_7  and  CAV_8 
+REMARK    3  A    between atoms: CAT_13  and  CAQ_14 
+REMARK    4  A    between atoms: CAQ_14  and  CAP_15 
+REMARK    5  A    between atoms: CAP_15  and  CAR_16 
+REMARK    6  A    between atoms: CAR_16  and  CAW_17 
+REMARK    7  A    between atoms: CAW_17  and  PAX_18 
+REMARK    8  A    between atoms: CAW_17  and  SAY_22 
+ROOT
+ATOM      1  CAV B65 d          15.613  52.542  38.892  0.00  0.00     0.076 A 
+ATOM      2  CAO B65 d          15.999  51.969  37.682  0.00  0.00    -0.044 A 
+ATOM      3  CAN B65 d          16.233  52.144  40.070  0.00  0.00    -0.050 A 
+ATOM      4  CAJ B65 d          17.226  51.173  40.030  0.00  0.00    -0.080 A 
+ATOM      5  CAK B65 d          17.602  50.594  38.820  0.00  0.00    -0.077 A 
+ATOM      6  CAT B65 d          16.983  50.995  37.641  0.00  0.00    -0.056 A 
+ATOM      7  H6  B65 d          15.524  52.289  36.762  0.00  0.00     0.088 H 
+ATOM      8  H7  B65 d          15.944  52.589  41.015  0.00  0.00     0.087 H 
+ATOM      9  H8  B65 d          17.712  50.863  40.948  0.00  0.00     0.083 H 
+ATOM     10  H9  B65 d          18.374  49.834  38.798  0.00  0.00     0.084 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  CAQ B65 d          17.331  50.343  36.298  0.00  0.00    -0.041 C 
+ATOM     12  H10 B65 d          16.433  50.334  35.663  0.00  0.00     0.040 H 
+ATOM     13  H11 B65 d          17.662  49.310  36.479  0.00  0.00     0.040 H 
+BRANCH  11  14
+ATOM     14  CAP B65 d          18.445  51.101  35.572  0.00  0.00    -0.059 C 
+ATOM     15  H12 B65 d          18.120  52.134  35.378  0.00  0.00     0.033 H 
+ATOM     16  H13 B65 d          18.667  50.601  34.617  0.00  0.00     0.033 H 
+BRANCH  14  17
+ATOM     17  CAR B65 d          19.700  51.116  36.444  0.00  0.00    -0.034 C 
+ATOM     18  H14 B65 d          19.924  50.085  36.757  0.00  0.00     0.036 H 
+ATOM     19  H15 B65 d          19.504  51.734  37.332  0.00  0.00     0.036 H 
+BRANCH  17  20
+ATOM     20  CAW B65 d          20.921  51.682  35.713  0.00  0.00     0.169 C 
+ATOM     21  H16 B65 d          20.698  52.712  35.399  0.00  0.00     0.090 H 
+BRANCH  20  22
+ATOM     22  PAX B65 d          21.318  50.687  34.219  0.00  0.00     0.281 P 
+ATOM     23  OAB B65 d          22.821  51.064  33.784  0.00  0.00    -0.639 OA
+ATOM     24  OAC B65 d          21.342  49.151  34.706  0.00  0.00    -0.639 OA
+ATOM     25  OAA B65 d          20.350  50.909  33.119  0.00  0.00    -0.639 OA
+ENDBRANCH  20  22
+BRANCH  20  26
+ATOM     26  SAY B65 d          22.351  51.706  36.853  0.00  0.00     0.119 S 
+ATOM     27  OAF B65 d          23.526  52.092  36.133  0.00  0.00    -0.594 OA
+ATOM     28  OAE B65 d          22.558  50.341  37.435  0.00  0.00    -0.594 OA
+ATOM     29  OAD B65 d          22.082  52.671  37.974  0.00  0.00    -0.594 OA
+ENDBRANCH  20  26
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+BRANCH   1  30
+ATOM     30  OAS B65 d          14.550  53.387  38.870  0.00  0.00    -0.311 OA
+BRANCH  30  31
+ATOM     31  CAU B65 d          14.448  54.258  39.915  0.00  0.00     0.076 A 
+ATOM     32  CAL B65 d          15.065  55.496  39.851  0.00  0.00    -0.050 A 
+ATOM     33  CAH B65 d          14.805  56.445  40.843  0.00  0.00    -0.080 A 
+ATOM     34  H1  B65 d          15.744  55.727  39.038  0.00  0.00     0.087 H 
+ATOM     35  CAG B65 d          13.936  56.149  41.887  0.00  0.00    -0.083 A 
+ATOM     36  H2  B65 d          15.283  57.417  40.798  0.00  0.00     0.083 H 
+ATOM     37  CAI B65 d          13.324  54.906  41.949  0.00  0.00    -0.080 A 
+ATOM     38  H3  B65 d          13.737  56.890  42.653  0.00  0.00     0.083 H 
+ATOM     39  CAM B65 d          13.584  53.956  40.962  0.00  0.00    -0.050 A 
+ATOM     40  H4  B65 d          12.646  54.674  42.762  0.00  0.00     0.083 H 
+ATOM     41  H5  B65 d          13.112  52.981  41.011  0.00  0.00     0.087 H 
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+TORSDOF 8

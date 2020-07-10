@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  O7_5 
+REMARK    2  A    between atoms: C2_3  and  O2_6 
+REMARK    3  A    between atoms: C3_7  and  O3_8 
+REMARK    4  A    between atoms: C4_9  and  O4_10 
+REMARK    5  A    between atoms: C5_11  and  C6_12 
+REMARK    6  A    between atoms: C6_12  and  O6_13 
+ROOT
+ATOM      1  C1  GOX d           0.125  11.460  10.317  0.00  0.00     0.159 C 
+ATOM      2  N1  GOX d           0.503  11.359  11.576  0.00  0.00    -0.120 NA
+ATOM      3  C2  GOX d           1.174  12.121   9.402  0.00  0.00     0.121 C 
+ATOM      4  N5  GOX d          -1.135  10.980   9.907  0.00  0.00    -0.365 N 
+ATOM      5  C3  GOX d           0.539  12.404   8.043  0.00  0.00     0.094 C 
+ATOM      6  C4  GOX d          -0.266  11.190   7.569  0.00  0.00     0.084 C 
+ATOM      7  C5  GOX d          -1.514  11.124   8.495  0.00  0.00     0.058 C 
+ATOM      8  H1  GOX d           2.014  11.424   9.265  0.00  0.00     0.099 H 
+ATOM      9  H2  GOX d          -1.776  10.538  10.582  0.00  0.00     0.161 HD
+ATOM     10  H5  GOX d          -0.125  13.278   8.111  0.00  0.00     0.091 H 
+ATOM     11  H7  GOX d           0.332  10.274   7.682  0.00  0.00     0.090 H 
+ATOM     12  H9  GOX d          -2.083  12.056   8.366  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   7  13
+ATOM     13  C6  GOX d          -2.428   9.926   8.164  0.00  0.00     0.038 C 
+ATOM     14  H10 GOX d          -2.697   9.963   7.098  0.00  0.00     0.077 H 
+ATOM     15  H11 GOX d          -3.340   9.991   8.775  0.00  0.00     0.077 H 
+BRANCH  13  16
+ATOM     16  O6  GOX d          -1.779   8.699   8.433  0.00  0.00    -0.399 OA
+ATOM     17  H12 GOX d          -2.363   7.980   8.221  0.00  0.00     0.209 HD
+ENDBRANCH  13  16
+ENDBRANCH   7  13
+BRANCH   6  18
+ATOM     18  O4  GOX d          -0.638  11.332   6.203  0.00  0.00    -0.391 OA
+ATOM     19  H8  GOX d           0.144  11.409   5.669  0.00  0.00     0.210 HD
+ENDBRANCH   6  18
+BRANCH   5  20
+ATOM     20  O3  GOX d           1.610  12.670   7.140  0.00  0.00    -0.390 OA
+ATOM     21  H6  GOX d           1.257  12.852   6.277  0.00  0.00     0.210 HD
+ENDBRANCH   5  20
+BRANCH   2  22
+ATOM     22  O7  GOX d          -0.361  10.742  12.484  0.00  0.00    -0.265 OA
+ATOM     23  H3  GOX d           0.037  10.739  13.347  0.00  0.00     0.247 HD
+ENDBRANCH   2  22
+BRANCH   3  24
+ATOM     24  O2  GOX d           1.670  13.310   9.968  0.00  0.00    -0.385 OA
+ATOM     25  H4  GOX d           2.077  13.116  10.804  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+TORSDOF 6

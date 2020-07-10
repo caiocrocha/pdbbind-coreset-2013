@@ -1,0 +1,195 @@
+MODEL 1
+REMARK VINA RESULT:      -7.8      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C10_3 
+REMARK       I    between atoms: C9_2  and  N2_4 
+REMARK    2  A    between atoms: N2_4  and  C5_5 
+REMARK    3  A    between atoms: C6_6  and  O6_7 
+REMARK    4  A    between atoms: C4_8  and  O4_9 
+REMARK    5  A    between atoms: C3_10  and  O3_11 
+REMARK    6  A    between atoms: C2_12  and  C8_13 
+REMARK    7  A    between atoms: C8_13  and  O8_14 
+ROOT
+ATOM      1  C5  HQ6 d           7.891 -11.640   3.873  0.00  0.00     0.065 C 
+ATOM      2  C6  HQ6 d           7.233 -13.071   3.889  0.00  0.00     0.080 C 
+ATOM      3  C4  HQ6 d           7.475 -10.630   2.779  0.00  0.00     0.084 C 
+ATOM      4  C3  HQ6 d           6.412 -11.042   1.746  0.00  0.00     0.091 C 
+ATOM      5  C2  HQ6 d           5.043 -11.411   2.381  0.00  0.00     0.149 C 
+ATOM      6  N1  HQ6 d           5.086 -12.816   2.782  0.00  0.00    -0.064 N 
+ATOM      7  C7  HQ6 d           5.702 -13.105   4.049  0.00  0.00     0.108 C 
+ATOM      8  H5  HQ6 d           8.934 -11.885   3.621  0.00  0.00     0.080 H 
+ATOM      9  H6  HQ6 d           7.669 -13.599   4.750  0.00  0.00     0.088 H 
+ATOM     10  H8  HQ6 d           7.082  -9.742   3.296  0.00  0.00     0.090 H 
+ATOM     11  H10 HQ6 d           6.779 -11.952   1.249  0.00  0.00     0.090 H 
+ATOM     12  H12 HQ6 d           4.836 -10.751   3.237  0.00  0.00     0.091 H 
+ATOM     13  H16 HQ6 d           5.594 -13.321   2.073  0.00  0.00     0.277 HD
+ATOM     14  H17 HQ6 d           4.136 -13.153   2.819  0.00  0.00     0.277 HD
+ATOM     15  H18 HQ6 d           5.393 -12.353   4.790  0.00  0.00     0.079 H 
+ATOM     16  H19 HQ6 d           5.390 -14.104   4.390  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  N2  HQ6 d           8.003 -10.874   5.125  0.00  0.00    -0.352 N 
+ATOM     18  C9  HQ6 d           6.906 -10.310   5.884  0.00  0.00     0.214 C 
+ATOM     19  O9  HQ6 d           5.804 -10.203   5.369  0.00  0.00    -0.274 OA
+ATOM     20  H4  HQ6 d           8.924 -10.730   5.486  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  C10 HQ6 d           7.212  -9.873   7.327  0.00  0.00    -0.003 C 
+ATOM     22  H1  HQ6 d           6.655  -8.953   7.557  0.00  0.00     0.040 H 
+ATOM     23  H2  HQ6 d           8.291  -9.685   7.432  0.00  0.00     0.040 H 
+ATOM     24  H3  HQ6 d           6.909 -10.669   8.023  0.00  0.00     0.040 H 
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH   2  25
+ATOM     25  O6  HQ6 d           7.519 -13.836   2.700  0.00  0.00    -0.392 OA
+ATOM     26  H7  HQ6 d           8.454 -13.819   2.531  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O4  HQ6 d           8.668 -10.273   2.077  0.00  0.00    -0.391 OA
+ATOM     28  H9  HQ6 d           8.482 -10.213   1.148  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   4  29
+ATOM     29  O3  HQ6 d           6.308 -10.042   0.758  0.00  0.00    -0.391 OA
+ATOM     30  H11 HQ6 d           5.493  -9.566   0.875  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+BRANCH   5  31
+ATOM     31  C8  HQ6 d           3.889 -11.352   1.348  0.00  0.00     0.046 C 
+ATOM     32  H13 HQ6 d           4.117 -10.590   0.588  0.00  0.00     0.077 H 
+ATOM     33  H14 HQ6 d           2.952 -11.089   1.861  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O8  HQ6 d           3.744 -12.614   0.719  0.00  0.00    -0.399 OA
+ATOM     35  H15 HQ6 d           2.851 -12.920   0.830  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   5  31
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.9      1.368      1.395
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C10_3 
+REMARK       I    between atoms: C9_2  and  N2_4 
+REMARK    2  A    between atoms: N2_4  and  C5_5 
+REMARK    3  A    between atoms: C6_6  and  O6_7 
+REMARK    4  A    between atoms: C4_8  and  O4_9 
+REMARK    5  A    between atoms: C3_10  and  O3_11 
+REMARK    6  A    between atoms: C2_12  and  C8_13 
+REMARK    7  A    between atoms: C8_13  and  O8_14 
+ROOT
+ATOM      1  C5  HQ6 d           6.983 -11.100   4.003  0.00  0.00     0.065 C 
+ATOM      2  C6  HQ6 d           7.302 -12.643   4.007  0.00  0.00     0.080 C 
+ATOM      3  C4  HQ6 d           6.120 -10.510   2.865  0.00  0.00     0.084 C 
+ATOM      4  C3  HQ6 d           5.577 -11.449   1.773  0.00  0.00     0.091 C 
+ATOM      5  C2  HQ6 d           4.656 -12.572   2.326  0.00  0.00     0.149 C 
+ATOM      6  N1  HQ6 d           5.498 -13.686   2.758  0.00  0.00    -0.064 N 
+ATOM      7  C7  HQ6 d           6.083 -13.582   4.068  0.00  0.00     0.108 C 
+ATOM      8  H5  HQ6 d           7.981 -10.673   3.825  0.00  0.00     0.080 H 
+ATOM      9  H6  HQ6 d           7.909 -12.828   4.905  0.00  0.00     0.088 H 
+ATOM     10  H8  HQ6 d           5.245 -10.040   3.337  0.00  0.00     0.090 H 
+ATOM     11  H10 HQ6 d           6.444 -11.953   1.320  0.00  0.00     0.090 H 
+ATOM     12  H12 HQ6 d           4.044 -12.182   3.154  0.00  0.00     0.091 H 
+ATOM     13  H16 HQ6 d           6.251 -13.776   2.094  0.00  0.00     0.277 HD
+ATOM     14  H17 HQ6 d           4.933 -14.521   2.740  0.00  0.00     0.277 HD
+ATOM     15  H18 HQ6 d           5.341 -13.175   4.771  0.00  0.00     0.079 H 
+ATOM     16  H19 HQ6 d           6.403 -14.577   4.408  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  N2  HQ6 d           6.537 -10.445   5.245  0.00  0.00    -0.352 N 
+ATOM     18  C9  HQ6 d           7.218 -10.480   6.522  0.00  0.00     0.214 C 
+ATOM     19  O9  HQ6 d           8.095 -11.306   6.721  0.00  0.00    -0.274 OA
+ATOM     20  H4  HQ6 d           5.683  -9.927   5.201  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  C10 HQ6 d           6.779  -9.443   7.572  0.00  0.00    -0.003 C 
+ATOM     22  H1  HQ6 d           7.649  -9.139   8.172  0.00  0.00     0.040 H 
+ATOM     23  H2  HQ6 d           6.017  -9.888   8.229  0.00  0.00     0.040 H 
+ATOM     24  H3  HQ6 d           6.356  -8.564   7.064  0.00  0.00     0.040 H 
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH   2  25
+ATOM     25  O6  HQ6 d           8.062 -13.063   2.855  0.00  0.00    -0.392 OA
+ATOM     26  H7  HQ6 d           7.467 -13.282   2.148  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O4  HQ6 d           6.911  -9.500   2.234  0.00  0.00    -0.391 OA
+ATOM     28  H9  HQ6 d           6.845  -9.590   1.291  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   4  29
+ATOM     29  O3  HQ6 d           4.964 -10.684   0.761  0.00  0.00    -0.391 OA
+ATOM     30  H11 HQ6 d           5.393  -9.838   0.701  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+BRANCH   5  31
+ATOM     31  C8  HQ6 d           3.762 -13.187   1.219  0.00  0.00     0.046 C 
+ATOM     32  H13 HQ6 d           3.194 -12.386   0.722  0.00  0.00     0.077 H 
+ATOM     33  H14 HQ6 d           3.063 -13.905   1.672  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O8  HQ6 d           4.570 -13.853   0.265  0.00  0.00    -0.399 OA
+ATOM     35  H15 HQ6 d           5.474 -13.583   0.374  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   5  31
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.4      1.993      3.211
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C10_3 
+REMARK       I    between atoms: C9_2  and  N2_4 
+REMARK    2  A    between atoms: N2_4  and  C5_5 
+REMARK    3  A    between atoms: C6_6  and  O6_7 
+REMARK    4  A    between atoms: C4_8  and  O4_9 
+REMARK    5  A    between atoms: C3_10  and  O3_11 
+REMARK    6  A    between atoms: C2_12  and  C8_13 
+REMARK    7  A    between atoms: C8_13  and  O8_14 
+ROOT
+ATOM      1  C5  HQ6 d           5.884 -10.910   3.614  0.00  0.00     0.065 C 
+ATOM      2  C6  HQ6 d           6.050 -10.295   2.174  0.00  0.00     0.080 C 
+ATOM      3  C4  HQ6 d           5.507 -12.402   3.759  0.00  0.00     0.084 C 
+ATOM      4  C3  HQ6 d           5.322 -13.254   2.491  0.00  0.00     0.091 C 
+ATOM      5  C2  HQ6 d           6.596 -13.329   1.606  0.00  0.00     0.149 C 
+ATOM      6  N1  HQ6 d           6.614 -12.162   0.726  0.00  0.00    -0.064 N 
+ATOM      7  C7  HQ6 d           7.129 -10.941   1.286  0.00  0.00     0.108 C 
+ATOM      8  H5  HQ6 d           4.993 -10.377   3.976  0.00  0.00     0.080 H 
+ATOM      9  H6  HQ6 d           6.328  -9.241   2.321  0.00  0.00     0.088 H 
+ATOM     10  H8  HQ6 d           6.307 -12.880   4.343  0.00  0.00     0.090 H 
+ATOM     11  H10 HQ6 d           4.548 -12.763   1.882  0.00  0.00     0.090 H 
+ATOM     12  H12 HQ6 d           7.494 -13.371   2.241  0.00  0.00     0.091 H 
+ATOM     13  H16 HQ6 d           5.666 -11.986   0.430  0.00  0.00     0.277 HD
+ATOM     14  H17 HQ6 d           7.179 -12.393  -0.077  0.00  0.00     0.277 HD
+ATOM     15  H18 HQ6 d           8.020 -11.161   1.892  0.00  0.00     0.079 H 
+ATOM     16  H19 HQ6 d           7.400 -10.250   0.474  0.00  0.00     0.079 H 
+ENDROOT
+BRANCH   1  17
+ATOM     17  N2  HQ6 d           6.900 -10.637   4.645  0.00  0.00    -0.352 N 
+ATOM     18  C9  HQ6 d           6.644 -10.283   6.025  0.00  0.00     0.214 C 
+ATOM     19  O9  HQ6 d           5.529  -9.915   6.361  0.00  0.00    -0.274 OA
+ATOM     20  H4  HQ6 d           7.858 -10.701   4.364  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  C10 HQ6 d           7.827 -10.397   7.003  0.00  0.00    -0.003 C 
+ATOM     22  H1  HQ6 d           8.267 -11.403   6.930  0.00  0.00     0.040 H 
+ATOM     23  H2  HQ6 d           7.472 -10.226   8.030  0.00  0.00     0.040 H 
+ATOM     24  H3  HQ6 d           8.588  -9.645   6.748  0.00  0.00     0.040 H 
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+BRANCH   2  25
+ATOM     25  O6  HQ6 d           4.832 -10.335   1.401  0.00  0.00    -0.392 OA
+ATOM     26  H7  HQ6 d           4.104 -10.062   1.946  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O4  HQ6 d           4.291 -12.445   4.510  0.00  0.00    -0.391 OA
+ATOM     28  H9  HQ6 d           3.593 -12.047   4.003  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   4  29
+ATOM     29  O3  HQ6 d           4.825 -14.523   2.849  0.00  0.00    -0.391 OA
+ATOM     30  H11 HQ6 d           4.313 -14.449   3.646  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+BRANCH   5  31
+ATOM     31  C8  HQ6 d           6.554 -14.532   0.629  0.00  0.00     0.046 C 
+ATOM     32  H13 HQ6 d           6.646 -15.469   1.199  0.00  0.00     0.077 H 
+ATOM     33  H14 HQ6 d           7.389 -14.454  -0.083  0.00  0.00     0.077 H 
+BRANCH  31  34
+ATOM     34  O8  HQ6 d           5.328 -14.532  -0.080  0.00  0.00    -0.399 OA
+ATOM     35  H15 HQ6 d           5.199 -13.683  -0.487  0.00  0.00     0.209 HD
+ENDBRANCH  31  34
+ENDBRANCH   5  31
+TORSDOF 7
+ENDMDL

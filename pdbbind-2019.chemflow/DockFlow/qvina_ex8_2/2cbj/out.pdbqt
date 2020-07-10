@@ -1,0 +1,81 @@
+MODEL 1
+REMARK VINA RESULT:      -8.5      0.000      0.000
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_1  and  CAG_2 
+REMARK       I    between atoms: CAG_2  and  NAI_4 
+REMARK    2  A    between atoms: NAI_4  and  CAB_5 
+REMARK    3  A    between atoms: CAC_6  and  OAJ_7 
+REMARK    4  A    between atoms: CAD_8  and  OAK_9 
+REMARK    5  A    between atoms: CAE_10  and  CAF_11 
+REMARK    6  A    between atoms: CAF_11  and  OAM_12 
+REMARK    7  A    between atoms: NAY_15  and  OAQ_16 
+REMARK    8  A    between atoms: OAQ_16  and  CAP_17 
+REMARK       I    between atoms: CAP_17  and  NAO_19 
+REMARK    9  A    between atoms: NAO_19  and  CAS_20 
+ROOT
+ATOM      1  CAB OAN d          33.088  42.369  21.423  0.00  0.00     0.105 C 
+ATOM      2  CAC OAN d          32.509  42.671  22.840  0.00  0.00     0.089 C 
+ATOM      3  CAD OAN d          31.059  42.238  22.954  0.00  0.00     0.090 C 
+ATOM      4  CAE OAN d          30.989  40.713  22.750  0.00  0.00     0.094 C 
+ATOM      5  OAL OAN d          31.448  40.418  21.405  0.00  0.00    -0.324 OA
+ATOM      6  CAA OAN d          32.307  41.246  20.728  0.00  0.00     0.194 C 
+ATOM      7  NAY OAN d          32.433  41.082  19.402  0.00  0.00    -0.100 NA
+ATOM      8  H5  OAN d          32.984  43.274  20.807  0.00  0.00     0.090 H 
+ATOM      9  H6  OAN d          33.096  42.101  23.575  0.00  0.00     0.090 H 
+ATOM     10  H8  OAN d          30.467  42.738  22.173  0.00  0.00     0.091 H 
+ATOM     11  H10 OAN d          31.700  40.273  23.465  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  NAI OAN d          34.529  42.068  21.552  0.00  0.00    -0.347 N 
+ATOM     13  CAG OAN d          35.036  41.107  22.339  0.00  0.00     0.214 C 
+ATOM     14  OAN OAN d          34.362  40.320  23.015  0.00  0.00    -0.274 OA
+ATOM     15  H4  OAN d          35.169  42.619  21.017  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  CAH OAN d          36.575  41.040  22.358  0.00  0.00    -0.003 C 
+ATOM     17  H1  OAN d          36.928  41.018  23.400  0.00  0.00     0.040 H 
+ATOM     18  H2  OAN d          36.987  41.925  21.851  0.00  0.00     0.040 H 
+ATOM     19  H3  OAN d          36.910  40.130  21.839  0.00  0.00     0.040 H 
+ENDBRANCH  13  16
+ENDBRANCH   1  12
+BRANCH   7  20
+ATOM     20  OAQ OAN d          31.754  40.113  18.676  0.00  0.00    -0.153 OA
+BRANCH  20  21
+ATOM     21  CAP OAN d          30.580  40.559  18.145  0.00  0.00     0.389 C 
+ATOM     22  OAR OAN d          30.308  40.290  16.967  0.00  0.00    -0.236 OA
+ATOM     23  NAO OAN d          29.763  41.275  18.967  0.00  0.00    -0.301 N 
+ATOM     24  H14 OAN d          30.063  41.414  19.911  0.00  0.00     0.171 HD
+BRANCH  23  25
+ATOM     25  CAS OAN d          28.557  41.820  18.596  0.00  0.00     0.036 A 
+ATOM     26  CAT OAN d          27.319  41.156  18.784  0.00  0.00    -0.057 A 
+ATOM     27  CAU OAN d          26.099  41.732  18.379  0.00  0.00    -0.081 A 
+ATOM     28  H15 OAN d          27.311  40.178  19.252  0.00  0.00     0.086 H 
+ATOM     29  CAV OAN d          26.100  42.990  17.775  0.00  0.00    -0.083 A 
+ATOM     30  H16 OAN d          25.166  41.203  18.536  0.00  0.00     0.083 H 
+ATOM     31  CAW OAN d          27.310  43.676  17.586  0.00  0.00    -0.081 A 
+ATOM     32  H17 OAN d          25.166  43.437  17.452  0.00  0.00     0.083 H 
+ATOM     33  CAX OAN d          28.519  43.095  17.999  0.00  0.00    -0.057 A 
+ATOM     34  H18 OAN d          27.311  44.656  17.121  0.00  0.00     0.083 H 
+ATOM     35  H19 OAN d          29.445  43.640  17.855  0.00  0.00     0.086 H 
+ENDBRANCH  23  25
+ENDBRANCH  20  21
+ENDBRANCH   7  20
+BRANCH   2  36
+ATOM     36  OAJ OAN d          32.625  44.054  23.151  0.00  0.00    -0.390 OA
+ATOM     37  H7  OAN d          32.316  44.571  22.415  0.00  0.00     0.210 HD
+ENDBRANCH   2  36
+BRANCH   4  38
+ATOM     38  CAF OAN d          29.634  39.977  22.972  0.00  0.00     0.044 C 
+ATOM     39  H11 OAN d          29.198  40.302  23.927  0.00  0.00     0.078 H 
+ATOM     40  H12 OAN d          29.813  38.892  23.001  0.00  0.00     0.078 H 
+BRANCH  38  41
+ATOM     41  OAM OAN d          28.723  40.275  21.914  0.00  0.00    -0.398 OA
+ATOM     42  H13 OAN d          29.202  40.352  21.097  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH   4  38
+BRANCH   3  43
+ATOM     43  OAK OAN d          30.530  42.587  24.228  0.00  0.00    -0.390 OA
+ATOM     44  H9  OAN d          30.631  41.854  24.823  0.00  0.00     0.210 HD
+ENDBRANCH   3  43
+TORSDOF 9
+ENDMDL

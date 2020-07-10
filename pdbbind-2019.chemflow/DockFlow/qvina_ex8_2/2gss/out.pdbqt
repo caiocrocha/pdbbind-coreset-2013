@@ -1,0 +1,590 @@
+MODEL 1
+REMARK VINA RESULT:      -6.0      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           9.038   2.263  27.301  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           8.315   3.427  27.630  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           8.753   4.891  26.839  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.289   3.382  28.515  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           6.435   4.847  28.912  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.926   2.195  29.157  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           7.658   1.048  28.835  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           8.691   1.084  27.939  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           7.400   0.107  29.306  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           9.246   0.178  27.725  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.713   2.098  30.031  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           4.626   1.911  29.544  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           5.838   2.196  31.507  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           6.123   1.125  32.190  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           6.218   0.166  31.684  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           6.265   1.188  33.268  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           5.682   3.555  32.086  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           6.263   4.244  31.455  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           6.116   3.528  33.097  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           4.343   4.112  32.210  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           4.299   4.768  33.091  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           3.615   3.295  32.324  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           4.103   4.693  31.307  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d          10.045   2.408  26.402  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d          10.162   1.444  25.378  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           9.339   0.720  25.463  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d          11.124   0.921  25.478  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d          10.098   2.107  24.053  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d          10.152   1.330  23.059  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           9.966   3.360  23.951  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.3      1.979      6.622
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           6.113   1.494  28.538  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           5.934   2.551  27.624  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           4.346   3.184  27.433  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           6.988   3.069  26.945  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           6.721   4.360  25.807  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           8.280   2.562  27.100  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           8.446   1.505  27.999  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           7.389   0.980  28.692  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           9.436   1.091  28.152  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           7.553   0.150  29.369  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           9.473   3.209  26.465  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d          10.207   3.907  27.119  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           9.786   2.972  25.032  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           9.728   3.972  24.199  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           9.406   4.952  24.548  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d          10.000   3.827  23.155  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d          10.207   1.594  24.675  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           9.598   0.903  25.276  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d          11.265   1.494  24.961  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d          10.097   1.168  23.288  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d          11.078   1.256  22.799  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           9.368   1.804  22.766  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           9.763   0.120  23.252  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           5.000   1.045  29.173  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           5.095   0.751  30.549  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           6.059   0.265  30.753  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           4.275   0.076  30.835  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           4.998   2.003  31.339  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           3.847   2.520  31.390  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           6.003   2.480  31.938  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.3      2.170      6.147
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           7.125   1.587  28.302  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           6.571   2.549  27.435  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           4.908   2.943  27.634  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.335   3.164  26.499  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           6.607   4.330  25.430  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           8.687   2.851  26.336  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           9.225   1.886  27.192  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           8.461   1.265  28.142  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d          10.272   1.623  27.101  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           8.909   0.510  28.778  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           9.577   3.615  25.403  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           9.912   3.133  24.350  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d          10.032   4.986  25.748  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d          10.204   5.854  24.793  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d          10.063   5.556  23.755  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d          10.491   6.877  25.032  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d          10.195   5.274  27.196  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d          11.224   5.637  27.340  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d          10.063   4.323  27.733  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           9.308   6.244  27.820  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           9.748   7.249  27.739  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           9.172   5.987  28.881  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           8.333   6.229  27.311  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           6.281   1.030  29.209  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           6.777   0.772  30.504  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           7.870   0.894  30.507  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           6.522  -0.258  30.794  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           6.174   1.720  31.472  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           6.294   2.942  31.176  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           5.559   1.309  32.497  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.2      1.948      2.543
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           8.390   4.378  27.531  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           8.485   3.000  27.808  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           9.854   2.153  27.201  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.543   2.375  28.558  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           7.684   0.666  28.859  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.432   3.058  29.057  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           6.339   4.423  28.765  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           7.288   5.061  28.015  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           5.495   4.988  29.143  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           7.175   6.117  27.796  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.456   2.418  29.997  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           4.454   1.898  29.574  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           5.726   2.388  31.458  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           6.157   1.284  31.998  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           6.269   0.388  31.389  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           6.406   1.257  33.058  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           5.533   3.669  32.183  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           6.156   4.423  31.681  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           5.896   3.517  33.211  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           4.189   4.220  32.281  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           3.486   3.423  32.563  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           3.895   4.642  31.309  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           4.172   5.011  33.045  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           9.383   4.915  26.777  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           9.022   5.614  25.606  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           9.892   6.172  25.231  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           8.207   6.315  25.837  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           8.567   4.656  24.568  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           7.392   4.840  24.144  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           9.332   3.751  24.130  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.0      1.638      2.175
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           8.389   2.898  27.695  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           7.536   3.768  28.400  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           7.535   5.428  27.948  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           6.720   3.302  29.378  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           5.696   4.415  30.242  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.714   1.955  29.746  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           7.574   1.100  29.050  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           8.396   1.562  28.059  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           7.591   0.046  29.302  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           9.061   0.873  27.551  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.726   1.399  30.726  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           6.076   1.097  31.839  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           4.297   1.242  30.350  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           3.377   1.599  31.200  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           3.659   1.959  32.188  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           2.326   1.536  30.923  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           4.035   0.737  28.978  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           3.310  -0.085  29.069  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           4.987   0.345  28.590  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           3.515   1.661  27.982  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           3.641   1.227  26.979  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           4.064   2.612  28.042  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           2.447   1.841  28.171  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           9.165   3.457  26.730  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           8.758   3.313  25.387  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           8.611   4.308  24.943  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           7.813   2.751  25.351  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           9.796   2.581  24.622  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d          10.200   1.508  25.153  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d          10.207   3.002  23.504  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.0      2.194      6.471
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           6.947   2.149  29.323  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           6.846   3.552  29.254  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           5.956   4.353  30.489  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.460   4.246  28.263  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           7.292   5.978  28.200  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           8.188   3.602  27.260  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           8.271   2.207  27.329  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           7.659   1.501  28.328  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           8.835   1.673  26.573  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           7.732   0.420  28.341  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           8.984   4.356  26.240  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d          10.009   4.908  26.553  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           8.538   4.409  24.824  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           7.311   4.757  24.560  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           6.616   4.958  25.373  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           6.981   4.848  23.526  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           9.574   4.110  23.802  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d          10.451   4.730  24.040  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           9.164   4.413  22.827  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d          10.042   2.740  23.663  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d          11.044   2.739  23.209  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           9.348   2.178  23.020  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d          10.089   2.266  24.654  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           6.302   1.544  30.354  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           5.242   0.665  30.047  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           5.344  -0.252  30.645  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           5.276   0.412  28.978  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           3.944   1.313  30.359  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           3.401   0.940  31.436  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           3.454   2.197  29.602  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.8      2.326      3.251
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           7.762   5.745  26.999  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           6.626   4.931  26.828  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           6.319   4.306  25.254  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           5.823   4.626  27.877  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           4.415   3.635  27.619  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.070   5.127  29.158  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           7.193   5.945  29.316  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           8.010   6.253  28.263  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           7.421   6.345  30.297  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           8.862   6.903  28.420  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.277   4.692  30.352  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           4.244   5.247  30.632  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           5.735   3.553  31.188  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           5.426   3.532  32.453  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           4.881   4.366  32.894  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           5.712   2.682  33.070  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           6.474   2.479  30.478  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           7.529   2.788  30.430  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           6.062   2.421  29.459  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           6.447   1.131  31.027  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           6.288   1.182  32.114  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           7.404   0.631  30.820  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           5.627   0.563  30.563  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           8.506   5.991  25.890  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           9.849   5.558  25.884  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d          10.249   5.596  26.908  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d          10.442   6.219  25.234  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           9.928   4.167  25.376  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d          10.207   3.292  26.242  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           9.696   3.897  24.164  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.8      2.385      3.043
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           7.923   3.612  25.996  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           8.297   2.535  26.823  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           9.903   1.935  26.678  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.428   2.015  27.724  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           7.921   0.669  28.712  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.124   2.500  27.848  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           5.757   3.561  27.014  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           6.630   4.094  26.106  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           4.756   3.970  27.088  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           6.305   4.905  25.465  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.196   2.032  28.928  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           4.533   1.037  28.771  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           5.105   2.767  30.215  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           4.150   3.638  30.379  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           3.464   3.853  29.561  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           4.039   4.151  31.333  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           6.098   2.392  31.253  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           6.376   3.315  31.783  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           6.978   1.991  30.728  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           5.719   1.415  32.262  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           5.211   0.567  31.779  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           5.039   1.884  32.989  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           6.619   1.056  32.781  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           8.864   4.067  25.129  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           9.224   5.429  25.197  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d          10.253   5.515  25.575  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           8.538   5.954  25.878  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           9.143   6.041  23.849  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d          10.207   5.995  23.171  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           8.064   6.536  23.417  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.7      2.213      2.966
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           8.593   4.181  27.354  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           8.548   2.817  27.703  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           9.678   1.760  26.949  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.665   2.363  28.627  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           7.626   0.666  29.014  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.749   3.217  29.246  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           6.791   4.567  28.883  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           7.682   5.033  27.956  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           6.101   5.261  29.349  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           7.676   6.083  27.688  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           5.862   2.762  30.364  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           6.082   3.112  31.497  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           4.682   1.903  30.089  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           4.332   1.009  30.970  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           4.930   0.868  31.869  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d           3.442   0.404  30.807  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d           3.949   2.185  28.829  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d           4.525   2.946  28.283  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d           2.969   2.598  29.110  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           3.703   1.088  27.904  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d           3.427   1.494  26.920  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           2.882   0.464  28.287  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           4.613   0.479  27.808  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           9.513   4.540  26.423  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           9.084   5.331  25.337  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           9.312   6.387  25.543  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           7.999   5.209  25.204  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           9.783   4.909  24.099  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           9.889   3.660  23.939  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d          10.203   5.755  23.261  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -4.5      2.211      6.615
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C9_13  and  C10_14 
+REMARK    7  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           5.409   2.955  28.910  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           5.350   3.617  27.668  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           3.915   4.488  27.292  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           6.406   3.593  26.817  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           6.286   4.404  25.281  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           7.575   2.891  27.119  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           7.619   2.225  28.348  0.00  0.00    -0.065 A 
+ATOM      8  C6  EAA d           6.560   2.250  29.215  0.00  0.00    -0.048 A 
+ATOM      9  H1  EAA d           8.513   1.677  28.621  0.00  0.00     0.085 H 
+ATOM     10  H2  EAA d           6.624   1.709  30.152  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C7  EAA d           8.797   2.965  26.256  0.00  0.00     0.189 C 
+ATOM     12  O1  EAA d           9.121   2.023  25.577  0.00  0.00    -0.287 OA
+BRANCH  11  13
+ATOM     13  C8  EAA d           9.607   4.209  26.201  0.00  0.00    -0.017 C 
+ATOM     14  C11 EAA d           9.821   4.873  27.301  0.00  0.00    -0.112 C 
+ATOM     15  H8  EAA d           9.368   4.540  28.234  0.00  0.00     0.067 H 
+ATOM     16  H9  EAA d          10.452   5.760  27.288  0.00  0.00     0.067 H 
+BRANCH  13  17
+ATOM     17  C9  EAA d          10.168   4.564  24.873  0.00  0.00    -0.041 C 
+ATOM     18  H3  EAA d          10.245   3.632  24.294  0.00  0.00     0.039 H 
+ATOM     19  H4  EAA d          11.175   4.974  25.045  0.00  0.00     0.039 H 
+BRANCH  17  20
+ATOM     20  C10 EAA d           9.451   5.524  24.047  0.00  0.00    -0.073 C 
+ATOM     21  H5  EAA d          10.066   5.788  23.174  0.00  0.00     0.028 H 
+ATOM     22  H6  EAA d           9.241   6.430  24.635  0.00  0.00     0.028 H 
+ATOM     23  H7  EAA d           8.504   5.080  23.707  0.00  0.00     0.028 H 
+ENDBRANCH  17  20
+ENDBRANCH  13  17
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+BRANCH   1  24
+ATOM     24  O2  EAA d           4.304   3.040  29.696  0.00  0.00    -0.339 OA
+BRANCH  24  25
+ATOM     25  C12 EAA d           4.374   2.500  30.997  0.00  0.00     0.106 C 
+ATOM     26  H10 EAA d           5.110   1.684  31.015  0.00  0.00     0.091 H 
+ATOM     27  H11 EAA d           3.386   2.110  31.283  0.00  0.00     0.091 H 
+BRANCH  25  28
+ATOM     28  C13 EAA d           4.784   3.553  31.958  0.00  0.00     0.198 C 
+ATOM     29  O   EAA d           4.158   4.646  31.859  0.00  0.00    -0.646 OA
+ATOM     30  OXT EAA d           5.675   3.338  32.827  0.00  0.00    -0.646 OA
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 7
+ENDMDL

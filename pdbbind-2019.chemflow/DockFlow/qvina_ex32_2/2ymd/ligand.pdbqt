@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 SRO d          13.431   9.882   9.861  0.00  0.00     0.066 A 
+ATOM      2  CH2 SRO d          14.446  10.426   9.057  0.00  0.00    -0.049 A 
+ATOM      3  CZ2 SRO d          14.495  10.157   7.689  0.00  0.00    -0.054 A 
+ATOM      4  CE2 SRO d          13.505   9.339   7.096  0.00  0.00     0.043 A 
+ATOM      5  NE1 SRO d          13.317   8.913   5.790  0.00  0.00    -0.365 N 
+ATOM      6  CD1 SRO d          12.218   8.131   5.733  0.00  0.00    -0.015 A 
+ATOM      7  CG  SRO d          11.690   8.039   7.020  0.00  0.00    -0.029 A 
+ATOM      8  CD2 SRO d          12.513   8.802   7.881  0.00  0.00     0.001 A 
+ATOM      9  CE3 SRO d          12.467   9.066   9.271  0.00  0.00    -0.038 A 
+ATOM     10  H2  SRO d          15.200  11.063   9.505  0.00  0.00     0.087 H 
+ATOM     11  H3  SRO d          15.290  10.574   7.082  0.00  0.00     0.087 H 
+ATOM     12  H4  SRO d          13.920   9.155   4.991  0.00  0.00     0.165 HD
+ATOM     13  H5  SRO d          11.815   7.656   4.840  0.00  0.00     0.112 H 
+ATOM     14  H6  SRO d          11.680   8.633   9.878  0.00  0.00     0.089 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  CB  SRO d          10.480   7.287   7.457  0.00  0.00    -0.017 C 
+ATOM     16  H7  SRO d           9.612   7.746   6.961  0.00  0.00     0.042 H 
+ATOM     17  H8  SRO d          10.390   7.415   8.546  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CA  SRO d          10.430   5.830   7.178  0.00  0.00     0.083 C 
+ATOM     19  H9  SRO d          10.468   5.699   6.087  0.00  0.00     0.075 H 
+ATOM     20  H10 SRO d           9.471   5.451   7.560  0.00  0.00     0.075 H 
+BRANCH  18  21
+ATOM     21  NZ  SRO d          11.469   5.027   7.746  0.00  0.00    -0.079 N 
+ATOM     22  H11 SRO d          11.328   4.063   7.488  0.00  0.00     0.274 HD
+ATOM     23  H12 SRO d          11.449   5.112   8.750  0.00  0.00     0.274 HD
+ATOM     24  H13 SRO d          12.363   5.340   7.400  0.00  0.00     0.274 HD
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  25
+ATOM     25  OH  SRO d          13.378  10.135  11.225  0.00  0.00    -0.361 OA
+ATOM     26  H1  SRO d          12.629   9.687  11.600  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 4

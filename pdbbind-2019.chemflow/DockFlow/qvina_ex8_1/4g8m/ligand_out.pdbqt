@@ -1,0 +1,42 @@
+MODEL 1
+REMARK VINA RESULT:      -7.8      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_4  and  CD_1 
+REMARK    2  A    between atoms: CA_8  and  C_5 
+REMARK    3  A    between atoms: CA_8  and  N_9 
+REMARK    4  A    between atoms: CA_8  and  CB_10 
+ROOT
+ATOM      1  CG  G8M d           6.371  27.191  20.439  0.00  0.00     0.036 C 
+ATOM      2  CB  G8M d           7.704  27.098  19.652  0.00  0.00    -0.004 C 
+ATOM      3  C6  G8M d           8.423  27.700  20.876  0.00  0.00    -0.058 C 
+ATOM      4  C7  G8M d           7.061  28.162  21.422  0.00  0.00    -0.052 C 
+ATOM      5  H1  G8M d           5.525  27.614  19.876  0.00  0.00     0.057 H 
+ATOM      6  H6  G8M d           7.718  27.798  18.802  0.00  0.00     0.045 H 
+ATOM      7  H7  G8M d           9.116  28.519  20.637  0.00  0.00     0.033 H 
+ATOM      8  H8  G8M d           8.936  26.959  21.508  0.00  0.00     0.033 H 
+ATOM      9  H9  G8M d           6.894  27.927  22.484  0.00  0.00     0.034 H 
+ATOM     10  H10 G8M d           6.838  29.224  21.243  0.00  0.00     0.034 H 
+ENDROOT
+BRANCH   2  11
+ATOM     11  CA  G8M d           8.144  25.728  19.066  0.00  0.00     0.186 C 
+ATOM     12  H2  G8M d           7.681  24.944  19.683  0.00  0.00     0.102 H 
+BRANCH  11  13
+ATOM     13  C   G8M d           7.663  25.541  17.609  0.00  0.00     0.204 C 
+ATOM     14  OXT G8M d           6.450  25.412  17.370  0.00  0.00    -0.646 OA
+ATOM     15  O   G8M d           8.501  25.523  16.686  0.00  0.00    -0.646 OA
+ENDBRANCH  11  13
+BRANCH  11  16
+ATOM     16  N   G8M d           9.610  25.535  19.108  0.00  0.00    -0.065 N 
+ATOM     17  H3  G8M d           9.842  24.635  18.718  0.00  0.00     0.275 HD
+ATOM     18  H4  G8M d           9.928  25.580  20.064  0.00  0.00     0.275 HD
+ATOM     19  H5  G8M d          10.060  26.260  18.570  0.00  0.00     0.275 HD
+ENDBRANCH  11  16
+ENDBRANCH   2  11
+BRANCH   1  20
+ATOM     20  CD  G8M d           5.964  25.860  21.107  0.00  0.00     0.177 C 
+ATOM     21  OE1 G8M d           5.163  25.108  20.508  0.00  0.00    -0.648 OA
+ATOM     22  OE2 G8M d           6.444  25.546  22.219  0.00  0.00    -0.648 OA
+ENDBRANCH   1  20
+TORSDOF 4
+ENDMDL

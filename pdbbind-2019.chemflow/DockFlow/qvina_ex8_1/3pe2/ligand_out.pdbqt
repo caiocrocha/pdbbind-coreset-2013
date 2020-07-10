@@ -1,0 +1,57 @@
+MODEL 1
+REMARK VINA RESULT:     -10.7      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_21  and  CAD_10 
+REMARK    2  A    between atoms: NAQ_19  and  CAT_22 
+REMARK    3  A    between atoms: CAV_24  and  NAQ_19 
+REMARK    4  A    between atoms: CAR_20  and  CAU_23 
+ROOT
+ATOM      1  CAA E1B d          23.322 -30.664  20.424  0.00  0.00    -0.149 C 
+ATOM      2  CAD E1B d          23.091 -29.685  19.764  0.00  0.00    -0.078 C 
+ATOM      3  H3  E1B d          23.525 -31.523  21.003  0.00  0.00     0.166 H 
+ENDROOT
+BRANCH   2   4
+ATOM      4  CAS E1B d          22.803 -28.481  18.949  0.00  0.00     0.019 A 
+ATOM      5  CAG E1B d          22.341 -27.301  19.510  0.00  0.00    -0.065 A 
+ATOM      6  CAE E1B d          22.091 -26.207  18.699  0.00  0.00    -0.079 A 
+ATOM      7  H5  E1B d          22.175 -27.236  20.580  0.00  0.00     0.085 H 
+ATOM      8  CAH E1B d          22.285 -26.283  17.327  0.00  0.00    -0.057 A 
+ATOM      9  H4  E1B d          21.741 -25.281  19.140  0.00  0.00     0.083 H 
+ATOM     10  CAT E1B d          22.736 -27.472  16.787  0.00  0.00     0.035 A 
+ATOM     11  H6  E1B d          22.085 -25.427  16.693  0.00  0.00     0.086 H 
+ATOM     12  CAL E1B d          22.993 -28.564  17.591  0.00  0.00    -0.039 A 
+ATOM     13  H9  E1B d          23.346 -29.489  17.150  0.00  0.00     0.089 H 
+BRANCH  10  14
+ATOM     14  NAQ E1B d          22.966 -27.683  15.413  0.00  0.00    -0.339 N 
+ATOM     15  H11 E1B d          23.208 -26.767  15.008  0.00  0.00     0.167 HD
+BRANCH  14  16
+ATOM     16  CAV E1B d          23.004 -28.618  14.356  0.00  0.00     0.158 A 
+ATOM     17  C4  E1B d          23.184 -28.287  12.974  0.00  0.00     0.116 A 
+ATOM     18  N3  E1B d          23.367 -26.985  12.540  0.00  0.00    -0.237 NA
+ATOM     19  C5  E1B d          23.164 -29.317  12.052  0.00  0.00     0.027 A 
+ATOM     20  C2  E1B d          23.527 -26.712  11.233  0.00  0.00     0.087 A 
+ATOM     21  N1  E1B d          23.509 -27.696  10.301  0.00  0.00    -0.253 NA
+ATOM     22  H1  E1B d          23.674 -25.686  10.918  0.00  0.00     0.146 H 
+ATOM     23  C6  E1B d          23.337 -28.990  10.671  0.00  0.00     0.017 A 
+ATOM     24  H2  E1B d          23.331 -29.773   9.922  0.00  0.00     0.116 H 
+ATOM     25  CAY E1B d          22.960 -30.693  12.550  0.00  0.00     0.007 A 
+ATOM     26  CAJ E1B d          22.943 -31.790  11.643  0.00  0.00    -0.069 A 
+ATOM     27  CAW E1B d          22.813 -30.937  13.899  0.00  0.00     0.071 A 
+ATOM     28  CAI E1B d          22.753 -33.082  12.147  0.00  0.00    -0.066 A 
+ATOM     29  H8  E1B d          23.074 -31.627  10.579  0.00  0.00     0.085 H 
+ATOM     30  CAU E1B d          22.603 -33.326  13.528  0.00  0.00     0.043 A 
+ATOM     31  H7  E1B d          22.721 -33.917  11.458  0.00  0.00     0.085 H 
+ATOM     32  CAM E1B d          22.622 -32.253  14.416  0.00  0.00    -0.038 A 
+ATOM     33  H10 E1B d          22.495 -32.415  15.480  0.00  0.00     0.088 H 
+ATOM     34  NAP E1B d          22.839 -29.876  14.771  0.00  0.00    -0.228 NA
+BRANCH  30  35
+ATOM     35  CAR E1B d          22.388 -34.717  14.036  0.00  0.00     0.209 C 
+ATOM     36  OAB E1B d          22.488 -34.759  15.289  0.00  0.00    -0.644 OA
+ATOM     37  OAC E1B d          22.066 -35.473  13.086  0.00  0.00    -0.644 OA
+ENDBRANCH  30  35
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   2   4
+TORSDOF 4
+ENDMDL

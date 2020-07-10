@@ -1,0 +1,819 @@
+MODEL 1
+REMARK VINA RESULT:      -9.2      0.000      0.000
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          45.534  45.460  47.138  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          46.435  46.445  46.387  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          47.135  46.904  47.101  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          47.002  45.897  45.619  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          45.615  47.555  45.705  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          44.562  47.481  46.013  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          46.012  48.540  45.991  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          45.723  47.375  44.194  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          46.400  48.306  43.529  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          46.800  49.075  44.027  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          45.217  46.395  43.647  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          46.568  48.222  42.083  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          46.533  47.160  41.794  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          45.437  48.954  41.356  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          44.800  49.436  42.112  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          45.885  49.723  40.710  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          44.565  48.077  40.502  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          43.419  48.587  39.915  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          42.595  47.788  39.141  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          43.162  49.629  40.064  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          42.919  46.457  38.946  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          41.701  48.203  38.690  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          44.062  45.935  39.526  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          42.279  45.826  38.341  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          44.877  46.743  40.297  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          44.318  44.893  39.375  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          45.771  46.328  40.747  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          47.923  48.786  41.668  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          48.848  47.971  41.470  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          48.039  50.022  41.523  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          45.354  44.265  46.368  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          44.867  43.631  46.881  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          44.259  46.082  47.328  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          44.318  47.001  47.097  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          46.120  45.132  48.515  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          45.722  45.870  49.227  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          47.657  45.237  48.529  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          47.955  46.143  47.980  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          48.077  44.351  48.030  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          48.211  45.313  49.924  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          48.263  46.520  50.601  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          48.753  46.592  51.892  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          47.916  47.422  50.111  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          49.198  45.443  52.523  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          48.788  47.544  52.408  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          49.152  44.232  51.859  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          49.581  45.494  53.536  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          48.660  44.172  50.568  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          49.501  43.330  52.350  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          48.627  43.219  50.052  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          45.727  43.804  48.975  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          44.996  43.625  50.071  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          44.571  44.546  50.772  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          46.017  43.004  48.450  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          44.679  42.169  50.407  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          43.396  41.677  50.241  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          43.104  40.361  50.549  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          42.614  42.328  49.868  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          44.093  39.522  51.028  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          42.096  39.986  50.414  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          45.375  40.008  51.199  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          43.864  38.490  51.267  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          45.664  41.325  50.891  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          46.155  39.357  51.576  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          46.672  41.700  51.029  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -8.7      1.700      2.250
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          47.046  45.746  47.997  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          45.772  45.302  47.272  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          46.053  44.770  46.351  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          45.206  44.624  47.929  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          44.882  46.503  46.905  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          43.824  46.209  46.952  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          45.064  47.329  47.609  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          45.232  46.947  45.489  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          44.666  48.071  45.058  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          44.043  48.570  45.659  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          46.019  46.290  44.808  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          44.942  48.586  43.722  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          45.884  48.139  43.369  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          43.831  48.194  42.744  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          43.095  47.584  43.289  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          43.350  49.115  42.385  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          44.292  47.411  41.547  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          43.373  46.770  40.732  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          43.782  46.029  39.637  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          42.316  46.849  40.956  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          45.131  45.926  39.345  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          43.050  45.532  39.011  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          46.059  46.562  40.150  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          45.459  45.349  38.489  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          45.638  47.299  41.243  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          47.116  46.483  39.925  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          46.371  47.796  41.867  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          45.113  50.100  43.757  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          45.057  50.658  44.873  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          45.324  50.706  42.684  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          47.160  47.173  47.972  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          46.929  47.522  48.825  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          48.168  45.182  47.307  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          48.929  45.200  47.875  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          47.059  45.227  49.438  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          46.507  45.952  50.054  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          48.490  45.115  49.999  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          49.205  45.296  49.183  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          48.636  44.100  50.398  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          48.750  46.108  51.098  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          48.169  47.365  51.070  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          48.389  48.274  52.088  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          47.533  47.640  50.237  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          49.200  47.928  53.154  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          47.927  49.254  52.051  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          49.787  46.677  53.195  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          49.375  48.637  53.956  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          49.560  45.776  52.171  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          50.425  46.404  54.028  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          50.023  44.796  52.209  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          46.395  43.933  49.560  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          45.414  43.723  50.434  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          44.969  44.590  51.188  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          46.687  43.181  48.970  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          44.835  42.309  50.429  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          44.766  41.587  49.250  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          44.238  40.309  49.240  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          45.127  42.027  48.328  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          43.771  39.740  50.411  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          44.189  39.752  48.312  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          43.835  40.457  51.590  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          43.359  38.738  50.403  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          44.363  41.735  51.597  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          43.470  40.018  52.512  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          44.409  42.292  52.525  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -8.5      1.750      2.542
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          47.023  45.550  48.021  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          45.795  45.206  47.174  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          46.129  44.759  46.226  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          45.174  44.482  47.722  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          44.951  46.457  46.866  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          43.885  46.190  46.846  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          45.123  47.220  47.639  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          45.372  46.999  45.504  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          44.561  47.888  44.939  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          43.723  48.160  45.410  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          46.426  46.629  44.987  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          44.877  48.473  43.641  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          45.888  48.148  43.354  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          43.896  47.989  42.569  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          43.154  47.338  43.053  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          43.391  48.869  42.145  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          44.525  47.222  41.440  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          45.890  47.294  41.218  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          46.481  46.609  40.171  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          46.505  47.897  41.875  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          45.701  45.836  39.330  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          47.551  46.678  40.010  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          44.335  45.755  39.541  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          46.157  45.296  38.509  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          43.755  46.444  40.591  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          43.721  45.150  38.884  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          42.686  46.374  40.751  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          44.869  49.996  43.724  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          45.244  50.514  44.797  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          44.514  50.650  42.720  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          47.394  46.920  47.826  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          46.613  47.461  47.832  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          48.104  44.715  47.595  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          48.748  44.652  48.291  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          46.754  45.269  49.504  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          45.990  45.984  49.842  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          48.014  45.473  50.367  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          47.825  46.286  51.083  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          48.852  45.750  49.710  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          48.388  44.233  51.130  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          48.242  44.177  52.506  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          48.565  43.032  53.211  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          47.870  45.044  53.039  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          49.041  41.922  52.536  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          48.446  43.004  54.288  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          49.193  41.964  51.162  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          49.295  41.021  53.083  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          48.866  43.114  50.468  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          49.567  41.096  50.631  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          48.987  43.141  49.391  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          46.239  43.921  49.720  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          44.974  43.696  50.063  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          44.132  44.585  50.203  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          46.856  43.142  49.608  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          44.606  42.226  50.252  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          45.597  41.264  50.345  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          45.269  39.931  50.512  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          46.639  41.558  50.287  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          43.943  39.545  50.585  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          46.052  39.187  50.585  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          42.949  40.500  50.490  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          43.686  38.501  50.717  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          43.280  41.832  50.323  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          41.907  40.205  50.545  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          42.495  42.576  50.248  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.6      2.159      9.631
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          45.250  45.971  46.367  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          45.997  46.078  47.700  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          45.733  47.031  48.181  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          45.691  45.243  48.348  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          47.522  46.022  47.499  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          47.761  45.368  46.649  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          47.908  47.033  47.304  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          48.155  45.466  48.771  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          47.519  44.460  49.364  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          46.668  44.115  48.970  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          49.214  45.931  49.192  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          48.046  43.852  50.580  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          48.893  44.461  50.930  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          46.985  43.827  51.684  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          47.417  43.327  52.562  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          46.733  44.866  51.940  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          45.713  43.115  51.319  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          44.842  43.665  50.392  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          43.658  43.032  50.060  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          45.093  44.608  49.920  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          43.334  41.827  50.658  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          42.987  43.478  49.334  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          44.195  41.266  51.585  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          42.408  41.325  50.402  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          45.376  41.909  51.909  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          43.944  40.323  52.055  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          46.046  41.462  52.635  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          48.554  42.442  50.296  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          49.556  42.055  50.934  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          47.940  41.738  49.467  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          43.835  45.998  46.587  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          43.659  46.278  47.478  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          45.598  44.721  45.762  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          45.364  44.740  44.842  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          45.671  47.098  45.418  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          46.749  47.264  45.561  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          44.940  48.419  45.731  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          45.554  49.006  46.429  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          43.972  48.185  46.199  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          44.694  49.239  44.495  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          45.425  50.390  44.252  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          45.217  51.137  43.107  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          46.171  50.709  44.969  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          44.265  50.733  42.187  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          45.797  52.035  42.931  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          43.527  49.587  42.418  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          44.098  51.314  41.287  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          43.744  48.848  43.566  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          42.779  49.269  41.700  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          43.163  47.950  43.742  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          45.448  46.748  44.019  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          46.308  47.086  43.063  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          47.362  47.692  43.268  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          44.624  46.239  43.772  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          45.917  46.641  41.654  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          44.632  46.196  41.395  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          44.275  45.788  40.122  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          43.901  46.166  42.194  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          45.201  45.820  39.096  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          43.267  45.442  39.929  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          46.486  46.260  39.350  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          44.920  45.502  38.098  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          46.840  46.667  40.623  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          47.217  46.287  38.550  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          47.850  47.010  40.815  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.6      1.823     10.015
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          45.282  45.915  46.374  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          46.072  45.993  47.683  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          46.440  47.022  47.816  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          45.406  45.731  48.519  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          47.273  45.029  47.678  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          47.673  44.940  46.658  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          48.057  45.410  48.348  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          46.796  43.664  48.166  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          45.966  43.658  49.204  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          45.694  44.524  49.623  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          47.161  42.638  47.593  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          45.445  42.406  49.741  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          45.606  41.617  48.991  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          46.188  42.009  51.021  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          45.460  41.564  51.714  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          46.948  41.260  50.756  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          46.875  43.143  51.728  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          46.154  44.004  52.537  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          46.768  45.064  53.181  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          45.090  43.846  52.669  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          48.126  45.270  53.018  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          46.188  45.730  53.809  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          48.859  44.416  52.213  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          48.614  46.097  53.519  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          48.234  43.360  51.575  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          49.924  44.574  52.083  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          48.816  42.694  50.947  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          43.948  42.519  50.006  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          43.318  41.457  50.198  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          43.429  43.655  50.043  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          43.875  45.932  46.641  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          43.553  45.040  46.695  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          45.613  44.680  45.729  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          46.090  44.125  46.335  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          45.668  47.064  45.437  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          46.742  47.257  45.577  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          44.904  48.360  45.769  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          45.489  48.940  46.498  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          43.930  48.095  46.208  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          44.669  49.211  44.552  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          45.399  50.368  44.344  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          45.201  51.143  43.216  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          46.137  50.672  45.077  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          44.260  50.760  42.277  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          45.781  52.046  43.068  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          43.522  49.607  42.471  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          44.101  51.363  41.389  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          43.729  48.840  43.604  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          42.783  49.305  41.738  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          43.148  47.936  43.751  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          45.448  46.726  44.035  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          46.296  47.095  43.080  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          47.335  47.724  43.288  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          44.636  46.200  43.785  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          45.910  46.659  41.667  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          46.843  46.693  40.646  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          46.497  46.304  39.365  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          47.853  47.029  40.851  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          45.211  45.875  39.092  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          47.235  46.333  38.573  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          44.274  45.841  40.107  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          44.940  45.568  38.088  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          44.623  46.232  41.386  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          43.263  45.508  39.900  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          43.882  46.204  42.177  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.5      1.796      4.619
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          46.224  44.224  47.426  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          44.943  45.046  47.257  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          44.470  44.776  46.301  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          44.257  44.813  48.085  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          45.237  46.558  47.260  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          44.345  47.108  47.593  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          46.074  46.772  47.940  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          45.604  46.981  45.841  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          44.781  47.836  45.241  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          43.968  48.160  45.725  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          46.628  46.553  45.311  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          45.047  48.309  43.888  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          46.020  47.907  43.568  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          43.977  47.808  42.913  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          43.343  47.083  43.444  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          43.368  48.668  42.601  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          44.513  47.142  41.677  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          45.836  47.314  41.305  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          46.340  46.723  40.161  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          46.488  47.922  41.922  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          45.513  45.944  39.371  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          47.378  46.870  39.883  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          44.190  45.763  39.731  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          45.901  45.478  38.473  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          43.697  46.359  40.878  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          43.539  45.154  39.114  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          42.659  46.211  41.154  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          45.124  49.831  43.859  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          45.143  50.426  44.957  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          45.190  50.408  42.752  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          47.376  45.064  47.285  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          47.669  45.344  48.144  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          46.251  43.228  46.399  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          46.953  42.612  46.575  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          46.236  43.515  48.784  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          46.580  42.484  48.615  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          44.832  43.452  49.415  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          44.088  43.719  48.650  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          44.783  44.175  50.243  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          44.508  42.084  49.948  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          44.213  41.897  51.288  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          43.895  40.644  51.779  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          44.233  42.745  51.962  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          43.868  39.558  50.923  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          43.667  40.514  52.830  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          44.161  39.729  49.583  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          43.617  38.573  51.302  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          44.478  40.987  49.103  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          44.142  38.880  48.909  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          44.706  41.116  48.051  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          47.155  44.149  49.725  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          46.726  44.942  50.702  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          45.538  45.192  50.914  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          48.136  43.981  49.632  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          47.824  45.524  51.592  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          48.642  44.685  52.329  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          49.633  45.207  53.140  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          48.504  43.612  52.272  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          49.817  46.575  53.222  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          50.269  44.542  53.712  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          49.001  47.417  52.491  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          50.595  46.984  53.856  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          48.010  46.893  51.682  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          49.138  48.491  52.552  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          47.373  47.559  51.112  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.4      1.742      2.462
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  CB_7 
+REMARK    2  A    between atoms: CB_7  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  C_9 
+REMARK    4  A    between atoms: CA_8  and  N_12 
+REMARK       I    between atoms: N_12  and  CBC_13 
+REMARK    5  A    between atoms: CBC_13  and  CAV_15 
+REMARK    6  A    between atoms: CAV_15  and  CAW_16 
+REMARK    7  A    between atoms: CAW_16  and  CBM_17 
+REMARK    8  A    between atoms: CBM_17  and  OAE_18 
+REMARK    9  A    between atoms: CBM_17  and  OAF_19 
+REMARK   10  A    between atoms: CBM_17  and  CBL_20 
+REMARK   11  A    between atoms: CBL_20  and  CAX_21 
+REMARK   12  A    between atoms: CBL_20  and  NBA_28 
+REMARK   13  A    between atoms: CAX_21  and  CBF_22 
+REMARK       I    between atoms: NBA_28  and  CBE_29 
+REMARK   14  A    between atoms: CBE_29  and  CBG_31 
+ROOT
+ATOM      1  CBM KAF d          45.052  46.284  46.842  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW KAF d          45.996  45.998  45.671  0.00  0.00    -0.003 C 
+ATOM      3  H12 KAF d          46.972  45.681  46.069  0.00  0.00     0.041 H 
+ATOM      4  H13 KAF d          45.571  45.189  45.058  0.00  0.00     0.041 H 
+BRANCH   2   5
+ATOM      5  CAV KAF d          46.196  47.243  44.788  0.00  0.00     0.014 C 
+ATOM      6  H10 KAF d          46.218  48.145  45.417  0.00  0.00     0.047 H 
+ATOM      7  H11 KAF d          47.143  47.159  44.236  0.00  0.00     0.047 H 
+BRANCH   5   8
+ATOM      8  CBC KAF d          45.032  47.328  43.805  0.00  0.00     0.218 C 
+ATOM      9  N   KAF d          45.222  46.784  42.606  0.00  0.00    -0.346 N 
+ATOM     10  H9  KAF d          46.099  46.355  42.393  0.00  0.00     0.163 HD
+ATOM     11  OAA KAF d          43.974  47.860  44.140  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  KAF d          44.169  46.805  41.598  0.00  0.00     0.100 C 
+ATOM     13  H8  KAF d          43.429  46.033  41.858  0.00  0.00     0.090 H 
+BRANCH  12  14
+ATOM     14  CB  KAF d          43.459  48.162  41.576  0.00  0.00    -0.013 C 
+ATOM     15  H6  KAF d          42.446  48.011  41.175  0.00  0.00     0.043 H 
+ATOM     16  H7  KAF d          43.393  48.531  42.610  0.00  0.00     0.043 H 
+BRANCH  14  17
+ATOM     17  CG  KAF d          44.138  49.215  40.747  0.00  0.00    -0.056 A 
+ATOM     18  CD1 KAF d          43.673  49.516  39.477  0.00  0.00    -0.077 A 
+ATOM     19  CE1 KAF d          44.298  50.470  38.694  0.00  0.00    -0.082 A 
+ATOM     20  H1  KAF d          42.804  48.996  39.091  0.00  0.00     0.084 H 
+ATOM     21  CZ  KAF d          45.407  51.138  39.183  0.00  0.00    -0.083 A 
+ATOM     22  H2  KAF d          43.922  50.692  37.702  0.00  0.00     0.083 H 
+ATOM     23  CE2 KAF d          45.882  50.848  40.449  0.00  0.00    -0.082 A 
+ATOM     24  H3  KAF d          45.902  51.886  38.575  0.00  0.00     0.083 H 
+ATOM     25  CD2 KAF d          45.248  49.892  41.223  0.00  0.00    -0.077 A 
+ATOM     26  H4  KAF d          46.750  51.369  40.835  0.00  0.00     0.083 H 
+ATOM     27  H5  KAF d          45.625  49.671  42.215  0.00  0.00     0.084 H 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+BRANCH  12  28
+ATOM     28  C   KAF d          44.739  46.478  40.222  0.00  0.00     0.197 C 
+ATOM     29  O   KAF d          45.973  46.597  40.070  0.00  0.00    -0.646 OA
+ATOM     30  OXT KAF d          43.960  46.087  39.327  0.00  0.00    -0.646 OA
+ENDBRANCH  12  28
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  OAE KAF d          43.829  45.555  46.683  0.00  0.00    -0.364 OA
+ATOM     32  H14 KAF d          44.016  44.705  46.304  0.00  0.00     0.213 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  OAF KAF d          44.757  47.685  46.842  0.00  0.00    -0.364 OA
+ATOM     34  H15 KAF d          44.843  48.026  47.724  0.00  0.00     0.213 HD
+ENDBRANCH   1  33
+BRANCH   1  35
+ATOM     35  CBL KAF d          45.721  45.934  48.176  0.00  0.00     0.070 C 
+ATOM     36  H16 KAF d          45.575  46.788  48.852  0.00  0.00     0.081 H 
+BRANCH  35  37
+ATOM     37  CAX KAF d          47.236  45.703  48.018  0.00  0.00    -0.017 C 
+ATOM     38  H17 KAF d          47.667  46.550  47.464  0.00  0.00     0.043 H 
+ATOM     39  H18 KAF d          47.396  44.774  47.452  0.00  0.00     0.043 H 
+BRANCH  37  40
+ATOM     40  CBF KAF d          47.935  45.587  49.344  0.00  0.00    -0.056 A 
+ATOM     41  CAO KAF d          48.073  46.689  50.171  0.00  0.00    -0.077 A 
+ATOM     42  CAI KAF d          48.697  46.583  51.401  0.00  0.00    -0.082 A 
+ATOM     43  H19 KAF d          47.686  47.649  49.850  0.00  0.00     0.084 H 
+ATOM     44  CAG KAF d          49.193  45.360  51.816  0.00  0.00    -0.083 A 
+ATOM     45  H20 KAF d          48.797  47.455  52.036  0.00  0.00     0.083 H 
+ATOM     46  CAJ KAF d          49.064  44.252  51.000  0.00  0.00    -0.082 A 
+ATOM     47  H21 KAF d          49.682  45.271  52.779  0.00  0.00     0.083 H 
+ATOM     48  CAP KAF d          48.438  44.370  49.772  0.00  0.00    -0.077 A 
+ATOM     49  H22 KAF d          49.453  43.292  51.321  0.00  0.00     0.083 H 
+ATOM     50  H23 KAF d          48.338  43.497  49.137  0.00  0.00     0.084 H 
+ENDBRANCH  37  40
+ENDBRANCH  35  37
+BRANCH  35  51
+ATOM     51  NBA KAF d          45.120  44.758  48.797  0.00  0.00    -0.347 N 
+ATOM     52  CBE KAF d          45.348  43.528  48.344  0.00  0.00     0.252 C 
+ATOM     53  OAC KAF d          46.090  43.272  47.394  0.00  0.00    -0.268 OA
+ATOM     54  H24 KAF d          44.519  44.880  49.586  0.00  0.00     0.163 HD
+BRANCH  52  55
+ATOM     55  CBG KAF d          44.637  42.414  49.111  0.00  0.00     0.032 A 
+ATOM     56  CAR KAF d          43.689  42.723  50.072  0.00  0.00    -0.068 A 
+ATOM     57  CAL KAF d          43.047  41.719  50.772  0.00  0.00    -0.082 A 
+ATOM     58  H25 KAF d          43.449  43.760  50.278  0.00  0.00     0.085 H 
+ATOM     59  CAH KAF d          43.346  40.392  50.519  0.00  0.00    -0.083 A 
+ATOM     60  H26 KAF d          42.306  41.971  51.521  0.00  0.00     0.083 H 
+ATOM     61  CAK KAF d          44.294  40.078  49.564  0.00  0.00    -0.082 A 
+ATOM     62  H27 KAF d          42.841  39.606  51.067  0.00  0.00     0.083 H 
+ATOM     63  CAQ KAF d          44.935  41.085  48.865  0.00  0.00    -0.068 A 
+ATOM     64  H28 KAF d          44.535  39.041  49.361  0.00  0.00     0.083 H 
+ATOM     65  H29 KAF d          45.678  40.831  48.118  0.00  0.00     0.085 H 
+ENDBRANCH  52  55
+ENDBRANCH  35  51
+ENDBRANCH   1  35
+TORSDOF 14
+ENDMDL

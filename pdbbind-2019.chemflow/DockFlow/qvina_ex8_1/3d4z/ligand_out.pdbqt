@@ -1,0 +1,49 @@
+MODEL 1
+REMARK VINA RESULT:      -7.2      0.000      0.000
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_12 
+REMARK    2  A    between atoms: C3_4  and  O3_11 
+REMARK    3  A    between atoms: C4_5  and  O4_13 
+REMARK    4  A    between atoms: C5_6  and  C6_7 
+REMARK    5  A    between atoms: C6_7  and  O6_14 
+ROOT
+ATOM      1  C1  GIM d          30.212  65.819   9.824  0.00  0.00     0.138 A 
+ATOM      2  C2  GIM d          31.520  65.283   9.239  0.00  0.00     0.119 C 
+ATOM      3  N10 GIM d          29.329  66.464   8.976  0.00  0.00    -0.332 N 
+ATOM      4  C3  GIM d          32.056  66.336   8.268  0.00  0.00     0.093 C 
+ATOM      5  C4  GIM d          31.066  66.466   7.126  0.00  0.00     0.085 C 
+ATOM      6  C5  GIM d          29.628  66.789   7.574  0.00  0.00     0.065 C 
+ATOM      7  C7  GIM d          28.513  66.402  11.000  0.00  0.00     0.019 A 
+ATOM      8  C8  GIM d          28.255  66.782   9.747  0.00  0.00    -0.001 A 
+ATOM      9  N1  GIM d          29.714  65.797  11.040  0.00  0.00    -0.243 NA
+ATOM     10  H1  GIM d          31.279  64.377   8.664  0.00  0.00     0.099 H 
+ATOM     11  H2  GIM d          32.209  67.305   8.765  0.00  0.00     0.091 H 
+ATOM     12  H3  GIM d          31.059  65.520   6.566  0.00  0.00     0.090 H 
+ATOM     13  H4  GIM d          29.463  67.870   7.447  0.00  0.00     0.080 H 
+ATOM     14  H7  GIM d          27.855  66.558  11.854  0.00  0.00     0.117 H 
+ATOM     15  H8  GIM d          27.341  67.262   9.401  0.00  0.00     0.113 H 
+ENDROOT
+BRANCH   6  16
+ATOM     16  C6  GIM d          28.685  66.017   6.610  0.00  0.00     0.038 C 
+ATOM     17  H5  GIM d          28.834  64.934   6.738  0.00  0.00     0.077 H 
+ATOM     18  H6  GIM d          28.910  66.298   5.571  0.00  0.00     0.077 H 
+BRANCH  16  19
+ATOM     19  O6  GIM d          27.323  66.355   6.917  0.00  0.00    -0.399 OA
+ATOM     20  H12 GIM d          27.132  66.112   7.816  0.00  0.00     0.209 HD
+ENDBRANCH  16  19
+ENDBRANCH   6  16
+BRANCH   5  21
+ATOM     21  O4  GIM d          31.465  67.539   6.262  0.00  0.00    -0.391 OA
+ATOM     22  H11 GIM d          32.351  67.385   5.957  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   4  23
+ATOM     23  O3  GIM d          33.312  65.795   7.761  0.00  0.00    -0.390 OA
+ATOM     24  H9  GIM d          33.932  65.714   8.476  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+BRANCH   2  25
+ATOM     25  O2  GIM d          32.482  64.911  10.192  0.00  0.00    -0.385 OA
+ATOM     26  H10 GIM d          33.240  64.549   9.750  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+TORSDOF 5
+ENDMDL

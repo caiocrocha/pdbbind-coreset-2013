@@ -1,0 +1,600 @@
+MODEL 1
+REMARK VINA RESULT:      -6.1      0.000      0.000
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          24.397  18.873  64.092  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          23.655  17.752  63.833  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          24.064  16.678  62.776  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          25.572  16.711  62.511  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          26.028  18.205  62.320  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          25.646  19.009  63.494  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          22.733  17.602  64.392  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          23.533  16.891  61.837  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.108  16.272  63.365  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          25.546  18.611  61.418  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          27.586  18.318  62.176  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          27.844  18.159  61.118  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          28.294  17.369  62.972  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          28.936  17.822  63.506  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          28.059  19.664  62.604  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          27.613  19.906  63.580  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          27.634  20.591  61.663  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          28.244  20.605  60.936  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          29.590  19.706  62.740  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          29.884  19.155  63.647  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          29.914  20.754  62.826  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          30.232  19.113  61.608  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          31.161  19.022  61.783  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          25.859  15.928  61.295  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          26.705  14.901  61.298  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          27.310  14.545  62.303  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          25.403  16.177  60.439  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          26.937  14.136  60.013  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          26.619  13.091  60.145  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          28.006  14.165  59.758  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          26.354  14.596  59.201  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          23.710  15.395  63.220  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          24.345  15.097  63.861  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          23.975  19.901  64.929  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          22.791  19.956  65.315  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          24.807  20.760  65.287  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.6      2.094      4.522
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          29.001  19.950  63.830  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          29.517  19.854  62.566  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          29.255  18.637  61.622  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          27.970  17.903  62.014  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          27.949  17.697  63.574  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          28.087  18.993  64.261  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          30.141  20.667  62.200  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          30.102  17.941  61.705  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          27.095  18.499  61.713  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          28.781  17.036  63.856  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          26.595  17.067  64.055  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          26.599  17.049  65.155  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          26.390  15.741  63.571  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          27.076  15.174  63.905  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          25.438  17.874  63.577  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          25.750  18.464  62.702  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          25.059  18.734  64.598  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          24.506  19.419  64.244  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          24.257  16.977  63.168  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          23.445  17.100  63.899  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          24.589  15.928  63.159  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          23.768  17.320  61.868  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          24.406  17.064  61.213  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          27.937  16.599  61.324  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          26.993  16.291  60.439  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          26.083  17.059  60.146  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          28.648  15.926  61.529  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          27.035  14.938  59.762  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          26.521  14.197  60.391  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          28.082  14.634  59.617  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          26.532  15.001  58.785  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          29.144  19.065  60.291  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          29.324  18.336  59.709  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          29.338  20.959  64.727  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          28.535  21.881  64.972  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          30.456  20.918  65.280  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.5      1.803      4.735
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          29.053  17.175  62.474  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          29.067  15.976  61.813  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          27.846  15.004  61.771  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          26.536  15.754  62.028  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          26.725  16.715  63.259  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          27.859  17.627  63.026  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          29.977  15.686  61.290  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          27.978  14.242  62.552  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.268  16.347  61.140  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          26.915  16.108  64.157  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          25.458  17.611  63.493  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          24.719  17.018  64.053  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          24.862  18.066  62.280  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          25.093  18.977  62.137  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          25.810  18.829  64.274  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          26.331  19.539  63.615  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          26.661  18.451  65.304  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          27.477  18.931  65.230  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          24.557  19.516  64.841  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          24.581  19.455  65.939  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          23.662  18.997  64.465  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          24.494  20.891  64.453  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          24.145  20.955  63.572  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          25.471  14.772  62.302  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          24.319  14.773  61.637  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          24.059  15.594  60.763  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          25.619  14.083  63.012  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          23.279  13.724  61.966  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          22.305  14.210  62.128  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          23.577  13.186  62.878  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          23.198  13.013  61.130  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          27.767  14.370  60.522  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          26.966  14.632  60.085  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          30.175  17.981  62.633  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          30.715  18.516  61.645  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          30.624  18.161  63.784  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.4      1.932      4.324
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          24.762  18.726  64.076  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          25.869  19.502  64.287  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          27.238  19.257  63.576  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          27.049  18.480  62.270  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          26.076  17.271  62.525  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          24.799  17.751  63.083  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          25.792  20.334  64.985  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          27.881  18.671  64.248  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.615  19.142  61.504  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          26.552  16.575  63.232  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          25.736  16.512  61.195  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          26.566  16.669  60.490  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          24.524  16.957  60.589  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          24.157  16.255  60.064  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          25.571  15.053  61.447  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          26.166  14.772  62.329  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          26.044  14.366  60.337  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          25.383  14.374  59.656  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          24.100  14.690  61.712  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          23.576  15.577  62.098  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          24.059  13.885  62.460  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          23.449  14.249  60.518  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          22.912  13.489  60.713  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          28.363  17.993  61.811  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          29.136  17.220  62.570  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          28.816  16.871  63.701  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          28.684  18.253  60.900  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          30.466  16.749  62.023  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          30.829  15.902  62.624  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          31.194  17.572  62.071  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          30.341  16.430  60.978  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          27.867  20.478  63.290  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          27.307  20.997  62.725  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          23.582  18.850  64.803  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          23.034  19.962  64.933  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          23.086  17.827  65.316  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.4      2.055      3.884
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          28.136  20.004  64.204  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          26.856  19.904  64.680  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          25.703  19.199  63.899  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          26.258  18.187  62.893  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          27.445  18.846  62.099  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          28.476  19.332  63.034  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          26.632  20.339  65.653  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          25.130  19.963  63.355  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.624  17.297  63.426  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          27.053  19.687  61.509  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          28.143  17.817  61.144  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          29.055  18.285  60.745  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          27.317  17.413  60.054  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          26.442  17.226  60.373  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          28.506  16.575  61.881  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          27.981  16.565  62.847  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          29.876  16.589  62.104  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          30.271  17.288  61.596  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          28.107  15.315  61.094  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          28.977  14.961  60.521  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          27.290  15.570  60.402  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          27.668  14.272  61.967  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          27.982  13.435  61.643  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          25.178  17.795  61.968  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          24.670  16.565  61.953  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          25.071  15.674  62.694  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          24.815  18.475  61.331  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          23.554  16.242  60.984  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          23.175  15.229  61.184  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          23.936  16.294  59.954  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          22.738  16.969  61.110  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          24.847  18.531  64.788  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          24.131  19.107  65.029  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          29.135  20.747  64.826  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          30.287  20.285  64.941  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          28.853  21.882  65.259  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.3      1.907      4.413
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          28.718  19.267  64.064  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          27.578  20.022  63.989  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          26.334  19.615  63.137  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          26.304  18.104  62.892  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          27.737  17.624  62.455  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          28.736  18.009  63.469  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          27.537  20.952  64.552  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          26.389  20.131  62.168  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.011  17.584  63.817  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          27.989  18.089  61.491  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          27.806  16.063  62.316  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          26.877  15.642  62.729  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          28.918  15.488  63.000  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          29.696  15.567  62.460  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          27.938  15.666  60.887  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          28.999  15.489  60.660  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          27.469  16.710  60.103  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          27.676  17.537  60.522  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          27.152  14.378  60.586  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          27.860  13.582  60.312  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          26.466  14.565  59.746  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          26.391  13.954  61.720  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          26.413  14.631  62.387  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          25.321  17.813  61.832  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          24.460  16.803  61.924  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          24.431  16.041  62.885  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          25.301  18.393  61.018  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          23.470  16.577  60.802  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          22.623  17.270  60.913  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          23.104  15.540  60.840  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          23.965  16.755  59.835  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          25.150  19.992  63.789  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          24.445  20.048  63.155  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          29.879  19.685  64.706  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          30.076  20.895  64.934  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          30.714  18.824  65.051  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -3.7      1.718      4.142
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          27.801  19.472  63.904  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          28.537  19.180  62.786  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          28.158  18.046  61.781  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          26.664  17.719  61.857  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          26.240  17.595  63.367  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          26.582  18.829  64.096  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          29.430  19.769  62.588  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          28.733  17.145  62.038  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.084  18.522  61.380  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          26.767  16.740  63.815  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          24.691  17.391  63.517  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          24.489  16.310  63.527  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          23.942  17.992  62.463  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          23.958  18.937  62.563  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          24.199  17.998  64.784  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          25.036  18.074  65.494  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          23.224  17.165  65.314  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          23.116  16.409  64.749  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          23.627  19.407  64.549  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          23.195  19.779  65.490  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          22.841  19.350  63.781  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          24.641  20.315  64.111  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          25.184  20.563  64.851  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          26.418  16.448  61.150  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          27.012  15.313  61.507  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          27.809  15.246  62.437  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          25.785  16.440  60.375  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          26.699  14.046  60.741  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          26.020  14.280  59.908  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          26.218  13.321  61.414  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          27.631  13.617  60.345  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          28.471  18.430  60.469  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          27.761  18.952  60.114  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          28.202  20.384  64.874  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          27.400  21.230  65.316  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          29.376  20.333  65.294  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -3.6      2.113      2.867
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  O4_15 
+REMARK    3  A    between atoms: C5_5  and  N5_12 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  O7_17 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  O8_18 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   10  A    between atoms: C10_10  and  C11_11 
+ROOT
+ATOM      1  C2  DAN d          27.014  19.339  63.983  0.00  0.00     0.144 C 
+ATOM      2  C3  DAN d          25.866  19.044  63.299  0.00  0.00    -0.035 C 
+ATOM      3  C4  DAN d          25.653  17.710  62.515  0.00  0.00     0.076 C 
+ATOM      4  C5  DAN d          26.565  16.604  63.051  0.00  0.00     0.068 C 
+ATOM      5  C6  DAN d          28.019  17.177  63.232  0.00  0.00     0.094 C 
+ATOM      6  O6  DAN d          27.995  18.361  64.110  0.00  0.00    -0.335 OA
+ATOM      7  H1  DAN d          25.060  19.776  63.302  0.00  0.00     0.085 H 
+ATOM      8  H2  DAN d          25.891  17.885  61.456  0.00  0.00     0.092 H 
+ATOM      9  H3  DAN d          26.188  16.251  64.023  0.00  0.00     0.081 H 
+ATOM     10  H4  DAN d          28.417  17.454  62.246  0.00  0.00     0.091 H 
+ENDROOT
+BRANCH   5  11
+ATOM     11  C7  DAN d          28.973  16.129  63.905  0.00  0.00     0.089 C 
+ATOM     12  H5  DAN d          28.781  15.148  63.446  0.00  0.00     0.091 H 
+BRANCH  11  13
+ATOM     13  O7  DAN d          28.787  16.024  65.315  0.00  0.00    -0.390 OA
+ATOM     14  H14 DAN d          29.523  16.425  65.762  0.00  0.00     0.210 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  C8  DAN d          30.399  16.503  63.695  0.00  0.00     0.083 C 
+ATOM     16  H6  DAN d          31.034  15.629  63.904  0.00  0.00     0.090 H 
+BRANCH  15  17
+ATOM     17  O8  DAN d          30.715  17.521  64.583  0.00  0.00    -0.391 OA
+ATOM     18  H15 DAN d          30.117  17.493  65.320  0.00  0.00     0.210 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  C9  DAN d          30.655  16.958  62.248  0.00  0.00     0.043 C 
+ATOM     20  H7  DAN d          29.919  16.477  61.586  0.00  0.00     0.078 H 
+ATOM     21  H8  DAN d          31.670  16.655  61.951  0.00  0.00     0.078 H 
+BRANCH  19  22
+ATOM     22  O9  DAN d          30.537  18.378  62.119  0.00  0.00    -0.398 OA
+ATOM     23  H16 DAN d          29.680  18.652  62.423  0.00  0.00     0.209 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   5  11
+BRANCH   4  24
+ATOM     24  N5  DAN d          26.571  15.484  62.091  0.00  0.00    -0.351 N 
+ATOM     25  C10 DAN d          26.993  15.629  60.838  0.00  0.00     0.214 C 
+ATOM     26  O10 DAN d          27.393  16.700  60.393  0.00  0.00    -0.274 OA
+ATOM     27  H12 DAN d          26.247  14.587  62.392  0.00  0.00     0.163 HD
+BRANCH  25  28
+ATOM     28  C11 DAN d          26.982  14.430  59.916  0.00  0.00    -0.003 C 
+ATOM     29  H9  DAN d          27.964  13.934  59.946  0.00  0.00     0.040 H 
+ATOM     30  H10 DAN d          26.770  14.760  58.888  0.00  0.00     0.040 H 
+ATOM     31  H11 DAN d          26.205  13.723  60.242  0.00  0.00     0.040 H 
+ENDBRANCH  25  28
+ENDBRANCH   4  24
+BRANCH   3  32
+ATOM     32  O4  DAN d          24.319  17.288  62.620  0.00  0.00    -0.389 OA
+ATOM     33  H13 DAN d          24.006  17.447  63.503  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  C1  DAN d          27.268  20.576  64.568  0.00  0.00     0.233 C 
+ATOM     35  O1B DAN d          28.338  21.174  64.344  0.00  0.00    -0.642 OA
+ATOM     36  O1A DAN d          26.400  21.072  65.315  0.00  0.00    -0.642 OA
+ENDBRANCH   1  34
+TORSDOF 10
+ENDMDL

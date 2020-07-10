@@ -1,0 +1,66 @@
+MODEL 1
+REMARK VINA RESULT:      -8.6      0.000      0.000
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  N1_8 
+REMARK    3  A    between atoms: C8_12  and  C1'_13 
+REMARK    4  A    between atoms: C5'_17  and  C1''_20 
+REMARK    5  A    between atoms: C6'_18  and  O6'_19 
+ROOT
+ATOM      1  C1' MOL d          43.106  -2.293  32.170  0.00  0.00     0.025 A 
+ATOM      2  C2' MOL d          42.980  -3.452  32.929  0.00  0.00    -0.068 A 
+ATOM      3  C3' MOL d          42.667  -3.411  34.268  0.00  0.00    -0.081 A 
+ATOM      4  C4' MOL d          42.466  -2.201  34.887  0.00  0.00    -0.070 A 
+ATOM      5  C5' MOL d          42.574  -0.978  34.187  0.00  0.00     0.008 A 
+ATOM      6  C6' MOL d          42.897  -1.065  32.832  0.00  0.00     0.089 A 
+ATOM      7  H10 MOL d          43.133  -4.413  32.452  0.00  0.00     0.085 H 
+ATOM      8  H11 MOL d          42.578  -4.332  34.833  0.00  0.00     0.083 H 
+ATOM      9  H12 MOL d          42.218  -2.183  35.942  0.00  0.00     0.085 H 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C8  MOL d          43.418  -2.348  30.810  0.00  0.00     0.046 A 
+ATOM     11  N3  MOL d          43.736  -1.296  30.121  0.00  0.00    -0.355 N 
+ATOM     12  C4  MOL d          43.897  -1.719  28.920  0.00  0.00     0.043 A 
+ATOM     13  H8  MOL d          43.837  -0.329  30.463  0.00  0.00     0.166 HD
+ATOM     14  C3  MOL d          44.253  -1.016  27.817  0.00  0.00    -0.055 A 
+ATOM     15  C5  MOL d          43.671  -3.036  28.928  0.00  0.00    -0.006 A 
+ATOM     16  C2  MOL d          44.378  -1.739  26.632  0.00  0.00    -0.067 A 
+ATOM     17  H2  MOL d          44.430   0.053  27.854  0.00  0.00     0.087 H 
+ATOM     18  C1  MOL d          44.148  -3.155  26.560  0.00  0.00     0.008 A 
+ATOM     19  H1  MOL d          44.662  -1.212  25.728  0.00  0.00     0.085 H 
+ATOM     20  C6  MOL d          43.779  -3.811  27.768  0.00  0.00    -0.057 A 
+ATOM     21  H3  MOL d          43.589  -4.878  27.790  0.00  0.00     0.086 H 
+ATOM     22  CN4 MOL d          43.354  -3.481  30.138  0.00  0.00    -0.044 A 
+ATOM     23  H9  MOL d          43.112  -4.487  30.477  0.00  0.00     0.088 H 
+BRANCH  18  24
+ATOM     24  C7  MOL d          44.303  -3.827  25.332  0.00  0.00     0.102 C 
+ATOM     25  N2  MOL d          44.634  -3.147  24.252  0.00  0.00    -0.385 N 
+ATOM     26  H6  MOL d          44.779  -2.129  24.308  0.00  0.00     0.157 HD
+ATOM     27  H7  MOL d          44.746  -3.634  23.351  0.00  0.00     0.157 HD
+BRANCH  24  28
+ATOM     28  N1  MOL d          44.119  -5.125  25.254  0.00  0.00    -0.385 N 
+ATOM     29  H4  MOL d          44.235  -5.609  24.352  0.00  0.00     0.157 HD
+ATOM     30  H5  MOL d          43.859  -5.659  26.096  0.00  0.00     0.157 HD
+ENDBRANCH  24  28
+ENDBRANCH  18  24
+ENDBRANCH   1  10
+BRANCH   6  31
+ATOM     31  O6' MOL d          43.037   0.103  32.112  0.00  0.00    -0.359 OA
+ATOM     32  H13 MOL d          43.257  -0.105  31.211  0.00  0.00     0.217 HD
+ENDBRANCH   6  31
+BRANCH   5  33
+ATOM     33  C1' MOL d          42.334   0.249  34.849  0.00  0.00    -0.023 A 
+ATOM     34  C2' MOL d          43.311   1.223  35.006  0.00  0.00    -0.072 A 
+ATOM     35  C3' MOL d          43.075   2.402  35.680  0.00  0.00    -0.082 A 
+ATOM     36  H14 MOL d          44.294   1.049  34.584  0.00  0.00     0.084 H 
+ATOM     37  C4' MOL d          41.842   2.661  36.223  0.00  0.00    -0.083 A 
+ATOM     38  H15 MOL d          43.871   3.132  35.780  0.00  0.00     0.083 H 
+ATOM     39  C5' MOL d          40.823   1.726  36.095  0.00  0.00    -0.082 A 
+ATOM     40  H16 MOL d          41.664   3.591  36.751  0.00  0.00     0.083 H 
+ATOM     41  C6' MOL d          41.075   0.538  35.413  0.00  0.00    -0.072 A 
+ATOM     42  H17 MOL d          39.844   1.918  36.521  0.00  0.00     0.083 H 
+ATOM     43  H18 MOL d          40.277  -0.188  35.313  0.00  0.00     0.084 H 
+ENDBRANCH   5  33
+TORSDOF 5
+ENDMDL

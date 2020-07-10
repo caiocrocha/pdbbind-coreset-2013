@@ -1,0 +1,89 @@
+MODEL 1
+REMARK VINA RESULT:     -11.4      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C6_6 
+REMARK    2  A    between atoms: C7_7  and  C2_2 
+REMARK    3  A    between atoms: N4_4  and  C33_33 
+REMARK       I    between atoms: C6_6  and  N11_11 
+REMARK       I    between atoms: N8_8  and  C7_7 
+REMARK    4  A    between atoms: C19_19  and  N8_8 
+REMARK    5  A    between atoms: N11_11  and  C12_12 
+REMARK    6  A    between atoms: N25_25  and  C21_21 
+REMARK    7  A    between atoms: C33_33  and  C34_34 
+ROOT
+ATOM      1  C1  XBV d          10.309  66.804   4.013  0.00  0.00     0.060 C 
+ATOM      2  C2  XBV d           9.525  66.390   2.758  0.00  0.00     0.060 C 
+ATOM      3  C3  XBV d           8.744  67.658   2.353  0.00  0.00     0.096 C 
+ATOM      4  N4  XBV d           9.680  68.745   2.778  0.00  0.00    -0.064 N 
+ATOM      5  C5  XBV d          10.273  68.344   4.078  0.00  0.00     0.096 C 
+ATOM      6  H1  XBV d           9.782  66.412   4.896  0.00  0.00     0.058 H 
+ATOM      7  H2  XBV d          10.210  66.084   1.953  0.00  0.00     0.058 H 
+ATOM      8  H3  XBV d           7.784  67.724   2.888  0.00  0.00     0.077 H 
+ATOM      9  H4  XBV d           8.562  67.687   1.269  0.00  0.00     0.077 H 
+ATOM     10  H5  XBV d          10.411  68.846   2.091  0.00  0.00     0.280 HD
+ATOM     11  H6  XBV d          11.288  68.755   4.188  0.00  0.00     0.077 H 
+ATOM     12  H7  XBV d           9.646  68.686   4.915  0.00  0.00     0.077 H 
+ENDROOT
+BRANCH   2  13
+ATOM     13  C7  XBV d           8.588  65.246   3.085  0.00  0.00     0.229 C 
+ATOM     14  N8  XBV d           9.091  64.060   2.874  0.00  0.00    -0.324 N 
+ATOM     15  H8  XBV d          10.043  64.017   2.567  0.00  0.00     0.169 HD
+ATOM     16  O9  XBV d           7.476  65.413   3.563  0.00  0.00    -0.273 OA
+BRANCH  14  17
+ATOM     17  C19 XBV d           8.412  62.834   3.040  0.00  0.00     0.073 A 
+ATOM     18  C20 XBV d           7.671  62.493   4.177  0.00  0.00    -0.052 A 
+ATOM     19  C23 XBV d           7.090  61.223   4.233  0.00  0.00    -0.054 A 
+ATOM     20  H13 XBV d           7.552  63.195   4.994  0.00  0.00     0.087 H 
+ATOM     21  C21 XBV d           7.308  60.327   3.181  0.00  0.00     0.045 A 
+ATOM     22  H15 XBV d           6.478  60.935   5.080  0.00  0.00     0.087 H 
+ATOM     23  C22 XBV d           8.057  60.674   2.047  0.00  0.00    -0.017 A 
+ATOM     24  C24 XBV d           8.573  61.975   1.988  0.00  0.00     0.145 A 
+ATOM     25  H14 XBV d           8.232  59.963   1.248  0.00  0.00     0.091 H 
+ATOM     26  F32 XBV d           9.315  62.329   0.928  0.00  0.00    -0.204 F 
+BRANCH  21  27
+ATOM     27  N25 XBV d           6.748  59.014   3.177  0.00  0.00    -0.290 N 
+ATOM     28  C26 XBV d           7.409  57.973   3.847  0.00  0.00    -0.011 A 
+ATOM     29  C29 XBV d           6.907  56.706   3.830  0.00  0.00    -0.067 A 
+ATOM     30  H16 XBV d           8.332  58.180   4.387  0.00  0.00     0.112 H 
+ATOM     31  C27 XBV d           5.711  56.425   3.159  0.00  0.00    -0.076 A 
+ATOM     32  H19 XBV d           7.441  55.907   4.342  0.00  0.00     0.085 H 
+ATOM     33  C28 XBV d           5.044  57.433   2.497  0.00  0.00    -0.017 A 
+ATOM     34  H17 XBV d           5.310  55.413   3.159  0.00  0.00     0.083 H 
+ATOM     35  C30 XBV d           5.551  58.782   2.490  0.00  0.00     0.252 A 
+ATOM     36  H18 XBV d           4.117  57.206   1.972  0.00  0.00     0.092 H 
+ATOM     37  O31 XBV d           4.984  59.701   1.886  0.00  0.00    -0.268 OA
+ENDBRANCH  21  27
+ENDBRANCH  14  17
+ENDBRANCH   2  13
+BRANCH   1  38
+ATOM     38  C6  XBV d          11.703  66.229   4.039  0.00  0.00     0.230 C 
+ATOM     39  O10 XBV d          12.337  66.006   3.019  0.00  0.00    -0.273 OA
+ATOM     40  N11 XBV d          12.251  66.084   5.267  0.00  0.00    -0.311 N 
+ATOM     41  H9  XBV d          11.740  66.496   6.022  0.00  0.00     0.170 HD
+BRANCH  40  42
+ATOM     42  C12 XBV d          13.433  65.438   5.622  0.00  0.00     0.129 A 
+ATOM     43  N13 XBV d          14.092  64.719   4.697  0.00  0.00    -0.242 NA
+ATOM     44  C16 XBV d          15.155  63.934   5.019  0.00  0.00     0.025 A 
+ATOM     45  C14 XBV d          15.567  63.821   6.361  0.00  0.00     0.051 A 
+ATOM     46  H11 XBV d          15.685  63.396   4.242  0.00  0.00     0.117 H 
+ATOM     47  C15 XBV d          14.877  64.550   7.349  0.00  0.00    -0.057 A 
+ATOM     48 CL1  XBV d          16.852  62.751   6.831  0.00  0.00    -0.083 Cl
+ATOM     49  C17 XBV d          13.792  65.346   6.975  0.00  0.00    -0.037 A 
+ATOM     50  H10 XBV d          15.184  64.493   8.387  0.00  0.00     0.086 H 
+ATOM     51  H12 XBV d          13.230  65.890   7.725  0.00  0.00     0.089 H 
+ENDBRANCH  40  42
+ENDBRANCH   1  38
+BRANCH   4  52
+ATOM     52  C33 XBV d           8.974  70.029   2.912  0.00  0.00     0.137 C 
+ATOM     53  H20 XBV d           8.457  70.054   3.883  0.00  0.00     0.084 H 
+ATOM     54  H21 XBV d           8.235  70.117   2.102  0.00  0.00     0.084 H 
+BRANCH  52  55
+ATOM     55  C34 XBV d           9.940  71.212   2.834  0.00  0.00     0.231 C 
+ATOM     56  F35 XBV d          10.970  71.127   3.776  0.00  0.00    -0.213 F 
+ATOM     57  F36 XBV d          10.563  71.140   1.606  0.00  0.00    -0.213 F 
+ATOM     58  H22 XBV d           9.390  72.158   2.953  0.00  0.00     0.147 H 
+ENDBRANCH  52  55
+ENDBRANCH   4  52
+TORSDOF 7
+ENDMDL

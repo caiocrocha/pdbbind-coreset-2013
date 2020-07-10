@@ -1,0 +1,74 @@
+MODEL 1
+REMARK VINA RESULT:      -8.5      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6_1  and  C6_2 
+REMARK    2  A    between atoms: C6_2  and  C5_3 
+REMARK    3  A    between atoms: C4_4  and  O4_5 
+REMARK    4  A    between atoms: C3_6  and  O3_7 
+REMARK    5  A    between atoms: C2_8  and  O2_9 
+REMARK    6  A    between atoms: C7_12  and  C9_15 
+REMARK    7  A    between atoms: C9_15  and  C10_16 
+REMARK    8  A    between atoms: C10_16  and  C14_17 
+ROOT
+ATOM      1  C5  PGI d          -2.344  10.472   8.643  0.00  0.00     0.065 C 
+ATOM      2  C4  PGI d          -1.128  10.625   7.712  0.00  0.00     0.085 C 
+ATOM      3  C3  PGI d          -0.195  11.702   8.304  0.00  0.00     0.093 C 
+ATOM      4  C2  PGI d           0.416  11.254   9.624  0.00  0.00     0.119 C 
+ATOM      5  N1  PGI d          -1.777  10.051   9.950  0.00  0.00    -0.332 N 
+ATOM      6  C8  PGI d          -2.319   9.218  10.854  0.00  0.00     0.005 A 
+ATOM      7  C7  PGI d          -1.389   9.089  11.873  0.00  0.00     0.052 A 
+ATOM      8  N2  PGI d          -0.323   9.831  11.548  0.00  0.00    -0.235 NA
+ATOM      9  C1  PGI d          -0.562  10.420  10.376  0.00  0.00     0.138 A 
+ATOM     10  H4  PGI d          -2.836  11.450   8.755  0.00  0.00     0.080 H 
+ATOM     11  H5  PGI d          -0.589   9.667   7.672  0.00  0.00     0.090 H 
+ATOM     12  H7  PGI d          -0.806  12.600   8.478  0.00  0.00     0.091 H 
+ATOM     13  H9  PGI d           1.284  10.617   9.402  0.00  0.00     0.099 H 
+ATOM     14  H11 PGI d          -3.296   8.738  10.796  0.00  0.00     0.114 H 
+ENDROOT
+BRANCH   7  15
+ATOM     15  C9  PGI d          -1.528   8.289  13.148  0.00  0.00    -0.020 C 
+ATOM     16  H12 PGI d          -2.315   7.532  13.020  0.00  0.00     0.042 H 
+ATOM     17  H13 PGI d          -1.800   8.963  13.975  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  C10 PGI d          -0.203   7.595  13.474  0.00  0.00    -0.036 C 
+ATOM     19  H14 PGI d          -0.286   7.169  14.484  0.00  0.00     0.040 H 
+ATOM     20  H15 PGI d           0.589   8.359  13.461  0.00  0.00     0.040 H 
+BRANCH  18  21
+ATOM     21  C14 PGI d           0.214   6.472  12.524  0.00  0.00    -0.058 A 
+ATOM     22  C13 PGI d           1.412   6.559  11.794  0.00  0.00    -0.077 A 
+ATOM     23  C12 PGI d           1.819   5.526  10.930  0.00  0.00    -0.082 A 
+ATOM     24  H16 PGI d           2.035   7.440  11.898  0.00  0.00     0.084 H 
+ATOM     25  C11 PGI d           1.042   4.371  10.793  0.00  0.00    -0.083 A 
+ATOM     26  H17 PGI d           2.741   5.626  10.367  0.00  0.00     0.083 H 
+ATOM     27  C16 PGI d          -0.151   4.285  11.522  0.00  0.00    -0.082 A 
+ATOM     28  H20 PGI d           1.354   3.564  10.140  0.00  0.00     0.083 H 
+ATOM     29  C15 PGI d          -0.564   5.315  12.386  0.00  0.00    -0.077 A 
+ATOM     30  H19 PGI d          -0.772   3.402  11.419  0.00  0.00     0.083 H 
+ATOM     31  H18 PGI d          -1.487   5.215  12.946  0.00  0.00     0.084 H 
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   7  15
+BRANCH   1  32
+ATOM     32  C6  PGI d          -3.386   9.484   8.129  0.00  0.00     0.038 C 
+ATOM     33  H2  PGI d          -4.334   9.675   8.652  0.00  0.00     0.077 H 
+ATOM     34  H3  PGI d          -3.522   9.651   7.050  0.00  0.00     0.077 H 
+BRANCH  32  35
+ATOM     35  O6  PGI d          -3.024   8.111   8.334  0.00  0.00    -0.399 OA
+ATOM     36  H1  PGI d          -2.912   7.949   9.263  0.00  0.00     0.209 HD
+ENDBRANCH  32  35
+ENDBRANCH   1  32
+BRANCH   4  37
+ATOM     37  O2  PGI d           0.895  12.388  10.331  0.00  0.00    -0.385 OA
+ATOM     38  H10 PGI d           1.555  12.830   9.809  0.00  0.00     0.210 HD
+ENDBRANCH   4  37
+BRANCH   2  39
+ATOM     39  O4  PGI d          -1.530  10.975   6.383  0.00  0.00    -0.391 OA
+ATOM     40  H6  PGI d          -0.759  11.063   5.833  0.00  0.00     0.210 HD
+ENDBRANCH   2  39
+BRANCH   3  41
+ATOM     41  O3  PGI d           0.908  12.061   7.472  0.00  0.00    -0.390 OA
+ATOM     42  H8  PGI d           1.428  12.726   7.909  0.00  0.00     0.210 HD
+ENDBRANCH   3  41
+TORSDOF 8
+ENDMDL

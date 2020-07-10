@@ -1,0 +1,51 @@
+MODEL 1
+REMARK VINA RESULT:      -6.1      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2 
+REMARK    2  A    between atoms: C6_6  and  CA_1 
+REMARK    3  A    between atoms: CA_1  and  N_8 
+REMARK    4  A    between atoms: C7_7  and  C3_3 
+REMARK    5  A    between atoms: C4_4  and  N4_11 
+REMARK    6  A    between atoms: C6_6  and  C7_7 
+ROOT
+ATOM      1  C7  Z70 d         -20.387  14.215  -5.460  0.00  0.00    -0.023 C 
+ATOM      2  H5  Z70 d         -20.897  14.437  -4.511  0.00  0.00     0.042 H 
+ATOM      3  H6  Z70 d         -20.944  14.673  -6.292  0.00  0.00     0.042 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  Z70 d         -20.376  12.704  -5.661  0.00  0.00     0.029 A 
+ATOM      5  C5  Z70 d         -19.271  12.065  -6.402  0.00  0.00     0.028 A 
+ATOM      6  N3  Z70 d         -19.612  10.715  -6.388  0.00  0.00    -0.226 NA
+ATOM      7  H2  Z70 d         -18.399  12.536  -6.853  0.00  0.00     0.117 H 
+ATOM      8  C4  Z70 d         -20.819  10.580  -5.694  0.00  0.00     0.199 A 
+ATOM      9  N2  Z70 d         -21.294  11.763  -5.248  0.00  0.00    -0.329 N 
+ATOM     10  H10 Z70 d         -22.159  11.927  -4.714  0.00  0.00     0.169 HD
+BRANCH   8  11
+ATOM     11  N4  Z70 d         -21.460   9.372  -5.487  0.00  0.00    -0.369 N 
+ATOM     12  H11 Z70 d         -21.048   8.501  -5.852  0.00  0.00     0.159 HD
+ATOM     13  H12 Z70 d         -22.349   9.342  -4.969  0.00  0.00     0.159 HD
+ENDBRANCH   8  11
+ENDBRANCH   1   4
+BRANCH   1  14
+ATOM     14  C6  Z70 d         -18.991  14.835  -5.415  0.00  0.00    -0.024 C 
+ATOM     15  H3  Z70 d         -18.557  14.634  -4.425  0.00  0.00     0.037 H 
+ATOM     16  H4  Z70 d         -18.376  14.354  -6.190  0.00  0.00     0.037 H 
+BRANCH  14  17
+ATOM     17  CA  Z70 d         -18.964  16.366  -5.653  0.00  0.00     0.182 C 
+ATOM     18  H1  Z70 d         -18.260  16.582  -6.471  0.00  0.00     0.101 H 
+BRANCH  17  19
+ATOM     19  C   Z70 d         -20.328  16.998  -6.010  0.00  0.00     0.204 C 
+ATOM     20  OXT Z70 d         -20.761  17.002  -7.228  0.00  0.00    -0.646 OA
+ATOM     21  O   Z70 d         -21.047  17.537  -5.094  0.00  0.00    -0.646 OA
+ENDBRANCH  17  19
+BRANCH  17  22
+ATOM     22  N   Z70 d         -18.497  16.947  -4.442  0.00  0.00    -0.065 N 
+ATOM     23  H7  Z70 d         -18.460  17.950  -4.542  0.00  0.00     0.275 HD
+ATOM     24  H8  Z70 d         -17.575  16.595  -4.234  0.00  0.00     0.275 HD
+ATOM     25  H9  Z70 d         -19.124  16.708  -3.690  0.00  0.00     0.275 HD
+ENDBRANCH  17  22
+ENDBRANCH  14  17
+ENDBRANCH   1  14
+TORSDOF 6
+ENDMDL

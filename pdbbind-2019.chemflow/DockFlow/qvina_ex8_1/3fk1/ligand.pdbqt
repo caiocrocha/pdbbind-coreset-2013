@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  P1_8 
+REMARK    2  A    between atoms: N1_10  and  C1_1 
+REMARK    3  A    between atoms: C2_2  and  C3_3 
+REMARK    4  A    between atoms: C2_2  and  N1_10 
+ROOT
+ATOM      1  N1  GPF d          60.710   8.582  29.397  0.00  0.00    -0.053 N 
+ATOM      2  H5  GPF d          60.330   9.515  29.417  0.00  0.00     0.278 HD
+ATOM      3  H6  GPF d          61.710   8.629  29.279  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  GPF d          60.176   7.931  28.233  0.00  0.00     0.183 C 
+ATOM      5  H1  GPF d          60.580   6.910  28.171  0.00  0.00     0.097 H 
+ATOM      6  H2  GPF d          59.080   7.887  28.312  0.00  0.00     0.097 H 
+BRANCH   4   7
+ATOM      7  P1  GPF d          60.603   8.790  26.828  0.00  0.00     0.285 P 
+ATOM      8  O1  GPF d          60.631  10.272  27.124  0.00  0.00    -0.638 OA
+ATOM      9  O2  GPF d          59.532   8.394  25.847  0.00  0.00    -0.638 OA
+ATOM     10  O3  GPF d          62.005   8.287  26.460  0.00  0.00    -0.638 OA
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C2  GPF d          60.459   7.990  30.695  0.00  0.00     0.161 C 
+ATOM     12  H3  GPF d          59.375   7.859  30.830  0.00  0.00     0.092 H 
+ATOM     13  H4  GPF d          60.956   7.010  30.749  0.00  0.00     0.092 H 
+BRANCH  11  14
+ATOM     14  C3  GPF d          60.973   8.847  31.749  0.00  0.00     0.199 C 
+ATOM     15  O4  GPF d          61.527   9.979  31.426  0.00  0.00    -0.647 OA
+ATOM     16  O5  GPF d          60.827   8.430  32.868  0.00  0.00    -0.647 OA
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 4

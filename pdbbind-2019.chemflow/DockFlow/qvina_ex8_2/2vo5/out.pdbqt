@@ -1,0 +1,213 @@
+MODEL 1
+REMARK VINA RESULT:      -9.3      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C6_8 
+REMARK    5  A    between atoms: C6_8  and  O6_9 
+REMARK    6  A    between atoms: N1_12  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C10_15 
+ROOT
+ATOM      1  C2  VBZ d          27.644  45.840  -0.739  0.00  0.00     0.090 C 
+ATOM      2  C3  VBZ d          27.993  46.995   0.171  0.00  0.00     0.094 C 
+ATOM      3  C4  VBZ d          28.033  48.235  -0.729  0.00  0.00     0.116 C 
+ATOM      4  C5  VBZ d          26.720  48.245  -1.544  0.00  0.00     0.002 C 
+ATOM      5  C7  VBZ d          26.783  47.157  -2.621  0.00  0.00    -0.028 C 
+ATOM      6  C8  VBZ d          29.286  48.163  -1.618  0.00  0.00     0.115 C 
+ATOM      7  N1  VBZ d          29.226  46.935  -2.448  0.00  0.00    -0.058 N 
+ATOM      8  C1  VBZ d          27.921  46.246  -2.210  0.00  0.00     0.132 C 
+ATOM      9  H2  VBZ d          26.562  45.656  -0.648  0.00  0.00     0.090 H 
+ATOM     10  H3  VBZ d          27.240  47.123   0.963  0.00  0.00     0.091 H 
+ATOM     11  H6  VBZ d          25.936  47.933  -0.838  0.00  0.00     0.048 H 
+ATOM     12  H10 VBZ d          26.985  47.603  -3.606  0.00  0.00     0.036 H 
+ATOM     13  H11 VBZ d          25.837  46.597  -2.658  0.00  0.00     0.036 H 
+ATOM     14  H12 VBZ d          30.185  48.135  -0.985  0.00  0.00     0.081 H 
+ATOM     15  H13 VBZ d          29.324  49.047  -2.271  0.00  0.00     0.081 H 
+ATOM     16  H14 VBZ d          29.976  46.328  -2.156  0.00  0.00     0.281 HD
+ATOM     17  H15 VBZ d          27.905  45.337  -2.829  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   7  18
+ATOM     18  C9  VBZ d          29.372  47.178  -3.930  0.00  0.00     0.108 C 
+ATOM     19  H16 VBZ d          28.502  47.761  -4.262  0.00  0.00     0.083 H 
+ATOM     20  H17 VBZ d          29.371  46.199  -4.433  0.00  0.00     0.083 H 
+BRANCH  18  21
+ATOM     21  C10 VBZ d          30.626  47.922  -4.367  0.00  0.00    -0.033 A 
+ATOM     22  C11 VBZ d          31.901  47.489  -3.998  0.00  0.00    -0.075 A 
+ATOM     23  C12 VBZ d          33.053  48.190  -4.418  0.00  0.00    -0.082 A 
+ATOM     24  H18 VBZ d          32.009  46.603  -3.381  0.00  0.00     0.084 H 
+ATOM     25  C13 VBZ d          32.930  49.352  -5.194  0.00  0.00    -0.083 A 
+ATOM     26  H19 VBZ d          34.036  47.829  -4.139  0.00  0.00     0.083 H 
+ATOM     27  C14 VBZ d          31.657  49.809  -5.545  0.00  0.00    -0.082 A 
+ATOM     28  H22 VBZ d          33.814  49.891  -5.518  0.00  0.00     0.083 H 
+ATOM     29  C15 VBZ d          30.518  49.091  -5.135  0.00  0.00    -0.075 A 
+ATOM     30  H21 VBZ d          31.546  50.714  -6.133  0.00  0.00     0.083 H 
+ATOM     31  H20 VBZ d          29.536  49.450  -5.419  0.00  0.00     0.084 H 
+ENDBRANCH  18  21
+ENDBRANCH   7  18
+BRANCH   3  32
+ATOM     32  O4  VBZ d          28.067  49.409   0.124  0.00  0.00    -0.385 OA
+ATOM     33  H5  VBZ d          27.178  49.698   0.299  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  O2  VBZ d          28.301  44.646  -0.341  0.00  0.00    -0.391 OA
+ATOM     35  H1  VBZ d          27.728  44.145   0.228  0.00  0.00     0.210 HD
+ENDBRANCH   1  34
+BRANCH   2  36
+ATOM     36  O3  VBZ d          29.243  46.708   0.740  0.00  0.00    -0.390 OA
+ATOM     37  H4  VBZ d          29.169  46.723   1.687  0.00  0.00     0.210 HD
+ENDBRANCH   2  36
+BRANCH   4  38
+ATOM     38  C6  VBZ d          26.240  49.595  -2.084  0.00  0.00     0.023 C 
+ATOM     39  H7  VBZ d          26.061  50.287  -1.247  0.00  0.00     0.074 H 
+ATOM     40  H8  VBZ d          25.309  49.457  -2.652  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  O6  VBZ d          27.246  50.123  -2.934  0.00  0.00    -0.400 OA
+ATOM     42  H9  VBZ d          27.211  51.072  -2.912  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH   4  38
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -8.5      1.497      2.204
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C6_8 
+REMARK    5  A    between atoms: C6_8  and  O6_9 
+REMARK    6  A    between atoms: N1_12  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C10_15 
+ROOT
+ATOM      1  C2  VBZ d          27.669  45.879  -0.866  0.00  0.00     0.090 C 
+ATOM      2  C3  VBZ d          27.971  46.888   0.217  0.00  0.00     0.094 C 
+ATOM      3  C4  VBZ d          28.001  48.252  -0.483  0.00  0.00     0.116 C 
+ATOM      4  C5  VBZ d          26.706  48.359  -1.320  0.00  0.00     0.002 C 
+ATOM      5  C7  VBZ d          26.819  47.450  -2.548  0.00  0.00    -0.028 C 
+ATOM      6  C8  VBZ d          29.274  48.341  -1.341  0.00  0.00     0.115 C 
+ATOM      7  N1  VBZ d          29.262  47.253  -2.349  0.00  0.00    -0.058 N 
+ATOM      8  C1  VBZ d          27.969  46.510  -2.251  0.00  0.00     0.132 C 
+ATOM      9  H2  VBZ d          26.590  45.662  -0.832  0.00  0.00     0.090 H 
+ATOM     10  H3  VBZ d          27.198  46.879   1.000  0.00  0.00     0.091 H 
+ATOM     11  H6  VBZ d          25.914  47.927  -0.690  0.00  0.00     0.048 H 
+ATOM     12  H10 VBZ d          27.031  48.045  -3.448  0.00  0.00     0.036 H 
+ATOM     13  H11 VBZ d          25.887  46.883  -2.694  0.00  0.00     0.036 H 
+ATOM     14  H12 VBZ d          30.160  48.235  -0.696  0.00  0.00     0.081 H 
+ATOM     15  H13 VBZ d          29.306  49.315  -1.851  0.00  0.00     0.081 H 
+ATOM     16  H14 VBZ d          30.019  46.624  -2.134  0.00  0.00     0.281 HD
+ATOM     17  H15 VBZ d          27.988  45.706  -3.002  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   7  18
+ATOM     18  C9  VBZ d          29.435  47.722  -3.772  0.00  0.00     0.108 C 
+ATOM     19  H16 VBZ d          30.214  48.498  -3.778  0.00  0.00     0.083 H 
+ATOM     20  H17 VBZ d          28.480  48.159  -4.101  0.00  0.00     0.083 H 
+BRANCH  18  21
+ATOM     21  C10 VBZ d          29.832  46.658  -4.786  0.00  0.00    -0.033 A 
+ATOM     22  C11 VBZ d          31.075  46.681  -5.423  0.00  0.00    -0.075 A 
+ATOM     23  C12 VBZ d          31.427  45.682  -6.356  0.00  0.00    -0.082 A 
+ATOM     24  H18 VBZ d          31.778  47.475  -5.198  0.00  0.00     0.084 H 
+ATOM     25  C13 VBZ d          30.520  44.661  -6.678  0.00  0.00    -0.083 A 
+ATOM     26  H19 VBZ d          32.404  45.703  -6.826  0.00  0.00     0.083 H 
+ATOM     27  C14 VBZ d          29.263  44.645  -6.066  0.00  0.00    -0.082 A 
+ATOM     28  H22 VBZ d          30.790  43.893  -7.394  0.00  0.00     0.083 H 
+ATOM     29  C15 VBZ d          28.932  45.637  -5.124  0.00  0.00    -0.075 A 
+ATOM     30  H21 VBZ d          28.546  43.871  -6.315  0.00  0.00     0.083 H 
+ATOM     31  H20 VBZ d          27.957  45.612  -4.650  0.00  0.00     0.084 H 
+ENDBRANCH  18  21
+ENDBRANCH   7  18
+BRANCH   3  32
+ATOM     32  O4  VBZ d          27.988  49.282   0.539  0.00  0.00    -0.385 OA
+ATOM     33  H5  VBZ d          28.246  48.904   1.372  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  O2  VBZ d          28.346  44.651  -0.638  0.00  0.00    -0.391 OA
+ATOM     35  H1  VBZ d          27.713  43.981  -0.406  0.00  0.00     0.210 HD
+ENDBRANCH   1  34
+BRANCH   2  36
+ATOM     36  O3  VBZ d          29.214  46.543   0.767  0.00  0.00    -0.390 OA
+ATOM     37  H4  VBZ d          29.386  45.623   0.606  0.00  0.00     0.210 HD
+ENDBRANCH   2  36
+BRANCH   4  38
+ATOM     38  C6  VBZ d          26.207  49.766  -1.660  0.00  0.00     0.023 C 
+ATOM     39  H7  VBZ d          26.331  50.425  -0.788  0.00  0.00     0.074 H 
+ATOM     40  H8  VBZ d          25.144  49.724  -1.940  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  O6  VBZ d          26.969  50.263  -2.748  0.00  0.00    -0.400 OA
+ATOM     42  H9  VBZ d          27.490  51.002  -2.456  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH   4  38
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.8      1.468      3.465
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C6_8 
+REMARK    5  A    between atoms: C6_8  and  O6_9 
+REMARK    6  A    between atoms: N1_12  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C10_15 
+ROOT
+ATOM      1  C2  VBZ d          27.262  49.318  -1.994  0.00  0.00     0.090 C 
+ATOM      2  C3  VBZ d          26.191  48.276  -2.222  0.00  0.00     0.094 C 
+ATOM      3  C4  VBZ d          26.844  46.930  -1.888  0.00  0.00     0.116 C 
+ATOM      4  C5  VBZ d          27.510  47.082  -0.502  0.00  0.00     0.002 C 
+ATOM      5  C7  VBZ d          28.773  47.940  -0.638  0.00  0.00    -0.028 C 
+ATOM      6  C8  VBZ d          27.848  46.577  -2.997  0.00  0.00     0.115 C 
+ATOM      7  N1  VBZ d          28.883  47.637  -3.076  0.00  0.00    -0.058 N 
+ATOM      8  C1  VBZ d          28.651  48.629  -1.982  0.00  0.00     0.132 C 
+ATOM      9  H2  VBZ d          27.102  49.751  -0.995  0.00  0.00     0.090 H 
+ATOM     10  H3  VBZ d          25.320  48.449  -1.573  0.00  0.00     0.091 H 
+ATOM     11  H6  VBZ d          26.802  47.671   0.099  0.00  0.00     0.048 H 
+ATOM     12  H10 VBZ d          29.672  47.308  -0.610  0.00  0.00     0.036 H 
+ATOM     13  H11 VBZ d          28.821  48.684   0.171  0.00  0.00     0.036 H 
+ATOM     14  H12 VBZ d          27.322  46.505  -3.961  0.00  0.00     0.081 H 
+ATOM     15  H13 VBZ d          28.326  45.613  -2.767  0.00  0.00     0.081 H 
+ATOM     16  H14 VBZ d          28.784  48.099  -3.965  0.00  0.00     0.281 HD
+ATOM     17  H15 VBZ d          29.425  49.407  -2.067  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   7  18
+ATOM     18  C9  VBZ d          30.301  47.132  -2.968  0.00  0.00     0.108 C 
+ATOM     19  H16 VBZ d          30.259  46.082  -2.645  0.00  0.00     0.083 H 
+ATOM     20  H17 VBZ d          30.814  47.732  -2.201  0.00  0.00     0.083 H 
+BRANCH  18  21
+ATOM     21  C10 VBZ d          31.134  47.194  -4.240  0.00  0.00    -0.033 A 
+ATOM     22  C11 VBZ d          30.732  46.546  -5.411  0.00  0.00    -0.075 A 
+ATOM     23  C12 VBZ d          31.516  46.619  -6.583  0.00  0.00    -0.082 A 
+ATOM     24  H18 VBZ d          29.808  45.978  -5.419  0.00  0.00     0.084 H 
+ATOM     25  C13 VBZ d          32.727  47.327  -6.582  0.00  0.00    -0.083 A 
+ATOM     26  H19 VBZ d          31.180  46.127  -7.488  0.00  0.00     0.083 H 
+ATOM     27  C14 VBZ d          33.150  47.956  -5.408  0.00  0.00    -0.082 A 
+ATOM     28  H22 VBZ d          33.329  47.385  -7.482  0.00  0.00     0.083 H 
+ATOM     29  C15 VBZ d          32.351  47.890  -4.252  0.00  0.00    -0.075 A 
+ATOM     30  H21 VBZ d          34.091  48.495  -5.388  0.00  0.00     0.083 H 
+ATOM     31  H20 VBZ d          32.685  48.387  -3.349  0.00  0.00     0.084 H 
+ENDBRANCH  18  21
+ENDBRANCH   7  18
+BRANCH   3  32
+ATOM     32  O4  VBZ d          25.794  45.931  -1.799  0.00  0.00    -0.385 OA
+ATOM     33  H5  VBZ d          25.634  45.564  -2.660  0.00  0.00     0.210 HD
+ENDBRANCH   3  32
+BRANCH   1  34
+ATOM     34  O2  VBZ d          27.160  50.384  -2.928  0.00  0.00    -0.391 OA
+ATOM     35  H1  VBZ d          27.908  50.961  -2.830  0.00  0.00     0.210 HD
+ENDBRANCH   1  34
+BRANCH   2  36
+ATOM     36  O3  VBZ d          25.810  48.365  -3.569  0.00  0.00    -0.390 OA
+ATOM     37  H4  VBZ d          25.757  47.492  -3.940  0.00  0.00     0.210 HD
+ENDBRANCH   2  36
+BRANCH   4  38
+ATOM     38  C6  VBZ d          27.740  45.805   0.309  0.00  0.00     0.023 C 
+ATOM     39  H7  VBZ d          26.790  45.472   0.755  0.00  0.00     0.074 H 
+ATOM     40  H8  VBZ d          28.471  45.999   1.107  0.00  0.00     0.074 H 
+BRANCH  38  41
+ATOM     41  O6  VBZ d          28.237  44.801  -0.561  0.00  0.00    -0.400 OA
+ATOM     42  H9  VBZ d          27.513  44.281  -0.889  0.00  0.00     0.209 HD
+ENDBRANCH  38  41
+ENDBRANCH   4  38
+TORSDOF 7
+ENDMDL

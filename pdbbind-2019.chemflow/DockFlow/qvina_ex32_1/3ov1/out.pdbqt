@@ -1,0 +1,770 @@
+MODEL 1
+REMARK VINA RESULT:      -5.2      0.000      0.000
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -11.868  13.995  -3.913  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -12.269  13.050  -4.604  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -10.557  14.344  -3.819  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -10.243  15.069  -3.206  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -12.838  14.844  -3.066  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -13.649  15.238  -3.696  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -13.434  14.008  -1.964  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -14.655  13.573  -2.103  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -15.356  13.733  -3.111  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -12.905  13.792  -1.143  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -15.191  12.813  -0.924  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -15.916  12.061  -1.271  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -15.689  13.510  -0.234  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -14.363  12.312  -0.403  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -11.997  16.000  -2.516  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -12.573  16.936  -2.552  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -11.076  16.112  -3.107  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -11.646  15.646  -1.041  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -10.440  15.024  -0.785  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -10.082  14.640   0.484  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d          -9.759  14.835  -1.607  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -10.965  14.795   1.550  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d          -9.102  14.212   0.657  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -12.186  15.418   1.279  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -12.554  15.870  -0.002  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -12.885  15.560   2.096  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -13.501  16.370  -0.176  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d         -10.562  14.319   2.804  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d         -10.776  12.783   3.321  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d         -11.244  13.068   4.779  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d         -11.883  12.211   2.502  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d          -9.472  12.167   3.352  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d          -9.654  13.609  -4.649  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d          -9.724  13.830  -6.121  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d          -8.557  14.394  -5.350  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d          -9.568  12.987  -6.810  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -10.484  14.509  -6.537  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d          -8.470  15.479  -5.195  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d          -7.554  13.958  -5.467  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d          -9.146  12.302  -4.077  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d          -7.916  12.094  -3.980  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d         -10.054  11.387  -3.701  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d         -11.025  11.623  -3.754  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d          -9.684  10.078  -3.224  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d          -8.607  10.078  -3.000  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d          -9.945   9.028  -4.336  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -11.087   8.544  -4.467  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d          -8.917   8.627  -5.100  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d          -9.064   7.951  -5.822  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d          -8.004   9.004  -4.946  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d         -10.441   9.757  -1.920  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d          -9.713   9.698  -1.097  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d         -10.942   8.785  -2.036  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d         -11.493  10.810  -1.567  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d         -12.454  10.969  -2.310  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d         -11.289  11.494  -0.421  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d         -11.941  12.196  -0.135  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d         -10.486  11.299   0.143  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.1      2.067      3.780
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -13.173  15.634  -0.005  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -12.777  16.794  -0.176  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -12.362  14.548  -0.104  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -12.712  13.615  -0.025  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -14.652  15.326   0.310  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -15.312  15.932  -0.328  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -14.941  13.867   0.070  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -15.166  13.470  -1.151  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -15.095  14.188  -2.157  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -14.960  13.218   0.831  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -15.519  12.016  -1.285  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -16.176  11.720  -0.454  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -14.601  11.411  -1.260  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -16.039  11.852  -2.240  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -14.847  15.713   1.779  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -15.830  15.367   2.133  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -14.779  16.805   1.894  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -13.714  15.019   2.588  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -13.782  13.652   2.773  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -12.844  12.977   3.516  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d         -14.597  13.098   2.321  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -11.829  13.666   4.177  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d         -12.894  11.897   3.588  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -11.774  15.050   3.989  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -12.691  15.758   3.190  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -10.986  15.605   4.485  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -12.608  16.829   3.047  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d         -10.949  12.922   4.971  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -9.715  12.022   4.389  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -8.525  12.962   4.740  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d          -9.676  10.776   5.207  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d          -9.874  11.971   2.956  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -10.977  14.821  -0.329  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d         -10.338  15.897   0.482  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d         -10.006  14.457   0.782  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d          -9.580  16.549   0.025  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -10.943  16.478   1.193  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d         -10.374  13.986   1.705  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d          -9.011  14.056   0.537  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -10.444  14.452  -1.699  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d          -9.775  15.280  -2.356  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d         -10.731  13.230  -2.173  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d         -11.228  12.590  -1.587  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d         -10.349  12.804  -3.497  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d          -9.600  13.508  -3.890  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -11.586  12.845  -4.432  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -11.501  12.373  -5.583  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -12.707  13.438  -3.993  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d         -13.516  13.475  -4.581  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -12.734  13.842  -3.079  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d          -9.702  11.406  -3.436  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d          -8.708  11.499  -2.972  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d          -9.594  11.025  -4.462  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d         -10.526  10.402  -2.627  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d         -11.725  10.599  -2.473  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d          -9.856   9.335  -2.143  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d         -10.338   8.643  -1.605  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d          -8.877   9.236  -2.321  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.0      1.811      2.810
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -12.136  15.941  -2.509  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -12.888  15.753  -3.473  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -10.781  15.867  -2.597  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -10.191  15.959  -1.794  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -12.689  16.246  -1.102  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -13.413  17.073  -1.148  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -13.371  15.028  -0.535  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -14.674  15.016  -0.474  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -15.415  15.907  -0.910  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -12.837  14.247  -0.214  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -15.263  13.795   0.173  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -15.905  14.099   1.013  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -14.453  13.151   0.546  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -15.861  13.242  -0.565  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -11.476  16.661  -0.265  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -11.611  17.684   0.115  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -10.562  16.615  -0.877  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -11.375  15.659   0.921  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -10.663  14.491   0.735  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -10.570  13.538   1.719  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d         -10.165  14.322  -0.214  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -11.262  13.686   2.920  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d          -9.951  12.662   1.561  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -11.986  14.867   3.095  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -12.053  15.883   2.123  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -12.522  15.009   4.026  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -12.605  16.799   2.299  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d         -11.176  12.644   3.852  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -9.895  12.384   4.832  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -8.992  11.568   3.861  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d          -9.304  13.722   5.122  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d         -10.350  11.521   5.895  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -10.251  15.651  -3.906  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d         -10.335  16.771  -4.886  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d          -8.997  16.420  -4.286  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d         -10.532  16.557  -5.947  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -10.833  17.710  -4.602  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d          -8.523  17.097  -3.560  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d          -8.221  15.944  -4.904  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -10.199  14.209  -4.369  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d         -10.483  13.918  -5.551  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d          -9.859  13.274  -3.467  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d          -9.594  13.566  -2.548  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d          -9.860  11.865  -3.774  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d         -10.355  11.718  -4.745  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -10.674  11.101  -2.697  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -11.202  10.009  -2.987  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -10.834  11.663  -1.489  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d         -11.356  11.187  -0.781  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -10.432  12.558  -1.297  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d          -8.412  11.349  -3.895  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d          -7.846  11.684  -3.013  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d          -7.963  11.776  -4.803  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d          -8.328   9.824  -3.980  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d          -8.525   9.272  -5.055  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d          -8.017   9.180  -2.834  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d          -7.947   8.183  -2.824  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d          -7.857   9.701  -1.995  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -3.4      1.669      2.097
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -10.817  14.577  -2.243  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -10.226  13.802  -1.481  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -10.203  15.230  -3.265  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -10.682  15.900  -3.831  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -12.317  14.891  -2.067  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -12.767  15.155  -3.036  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -13.037  13.695  -1.502  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -14.059  13.217  -2.155  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -14.455  13.627  -3.255  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -12.737  13.276  -0.645  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -14.759  12.072  -1.480  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -15.502  11.641  -2.167  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -15.264  12.435  -0.573  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -14.023  11.302  -1.206  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -12.377  16.093  -1.120  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -13.369  16.564  -1.168  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -11.607  16.829  -1.395  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -12.111  15.554   0.316  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -10.882  15.804   0.894  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -10.558  15.322   2.138  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d         -10.154  16.396   0.350  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -11.438  14.491   2.830  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d          -9.609  15.590   2.586  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -12.675  14.238   2.233  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -13.052  14.765   0.984  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -13.380  13.604   2.759  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -14.030  14.568   0.558  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d         -11.015  13.980   4.063  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -9.953  12.750   4.238  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -8.631  13.566   4.342  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d         -10.280  12.088   5.533  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d          -9.960  12.013   2.998  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d          -8.829  14.898  -3.482  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d          -7.845  16.016  -3.546  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d          -7.867  15.128  -2.327  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d          -6.999  15.960  -4.248  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d          -8.192  17.057  -3.471  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d          -8.238  15.516  -1.368  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d          -7.046  14.420  -2.144  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d          -8.570  13.585  -4.190  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d          -7.849  13.553  -5.212  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d          -9.150  12.480  -3.693  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d          -9.677  12.553  -2.847  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d          -9.042  11.193  -4.335  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d          -8.043  11.110  -4.789  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -10.096  11.089  -5.469  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -10.148  10.056  -6.166  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -10.895  12.141  -5.705  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d         -11.581  12.094  -6.432  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -10.805  12.971  -5.156  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d          -9.185  10.068  -3.291  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d          -8.435  10.224  -2.502  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d          -9.002   9.104  -3.787  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d         -10.572  10.029  -2.644  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d         -11.329  10.980  -2.794  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d         -10.874   8.910  -1.952  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d         -11.764   8.823  -1.505  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d         -10.206   8.168  -1.884  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -3.3      3.186      6.787
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -12.618  14.819  -1.216  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -11.970  13.832  -0.845  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -13.973  14.825  -1.317  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -14.475  15.611  -1.679  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -11.920  16.131  -1.631  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -12.501  16.998  -1.284  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -10.538  16.196  -1.035  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -10.414  16.558   0.211  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -11.355  16.792   0.981  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d          -9.734  15.966  -1.583  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d          -8.997  16.667   0.698  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d          -8.331  16.122   0.012  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d          -8.920  16.232   1.705  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d          -8.702  17.726   0.733  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -11.880  16.108  -3.162  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -11.265  16.939  -3.537  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -12.900  16.194  -3.567  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -11.252  14.747  -3.582  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d          -9.900  14.558  -3.376  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d          -9.266  13.403  -3.764  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d          -9.324  15.342  -2.898  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d          -9.958  12.409  -4.453  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d          -8.217  13.263  -3.531  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -11.324  12.614  -4.663  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -12.008  13.764  -4.228  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -11.885  11.848  -5.187  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -13.074  13.883  -4.386  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d          -9.234  11.288  -4.878  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -9.482   9.767  -4.335  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -9.738  10.072  -2.829  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d         -10.721   9.275  -5.003  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d          -8.229   9.065  -4.471  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -14.638  13.640  -0.873  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d         -15.606  12.994  -1.804  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d         -14.271  12.336  -1.561  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d         -16.523  12.533  -1.407  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -15.820  13.456  -2.779  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d         -13.509  12.326  -2.354  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d         -14.211  11.403  -0.982  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -14.768  13.478   0.628  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d         -15.872  13.180   1.135  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d         -13.672  13.681   1.377  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d         -12.804  13.870   0.918  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d         -13.700  13.638   2.818  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d         -14.622  13.129   3.136  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -13.728  15.084   3.380  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -13.734  15.262   4.614  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -13.799  16.110   2.518  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d         -13.818  17.049   2.860  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -13.832  15.934   1.534  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d         -12.502  12.823   3.345  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d         -12.756  11.754   3.296  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d         -12.317  13.109   4.391  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d         -11.221  13.058   2.541  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d         -10.899  12.250   1.679  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d         -10.531  14.180   2.837  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d          -9.685  14.390   2.347  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d         -10.864  14.801   3.546  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -3.0      2.394      3.863
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -11.771  14.513  -1.532  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -11.307  13.497  -2.064  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -11.172  15.732  -1.605  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -11.528  16.528  -1.115  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -13.071  14.466  -0.703  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -13.096  15.300   0.015  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -14.270  14.564  -1.610  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -14.623  15.740  -2.050  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -14.008  16.794  -1.837  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -14.783  13.746  -1.869  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -15.872  15.751  -2.885  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -16.314  16.758  -2.871  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -16.593  15.028  -2.476  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -15.623  15.474  -3.920  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -13.031  13.132   0.048  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -12.578  12.356  -0.586  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -14.050  12.828   0.330  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -12.167  13.352   1.323  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -12.490  14.399   2.162  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -11.745  14.684   3.281  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d         -13.354  15.013   1.932  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -10.584  13.967   3.563  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d         -12.065  15.473   3.951  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -10.261  12.915   2.703  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -11.038  12.569   1.581  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d          -9.368  12.336   2.910  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -10.772  11.732   0.945  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d          -9.836  14.356   4.682  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -9.079  15.796   4.832  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -8.056  15.432   5.948  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d          -8.391  16.051   3.534  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d         -10.048  16.725   5.360  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -10.003  15.805  -2.424  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d          -8.934  16.765  -2.028  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d          -8.703  15.288  -1.830  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d          -8.372  17.308  -2.803  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d          -9.080  17.418  -1.155  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d          -8.690  14.862  -0.817  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d          -7.981  14.752  -2.463  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -10.181  15.383  -3.868  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d         -10.690  16.171  -4.695  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d          -9.791  14.144  -4.210  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d          -9.346  13.572  -3.522  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d          -9.991  13.608  -5.534  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d          -9.967  14.437  -6.256  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -11.388  12.937  -5.616  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d         -11.506  11.833  -6.183  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -12.448  13.591  -5.118  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d         -13.357  13.176  -5.161  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -12.329  14.493  -4.703  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d          -8.848  12.636  -5.889  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d          -7.942  13.222  -6.103  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d          -9.138  12.066  -6.784  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d          -8.535  11.649  -4.762  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d          -7.865  12.023  -3.807  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d          -9.048  10.407  -4.899  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d          -8.878   9.716  -4.196  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d          -9.597  10.179  -5.703  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -2.8      2.318      4.067
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -13.196  14.884  -0.408  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -12.704  15.527  -1.344  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -12.903  13.578  -0.168  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -13.358  13.057   0.554  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -14.221  15.518   0.555  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -15.117  15.839   0.001  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -14.628  14.523   1.610  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -15.446  13.563   1.279  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -15.873  13.355   0.135  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -14.277  14.597   2.544  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -15.854  12.664   2.411  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -14.956  12.245   2.888  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -16.479  11.847   2.024  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -16.426  13.244   3.151  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -13.517  16.736   1.159  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -14.171  17.221   1.899  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -13.261  17.455   0.368  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -12.222  16.218   1.850  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -12.343  15.538   3.045  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d         -11.243  15.092   3.736  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d         -13.332  15.351   3.449  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d          -9.955  15.383   3.288  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d         -11.377  14.507   4.638  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d          -9.845  16.079   2.082  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -10.956  16.499   1.328  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d          -8.853  16.307   1.708  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -10.836  17.019   0.383  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d          -8.880  14.957   4.078  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d          -8.847  13.552   4.912  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d          -8.024  14.010   6.152  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d         -10.258  13.247   5.285  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d          -8.061  12.624   4.136  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -11.906  12.997  -1.009  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d         -10.479  13.138  -0.600  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d         -11.151  11.794  -0.466  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d          -9.703  13.288  -1.365  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -10.223  13.714   0.301  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d         -11.392  11.394   0.529  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d         -10.872  10.968  -1.137  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -12.289  12.822  -2.465  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d         -13.372  12.275  -2.768  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d         -11.425  13.257  -3.396  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d         -10.596  13.731  -3.100  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d         -11.648  13.065  -4.808  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d         -12.556  12.459  -4.941  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d         -10.454  12.286  -5.420  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d          -9.645  12.884  -6.158  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d         -10.351  10.970  -5.180  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d          -9.589  10.450  -5.566  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -11.036  10.510  -4.616  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d         -11.879  14.426  -5.496  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d         -12.938  14.497  -5.785  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d         -11.248  14.476  -6.395  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d         -11.539  15.615  -4.594  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d         -10.364  15.890  -4.385  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d         -12.588  16.303  -4.096  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d         -12.432  17.090  -3.500  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d         -13.522  16.026  -4.323  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL

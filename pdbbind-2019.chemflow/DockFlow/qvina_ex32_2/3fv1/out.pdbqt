@@ -1,0 +1,73 @@
+MODEL 1
+REMARK VINA RESULT:      -9.6      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  NH_2 
+REMARK    2  A    between atoms: NH_2  and  CAH_3 
+REMARK    3  A    between atoms: CAG_4  and  OAC_5 
+REMARK    4  A    between atoms: CAK_12  and  CAE_13 
+REMARK    5  A    between atoms: CAK_12  and  CB_16 
+REMARK    6  A    between atoms: CB_16  and  CA_17 
+REMARK    7  A    between atoms: CA_17  and  C_18 
+REMARK    8  A    between atoms: CA_17  and  N_21 
+ROOT
+ATOM      1  CAH DYH d          -9.895  13.257  21.194  0.00  0.00     0.155 C 
+ATOM      2  CAG DYH d         -11.097  14.188  21.209  0.00  0.00     0.086 C 
+ATOM      3  CAP DYH d         -11.033  15.133  22.404  0.00  0.00     0.046 C 
+ATOM      4  OAQ DYH d          -9.870  15.954  22.320  0.00  0.00    -0.381 OA
+ATOM      5  CAR DYH d          -8.663  15.171  22.434  0.00  0.00     0.069 C 
+ATOM      6  CAS DYH d          -7.507  16.036  21.978  0.00  0.00     0.000 C 
+ATOM      7  CAI DYH d          -8.607  14.033  21.424  0.00  0.00     0.095 C 
+ATOM      8  OAJ DYH d          -8.252  14.670  20.198  0.00  0.00    -0.359 OA
+ATOM      9  CAK DYH d          -7.490  15.863  20.461  0.00  0.00     0.154 C 
+ATOM     10  H6  DYH d         -10.011  12.525  22.006  0.00  0.00     0.092 H 
+ATOM     11  H7  DYH d         -12.013  13.582  21.278  0.00  0.00     0.089 H 
+ATOM     12  H9  DYH d         -10.995  14.545  23.332  0.00  0.00     0.078 H 
+ATOM     13  H10 DYH d         -11.929  15.772  22.411  0.00  0.00     0.078 H 
+ATOM     14  H11 DYH d          -8.538  14.806  23.465  0.00  0.00     0.087 H 
+ATOM     15  H12 DYH d          -6.562  15.689  22.421  0.00  0.00     0.042 H 
+ATOM     16  H13 DYH d          -7.675  17.088  22.250  0.00  0.00     0.042 H 
+ATOM     17  H14 DYH d          -7.828  13.321  21.732  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   9  18
+ATOM     18  CAE DYH d          -8.190  17.052  19.813  0.00  0.00     0.209 C 
+ATOM     19  OAB DYH d          -7.578  18.156  19.732  0.00  0.00    -0.646 OA
+ATOM     20  OAF DYH d          -9.358  16.904  19.391  0.00  0.00    -0.646 OA
+ENDBRANCH   9  18
+BRANCH   9  21
+ATOM     21  CB  DYH d          -6.058  15.680  19.967  0.00  0.00     0.010 C 
+ATOM     22  H15 DYH d          -5.559  14.961  20.633  0.00  0.00     0.042 H 
+ATOM     23  H16 DYH d          -5.549  16.653  20.031  0.00  0.00     0.042 H 
+BRANCH  21  24
+ATOM     24  CA  DYH d          -5.921  15.167  18.532  0.00  0.00     0.185 C 
+ATOM     25  H17 DYH d          -6.577  15.760  17.878  0.00  0.00     0.101 H 
+BRANCH  24  26
+ATOM     26  C   DYH d          -4.496  15.364  18.117  0.00  0.00     0.204 C 
+ATOM     27  OXT DYH d          -3.936  14.506  17.402  0.00  0.00    -0.646 OA
+ATOM     28  O   DYH d          -3.933  16.396  18.516  0.00  0.00    -0.646 OA
+ENDBRANCH  24  26
+BRANCH  24  29
+ATOM     29  N   DYH d          -6.291  13.762  18.402  0.00  0.00    -0.065 N 
+ATOM     30  H18 DYH d          -6.063  13.439  17.475  0.00  0.00     0.275 HD
+ATOM     31  H19 DYH d          -7.281  13.659  18.560  0.00  0.00     0.275 HD
+ATOM     32  H20 DYH d          -5.783  13.216  19.081  0.00  0.00     0.275 HD
+ENDBRANCH  24  29
+ENDBRANCH  21  24
+ENDBRANCH   9  21
+BRANCH   1  33
+ATOM     33  NH  DYH d          -9.826  12.537  19.919  0.00  0.00    -0.070 N 
+ATOM     34  H4  DYH d         -10.748  12.174  19.733  0.00  0.00     0.277 HD
+ATOM     35  H5  DYH d          -9.580  13.210  19.211  0.00  0.00     0.277 HD
+BRANCH  33  36
+ATOM     36  CAA DYH d          -8.892  11.421  19.795  0.00  0.00     0.065 C 
+ATOM     37  H1  DYH d          -8.091  11.691  19.090  0.00  0.00     0.067 H 
+ATOM     38  H2  DYH d          -9.427  10.536  19.421  0.00  0.00     0.067 H 
+ATOM     39  H3  DYH d          -8.455  11.197  20.780  0.00  0.00     0.067 H 
+ENDBRANCH  33  36
+ENDBRANCH   1  33
+BRANCH   2  40
+ATOM     40  OAC DYH d         -11.139  14.972  20.004  0.00  0.00    -0.391 OA
+ATOM     41  H8  DYH d         -10.390  14.756  19.460  0.00  0.00     0.210 HD
+ENDBRANCH   2  40
+TORSDOF 8
+ENDMDL

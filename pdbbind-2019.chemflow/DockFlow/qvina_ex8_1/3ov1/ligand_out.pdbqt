@@ -1,0 +1,110 @@
+MODEL 1
+REMARK VINA RESULT:      -6.9      0.000      0.000
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CH3_3 
+REMARK       I    between atoms: N_4  and  C_1 
+REMARK    2  A    between atoms: CA_5  and  N_4 
+REMARK    3  A    between atoms: C_6  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: N_25  and  C_6 
+REMARK    5  A    between atoms: CB_8  and  CG_9 
+REMARK    6  A    between atoms: CZ_14  and  OH_15 
+REMARK    7  A    between atoms: OH_15  and  P_16 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CA_22  and  N_25 
+REMARK       I    between atoms: C_23  and  N_26 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK       I    between atoms: C_28  and  N_34 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK       I    between atoms: CG_31  and  ND2_33 
+ROOT
+ATOM      1  C   ACT d         -12.950  13.806   0.864  0.00  0.00     0.241 C 
+ATOM      2  O   ACT d         -12.637  15.002   0.904  0.00  0.00    -0.271 OA
+ATOM      3  N   ACT d         -13.572  13.164   1.888  0.00  0.00    -0.341 N 
+ATOM      4  H16 ACT d         -13.761  12.182   1.863  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ACT d         -12.625  12.929  -0.363  0.00  0.00     0.093 C 
+ATOM      6  H5  ACT d         -13.268  12.036  -0.375  0.00  0.00     0.088 H 
+BRANCH   5   7
+ATOM      7  N   ACT d         -12.845  13.708  -1.633  0.00  0.00    -0.348 N 
+ATOM      8  C   ACT d         -13.672  13.231  -2.521  0.00  0.00     0.214 C 
+ATOM      9  O   ACT d         -14.356  12.209  -2.379  0.00  0.00    -0.274 OA
+ATOM     10  H4  ACT d         -12.367  14.572  -1.791  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CH3 ACT d         -13.771  14.036  -3.785  0.00  0.00    -0.003 C 
+ATOM     12  H1  ACT d         -13.094  14.900  -3.724  0.00  0.00     0.040 H 
+ATOM     13  H2  ACT d         -14.805  14.389  -3.915  0.00  0.00     0.040 H 
+ATOM     14  H3  ACT d         -13.489  13.408  -4.643  0.00  0.00     0.040 H 
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  15
+ATOM     15  CB  ACT d         -11.160  12.515  -0.194  0.00  0.00    -0.014 C 
+ATOM     16  H6  ACT d         -11.050  11.864   0.686  0.00  0.00     0.043 H 
+ATOM     17  H7  ACT d         -10.528  13.407  -0.072  0.00  0.00     0.043 H 
+BRANCH  15  18
+ATOM     18  CG  ACT d         -10.752  11.743  -1.482  0.00  0.00    -0.056 A 
+ATOM     19  CD1 ACT d         -10.112  12.439  -2.489  0.00  0.00    -0.074 A 
+ATOM     20  CE1 ACT d          -9.764  11.837  -3.673  0.00  0.00    -0.050 A 
+ATOM     21  H8  ACT d          -9.878  13.487  -2.340  0.00  0.00     0.084 H 
+ATOM     22  CZ  ACT d         -10.119  10.514  -3.930  0.00  0.00     0.082 A 
+ATOM     23  H10 ACT d          -9.206  12.396  -4.415  0.00  0.00     0.087 H 
+ATOM     24  CE2 ACT d         -10.774   9.822  -2.909  0.00  0.00    -0.050 A 
+ATOM     25  CD2 ACT d         -11.094  10.400  -1.666  0.00  0.00    -0.074 A 
+ATOM     26  H11 ACT d         -11.050   8.788  -3.082  0.00  0.00     0.087 H 
+ATOM     27  H9  ACT d         -11.583   9.829  -0.885  0.00  0.00     0.084 H 
+BRANCH  22  28
+ATOM     28  OH  ACT d          -9.793   9.985  -5.185  0.00  0.00    -0.240 OA
+BRANCH  28  29
+ATOM     29  P   ACT d         -10.261   8.513  -5.718  0.00  0.00     0.427 P 
+ATOM     30  O1P ACT d         -10.076   8.724  -7.249  0.00  0.00    -0.617 OA
+ATOM     31  O2P ACT d          -9.269   7.534  -5.185  0.00  0.00    -0.617 OA
+ATOM     32  O3P ACT d         -11.667   8.388  -5.421  0.00  0.00    -0.617 OA
+ENDBRANCH  28  29
+ENDBRANCH  22  28
+ENDBRANCH  15  18
+ENDBRANCH   5  15
+ENDBRANCH   1   5
+BRANCH   3  33
+ATOM     33  CA  ACT d         -13.940  13.978   3.004  0.00  0.00     0.114 A 
+ATOM     34  CB  ACT d         -15.229  14.723   2.929  0.00  0.00    -0.030 A 
+ATOM     35  CG  ACT d         -15.127  13.523   3.837  0.00  0.00    -0.030 A 
+ATOM     36  H12 ACT d         -15.304  15.732   3.361  0.00  0.00     0.037 H 
+ATOM     37  H13 ACT d         -15.840  14.668   2.016  0.00  0.00     0.037 H 
+ATOM     38  H14 ACT d         -15.655  12.593   3.583  0.00  0.00     0.037 H 
+ATOM     39  H15 ACT d         -15.119  13.655   4.929  0.00  0.00     0.037 H 
+BRANCH  33  40
+ATOM     40  C   ACT d         -12.796  14.477   3.863  0.00  0.00     0.246 C 
+ATOM     41  O   ACT d         -12.967  15.447   4.634  0.00  0.00    -0.271 OA
+ATOM     42  N   ACT d         -11.611  13.856   3.750  0.00  0.00    -0.345 N 
+ATOM     43  H17 ACT d         -11.542  13.056   3.156  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ACT d         -10.434  14.301   4.455  0.00  0.00     0.097 C 
+ATOM     45  H18 ACT d         -10.736  15.039   5.213  0.00  0.00     0.088 H 
+BRANCH  44  46
+ATOM     46  C   ACT d          -9.467  14.998   3.462  0.00  0.00     0.238 C 
+ATOM     47  O   ACT d          -8.286  15.208   3.801  0.00  0.00    -0.271 OA
+ATOM     48  N   ACT d          -9.944  15.406   2.276  0.00  0.00    -0.368 N 
+ATOM     49  H23 ACT d          -9.338  15.857   1.621  0.00  0.00     0.159 HD
+ATOM     50  H24 ACT d         -10.906  15.258   2.047  0.00  0.00     0.159 HD
+ENDBRANCH  44  46
+BRANCH  44  51
+ATOM     51  CB  ACT d          -9.775  13.113   5.185  0.00  0.00     0.036 C 
+ATOM     52  H19 ACT d         -10.506  12.682   5.884  0.00  0.00     0.051 H 
+ATOM     53  H20 ACT d          -8.905  13.486   5.746  0.00  0.00     0.051 H 
+BRANCH  51  54
+ATOM     54  CG  ACT d          -9.305  12.014   4.229  0.00  0.00     0.217 C 
+ATOM     55  OD1 ACT d          -9.790  11.949   3.107  0.00  0.00    -0.274 OA
+ATOM     56  ND2 ACT d          -8.350  11.184   4.701  0.00  0.00    -0.370 N 
+ATOM     57  H21 ACT d          -8.001  10.445   4.126  0.00  0.00     0.159 HD
+ATOM     58  H22 ACT d          -7.992  11.308   5.627  0.00  0.00     0.159 HD
+ENDBRANCH  51  54
+ENDBRANCH  44  51
+ENDBRANCH  42  44
+ENDBRANCH  33  40
+ENDBRANCH   3  33
+TORSDOF 13
+ENDMDL

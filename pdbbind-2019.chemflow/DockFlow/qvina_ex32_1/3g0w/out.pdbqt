@@ -1,0 +1,57 @@
+MODEL 1
+REMARK VINA RESULT:      -8.5      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  O18_18 
+REMARK    2  A    between atoms: C8_8  and  C21_21 
+REMARK    3  A    between atoms: N9_9  and  C10_10 
+REMARK    4  A    between atoms: C11_11  and  C16_16 
+ROOT
+ATOM      1  C10 LGB d          53.317   2.413   4.244  0.00  0.00     0.068 A 
+ATOM      2  C11 LGB d          54.035   3.488   3.678  0.00  0.00    -0.010 A 
+ATOM      3  C12 LGB d          53.462   4.754   3.755  0.00  0.00     0.062 A 
+ATOM      4  C13 LGB d          52.213   4.975   4.371  0.00  0.00     0.067 A 
+ATOM      5  C14 LGB d          51.508   3.930   4.923  0.00  0.00    -0.059 A 
+ATOM      6  C15 LGB d          52.060   2.649   4.858  0.00  0.00    -0.053 A 
+ATOM      7 CL17 LGB d          54.297   6.068   3.086  0.00  0.00    -0.082 Cl
+ATOM      8  C19 LGB d          51.614   6.246   4.459  0.00  0.00     0.101 C 
+ATOM      9  N20 LGB d          51.233   7.323   4.467  0.00  0.00    -0.191 NA
+ATOM     10  H8  LGB d          50.547   4.097   5.397  0.00  0.00     0.086 H 
+ATOM     11  H9  LGB d          51.516   1.816   5.288  0.00  0.00     0.087 H 
+ENDROOT
+BRANCH   2  12
+ATOM     12  C16 LGB d          55.373   3.261   3.017  0.00  0.00    -0.047 C 
+ATOM     13  H10 LGB d          55.380   3.743   2.027  0.00  0.00     0.033 H 
+ATOM     14  H11 LGB d          55.546   2.181   2.899  0.00  0.00     0.033 H 
+ATOM     15  H12 LGB d          56.168   3.695   3.641  0.00  0.00     0.033 H 
+ENDBRANCH   2  12
+BRANCH   1  16
+ATOM     16  N9  LGB d          53.867   1.175   4.174  0.00  0.00    -0.213 NA
+ATOM     17  C6  LGB d          55.112   0.806   4.495  0.00  0.00     0.223 C 
+ATOM     18  N2  LGB d          55.550  -0.536   4.555  0.00  0.00    -0.237 NA
+ATOM     19  O7  LGB d          56.097   1.661   4.800  0.00  0.00    -0.309 OA
+ATOM     20  C1  LGB d          55.081  -1.570   3.598  0.00  0.00    -0.010 C 
+ATOM     21  C3  LGB d          57.001  -0.399   4.432  0.00  0.00     0.061 C 
+ATOM     22  C5  LGB d          56.299  -2.121   2.857  0.00  0.00    -0.028 C 
+ATOM     23  H1  LGB d          54.379  -1.121   2.879  0.00  0.00     0.056 H 
+ATOM     24  H2  LGB d          54.578  -2.382   4.143  0.00  0.00     0.056 H 
+ATOM     25  C4  LGB d          57.363  -0.984   3.050  0.00  0.00     0.055 C 
+ATOM     26  H5  LGB d          56.077  -2.279   1.792  0.00  0.00     0.038 H 
+ATOM     27  H6  LGB d          56.643  -3.065   3.304  0.00  0.00     0.038 H 
+ATOM     28  H4  LGB d          57.269  -0.218   2.266  0.00  0.00     0.085 H 
+ATOM     29  C8  LGB d          57.339   1.062   4.718  0.00  0.00     0.159 C 
+ATOM     30  H3  LGB d          57.504  -1.010   5.196  0.00  0.00     0.073 H 
+ATOM     31  H7  LGB d          57.986   1.497   3.941  0.00  0.00     0.101 H 
+BRANCH  25  32
+ATOM     32  O18 LGB d          58.661  -1.512   3.028  0.00  0.00    -0.394 OA
+ATOM     33  H13 LGB d          58.733  -2.142   2.320  0.00  0.00     0.210 HD
+ENDBRANCH  25  32
+BRANCH  29  34
+ATOM     34  C21 LGB d          57.931   1.227   6.104  0.00  0.00     0.415 C 
+ATOM     35  F22 LGB d          57.224   2.148   6.747  0.00  0.00    -0.168 F 
+ATOM     36  F23 LGB d          59.221   1.590   6.083  0.00  0.00    -0.168 F 
+ATOM     37  F24 LGB d          57.851   0.077   6.729  0.00  0.00    -0.168 F 
+ENDBRANCH  29  34
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL

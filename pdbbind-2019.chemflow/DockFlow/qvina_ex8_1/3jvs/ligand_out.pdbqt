@@ -1,0 +1,87 @@
+MODEL 1
+REMARK VINA RESULT:      -7.7      0.000      0.000
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C2_4 
+REMARK       I    between atoms: C10_18  and  N1_2 
+REMARK    2  A    between atoms: N3_8  and  N2_5 
+REMARK       I    between atoms: N2_5  and  C10_18 
+REMARK       I    between atoms: C12_20  and  N3_8 
+REMARK    3  A    between atoms: C16_24  and  N4_11 
+REMARK    4  A    between atoms: C13_21  and  C12_20 
+REMARK    5  A    between atoms: C18_26  and  C19_27 
+REMARK    6  A    between atoms: C19_27  and  C20_28 
+REMARK    7  A    between atoms: C19_27  and  C21_29 
+REMARK    8  A    between atoms: C19_27  and  C22_30 
+ROOT
+ATOM      1  O2  AGY d          30.353  -5.699  19.236  0.00  0.00    -0.266 OA
+ATOM      2  N3  AGY d          29.281  -3.800  18.692  0.00  0.00    -0.262 N 
+ATOM      3  C12 AGY d          29.588  -4.779  19.586  0.00  0.00     0.270 C 
+ATOM      4  H3  AGY d          28.672  -3.041  18.919  0.00  0.00     0.190 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C13 AGY d          29.024  -4.754  20.934  0.00  0.00     0.036 A 
+ATOM      6  C14 AGY d          27.735  -4.220  21.137  0.00  0.00    -0.035 A 
+ATOM      7  C16 AGY d          27.131  -4.178  22.435  0.00  0.00     0.111 A 
+ATOM      8  H11 AGY d          27.185  -3.831  20.287  0.00  0.00     0.088 H 
+ATOM      9  C18 AGY d          27.849  -4.689  23.619  0.00  0.00    -0.018 A 
+ATOM     10  C17 AGY d          29.194  -5.241  23.377  0.00  0.00    -0.073 A 
+ATOM     11  C15 AGY d          29.759  -5.264  22.048  0.00  0.00    -0.067 A 
+ATOM     12  H13 AGY d          29.768  -5.635  24.209  0.00  0.00     0.084 H 
+ATOM     13  H12 AGY d          30.750  -5.674  21.895  0.00  0.00     0.085 H 
+BRANCH   7  14
+ATOM     14  N4  AGY d          25.902  -3.701  22.529  0.00  0.00    -0.115 N 
+ATOM     15  O3  AGY d          24.971  -4.439  23.064  0.00  0.00    -0.532 OA
+ATOM     16  O4  AGY d          25.606  -2.430  22.052  0.00  0.00    -0.532 OA
+ENDBRANCH   7  14
+BRANCH   9  17
+ATOM     17  C19 AGY d          27.292  -4.692  25.064  0.00  0.00    -0.022 C 
+BRANCH  17  18
+ATOM     18  C20 AGY d          28.372  -4.489  26.154  0.00  0.00    -0.066 C 
+ATOM     19  H14 AGY d          27.898  -4.503  27.147  0.00  0.00     0.028 H 
+ATOM     20  H15 AGY d          28.870  -3.521  26.000  0.00  0.00     0.028 H 
+ATOM     21  H16 AGY d          29.114  -5.298  26.089  0.00  0.00     0.028 H 
+ENDBRANCH  17  18
+BRANCH  17  22
+ATOM     22  C21 AGY d          26.300  -3.568  25.548  0.00  0.00    -0.066 C 
+ATOM     23  H17 AGY d          25.425  -3.539  24.884  0.00  0.00     0.028 H 
+ATOM     24  H18 AGY d          26.811  -2.594  25.524  0.00  0.00     0.028 H 
+ATOM     25  H19 AGY d          25.974  -3.785  26.576  0.00  0.00     0.028 H 
+ENDBRANCH  17  22
+BRANCH  17  26
+ATOM     26  C22 AGY d          26.510  -6.009  25.233  0.00  0.00    -0.066 C 
+ATOM     27  H20 AGY d          27.140  -6.853  24.912  0.00  0.00     0.028 H 
+ATOM     28  H21 AGY d          25.599  -5.977  24.617  0.00  0.00     0.028 H 
+ATOM     29  H22 AGY d          26.234  -6.138  26.290  0.00  0.00     0.028 H 
+ENDBRANCH  17  26
+ENDBRANCH   9  17
+ENDBRANCH   3   5
+BRANCH   2  30
+ATOM     30  N2  AGY d          29.892  -3.933  17.399  0.00  0.00    -0.248 N 
+ATOM     31  C10 AGY d          30.962  -3.193  16.997  0.00  0.00     0.339 C 
+ATOM     32  N1  AGY d          31.525  -2.265  17.824  0.00  0.00    -0.307 N 
+ATOM     33  O1  AGY d          31.400  -3.397  15.856  0.00  0.00    -0.245 OA
+ATOM     34  H1  AGY d          31.095  -2.188  18.724  0.00  0.00     0.170 HD
+ATOM     35  H2  AGY d          29.513  -4.603  16.762  0.00  0.00     0.192 HD
+BRANCH  32  36
+ATOM     36  C2  AGY d          32.604  -1.408  17.616  0.00  0.00     0.047 A 
+ATOM     37  C1  AGY d          33.994  -1.834  17.554  0.00  0.00     0.001 A 
+ATOM     38  C3  AGY d          35.077  -0.830  17.323  0.00  0.00    -0.024 A 
+ATOM     39  C4  AGY d          34.355  -3.225  17.712  0.00  0.00    -0.070 A 
+ATOM     40  C6  AGY d          34.760   0.568  17.162  0.00  0.00    -0.072 A 
+ATOM     41  C7  AGY d          36.439  -1.253  17.263  0.00  0.00    -0.072 A 
+ATOM     42  C9  AGY d          33.365   0.992  17.225  0.00  0.00    -0.080 A 
+ATOM     43  H6  AGY d          35.547   1.295  16.996  0.00  0.00     0.084 H 
+ATOM     44  C5  AGY d          32.310   0.013  17.449  0.00  0.00    -0.056 A 
+ATOM     45  H9  AGY d          33.113   2.039  17.105  0.00  0.00     0.083 H 
+ATOM     46  H5  AGY d          31.280   0.348  17.494  0.00  0.00     0.086 H 
+ATOM     47  C11 AGY d          36.778  -2.654  17.425  0.00  0.00    -0.082 A 
+ATOM     48  H7  AGY d          37.223  -0.524  17.096  0.00  0.00     0.084 H 
+ATOM     49  C8  AGY d          35.739  -3.634  17.648  0.00  0.00    -0.082 A 
+ATOM     50  H10 AGY d          37.815  -2.967  17.379  0.00  0.00     0.083 H 
+ATOM     51  H8  AGY d          35.999  -4.680  17.768  0.00  0.00     0.083 H 
+ATOM     52  H4  AGY d          33.582  -3.966  17.879  0.00  0.00     0.084 H 
+ENDBRANCH  32  36
+ENDBRANCH   2  30
+TORSDOF 8
+ENDMDL

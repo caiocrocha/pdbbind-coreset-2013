@@ -1,0 +1,75 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: OAR_19  and  CAA_5 
+REMARK    4  A    between atoms: NAQ_18  and  CAO_17 
+REMARK    5  A    between atoms: CAO_17  and  CAV_22 
+REMARK    6  A    between atoms: SBC_28  and  NAQ_18 
+REMARK    7  A    between atoms: CAU_21  and  OAR_19 
+REMARK    8  A    between atoms: CAW_23  and  SBC_28 
+ROOT
+ATOM      1  N   FG5 d           1.027 -10.939  38.720  0.00  0.00    -0.338 N 
+ATOM      2  CAH FG5 d          -0.619  -9.548  41.664  0.00  0.00    -0.049 A 
+ATOM      3  CAK FG5 d           0.242 -10.327  40.914  0.00  0.00    -0.054 A 
+ATOM      4  CAL FG5 d          -1.402  -8.672  39.541  0.00  0.00    -0.039 A 
+ATOM      5  CAM FG5 d          -0.296  -9.616  37.553  0.00  0.00    -0.047 A 
+ATOM      6  CAU FG5 d          -1.454  -8.703  40.949  0.00  0.00     0.069 A 
+ATOM      7  CAV FG5 d           0.686 -10.527  37.496  0.00  0.00     0.032 A 
+ATOM      8  CAY FG5 d          -0.546  -9.456  38.859  0.00  0.00    -0.005 A 
+ATOM      9  CBA FG5 d           0.270 -10.268  39.569  0.00  0.00     0.045 A 
+ATOM     10  H8  FG5 d          -0.640  -9.595  42.747  0.00  0.00     0.087 H 
+ATOM     11  H11 FG5 d           0.915 -11.006  41.424  0.00  0.00     0.087 H 
+ATOM     12  H12 FG5 d          -2.062  -8.006  38.998  0.00  0.00     0.089 H 
+ATOM     13  H13 FG5 d          -0.784  -9.115  36.718  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   7  14
+ATOM     14  CAO FG5 d           1.388 -11.108  36.243  0.00  0.00     0.041 C 
+ATOM     15  H15 FG5 d           2.436 -11.316  36.504  0.00  0.00     0.074 H 
+ATOM     16  H16 FG5 d           0.884 -12.048  35.974  0.00  0.00     0.074 H 
+BRANCH  14  17
+ATOM     17  NAQ FG5 d           1.376 -10.229  35.064  0.00  0.00    -0.308 N 
+ATOM     18  H17 FG5 d           1.850  -9.350  35.005  0.00  0.00     0.172 HD
+BRANCH  17  19
+ATOM     19  SBC FG5 d           0.388 -10.954  33.737  0.00  0.00     0.281 S 
+ATOM     20  OAC FG5 d          -0.984 -10.262  33.754  0.00  0.00    -0.199 OA
+ATOM     21  OAD FG5 d           0.240 -12.486  33.799  0.00  0.00    -0.199 OA
+BRANCH  19  22
+ATOM     22  CAW FG5 d           1.186 -10.571  32.212  0.00  0.00     0.191 A 
+ATOM     23  CAN FG5 d           0.637 -10.825  31.038  0.00  0.00    -0.025 A 
+ATOM     24  CAX FG5 d           1.456 -10.435  30.071  0.00  0.00     0.001 A 
+ATOM     25  H14 FG5 d          -0.339 -11.284  30.887  0.00  0.00     0.090 H 
+ATOM     26  CAI FG5 d           1.305 -10.504  28.745  0.00  0.00    -0.070 A 
+ATOM     27  CAZ FG5 d           2.552  -9.929  30.651  0.00  0.00     0.087 A 
+ATOM     28  CAF FG5 d           2.308 -10.039  27.914  0.00  0.00    -0.082 A 
+ATOM     29  H9  FG5 d           0.399 -10.923  28.322  0.00  0.00     0.084 H 
+ATOM     30  CAG FG5 d           3.444  -9.511  28.522  0.00  0.00    -0.080 A 
+ATOM     31  H6  FG5 d           2.214 -10.084  26.835  0.00  0.00     0.083 H 
+ATOM     32  CAJ FG5 d           3.549  -9.457  29.909  0.00  0.00    -0.049 A 
+ATOM     33  H7  FG5 d           4.256  -9.138  27.908  0.00  0.00     0.083 H 
+ATOM     34  H10 FG5 d           4.431  -9.036  30.378  0.00  0.00     0.087 H 
+ATOM     35  OAS FG5 d           2.380 -10.017  32.048  0.00  0.00    -0.296 OA
+ENDBRANCH  19  22
+ENDBRANCH  17  19
+ENDBRANCH  14  17
+ENDBRANCH   7  14
+BRANCH   1  36
+ATOM     36  CA  FG5 d           2.052 -11.885  39.306  0.00  0.00     0.080 C 
+ATOM     37  H1  FG5 d           3.036 -11.410  39.178  0.00  0.00     0.081 H 
+ATOM     38  H2  FG5 d           1.826 -11.976  40.379  0.00  0.00     0.081 H 
+BRANCH  36  39
+ATOM     39  C   FG5 d           2.169 -13.294  38.759  0.00  0.00     0.191 C 
+ATOM     40  O   FG5 d           3.292 -13.850  38.934  0.00  0.00    -0.647 OA
+ATOM     41  OXT FG5 d           1.157 -13.802  38.231  0.00  0.00    -0.647 OA
+ENDBRANCH  36  39
+ENDBRANCH   1  36
+BRANCH   6  42
+ATOM     42  OAR FG5 d          -2.303  -7.942  41.667  0.00  0.00    -0.356 OA
+BRANCH  42  43
+ATOM     43  CAA FG5 d          -2.908  -6.867  40.948  0.00  0.00     0.010 C 
+ATOM     44  H3  FG5 d          -3.579  -6.310  41.618  0.00  0.00     0.066 H 
+ATOM     45  H4  FG5 d          -3.485  -7.270  40.103  0.00  0.00     0.066 H 
+ATOM     46  H5  FG5 d          -2.126  -6.193  40.569  0.00  0.00     0.066 H 
+ENDBRANCH  42  43
+ENDBRANCH   6  42
+TORSDOF 8

@@ -1,0 +1,91 @@
+MODEL 1
+REMARK VINA RESULT:      -3.2      0.000      0.000
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  N5_5 
+REMARK    5  A    between atoms: N5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  C7_7 
+REMARK    7  A    between atoms: C7_7  and  C8_8 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C9_9  and  N10_10 
+REMARK   10  A    between atoms: N10_10  and  C11_11 
+REMARK   11  A    between atoms: C11_11  and  C12_12 
+REMARK   12  A    between atoms: C12_12  and  C13_13 
+REMARK   13  A    between atoms: C13_13  and  N14_14 
+ROOT
+ATOM      1  C7  SPM d          -4.391   2.334  13.774  0.00  0.00    -0.041 C 
+ATOM      2  H14 SPM d          -5.047   1.453  13.726  0.00  0.00     0.035 H 
+ATOM      3  H15 SPM d          -3.359   2.012  13.973  0.00  0.00     0.035 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  SPM d          -4.867   3.304  14.835  0.00  0.00     0.082 C 
+ATOM      5  H12 SPM d          -4.220   3.190  15.718  0.00  0.00     0.075 H 
+ATOM      6  H13 SPM d          -4.766   4.324  14.436  0.00  0.00     0.075 H 
+BRANCH   4   7
+ATOM      7  N5  SPM d          -6.245   3.119  15.258  0.00  0.00    -0.075 N 
+ATOM      8  H10 SPM d          -6.819   3.715  14.682  0.00  0.00     0.277 HD
+ATOM      9  H11 SPM d          -6.485   2.155  15.087  0.00  0.00     0.277 HD
+BRANCH   7  10
+ATOM     10  C4  SPM d          -6.572   3.406  16.635  0.00  0.00     0.083 C 
+ATOM     11  H8  SPM d          -5.651   3.720  17.147  0.00  0.00     0.075 H 
+ATOM     12  H9  SPM d          -7.299   4.232  16.648  0.00  0.00     0.075 H 
+BRANCH  10  13
+ATOM     13  C3  SPM d          -7.173   2.230  17.411  0.00  0.00    -0.020 C 
+ATOM     14  H6  SPM d          -7.910   2.616  18.130  0.00  0.00     0.037 H 
+ATOM     15  H7  SPM d          -7.672   1.553  16.701  0.00  0.00     0.037 H 
+BRANCH  13  16
+ATOM     16  C2  SPM d          -6.113   1.456  18.164  0.00  0.00     0.081 C 
+ATOM     17  H4  SPM d          -5.264   2.115  18.397  0.00  0.00     0.075 H 
+ATOM     18  H5  SPM d          -6.535   1.057  19.098  0.00  0.00     0.075 H 
+BRANCH  16  19
+ATOM     19  N1  SPM d          -5.674   0.371  17.321  0.00  0.00    -0.079 N 
+ATOM     20  H1  SPM d          -4.966  -0.162  17.801  0.00  0.00     0.274 HD
+ATOM     21  H2  SPM d          -5.294   0.743  16.465  0.00  0.00     0.274 HD
+ATOM     22  H3  SPM d          -6.458  -0.226  17.108  0.00  0.00     0.274 HD
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C8  SPM d          -4.468   3.136  12.487  0.00  0.00    -0.041 C 
+ATOM     24  H16 SPM d          -5.515   3.239  12.168  0.00  0.00     0.035 H 
+ATOM     25  H17 SPM d          -3.891   2.636  11.694  0.00  0.00     0.035 H 
+BRANCH  23  26
+ATOM     26  C9  SPM d          -3.880   4.488  12.779  0.00  0.00     0.082 C 
+ATOM     27  H18 SPM d          -3.821   4.631  13.869  0.00  0.00     0.075 H 
+ATOM     28  H19 SPM d          -4.523   5.267  12.342  0.00  0.00     0.075 H 
+BRANCH  26  29
+ATOM     29  N10 SPM d          -2.556   4.590  12.213  0.00  0.00    -0.075 N 
+ATOM     30  H20 SPM d          -2.639   4.265  11.262  0.00  0.00     0.277 HD
+ATOM     31  H21 SPM d          -1.983   3.949  12.739  0.00  0.00     0.277 HD
+BRANCH  29  32
+ATOM     32  C11 SPM d          -1.811   5.811  12.144  0.00  0.00     0.083 C 
+ATOM     33  H22 SPM d          -1.945   6.374  13.079  0.00  0.00     0.075 H 
+ATOM     34  H23 SPM d          -2.175   6.413  11.297  0.00  0.00     0.075 H 
+BRANCH  32  35
+ATOM     35  C12 SPM d          -0.340   5.506  11.948  0.00  0.00    -0.020 C 
+ATOM     36  H24 SPM d           0.135   5.406  12.936  0.00  0.00     0.037 H 
+ATOM     37  H25 SPM d           0.123   6.341  11.401  0.00  0.00     0.037 H 
+BRANCH  35  38
+ATOM     38  C13 SPM d          -0.110   4.218  11.162  0.00  0.00     0.081 C 
+ATOM     39  H26 SPM d           0.822   4.310  10.586  0.00  0.00     0.075 H 
+ATOM     40  H27 SPM d          -0.953   4.064  10.472  0.00  0.00     0.075 H 
+BRANCH  38  41
+ATOM     41  N14 SPM d          -0.008   3.076  12.046  0.00  0.00    -0.079 N 
+ATOM     42  H28 SPM d           0.142   2.241  11.501  0.00  0.00     0.274 HD
+ATOM     43  H29 SPM d          -0.862   2.982  12.575  0.00  0.00     0.274 HD
+ATOM     44  H30 SPM d           0.765   3.208  12.679  0.00  0.00     0.274 HD
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 13
+ENDMDL

@@ -1,0 +1,66 @@
+MODEL 1
+REMARK VINA RESULT:      -5.7      0.000      0.000
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_3 
+REMARK    2  A    between atoms: C2_3  and  C3_4 
+REMARK    3  A    between atoms: C3_4  and  C4_5 
+REMARK    4  A    between atoms: C4_5  and  C5_6 
+REMARK    5  A    between atoms: C5_6  and  C6_7 
+REMARK    6  A    between atoms: C6_7  and  C7_8 
+REMARK    7  A    between atoms: C7_8  and  C8_9 
+REMARK    8  A    between atoms: C8_9  and  C9_10 
+REMARK    9  A    between atoms: C9_10  and  C10_11 
+ROOT
+ATOM      1  C6  DKA d          13.286  -3.578  -0.054  0.00  0.00    -0.065 C 
+ATOM      2  H9  DKA d          13.879  -2.877   0.551  0.00  0.00     0.033 H 
+ATOM      3  H10 DKA d          13.089  -3.134  -1.041  0.00  0.00     0.033 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  DKA d          11.959  -3.838   0.646  0.00  0.00    -0.065 C 
+ATOM      5  H7  DKA d          11.683  -4.897   0.536  0.00  0.00     0.033 H 
+ATOM      6  H8  DKA d          12.049  -3.592   1.715  0.00  0.00     0.033 H 
+BRANCH   4   7
+ATOM      7  C4  DKA d          10.893  -2.958   0.004  0.00  0.00    -0.065 C 
+ATOM      8  H5  DKA d          11.276  -1.930  -0.072  0.00  0.00     0.033 H 
+ATOM      9  H6  DKA d          10.670  -3.343  -1.002  0.00  0.00     0.033 H 
+BRANCH   7  10
+ATOM     10  C3  DKA d           9.616  -2.951   0.826  0.00  0.00    -0.056 C 
+ATOM     11  H3  DKA d           8.922  -3.706   0.429  0.00  0.00     0.033 H 
+ATOM     12  H4  DKA d           9.854  -3.187   1.874  0.00  0.00     0.033 H 
+BRANCH  10  13
+ATOM     13  C2  DKA d           8.966  -1.576   0.752  0.00  0.00     0.016 C 
+ATOM     14  H1  DKA d           9.735  -0.804   0.902  0.00  0.00     0.049 H 
+ATOM     15  H2  DKA d           8.505  -1.446  -0.238  0.00  0.00     0.049 H 
+BRANCH  13  16
+ATOM     16  C1  DKA d           7.907  -1.434   1.815  0.00  0.00     0.172 C 
+ATOM     17  O1  DKA d           6.811  -2.011   1.633  0.00  0.00    -0.648 OA
+ATOM     18  O2  DKA d           8.167  -0.737   2.822  0.00  0.00    -0.648 OA
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+ENDBRANCH   1   4
+BRANCH   1  19
+ATOM     19  C7  DKA d          14.075  -4.863  -0.240  0.00  0.00    -0.065 C 
+ATOM     20  H11 DKA d          13.418  -5.638  -0.659  0.00  0.00     0.033 H 
+ATOM     21  H12 DKA d          14.461  -5.198   0.734  0.00  0.00     0.033 H 
+BRANCH  19  22
+ATOM     22  C8  DKA d          15.235  -4.622  -1.184  0.00  0.00    -0.065 C 
+ATOM     23  H13 DKA d          15.534  -3.565  -1.114  0.00  0.00     0.033 H 
+ATOM     24  H14 DKA d          14.907  -4.843  -2.211  0.00  0.00     0.033 H 
+BRANCH  22  25
+ATOM     25  C9  DKA d          16.433  -5.485  -0.862  0.00  0.00    -0.069 C 
+ATOM     26  H15 DKA d          16.320  -6.459  -1.361  0.00  0.00     0.032 H 
+ATOM     27  H16 DKA d          16.488  -5.635   0.226  0.00  0.00     0.032 H 
+BRANCH  25  28
+ATOM     28  C10 DKA d          17.710  -4.829  -1.338  0.00  0.00    -0.077 C 
+ATOM     29  H17 DKA d          18.567  -5.473  -1.094  0.00  0.00     0.027 H 
+ATOM     30  H18 DKA d          17.830  -3.855  -0.840  0.00  0.00     0.027 H 
+ATOM     31  H19 DKA d          17.662  -4.680  -2.427  0.00  0.00     0.027 H 
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 9
+ENDMDL

@@ -1,0 +1,680 @@
+MODEL 1
+REMARK VINA RESULT:      -6.1      0.000      0.000
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          15.016  27.755  75.606  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          13.861  27.594  76.620  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          12.633  27.036  75.895  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          12.232  28.004  74.777  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          13.446  28.160  73.818  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          14.615  28.647  74.531  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          15.260  26.769  75.184  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          13.614  28.574  77.056  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          12.883  26.058  75.459  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          11.384  27.582  74.218  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          13.679  27.176  73.385  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          16.489  28.428  76.431  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          17.817  27.773  75.364  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          17.516  26.790  74.974  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          18.095  28.713  74.190  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          18.783  29.508  74.512  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          17.151  29.162  73.849  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          18.551  28.146  73.366  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          19.097  27.624  76.204  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          19.738  26.848  75.762  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          18.829  27.337  77.232  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          19.638  28.582  76.219  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          14.264  26.705  77.657  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          14.073  25.812  77.399  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          11.553  26.877  76.801  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          11.156  27.724  76.972  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          13.099  29.138  72.681  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          13.669  28.867  71.780  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          13.363  30.161  72.987  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          11.703  29.075  72.394  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          11.423  28.167  72.386  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          11.829  29.273  75.333  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          12.524  29.907  75.207  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.9      1.722      3.421
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          13.610  28.307  75.654  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          13.305  28.106  74.152  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          12.128  29.002  73.756  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          10.909  28.627  74.604  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          11.291  28.805  76.101  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          12.437  27.982  76.449  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          13.881  29.359  75.825  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          13.041  27.054  73.968  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          12.394  30.053  73.944  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          10.076  29.304  74.363  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          11.547  29.860  76.274  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          14.996  27.247  76.163  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          16.349  28.468  76.267  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          15.953  29.468  76.034  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          16.965  28.488  77.667  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          17.993  28.099  77.621  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          16.365  27.860  78.341  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          16.982  29.521  78.046  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          17.434  28.092  75.245  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          18.222  28.859  75.246  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          16.986  28.027  74.242  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          17.870  27.118  75.515  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          14.458  28.444  73.388  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          15.239  28.214  73.877  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          11.823  28.840  72.380  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          12.496  29.259  71.856  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          10.100  28.425  76.999  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d           9.178  28.419  76.400  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          10.005  29.162  77.810  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          10.308  27.129  77.560  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d           9.982  27.116  78.453  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          10.497  27.274  74.319  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          10.163  26.873  75.113  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.1      1.499      3.354
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.887  28.777  74.432  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          13.968  28.881  73.194  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          12.518  29.046  73.658  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          12.128  27.835  74.513  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          13.113  27.758  75.714  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          14.488  27.647  75.256  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          14.797  29.701  75.022  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          14.057  27.964  72.592  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          12.434  29.961  74.262  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          11.106  27.974  74.895  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          13.012  28.676  76.311  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          16.617  28.568  73.917  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          17.480  28.734  75.517  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          16.791  29.168  76.256  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          17.967  27.376  76.024  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          18.722  27.526  76.809  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          18.413  26.811  75.191  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          17.118  26.811  76.436  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          18.690  29.665  75.330  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          18.419  30.685  75.638  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          18.989  29.669  74.271  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          19.527  29.306  75.947  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          14.362  30.001  72.407  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          13.744  30.711  72.539  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          11.649  29.144  72.542  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          11.199  28.316  72.418  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          12.773  26.545  76.599  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          13.373  26.586  77.520  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          13.003  25.619  76.053  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          11.387  26.563  76.938  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          10.918  27.109  76.317  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          12.162  26.630  73.721  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          11.655  26.760  72.928  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.0      1.726      3.036
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.708  27.977  76.239  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.937  27.919  74.711  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          13.893  28.796  74.014  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          12.494  28.278  74.364  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          12.341  28.319  75.911  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          13.366  27.518  76.559  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          14.822  29.018  76.577  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          14.834  26.880  74.363  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          13.998  29.832  74.366  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          11.739  28.937  73.911  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          12.441  29.361  76.246  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          15.924  26.937  77.099  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          17.352  28.069  77.187  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          17.124  28.985  76.622  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          17.670  28.442  78.636  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          16.785  28.265  79.263  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          17.949  29.505  78.689  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          18.506  27.826  78.999  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          18.575  27.372  76.568  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          18.440  27.295  75.479  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          18.678  26.364  76.996  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          19.480  27.957  76.784  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          16.249  28.387  74.413  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          16.401  28.324  73.478  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          14.078  28.762  72.608  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          14.779  29.356  72.367  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          10.952  27.793  76.318  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          10.468  28.520  76.987  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          11.065  26.832  76.842  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          10.143  27.606  75.158  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          10.668  27.755  74.380  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          12.309  26.944  73.848  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          11.407  26.837  73.568  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.6      2.486      5.012
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.721  28.119  75.972  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.954  26.818  76.772  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          15.911  27.108  77.933  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          17.235  27.633  77.368  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          16.929  28.913  76.538  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          15.986  28.630  75.469  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          14.268  28.870  76.637  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          15.399  26.056  76.115  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          15.465  27.872  78.587  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          17.906  27.895  78.198  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          16.491  29.668  77.207  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          13.598  27.809  74.578  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          12.219  28.934  74.982  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          12.226  29.782  74.281  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          10.873  28.214  74.883  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          11.036  27.127  74.913  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          10.381  28.485  73.937  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          10.234  28.513  75.727  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          12.408  29.451  76.418  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          13.439  29.815  76.544  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          12.219  28.634  77.130  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          11.703  30.274  76.608  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          13.709  26.341  77.271  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          13.867  25.720  77.972  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          16.146  25.930  78.687  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          17.055  25.671  78.592  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          18.229  29.474  75.933  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          19.074  29.232  76.595  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          18.143  30.566  75.833  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          18.456  28.897  74.648  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          17.626  28.799  74.195  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          17.874  26.620  76.563  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          17.413  25.797  76.669  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.4      2.530      5.002
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.900  27.714  76.366  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          15.795  27.194  77.514  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          16.998  28.129  77.673  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          17.781  28.162  76.356  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          16.817  28.648  75.236  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          15.660  27.775  75.129  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          14.544  28.723  76.621  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          16.150  26.181  77.274  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          16.640  29.142  77.910  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          18.614  28.874  76.447  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          16.474  29.662  75.484  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          13.466  26.619  76.141  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          12.099  27.828  76.151  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          11.390  27.566  76.950  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          12.619  29.247  76.389  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          12.196  29.924  75.633  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          13.716  29.253  76.313  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          12.319  29.584  77.392  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          11.385  27.776  74.790  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          12.128  27.643  73.990  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          10.836  28.716  74.628  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          10.680  26.932  74.778  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          15.041  27.156  78.721  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          14.259  27.686  78.621  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          17.841  27.677  78.720  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          18.719  28.014  78.586  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          17.553  28.684  73.885  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          16.939  28.186  73.121  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          18.516  28.160  73.979  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          17.788  30.037  73.495  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          18.671  30.287  73.742  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          18.322  26.858  76.061  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          18.792  26.533  76.820  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -3.5      1.821      2.078
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          15.193  28.027  75.122  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.741  29.193  76.030  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          13.489  28.769  76.802  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          12.384  28.410  75.803  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          12.914  27.267  74.892  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          14.127  27.669  74.200  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          15.432  27.157  75.751  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          14.508  30.072  75.411  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          13.724  27.888  77.418  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          11.500  28.052  76.351  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          13.138  26.393  75.520  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          16.673  28.500  74.179  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          17.989  27.744  75.192  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          18.576  27.055  74.566  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          18.920  28.810  75.771  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          19.280  28.486  76.758  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          18.372  29.758  75.874  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          19.777  28.954  75.097  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          17.338  26.964  76.346  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          16.682  26.181  75.936  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          16.743  27.653  76.964  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          18.121  26.500  76.963  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          15.790  29.519  76.936  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          15.548  29.241  77.811  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          13.048  29.821  77.646  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          13.105  29.543  78.553  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          11.844  26.877  73.856  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          11.913  25.800  73.647  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          12.012  27.442  72.928  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          10.544  27.177  74.363  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          10.212  27.960  73.938  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          12.008  29.570  75.033  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          11.491  30.154  75.575  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -3.5      2.199      4.771
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.395  27.860  75.392  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.903  27.293  76.737  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          16.039  28.179  77.257  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          17.170  28.196  76.223  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          16.588  28.731  74.884  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          15.482  27.906  74.428  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          14.016  28.880  75.555  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          15.277  26.270  76.587  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          15.663  29.202  77.403  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          17.965  28.874  76.566  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          16.223  29.756  75.045  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          13.052  26.826  74.739  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          11.966  28.091  73.995  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          11.282  27.606  73.282  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          11.146  28.811  75.065  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          10.797  29.777  74.672  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          11.771  28.982  75.954  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          10.279  28.193  75.341  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          12.840  29.117  73.255  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          13.136  29.916  73.950  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          12.270  29.549  72.419  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          13.741  28.619  72.865  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          13.831  27.271  77.674  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          13.558  26.373  77.819  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          16.528  27.683  78.493  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          15.969  26.975  78.792  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          17.684  28.754  73.803  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          17.351  28.170  72.933  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          18.607  28.314  74.209  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          17.941  30.099  73.399  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          18.407  30.095  72.570  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          17.728  26.875  76.068  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          17.067  26.227  76.281  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -3.2      2.363      4.538
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          14.434  28.122  75.753  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.579  26.827  76.584  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          15.482  27.103  77.789  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          16.852  27.573  77.289  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          16.636  28.849  76.425  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          15.741  28.580  75.312  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          13.974  28.899  76.382  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          15.031  26.040  75.962  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          15.029  27.892  78.408  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          17.487  27.826  78.150  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          16.189  29.629  77.058  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          13.377  27.827  74.306  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          13.948  29.146  73.180  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          14.329  29.989  73.775  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          15.059  28.641  72.259  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          15.159  29.318  71.399  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          14.810  27.630  71.903  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          16.009  28.610  72.813  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          12.759  29.614  72.325  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          12.614  28.917  71.486  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          12.963  30.621  71.933  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          11.849  29.637  72.943  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          13.293  26.401  77.022  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          12.713  26.329  76.273  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          15.635  25.931  78.573  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          15.859  26.173  79.464  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          17.985  29.355  75.883  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          18.734  28.554  75.964  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          18.312  30.224  76.472  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          17.847  29.736  74.515  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          16.931  29.689  74.265  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          17.497  26.526  76.535  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          17.047  26.411  75.706  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -3.2      1.866      2.298
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: S1_12  and  C1'_13 
+REMARK    8  A    between atoms: C1'_13  and  C2'_14 
+REMARK    9  A    between atoms: C1'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  IPT d          16.256  26.892  76.606  0.00  0.00     0.110 C 
+ATOM      2  C2  IPT d          14.911  27.098  77.340  0.00  0.00     0.096 C 
+ATOM      3  C3  IPT d          13.767  26.989  76.328  0.00  0.00     0.090 C 
+ATOM      4  C4  IPT d          13.955  28.058  75.246  0.00  0.00     0.089 C 
+ATOM      5  C5  IPT d          15.340  27.826  74.578  0.00  0.00     0.087 C 
+ATOM      6  O5  IPT d          16.411  27.888  75.559  0.00  0.00    -0.363 OA
+ATOM      7  H1  IPT d          16.265  25.889  76.153  0.00  0.00     0.104 H 
+ATOM      8  H2  IPT d          14.895  28.095  77.804  0.00  0.00     0.092 H 
+ATOM      9  H4  IPT d          13.788  25.992  75.863  0.00  0.00     0.091 H 
+ATOM     10  H6  IPT d          13.167  27.950  74.487  0.00  0.00     0.091 H 
+ATOM     11  H8  IPT d          15.342  26.830  74.113  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  IPT d          17.639  27.026  77.776  0.00  0.00    -0.131 SA
+BRANCH  12  13
+ATOM     13  C1' IPT d          18.669  28.291  76.957  0.00  0.00    -0.014 C 
+ATOM     14  H12 IPT d          19.565  28.478  77.567  0.00  0.00     0.055 H 
+BRANCH  13  15
+ATOM     15  C2' IPT d          19.100  27.832  75.563  0.00  0.00    -0.065 C 
+ATOM     16  H13 IPT d          19.866  27.048  75.656  0.00  0.00     0.028 H 
+ATOM     17  H14 IPT d          19.515  28.686  75.008  0.00  0.00     0.028 H 
+ATOM     18  H15 IPT d          18.229  27.432  75.023  0.00  0.00     0.028 H 
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C3' IPT d          17.851  29.587  76.830  0.00  0.00    -0.065 C 
+ATOM     20  H16 IPT d          18.423  30.327  76.251  0.00  0.00     0.028 H 
+ATOM     21  H17 IPT d          17.641  29.988  77.833  0.00  0.00     0.028 H 
+ATOM     22  H18 IPT d          16.903  29.372  76.315  0.00  0.00     0.028 H 
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  23
+ATOM     23  O2  IPT d          14.768  26.105  78.350  0.00  0.00    -0.389 OA
+ATOM     24  H3  IPT d          15.567  25.593  78.405  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3  IPT d          12.517  27.175  76.972  0.00  0.00    -0.390 OA
+ATOM     26  H5  IPT d          12.081  26.336  77.064  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6  IPT d          15.586  28.887  73.490  0.00  0.00     0.043 C 
+ATOM     28  H9  IPT d          14.894  29.729  73.638  0.00  0.00     0.078 H 
+ATOM     29  H10 IPT d          15.413  28.441  72.499  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  IPT d          16.930  29.361  73.567  0.00  0.00    -0.398 OA
+ATOM     31  H11 IPT d          16.965  30.260  73.261  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   5  27
+BRANCH   4  32
+ATOM     32  O4  IPT d          13.859  29.377  75.822  0.00  0.00    -0.390 OA
+ATOM     33  H7  IPT d          13.024  29.467  76.266  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 9
+ENDMDL

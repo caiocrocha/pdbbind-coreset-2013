@@ -1,0 +1,416 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          26.138 -11.613  -4.438  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          26.171 -12.232  -3.529  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          27.118 -11.640  -4.936  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          25.992 -10.192  -3.939  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          26.751  -9.555  -4.416  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          26.229 -10.229  -2.506  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          25.498 -10.757  -2.058  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          26.235  -9.288  -2.142  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          27.119 -10.666  -2.323  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          24.602  -9.633  -4.285  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          24.264  -9.183  -5.361  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          23.759  -9.695  -3.230  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          25.217 -12.338  -5.362  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          25.823 -12.772  -6.172  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          24.513 -11.604  -5.783  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          24.426 -13.429  -4.749  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          24.625 -14.773  -4.820  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          25.729 -15.273  -5.567  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          23.838 -15.691  -4.220  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          24.050 -16.694  -4.317  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          23.025 -15.388  -3.664  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          23.613 -13.130  -4.192  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          25.929 -16.537  -5.644  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          25.665 -16.846  -6.502  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.0      1.270      1.689
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          25.421 -12.048  -4.093  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          24.524 -12.340  -3.527  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          26.304 -12.540  -3.660  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          25.608 -10.576  -3.797  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          26.654 -10.292  -3.986  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          25.309 -10.394  -2.387  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          24.342 -10.623  -2.216  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          25.479  -9.435  -2.129  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          25.899 -11.000  -1.838  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          24.703  -9.720  -4.700  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          23.490  -9.694  -4.670  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          25.422  -8.968  -5.563  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          25.250 -12.678  -5.435  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          25.734 -12.028  -6.179  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          24.172 -12.739  -5.647  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          25.820 -14.038  -5.579  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          25.285 -15.232  -5.205  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          24.003 -15.256  -4.587  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          25.893 -16.425  -5.381  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          25.427 -17.290  -5.073  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          26.822 -16.470  -5.824  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          26.748 -14.086  -6.022  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          23.487 -16.374  -4.229  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          23.690 -16.536  -3.316  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.0      1.685      2.007
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          24.526 -11.158  -4.712  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          24.444 -10.864  -5.769  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          23.523 -11.371  -4.312  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          24.976  -9.905  -3.992  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          24.595  -9.916  -2.960  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          24.391  -8.783  -4.706  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          25.081  -8.380  -5.321  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          24.084  -8.087  -4.044  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          23.604  -9.102  -5.248  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          26.511  -9.828  -3.941  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          27.212 -10.203  -3.024  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          27.023  -9.278  -5.065  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          25.219 -12.479  -4.732  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          26.035 -12.444  -3.995  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          25.640 -12.625  -5.739  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          24.370 -13.651  -4.419  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          24.539 -14.951  -4.783  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          25.668 -15.309  -5.573  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          23.699 -15.950  -4.443  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          23.891 -16.913  -4.755  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          22.865 -15.751  -3.870  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          23.537 -13.454  -3.846  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          25.839 -16.530  -5.925  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          26.470 -16.939  -5.345  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.7      1.783      5.376
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          26.131 -13.258  -5.573  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          26.440 -13.599  -6.572  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          26.880 -13.571  -4.830  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          24.895 -14.069  -5.247  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          24.213 -14.062  -6.110  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          24.251 -13.412  -4.123  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          24.049 -12.454  -4.364  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          24.866 -13.435  -3.324  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          23.392 -13.891  -3.900  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          25.268 -15.528  -4.935  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          25.222 -16.055  -3.842  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          25.668 -16.192  -6.042  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          26.239 -11.770  -5.623  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          25.220 -11.357  -5.635  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          26.757 -11.500  -6.556  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          26.972 -11.145  -4.498  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          26.476 -10.584  -3.362  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          25.067 -10.559  -3.157  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          27.237 -10.035  -2.391  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          26.791  -9.627  -1.557  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          28.263 -10.025  -2.484  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          27.998 -11.135  -4.587  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          24.586 -10.032  -2.093  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          24.420 -10.712  -1.452  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.1      1.889      5.574
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          26.155 -13.223  -5.819  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          26.395 -13.937  -6.621  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          26.986 -13.187  -5.100  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          25.010 -13.859  -5.060  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          24.075 -13.728  -5.625  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          24.907 -13.153  -3.794  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          24.003 -13.326  -3.385  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          25.021 -12.164  -3.951  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          25.627 -13.479  -3.168  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          25.253 -15.366  -4.868  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          25.156 -15.974  -3.823  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          25.601 -15.969  -6.027  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          26.159 -11.886  -6.479  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          25.113 -11.579  -6.631  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          26.656 -11.991  -7.456  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          26.847 -10.807  -5.733  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          26.319  -9.687  -5.170  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          24.918  -9.453  -5.270  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          27.040  -8.758  -4.507  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          26.571  -7.933  -4.105  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          28.058  -8.874  -4.401  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          27.864 -10.921  -5.625  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          24.407  -8.401  -4.745  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          25.059  -7.969  -4.207  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.9      1.739      5.648
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          25.532 -13.988  -5.415  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          25.312 -13.669  -6.445  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          26.542 -13.656  -5.136  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          25.622 -15.498  -5.485  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          26.659 -15.813  -5.300  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          25.240 -15.875  -6.835  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          25.720 -16.723  -7.095  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          25.492 -15.137  -7.474  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          24.244 -16.028  -6.873  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          24.720 -16.147  -4.421  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          23.558 -16.461  -4.571  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          25.379 -16.341  -3.256  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          24.612 -13.184  -4.559  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          23.904 -13.876  -4.079  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          24.061 -12.490  -5.212  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          25.264 -12.387  -3.494  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          25.117 -11.067  -3.203  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          24.227 -10.278  -3.987  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          25.765 -10.432  -2.204  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          25.603  -9.427  -2.042  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          26.421 -10.952  -1.603  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          25.919 -12.905  -2.892  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          24.079  -9.032  -3.725  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          24.385  -8.857  -2.843  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.9      2.120      2.662
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          23.559 -10.200  -4.618  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          22.739  -9.479  -4.754  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          23.213 -11.035  -3.990  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          24.583  -9.474  -3.773  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          24.074  -8.749  -3.120  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          25.451  -8.761  -4.695  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          25.537  -9.287  -5.550  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          26.361  -8.646  -4.278  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          25.056  -7.855  -4.896  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          25.359 -10.463  -2.888  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          26.563 -10.620  -2.885  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          24.535 -11.167  -2.081  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          23.772 -10.799  -5.968  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          23.718  -9.988  -6.711  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          22.962 -11.520  -6.151  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          25.061 -11.504  -6.157  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          25.469 -12.693  -5.636  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          24.587 -13.417  -4.785  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          26.675 -13.252  -5.871  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          26.916 -14.157  -5.442  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          27.355 -12.774  -6.480  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          25.742 -11.029  -6.766  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          24.958 -14.538  -4.286  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          24.427 -14.735  -3.524  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.2      1.794      2.243
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  ND_7 
+REMARK       I    between atoms: ND_7  and  CE_8 
+REMARK       I    between atoms: CE_8  and  NH1_9 
+REMARK    6  A    between atoms: NH1_9  and  OH1_11 
+ROOT
+ATOM      1  CB  NNH d          25.812 -11.089  -3.480  0.00  0.00    -0.014 C 
+ATOM      2  H5  NNH d          25.392 -10.540  -2.623  0.00  0.00     0.039 H 
+ATOM      3  H6  NNH d          26.795 -11.499  -3.207  0.00  0.00     0.039 H 
+ENDROOT
+BRANCH   1   4
+ATOM      4  CA  NNH d          26.105 -10.027  -4.519  0.00  0.00     0.184 C 
+ATOM      5  H4  NNH d          27.070  -9.550  -4.294  0.00  0.00     0.101 H 
+BRANCH   4   6
+ATOM      6  N   NNH d          25.045  -9.038  -4.412  0.00  0.00    -0.065 N 
+ATOM      7  H1  NNH d          24.322  -9.385  -3.801  0.00  0.00     0.275 HD
+ATOM      8  H2  NNH d          24.657  -8.863  -5.326  0.00  0.00     0.275 HD
+ATOM      9  H3  NNH d          25.421  -8.182  -4.036  0.00  0.00     0.275 HD
+ENDBRANCH   4   6
+BRANCH   4  10
+ATOM     10  C   NNH d          26.185 -10.647  -5.924  0.00  0.00     0.204 C 
+ATOM     11  O   NNH d          27.056 -11.392  -6.323  0.00  0.00    -0.646 OA
+ATOM     12  OXT NNH d          25.147 -10.265  -6.700  0.00  0.00    -0.646 OA
+ENDBRANCH   4  10
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  CG  NNH d          24.929 -12.281  -3.642  0.00  0.00     0.012 C 
+ATOM     14  H7  NNH d          23.887 -11.930  -3.669  0.00  0.00     0.065 H 
+ATOM     15  H8  NNH d          25.075 -12.932  -2.766  0.00  0.00     0.065 H 
+BRANCH  13  16
+ATOM     16  ND  NNH d          25.170 -13.093  -4.857  0.00  0.00    -0.223 N 
+ATOM     17  CE  NNH d          25.183 -14.447  -4.992  0.00  0.00     0.716 C 
+ATOM     18  NH1 NNH d          24.937 -15.261  -3.850  0.00  0.00     0.058 NA
+ATOM     19  NH2 NNH d          25.416 -15.092  -6.154  0.00  0.00    -0.231 N 
+ATOM     20  H10 NNH d          25.410 -16.122  -6.181  0.00  0.00     0.174 HD
+ATOM     21  H11 NNH d          25.599 -14.555  -7.014  0.00  0.00     0.174 HD
+ATOM     22  H9  NNH d          25.352 -12.559  -5.718  0.00  0.00     0.177 HD
+BRANCH  18  23
+ATOM     23  OH1 NNH d          24.947 -16.538  -3.962  0.00  0.00    -0.252 OA
+ATOM     24  H12 NNH d          25.779 -16.874  -3.653  0.00  0.00     0.247 HD
+ENDBRANCH  18  23
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL

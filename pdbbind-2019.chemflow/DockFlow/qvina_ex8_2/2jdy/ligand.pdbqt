@@ -1,0 +1,53 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_8 
+REMARK    2  A    between atoms: C2_2  and  O2_9 
+REMARK    3  A    between atoms: C3_3  and  O3_10 
+REMARK    4  A    between atoms: C4_4  and  O4_11 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_13 
+REMARK    7  A    between atoms: O1_8  and  C7_7 
+ROOT
+ATOM      1  C1  MMA d          -4.463 -17.873  -5.862  0.00  0.00     0.158 C 
+ATOM      2  C2  MMA d          -3.712 -17.279  -4.658  0.00  0.00     0.110 C 
+ATOM      3  C3  MMA d          -4.682 -16.697  -3.628  0.00  0.00     0.092 C 
+ATOM      4  C4  MMA d          -5.664 -15.736  -4.298  0.00  0.00     0.090 C 
+ATOM      5  C5  MMA d          -6.403 -16.537  -5.364  0.00  0.00     0.089 C 
+ATOM      6  O5  MMA d          -5.445 -16.956  -6.356  0.00  0.00    -0.349 OA
+ATOM      7  H1  MMA d          -3.749 -18.117  -6.663  0.00  0.00     0.133 H 
+ATOM      8  H2  MMA d          -3.117 -18.073  -4.183  0.00  0.00     0.094 H 
+ATOM      9  H3  MMA d          -5.231 -17.513  -3.135  0.00  0.00     0.091 H 
+ATOM     10  H4  MMA d          -5.107 -14.922  -4.785  0.00  0.00     0.091 H 
+ATOM     11  H5  MMA d          -6.846 -17.425  -4.890  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  MMA d          -5.130 -19.056  -5.415  0.00  0.00    -0.363 OA
+BRANCH  12  13
+ATOM     13  C7  MMA d          -5.515 -19.901  -6.519  0.00  0.00     0.007 C 
+ATOM     14  H8  MMA d          -6.023 -20.797  -6.135  0.00  0.00     0.066 H 
+ATOM     15  H9  MMA d          -4.618 -20.201  -7.081  0.00  0.00     0.066 H 
+ATOM     16  H10 MMA d          -6.197 -19.349  -7.183  0.00  0.00     0.066 H 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   2  17
+ATOM     17  O2  MMA d          -2.833 -16.224  -5.112  0.00  0.00    -0.388 OA
+ATOM     18  H11 MMA d          -2.349 -15.876  -4.372  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   3  19
+ATOM     19  O3  MMA d          -3.941 -15.934  -2.655  0.00  0.00    -0.390 OA
+ATOM     20  H12 MMA d          -3.476 -15.230  -3.093  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   5  21
+ATOM     21  C6  MMA d          -7.524 -15.743  -6.040  0.00  0.00     0.043 C 
+ATOM     22  H6  MMA d          -7.098 -14.989  -6.719  0.00  0.00     0.078 H 
+ATOM     23  H7  MMA d          -8.145 -15.244  -5.282  0.00  0.00     0.078 H 
+BRANCH  21  24
+ATOM     24  O6  MMA d          -8.318 -16.695  -6.787  0.00  0.00    -0.398 OA
+ATOM     25  H14 MMA d          -7.770 -17.124  -7.434  0.00  0.00     0.209 HD
+ENDBRANCH  21  24
+ENDBRANCH   5  21
+BRANCH   4  26
+ATOM     26  O4  MMA d          -6.547 -15.153  -3.310  0.00  0.00    -0.390 OA
+ATOM     27  H13 MMA d          -6.033 -14.668  -2.675  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+TORSDOF 7

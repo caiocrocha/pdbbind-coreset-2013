@@ -1,0 +1,96 @@
+MODEL 1
+REMARK VINA RESULT:     -10.3      0.000      0.000
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAZ_1  and  CAN_2 
+REMARK    2  A    between atoms: CAN_2  and  CBA_3 
+REMARK    3  A    between atoms: CAN_2  and  CAL_4 
+REMARK       I    between atoms: CAL_4  and  NAK_6 
+REMARK    4  A    between atoms: NAK_6  and  CAC_7 
+REMARK    5  A    between atoms: CAB_8  and  OAG_9 
+REMARK    6  A    between atoms: CAA_10  and  OAH_11 
+REMARK    7  A    between atoms: CAF_12  and  CAI_13 
+REMARK    8  A    between atoms: CAI_13  and  OAJ_14 
+REMARK    9  A    between atoms: CAP_19  and  CAR_20 
+REMARK   10  A    between atoms: CAR_20  and  CAS_21 
+REMARK   11  A    between atoms: CAS_21  and  CAT_22 
+ROOT
+ATOM      1  CAC GSZ d          33.029  42.856  21.125  0.00  0.00     0.097 C 
+ATOM      2  CAB GSZ d          32.454  43.170  22.506  0.00  0.00     0.088 C 
+ATOM      3  CAA GSZ d          30.984  42.739  22.694  0.00  0.00     0.084 C 
+ATOM      4  CAF GSZ d          30.911  41.223  22.481  0.00  0.00     0.065 C 
+ATOM      5  NAE GSZ d          31.253  40.958  21.055  0.00  0.00    -0.332 N 
+ATOM      6  CAQ GSZ d          30.811  40.081  20.154  0.00  0.00     0.005 A 
+ATOM      7  CAD GSZ d          32.265  41.715  20.408  0.00  0.00     0.132 A 
+ATOM      8  NAO GSZ d          32.348  41.262  19.158  0.00  0.00    -0.236 NA
+ATOM      9  CAP GSZ d          31.458  40.273  18.993  0.00  0.00     0.052 A 
+ATOM     10  H9  GSZ d          32.896  43.760  20.512  0.00  0.00     0.089 H 
+ATOM     11  H10 GSZ d          33.061  42.664  23.271  0.00  0.00     0.090 H 
+ATOM     12  H12 GSZ d          30.353  43.243  21.948  0.00  0.00     0.090 H 
+ATOM     13  H14 GSZ d          31.698  40.771  23.102  0.00  0.00     0.080 H 
+ATOM     14  H18 GSZ d          30.045  39.328  20.332  0.00  0.00     0.114 H 
+ENDROOT
+BRANCH   9  15
+ATOM     15  CAR GSZ d          31.260  39.435  17.709  0.00  0.00    -0.020 C 
+ATOM     16  H19 GSZ d          30.299  38.901  17.771  0.00  0.00     0.042 H 
+ATOM     17  H20 GSZ d          32.079  38.706  17.625  0.00  0.00     0.042 H 
+BRANCH  15  18
+ATOM     18  CAS GSZ d          31.256  40.326  16.472  0.00  0.00    -0.036 C 
+ATOM     19  H21 GSZ d          31.386  39.694  15.582  0.00  0.00     0.040 H 
+ATOM     20  H22 GSZ d          32.094  41.034  16.546  0.00  0.00     0.040 H 
+BRANCH  18  21
+ATOM     21  CAT GSZ d          29.944  41.127  16.322  0.00  0.00    -0.058 A 
+ATOM     22  CAU GSZ d          29.916  42.510  16.586  0.00  0.00    -0.077 A 
+ATOM     23  CAV GSZ d          28.725  43.239  16.474  0.00  0.00    -0.082 A 
+ATOM     24  H23 GSZ d          30.827  43.017  16.879  0.00  0.00     0.084 H 
+ATOM     25  CAW GSZ d          27.565  42.566  16.086  0.00  0.00    -0.083 A 
+ATOM     26  H24 GSZ d          28.704  44.303  16.684  0.00  0.00     0.083 H 
+ATOM     27  CAX GSZ d          27.588  41.183  15.822  0.00  0.00    -0.082 A 
+ATOM     28  H25 GSZ d          26.636  43.114  15.986  0.00  0.00     0.083 H 
+ATOM     29  CAY GSZ d          28.774  40.460  15.933  0.00  0.00    -0.077 A 
+ATOM     30  H26 GSZ d          26.675  40.677  15.531  0.00  0.00     0.083 H 
+ATOM     31  H27 GSZ d          28.792  39.397  15.722  0.00  0.00     0.084 H 
+ENDBRANCH  18  21
+ENDBRANCH  15  18
+ENDBRANCH   9  15
+BRANCH   4  32
+ATOM     32  CAI GSZ d          29.581  40.552  22.917  0.00  0.00     0.038 C 
+ATOM     33  H15 GSZ d          29.510  39.551  22.467  0.00  0.00     0.077 H 
+ATOM     34  H16 GSZ d          28.732  41.166  22.582  0.00  0.00     0.077 H 
+BRANCH  32  35
+ATOM     35  OAJ GSZ d          29.553  40.439  24.313  0.00  0.00    -0.399 OA
+ATOM     36  H17 GSZ d          29.260  41.260  24.690  0.00  0.00     0.209 HD
+ENDBRANCH  32  35
+ENDBRANCH   4  32
+BRANCH   1  37
+ATOM     37  NAK GSZ d          34.501  42.587  21.186  0.00  0.00    -0.347 N 
+ATOM     38  CAL GSZ d          35.044  41.718  22.059  0.00  0.00     0.221 C 
+ATOM     39  OAM GSZ d          34.391  41.069  22.893  0.00  0.00    -0.273 OA
+ATOM     40  H8  GSZ d          35.105  43.072  20.553  0.00  0.00     0.163 HD
+BRANCH  38  41
+ATOM     41  CAN GSZ d          36.579  41.566  21.946  0.00  0.00     0.017 C 
+ATOM     42  H4  GSZ d          36.834  41.478  20.879  0.00  0.00     0.053 H 
+BRANCH  41  43
+ATOM     43  CAZ GSZ d          37.105  40.310  22.665  0.00  0.00    -0.065 C 
+ATOM     44  H1  GSZ d          38.077  40.023  22.237  0.00  0.00     0.028 H 
+ATOM     45  H2  GSZ d          36.389  39.486  22.534  0.00  0.00     0.028 H 
+ATOM     46  H3  GSZ d          37.226  40.525  23.737  0.00  0.00     0.028 H 
+ENDBRANCH  41  43
+BRANCH  41  47
+ATOM     47  CBA GSZ d          37.259  42.807  22.507  0.00  0.00    -0.065 C 
+ATOM     48  H5  GSZ d          36.923  43.693  21.948  0.00  0.00     0.028 H 
+ATOM     49  H6  GSZ d          38.349  42.704  22.407  0.00  0.00     0.028 H 
+ATOM     50  H7  GSZ d          36.997  42.921  23.569  0.00  0.00     0.028 H 
+ENDBRANCH  41  47
+ENDBRANCH  38  41
+ENDBRANCH   1  37
+BRANCH   3  51
+ATOM     51  OAH GSZ d          30.531  43.098  24.008  0.00  0.00    -0.391 OA
+ATOM     52  H13 GSZ d          30.704  44.020  24.160  0.00  0.00     0.210 HD
+ENDBRANCH   3  51
+BRANCH   2  53
+ATOM     53  OAG GSZ d          32.564  44.555  22.649  0.00  0.00    -0.390 OA
+ATOM     54  H11 GSZ d          32.479  44.785  23.568  0.00  0.00     0.210 HD
+ENDBRANCH   2  53
+TORSDOF 11
+ENDMDL

@@ -1,0 +1,61 @@
+MODEL 1
+REMARK VINA RESULT:      -7.1      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_10 
+REMARK    2  A    between atoms: C4_4  and  O4_11 
+REMARK    3  A    between atoms: C5_5  and  C6_6 
+REMARK    4  A    between atoms: C6_6  and  O6_14 
+REMARK    5  A    between atoms: N1_13  and  C7_7 
+REMARK    6  A    between atoms: C9_16  and  C10_8 
+REMARK    7  A    between atoms: N1_13  and  C9_16 
+ROOT
+ATOM      1  C1  NHT d           6.121 -12.014   4.319  0.00  0.00     0.114 C 
+ATOM      2  C2  NHT d           7.562 -11.783   3.901  0.00  0.00     0.096 C 
+ATOM      3  C3  NHT d           7.450 -10.698   2.797  0.00  0.00     0.087 C 
+ATOM      4  C4  NHT d           6.368 -11.033   1.732  0.00  0.00     0.089 C 
+ATOM      5  C5  NHT d           5.015 -11.134   2.420  0.00  0.00     0.087 C 
+ATOM      6  C7  NHT d           7.435 -10.535   5.972  0.00  0.00     0.160 C 
+ATOM      7  N2  NHT d           8.187 -11.066   5.037  0.00  0.00    -0.256 NA
+ATOM      8  O5  NHT d           5.134 -12.209   3.317  0.00  0.00    -0.363 OA
+ATOM      9  S1  NHT d           5.728 -10.973   5.724  0.00  0.00    -0.058 SA
+ATOM     10  H1  NHT d           6.160 -13.017   4.767  0.00  0.00     0.104 H 
+ATOM     11  H2  NHT d           8.096 -12.695   3.595  0.00  0.00     0.085 H 
+ATOM     12  H3  NHT d           7.122  -9.780   3.307  0.00  0.00     0.090 H 
+ATOM     13  H4  NHT d           6.624 -11.988   1.250  0.00  0.00     0.091 H 
+ATOM     14  H5  NHT d           4.801 -10.192   2.947  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   6  15
+ATOM     15  N1  NHT d           7.882  -9.827   6.989  0.00  0.00    -0.370 N 
+ATOM     16  H13 NHT d           8.882  -9.584   7.039  0.00  0.00     0.161 HD
+BRANCH  15  17
+ATOM     17  C9  NHT d           6.978  -9.384   8.047  0.00  0.00    -0.009 C 
+ATOM     18  H15 NHT d           6.277  -8.649   7.624  0.00  0.00     0.063 H 
+ATOM     19  H16 NHT d           6.417 -10.255   8.417  0.00  0.00     0.063 H 
+BRANCH  17  20
+ATOM     20  C10 NHT d           7.701  -8.743   9.217  0.00  0.00    -0.061 C 
+ATOM     21  H8  NHT d           8.652  -8.312   8.869  0.00  0.00     0.029 H 
+ATOM     22  H9  NHT d           7.904  -9.505   9.985  0.00  0.00     0.029 H 
+ATOM     23  H10 NHT d           7.074  -7.948   9.646  0.00  0.00     0.029 H 
+ENDBRANCH  17  20
+ENDBRANCH  15  17
+ENDBRANCH   6  15
+BRANCH   3  24
+ATOM     24  O3  NHT d           8.693 -10.382   2.145  0.00  0.00    -0.391 OA
+ATOM     25  H11 NHT d           9.301 -10.024   2.781  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O4  NHT d           6.239 -10.006   0.726  0.00  0.00    -0.390 OA
+ATOM     27  H12 NHT d           6.048  -9.176   1.146  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  C6  NHT d           3.833 -11.486   1.510  0.00  0.00     0.043 C 
+ATOM     29  H6  NHT d           3.593 -10.626   0.868  0.00  0.00     0.078 H 
+ATOM     30  H7  NHT d           2.957 -11.741   2.124  0.00  0.00     0.078 H 
+BRANCH  28  31
+ATOM     31  O6  NHT d           4.189 -12.602   0.699  0.00  0.00    -0.398 OA
+ATOM     32  H14 NHT d           3.573 -12.680  -0.020  0.00  0.00     0.209 HD
+ENDBRANCH  28  31
+ENDBRANCH   5  28
+TORSDOF 7
+ENDMDL

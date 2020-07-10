@@ -1,0 +1,37 @@
+MODEL 1
+REMARK VINA RESULT:      -6.3      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_1  and  C7_3 
+REMARK    2  A    between atoms: C7_3  and  C4_4 
+REMARK    3  A    between atoms: C1_9  and  N1_10 
+ROOT
+ATOM      1  C4  PBZ d          -1.550  14.325  16.525  0.00  0.00     0.007 A 
+ATOM      2  C2  PBZ d          -0.366  14.444  18.631  0.00  0.00    -0.057 A 
+ATOM      3  C3  PBZ d          -0.886  13.697  17.579  0.00  0.00    -0.067 A 
+ATOM      4  C5  PBZ d          -1.680  15.717  16.522  0.00  0.00    -0.067 A 
+ATOM      5  C6  PBZ d          -1.149  16.462  17.581  0.00  0.00    -0.057 A 
+ATOM      6  C1  PBZ d          -0.502  15.826  18.635  0.00  0.00     0.025 A 
+ATOM      7  H5  PBZ d           0.145  13.947  19.448  0.00  0.00     0.086 H 
+ATOM      8  H6  PBZ d          -0.776  12.619  17.579  0.00  0.00     0.085 H 
+ATOM      9  H7  PBZ d          -2.189  16.215  15.706  0.00  0.00     0.085 H 
+ATOM     10  H8  PBZ d          -1.243  17.543  17.581  0.00  0.00     0.086 H 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  PBZ d          -2.125  13.495  15.407  0.00  0.00     0.102 C 
+ATOM     12  N3  PBZ d          -1.722  12.242  15.184  0.00  0.00    -0.385 N 
+ATOM     13  H3  PBZ d          -0.989  11.823  15.776  0.00  0.00     0.157 HD
+ATOM     14  H4  PBZ d          -2.143  11.694  14.421  0.00  0.00     0.157 HD
+BRANCH  11  15
+ATOM     15  N2  PBZ d          -3.070  14.000  14.626  0.00  0.00    -0.385 N 
+ATOM     16  H1  PBZ d          -3.400  14.964  14.776  0.00  0.00     0.157 HD
+ATOM     17  H2  PBZ d          -3.474  13.428  13.871  0.00  0.00     0.157 HD
+ENDBRANCH  11  15
+ENDBRANCH   1  11
+BRANCH   6  18
+ATOM     18  N1  PBZ d           0.017  16.548  19.664  0.00  0.00    -0.399 N 
+ATOM     19  H9  PBZ d           0.495  16.069  20.440  0.00  0.00     0.156 HD
+ATOM     20  H10 PBZ d          -0.068  17.574  19.667  0.00  0.00     0.156 HD
+ENDBRANCH   6  18
+TORSDOF 3
+ENDMDL

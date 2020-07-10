@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_1 
+REMARK    2  A    between atoms: C2_3  and  O2_5 
+REMARK    3  A    between atoms: C9_17  and  N3_8 
+REMARK    4  A    between atoms: C4_9  and  O4_10 
+REMARK    5  A    between atoms: C5_11  and  C6_13 
+REMARK    6  A    between atoms: C6_13  and  O6_14 
+ROOT
+ATOM      1  C1  DKZ d          33.524  23.075  27.944  0.00  0.00     0.141 C 
+ATOM      2  C2  DKZ d          33.920  23.254  26.466  0.00  0.00     0.110 C 
+ATOM      3  C3  DKZ d          32.903  22.518  25.564  0.00  0.00     0.134 C 
+ATOM      4  F3  DKZ d          33.366  22.466  24.270  0.00  0.00    -0.244 F 
+ATOM      5  C4  DKZ d          32.627  21.076  26.055  0.00  0.00     0.094 C 
+ATOM      6  C5  DKZ d          32.437  20.964  27.587  0.00  0.00     0.088 C 
+ATOM      7  O5  DKZ d          33.508  21.649  28.284  0.00  0.00    -0.353 OA
+ATOM      8  H1  DKZ d          32.527  23.520  28.079  0.00  0.00     0.123 H 
+ATOM      9  H2  DKZ d          34.908  22.796  26.314  0.00  0.00     0.094 H 
+ATOM     10  H5  DKZ d          31.957  23.080  25.581  0.00  0.00     0.100 H 
+ATOM     11  H7  DKZ d          33.481  20.445  25.769  0.00  0.00     0.091 H 
+ATOM     12  H9  DKZ d          31.475  21.426  27.854  0.00  0.00     0.090 H 
+ENDROOT
+BRANCH   1  13
+ATOM     13  N1  DKZ d          34.443  23.619  28.970  0.00  0.00    -0.280 N 
+ATOM     14  C7  DKZ d          35.848  23.510  28.848  0.00  0.00    -0.009 A 
+ATOM     15  C8  DKZ d          36.658  24.025  29.860  0.00  0.00    -0.024 A 
+ATOM     16  H13 DKZ d          36.291  23.031  27.976  0.00  0.00     0.112 H 
+ATOM     17  C9  DKZ d          36.032  24.614  30.969  0.00  0.00     0.125 A 
+ATOM     18  H14 DKZ d          37.743  23.972  29.791  0.00  0.00     0.091 H 
+ATOM     19  N2  DKZ d          34.685  24.695  31.067  0.00  0.00    -0.293 N 
+ATOM     20  C10 DKZ d          33.878  24.203  30.105  0.00  0.00     0.330 A 
+ATOM     21  H3  DKZ d          34.279  25.130  31.871  0.00  0.00     0.172 HD
+ATOM     22  O10 DKZ d          32.645  24.280  30.202  0.00  0.00    -0.246 OA
+BRANCH  17  23
+ATOM     23  N3  DKZ d          36.769  25.102  31.963  0.00  0.00    -0.284 NA
+ATOM     24  H6  DKZ d          37.775  25.054  31.915  0.00  0.00     0.188 HD
+ENDBRANCH  17  23
+ENDBRANCH   1  13
+BRANCH   2  25
+ATOM     25  O2  DKZ d          34.022  24.658  26.123  0.00  0.00    -0.388 OA
+ATOM     26  H4  DKZ d          34.267  24.743  25.209  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   6  27
+ATOM     27  C6  DKZ d          32.440  19.497  28.060  0.00  0.00     0.043 C 
+ATOM     28  H10 DKZ d          31.505  19.008  27.749  0.00  0.00     0.078 H 
+ATOM     29  H11 DKZ d          32.524  19.463  29.156  0.00  0.00     0.078 H 
+BRANCH  27  30
+ATOM     30  O6  DKZ d          33.558  18.817  27.471  0.00  0.00    -0.398 OA
+ATOM     31  H12 DKZ d          33.565  17.912  27.759  0.00  0.00     0.209 HD
+ENDBRANCH  27  30
+ENDBRANCH   6  27
+BRANCH   5  32
+ATOM     32  O4  DKZ d          31.453  20.598  25.407  0.00  0.00    -0.390 OA
+ATOM     33  H8  DKZ d          31.270  19.712  25.698  0.00  0.00     0.210 HD
+ENDBRANCH   5  32
+TORSDOF 6

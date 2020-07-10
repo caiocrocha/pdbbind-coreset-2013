@@ -1,0 +1,106 @@
+MODEL 1
+REMARK VINA RESULT:      -5.7      0.000      0.000
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_10  and  OAA_1 
+REMARK    2  A    between atoms: CAK_11  and  OAB_2 
+REMARK    3  A    between atoms: CAN_14  and  OAC_3 
+REMARK    4  A    between atoms: CAO_15  and  OAD_4 
+REMARK    5  A    between atoms: CAP_16  and  OAE_5 
+REMARK    6  A    between atoms: CAQ_17  and  OAF_6 
+REMARK    7  A    between atoms: CAR_18  and  OAG_7 
+REMARK    8  A    between atoms: CAS_19  and  OAH_8 
+REMARK    9  A    between atoms: CAT_20  and  OAI_9 
+REMARK   10  A    between atoms: CAN_14  and  CAJ_10 
+REMARK   11  A    between atoms: CAU_21  and  CAK_11 
+REMARK   12  A    between atoms: CAL_12  and  CAO_15 
+REMARK   13  A    between atoms: SAV_22  and  CAL_12 
+REMARK   14  A    between atoms: CAQ_17  and  CAN_14 
+REMARK   15  A    between atoms: CAO_15  and  CAR_18 
+REMARK   16  A    between atoms: CAS_19  and  CAQ_17 
+REMARK   17  A    between atoms: CAR_18  and  CAS_19 
+ROOT
+ATOM      1  CAO DSK d          -2.929 -19.571 -21.586  0.00  0.00     0.070 C 
+ATOM      2  H19 DSK d          -3.989 -19.295 -21.483  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  OAD DSK d          -2.497 -19.192 -22.886  0.00  0.00    -0.392 OA
+ATOM      4  H4  DSK d          -2.994 -19.673 -23.537  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CAL DSK d          -2.136 -18.802 -20.483  0.00  0.00    -0.005 C 
+ATOM      6  H14 DSK d          -1.070 -19.057 -20.566  0.00  0.00     0.051 H 
+ATOM      7  H15 DSK d          -2.511 -19.108 -19.496  0.00  0.00     0.051 H 
+BRANCH   5   8
+ATOM      8  SAV DSK d          -2.327 -17.010 -20.655  0.00  0.00    -0.206 SA
+ATOM      9  CAM DSK d          -0.905 -16.265 -21.553  0.00  0.00    -0.005 C 
+ATOM     10  CAP DSK d           0.118 -16.111 -20.408  0.00  0.00     0.069 C 
+ATOM     11  H16 DSK d          -0.530 -16.934 -22.342  0.00  0.00     0.051 H 
+ATOM     12  H17 DSK d          -1.169 -15.292 -21.993  0.00  0.00     0.051 H 
+ATOM     13  CAT DSK d          -0.702 -15.420 -19.284  0.00  0.00     0.074 C 
+ATOM     14  H20 DSK d           0.490 -17.095 -20.085  0.00  0.00     0.088 H 
+ATOM     15  CAU DSK d          -1.880 -16.391 -18.988  0.00  0.00     0.030 C 
+ATOM     16  H24 DSK d          -1.068 -14.429 -19.590  0.00  0.00     0.088 H 
+ATOM     17  H25 DSK d          -1.498 -17.233 -18.392  0.00  0.00     0.062 H 
+BRANCH  10  18
+ATOM     18  OAE DSK d           1.246 -15.260 -20.775  0.00  0.00    -0.392 OA
+ATOM     19  H5  DSK d           1.845 -15.196 -20.040  0.00  0.00     0.210 HD
+ENDBRANCH  10  18
+BRANCH  13  20
+ATOM     20  OAI DSK d           0.161 -15.317 -18.144  0.00  0.00    -0.392 OA
+ATOM     21  H9  DSK d           0.926 -14.800 -18.373  0.00  0.00     0.210 HD
+ENDBRANCH  13  20
+BRANCH  15  22
+ATOM     22  CAK DSK d          -3.053 -15.781 -18.172  0.00  0.00     0.030 C 
+ATOM     23  H12 DSK d          -3.850 -16.535 -18.094  0.00  0.00     0.075 H 
+ATOM     24  H13 DSK d          -2.684 -15.532 -17.166  0.00  0.00     0.075 H 
+BRANCH  22  25
+ATOM     25  OAB DSK d          -3.608 -14.597 -18.754  0.00  0.00    -0.400 OA
+ATOM     26  H2  DSK d          -4.318 -14.279 -18.207  0.00  0.00     0.209 HD
+ENDBRANCH  22  25
+ENDBRANCH  15  22
+ENDBRANCH   5   8
+ENDBRANCH   1   5
+BRANCH   1  27
+ATOM     27  CAR DSK d          -2.824 -21.088 -21.450  0.00  0.00     0.088 C 
+ATOM     28  H22 DSK d          -1.773 -21.406 -21.380  0.00  0.00     0.091 H 
+BRANCH  27  29
+ATOM     29  OAG DSK d          -3.568 -21.424 -20.265  0.00  0.00    -0.390 OA
+ATOM     30  H7  DSK d          -4.470 -21.149 -20.371  0.00  0.00     0.210 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  CAS DSK d          -3.539 -21.796 -22.624  0.00  0.00     0.090 C 
+ATOM     32  H23 DSK d          -2.927 -21.661 -23.529  0.00  0.00     0.091 H 
+BRANCH  31  33
+ATOM     33  OAH DSK d          -4.822 -21.211 -22.845  0.00  0.00    -0.390 OA
+ATOM     34  H8  DSK d          -5.367 -21.349 -22.080  0.00  0.00     0.210 HD
+ENDBRANCH  31  33
+BRANCH  31  35
+ATOM     35  CAQ DSK d          -3.715 -23.292 -22.378  0.00  0.00     0.089 C 
+ATOM     36  H21 DSK d          -4.496 -23.455 -21.622  0.00  0.00     0.091 H 
+BRANCH  35  37
+ATOM     37  OAF DSK d          -2.463 -23.814 -21.917  0.00  0.00    -0.390 OA
+ATOM     38  H6  DSK d          -1.797 -23.666 -22.578  0.00  0.00     0.210 HD
+ENDBRANCH  35  37
+BRANCH  35  39
+ATOM     39  CAN DSK d          -4.094 -24.024 -23.684  0.00  0.00     0.083 C 
+ATOM     40  H18 DSK d          -5.011 -23.580 -24.099  0.00  0.00     0.090 H 
+BRANCH  39  41
+ATOM     41  OAC DSK d          -3.023 -23.878 -24.628  0.00  0.00    -0.391 OA
+ATOM     42  H3  DSK d          -2.232 -24.261 -24.269  0.00  0.00     0.210 HD
+ENDBRANCH  39  41
+BRANCH  39  43
+ATOM     43  CAJ DSK d          -4.340 -25.510 -23.391  0.00  0.00     0.043 C 
+ATOM     44  H10 DSK d          -3.378 -26.030 -23.276  0.00  0.00     0.078 H 
+ATOM     45  H11 DSK d          -4.928 -25.616 -22.467  0.00  0.00     0.078 H 
+BRANCH  43  46
+ATOM     46  OAA DSK d          -5.057 -26.063 -24.482  0.00  0.00    -0.398 OA
+ATOM     47  H1  DSK d          -5.218 -26.984 -24.319  0.00  0.00     0.209 HD
+ENDBRANCH  43  46
+ENDBRANCH  39  43
+ENDBRANCH  35  39
+ENDBRANCH  31  35
+ENDBRANCH  27  31
+ENDBRANCH   1  27
+TORSDOF 17
+ENDMDL

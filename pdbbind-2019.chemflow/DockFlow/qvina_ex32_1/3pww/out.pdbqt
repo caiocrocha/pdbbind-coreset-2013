@@ -1,0 +1,805 @@
+MODEL 1
+REMARK VINA RESULT:     -11.1      0.000      0.000
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C2_4 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C1_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N2_24  and  C1_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK    6  A    between atoms: C9_21  and  O2_22 
+REMARK    7  A    between atoms: CA1_23  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  CM_33 
+REMARK    9  A    between atoms: CA1_23  and  N2_24 
+REMARK   10  A    between atoms: CA1_23  and  CB1_25 
+REMARK   11  A    between atoms: CB1_25  and  CG1_26 
+REMARK   12  A    between atoms: CM_33  and  N11_32 
+REMARK   13  A    between atoms: C21_34  and  CC_35 
+REMARK       I    between atoms: CC_35  and  N3_45 
+REMARK   14  A    between atoms: N3_45  and  CD_46 
+REMARK   15  A    between atoms: CD_46  and  C11_47 
+REMARK   16  A    between atoms: CD_46  and  C22_48 
+REMARK   17  A    between atoms: CD_46  and  C32_49 
+ROOT
+ATOM      1  C9  ROC d           0.378   5.194   9.348  0.00  0.00     0.078 C 
+ATOM      2  H13 ROC d           0.181   5.343   8.276  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2  ROC d           1.591   4.526   9.529  0.00  0.00    -0.392 OA
+ATOM      4  H14 ROC d           2.055   4.909  10.264  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CA1 ROC d          -0.734   4.336   9.971  0.00  0.00     0.041 C 
+ATOM      6  H15 ROC d          -1.144   4.919  10.809  0.00  0.00     0.076 H 
+BRANCH   5   7
+ATOM      7  N2  ROC d          -1.834   4.153   8.996  0.00  0.00    -0.363 N 
+ATOM      8  C1  ROC d          -2.999   4.875   9.212  0.00  0.00     0.175 C 
+ATOM      9  O1  ROC d          -3.356   5.836  10.069  0.00  0.00    -0.175 OA
+ATOM     10  H16 ROC d          -1.741   3.535   8.216  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CA  ROC d          -4.107   4.477   8.234  0.00  0.00     0.083 C 
+ATOM     12  H8  ROC d          -4.974   4.170   8.837  0.00  0.00     0.086 H 
+BRANCH  11  13
+ATOM     13  N   ROC d          -4.504   5.616   7.444  0.00  0.00    -0.354 N 
+ATOM     14  C   ROC d          -3.491   6.373   6.947  0.00  0.00     0.204 C 
+ATOM     15  O   ROC d          -2.166   6.280   6.904  0.00  0.00    -0.170 OA
+ATOM     16  H7  ROC d          -5.465   5.834   7.271  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C2  ROC d          -4.035   7.661   6.321  0.00  0.00     0.111 A 
+ATOM     18  N1  ROC d          -5.387   7.777   6.121  0.00  0.00    -0.244 NA
+ATOM     19  C8A ROC d          -5.921   8.918   5.544  0.00  0.00     0.068 A 
+ATOM     20  C8  ROC d          -7.283   9.003   5.351  0.00  0.00    -0.054 A 
+ATOM     21  C4A ROC d          -5.077   9.962   5.164  0.00  0.00    -0.007 A 
+ATOM     22  C7  ROC d          -7.831  10.165   4.757  0.00  0.00    -0.081 A 
+ATOM     23  H6  ROC d          -7.929   8.186   5.651  0.00  0.00     0.087 H 
+ATOM     24  C6  ROC d          -7.000  11.202   4.384  0.00  0.00    -0.082 A 
+ATOM     25  H5  ROC d          -8.901  10.241   4.597  0.00  0.00     0.083 H 
+ATOM     26  C5  ROC d          -5.628  11.113   4.580  0.00  0.00    -0.071 A 
+ATOM     27  H4  ROC d          -7.422  12.093   3.934  0.00  0.00     0.083 H 
+ATOM     28  H3  ROC d          -4.983  11.931   4.283  0.00  0.00     0.084 H 
+ATOM     29  C4  ROC d          -3.711   9.854   5.367  0.00  0.00    -0.068 A 
+ATOM     30  C3  ROC d          -3.183   8.705   5.942  0.00  0.00    -0.050 A 
+ATOM     31  H2  ROC d          -3.054  10.666   5.077  0.00  0.00     0.085 H 
+ATOM     32  H1  ROC d          -2.113   8.617   6.096  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ROC d          -3.746   3.290   7.331  0.00  0.00     0.023 C 
+ATOM     34  H9  ROC d          -3.801   2.364   7.923  0.00  0.00     0.049 H 
+ATOM     35  H10 ROC d          -2.720   3.426   6.958  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  CG  ROC d          -4.704   3.167   6.123  0.00  0.00     0.151 C 
+ATOM     37  OD1 ROC d          -4.163   3.637   4.971  0.00  0.00    -0.178 OA
+ATOM     38  ND2 ROC d          -5.885   2.609   6.515  0.00  0.00    -0.381 N 
+ATOM     39  H11 ROC d          -6.614   2.461   5.848  0.00  0.00     0.158 HD
+ATOM     40  H12 ROC d          -6.022   2.349   7.471  0.00  0.00     0.158 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB1 ROC d          -0.261   3.015  10.570  0.00  0.00    -0.020 C 
+ATOM     42  H17 ROC d           0.229   3.213  11.535  0.00  0.00     0.043 H 
+ATOM     43  H18 ROC d           0.458   2.545   9.883  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG1 ROC d          -1.446   2.049  10.797  0.00  0.00    -0.056 A 
+ATOM     45  CD1 ROC d          -1.493   0.813  10.181  0.00  0.00    -0.077 A 
+ATOM     46  CE1 ROC d          -2.592  -0.050  10.399  0.00  0.00    -0.082 A 
+ATOM     47  H19 ROC d          -0.684   0.503   9.528  0.00  0.00     0.084 H 
+ATOM     48  CZ  ROC d          -3.631   0.339  11.235  0.00  0.00    -0.083 A 
+ATOM     49  H21 ROC d          -2.624  -1.017   9.912  0.00  0.00     0.083 H 
+ATOM     50  CE2 ROC d          -3.589   1.575  11.852  0.00  0.00    -0.082 A 
+ATOM     51  H23 ROC d          -4.471  -0.325  11.404  0.00  0.00     0.083 H 
+ATOM     52  CD2 ROC d          -2.496   2.434  11.632  0.00  0.00    -0.077 A 
+ATOM     53  H22 ROC d          -4.397   1.882  12.505  0.00  0.00     0.083 H 
+ATOM     54  H20 ROC d          -2.469   3.404  12.115  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   1   5
+BRANCH   1  55
+ATOM     55  CM  ROC d           0.448   6.523  10.043  0.00  0.00     0.110 C 
+ATOM     56  H25 ROC d           0.658   6.345  11.108  0.00  0.00     0.080 H 
+ATOM     57  H26 ROC d          -0.529   7.018   9.939  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N11 ROC d           1.487   7.432   9.510  0.00  0.00    -0.057 N 
+ATOM     59  C21 ROC d           2.639   7.634  10.435  0.00  0.00     0.167 C 
+ATOM     60  C31 ROC d           3.610   8.631   9.828  0.00  0.00    -0.027 C 
+ATOM     61  H27 ROC d           3.155   6.664  10.495  0.00  0.00     0.098 H 
+ATOM     62  C3A ROC d           3.027   9.935   9.342  0.00  0.00    -0.047 C 
+ATOM     63  H28 ROC d           4.095   8.142   8.970  0.00  0.00     0.037 H 
+ATOM     64  H29 ROC d           4.365   8.867  10.592  0.00  0.00     0.037 H 
+ATOM     65  C41 ROC d           2.703  10.878  10.519  0.00  0.00    -0.061 C 
+ATOM     66  C7A ROC d           1.845   9.682   8.455  0.00  0.00    -0.027 C 
+ATOM     67  H30 ROC d           3.793  10.433   8.730  0.00  0.00     0.040 H 
+ATOM     68  C51 ROC d           2.085  12.153  10.096  0.00  0.00    -0.065 C 
+ATOM     69  H31 ROC d           3.638  11.104  11.052  0.00  0.00     0.033 H 
+ATOM     70  H32 ROC d           2.009  10.362  11.199  0.00  0.00     0.033 H 
+ATOM     71  C61 ROC d           0.858  11.911   9.233  0.00  0.00    -0.065 C 
+ATOM     72  H33 ROC d           2.819  12.734   9.520  0.00  0.00     0.033 H 
+ATOM     73  H34 ROC d           1.787  12.720  10.990  0.00  0.00     0.033 H 
+ATOM     74  C71 ROC d           1.140  10.961   8.066  0.00  0.00    -0.060 C 
+ATOM     75  H35 ROC d           0.516  12.875   8.828  0.00  0.00     0.033 H 
+ATOM     76  H36 ROC d           0.066  11.476   9.859  0.00  0.00     0.033 H 
+ATOM     77  H37 ROC d           1.769  11.491   7.335  0.00  0.00     0.033 H 
+ATOM     78  H38 ROC d           0.180  10.695   7.600  0.00  0.00     0.033 H 
+ATOM     79  C81 ROC d           0.854   8.693   9.097  0.00  0.00     0.088 C 
+ATOM     80  H39 ROC d           2.224   9.220   7.531  0.00  0.00     0.043 H 
+ATOM     81  H40 ROC d           0.409   9.169   9.984  0.00  0.00     0.076 H 
+ATOM     82  H41 ROC d           0.063   8.466   8.368  0.00  0.00     0.076 H 
+ATOM     83  H24 ROC d           1.861   7.000   8.679  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  CC  ROC d           2.315   8.026  11.869  0.00  0.00     0.183 C 
+ATOM     85  O3  ROC d           1.052   8.293  12.135  0.00  0.00    -0.175 OA
+ATOM     86  N3  ROC d           3.452   8.028  12.672  0.00  0.00    -0.362 N 
+ATOM     87  H42 ROC d           4.327   7.734  12.286  0.00  0.00     0.162 HD
+BRANCH  86  88
+ATOM     88  CD  ROC d           3.390   8.465  14.108  0.00  0.00     0.021 C 
+BRANCH  88  89
+ATOM     89  C11 ROC d           4.791   8.403  14.616  0.00  0.00    -0.054 C 
+ATOM     90  H43 ROC d           5.475   8.188  13.782  0.00  0.00     0.030 H 
+ATOM     91  H44 ROC d           4.871   7.607  15.371  0.00  0.00     0.030 H 
+ATOM     92  H45 ROC d           5.059   9.367  15.071  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C22 ROC d           2.513   7.548  14.913  0.00  0.00    -0.054 C 
+ATOM     94  H46 ROC d           3.097   7.111  15.737  0.00  0.00     0.030 H 
+ATOM     95  H47 ROC d           2.133   6.743  14.266  0.00  0.00     0.030 H 
+ATOM     96  H48 ROC d           1.667   8.117  15.325  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C32 ROC d           2.874   9.886  14.225  0.00  0.00    -0.054 C 
+ATOM     98  H49 ROC d           1.974  10.002  13.603  0.00  0.00     0.030 H 
+ATOM     99  H50 ROC d           3.648  10.588  13.883  0.00  0.00     0.030 H 
+ATOM    100  H51 ROC d           2.624  10.100  15.276  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   1  55
+TORSDOF 17
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:     -11.0      1.894      4.891
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C2_4 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C1_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N2_24  and  C1_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK    6  A    between atoms: C9_21  and  O2_22 
+REMARK    7  A    between atoms: CA1_23  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  CM_33 
+REMARK    9  A    between atoms: CA1_23  and  N2_24 
+REMARK   10  A    between atoms: CA1_23  and  CB1_25 
+REMARK   11  A    between atoms: CB1_25  and  CG1_26 
+REMARK   12  A    between atoms: CM_33  and  N11_32 
+REMARK   13  A    between atoms: C21_34  and  CC_35 
+REMARK       I    between atoms: CC_35  and  N3_45 
+REMARK   14  A    between atoms: N3_45  and  CD_46 
+REMARK   15  A    between atoms: CD_46  and  C11_47 
+REMARK   16  A    between atoms: CD_46  and  C22_48 
+REMARK   17  A    between atoms: CD_46  and  C32_49 
+ROOT
+ATOM      1  C9  ROC d           0.760   5.368   9.425  0.00  0.00     0.078 C 
+ATOM      2  H13 ROC d           0.671   5.573   8.348  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2  ROC d           1.930   4.652   9.686  0.00  0.00    -0.392 OA
+ATOM      4  H14 ROC d           1.746   3.967  10.318  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CA1 ROC d          -0.432   4.522   9.899  0.00  0.00     0.041 C 
+ATOM      6  H15 ROC d          -0.967   5.128  10.645  0.00  0.00     0.076 H 
+BRANCH   5   7
+ATOM      7  N2  ROC d          -1.370   4.300   8.774  0.00  0.00    -0.363 N 
+ATOM      8  C1  ROC d          -2.214   5.347   8.435  0.00  0.00     0.175 C 
+ATOM      9  O1  ROC d          -2.321   6.622   8.822  0.00  0.00    -0.175 OA
+ATOM     10  H16 ROC d          -1.393   3.431   8.279  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CA  ROC d          -3.235   4.937   7.373  0.00  0.00     0.083 C 
+ATOM     12  H8  ROC d          -2.677   4.750   6.444  0.00  0.00     0.086 H 
+BRANCH  11  13
+ATOM     13  N   ROC d          -3.880   3.705   7.752  0.00  0.00    -0.354 N 
+ATOM     14  C   ROC d          -4.187   2.860   6.733  0.00  0.00     0.204 C 
+ATOM     15  O   ROC d          -3.944   2.816   5.428  0.00  0.00    -0.170 OA
+ATOM     16  H7  ROC d          -4.089   3.486   8.706  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C2  ROC d          -5.057   1.703   7.234  0.00  0.00     0.111 A 
+ATOM     18  N1  ROC d          -5.723   1.846   8.424  0.00  0.00    -0.244 NA
+ATOM     19  C8A ROC d          -6.509   0.818   8.921  0.00  0.00     0.068 A 
+ATOM     20  C8  ROC d          -7.162   0.989  10.124  0.00  0.00    -0.054 A 
+ATOM     21  C4A ROC d          -6.628  -0.372   8.205  0.00  0.00    -0.007 A 
+ATOM     22  C7  ROC d          -7.962  -0.059  10.637  0.00  0.00    -0.081 A 
+ATOM     23  H6  ROC d          -7.064   1.919  10.671  0.00  0.00     0.087 H 
+ATOM     24  C6  ROC d          -8.085  -1.237   9.929  0.00  0.00    -0.082 A 
+ATOM     25  H5  ROC d          -8.477   0.062  11.584  0.00  0.00     0.083 H 
+ATOM     26  C5  ROC d          -7.426  -1.406   8.717  0.00  0.00    -0.071 A 
+ATOM     27  H4  ROC d          -8.702  -2.038  10.321  0.00  0.00     0.083 H 
+ATOM     28  H3  ROC d          -7.528  -2.335   8.169  0.00  0.00     0.084 H 
+ATOM     29  C4  ROC d          -5.962  -0.522   6.999  0.00  0.00    -0.068 A 
+ATOM     30  C3  ROC d          -5.172   0.510   6.510  0.00  0.00    -0.050 A 
+ATOM     31  H2  ROC d          -6.057  -1.445   6.438  0.00  0.00     0.085 H 
+ATOM     32  H1  ROC d          -4.646   0.392   5.569  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ROC d          -4.277   6.020   7.058  0.00  0.00     0.023 C 
+ATOM     34  H9  ROC d          -4.194   6.822   7.808  0.00  0.00     0.049 H 
+ATOM     35  H10 ROC d          -5.281   5.573   7.111  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  CG  ROC d          -4.076   6.629   5.651  0.00  0.00     0.151 C 
+ATOM     37  OD1 ROC d          -3.429   7.821   5.680  0.00  0.00    -0.178 OA
+ATOM     38  ND2 ROC d          -4.612   5.808   4.704  0.00  0.00    -0.381 N 
+ATOM     39  H11 ROC d          -4.563   6.061   3.738  0.00  0.00     0.158 HD
+ATOM     40  H12 ROC d          -5.054   4.953   4.975  0.00  0.00     0.158 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB1 ROC d          -0.053   3.225  10.606  0.00  0.00    -0.020 C 
+ATOM     42  H17 ROC d           0.385   3.465  11.587  0.00  0.00     0.043 H 
+ATOM     43  H18 ROC d           0.688   2.686   9.996  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG1 ROC d          -1.288   2.321  10.814  0.00  0.00    -0.056 A 
+ATOM     45  CD1 ROC d          -2.420   2.788  11.456  0.00  0.00    -0.077 A 
+ATOM     46  CE1 ROC d          -3.535   1.938  11.640  0.00  0.00    -0.082 A 
+ATOM     47  H19 ROC d          -2.453   3.809  11.820  0.00  0.00     0.084 H 
+ATOM     48  CZ  ROC d          -3.501   0.628  11.176  0.00  0.00    -0.083 A 
+ATOM     49  H21 ROC d          -4.419   2.308  12.145  0.00  0.00     0.083 H 
+ATOM     50  CE2 ROC d          -2.371   0.157  10.535  0.00  0.00    -0.082 A 
+ATOM     51  H23 ROC d          -4.358  -0.021  11.315  0.00  0.00     0.083 H 
+ATOM     52  CD2 ROC d          -1.260   1.003  10.355  0.00  0.00    -0.077 A 
+ATOM     53  H22 ROC d          -2.340  -0.863  10.172  0.00  0.00     0.083 H 
+ATOM     54  H20 ROC d          -0.374   0.628   9.855  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   1   5
+BRANCH   1  55
+ATOM     55  CM  ROC d           0.803   6.661  10.187  0.00  0.00     0.110 C 
+ATOM     56  H25 ROC d           1.139   6.447  11.212  0.00  0.00     0.080 H 
+ATOM     57  H26 ROC d          -0.214   7.080  10.214  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N11 ROC d           1.708   7.678   9.606  0.00  0.00    -0.057 N 
+ATOM     59  C21 ROC d           2.854   8.038  10.490  0.00  0.00     0.167 C 
+ATOM     60  C31 ROC d           3.678   9.132   9.836  0.00  0.00    -0.027 C 
+ATOM     61  H27 ROC d           3.485   7.139  10.551  0.00  0.00     0.098 H 
+ATOM     62  C3A ROC d           2.927  10.345   9.344  0.00  0.00    -0.047 C 
+ATOM     63  H28 ROC d           4.194   8.687   8.972  0.00  0.00     0.037 H 
+ATOM     64  H29 ROC d           4.420   9.474  10.571  0.00  0.00     0.037 H 
+ATOM     65  C41 ROC d           2.525  11.267  10.514  0.00  0.00    -0.061 C 
+ATOM     66  C7A ROC d           1.760   9.932   8.499  0.00  0.00    -0.027 C 
+ATOM     67  H30 ROC d           3.609  10.919   8.700  0.00  0.00     0.040 H 
+ATOM     68  C51 ROC d           1.744  12.448  10.087  0.00  0.00    -0.065 C 
+ATOM     69  H31 ROC d           3.440  11.616  11.013  0.00  0.00     0.033 H 
+ATOM     70  H32 ROC d           1.918  10.686  11.224  0.00  0.00     0.033 H 
+ATOM     71  C61 ROC d           0.531  12.041   9.267  0.00  0.00    -0.065 C 
+ATOM     72  H33 ROC d           2.385  13.101   9.478  0.00  0.00     0.033 H 
+ATOM     73  H34 ROC d           1.405  12.995  10.980  0.00  0.00     0.033 H 
+ATOM     74  C71 ROC d           0.893  11.107   8.110  0.00  0.00    -0.060 C 
+ATOM     75  H35 ROC d           0.063  12.948   8.856  0.00  0.00     0.033 H 
+ATOM     76  H36 ROC d          -0.184  11.526   9.925  0.00  0.00     0.033 H 
+ATOM     77  H37 ROC d           1.432  11.693   7.350  0.00  0.00     0.033 H 
+ATOM     78  H38 ROC d          -0.040  10.717   7.678  0.00  0.00     0.033 H 
+ATOM     79  C81 ROC d           0.915   8.844   9.190  0.00  0.00     0.088 C 
+ATOM     80  H39 ROC d           2.165   9.498   7.572  0.00  0.00     0.043 H 
+ATOM     81  H40 ROC d           0.442   9.282  10.082  0.00  0.00     0.076 H 
+ATOM     82  H41 ROC d           0.137   8.507   8.490  0.00  0.00     0.076 H 
+ATOM     83  H24 ROC d           2.109   7.277   8.772  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  CC  ROC d           2.525   8.419  11.926  0.00  0.00     0.183 C 
+ATOM     85  O3  ROC d           1.276   8.758  12.175  0.00  0.00    -0.175 OA
+ATOM     86  N3  ROC d           3.645   8.334  12.750  0.00  0.00    -0.362 N 
+ATOM     87  H42 ROC d           4.507   7.994  12.374  0.00  0.00     0.162 HD
+BRANCH  86  88
+ATOM     88  CD  ROC d           3.580   8.743  14.194  0.00  0.00     0.021 C 
+BRANCH  88  89
+ATOM     89  C11 ROC d           4.959   8.559  14.734  0.00  0.00    -0.054 C 
+ATOM     90  H43 ROC d           5.693   8.888  13.984  0.00  0.00     0.030 H 
+ATOM     91  H44 ROC d           5.122   7.497  14.967  0.00  0.00     0.030 H 
+ATOM     92  H45 ROC d           5.077   9.158  15.649  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C22 ROC d           2.614   7.881  14.957  0.00  0.00    -0.054 C 
+ATOM     94  H46 ROC d           3.171   7.126  15.532  0.00  0.00     0.030 H 
+ATOM     95  H47 ROC d           1.936   7.378  14.252  0.00  0.00     0.030 H 
+ATOM     96  H48 ROC d           2.028   8.507  15.645  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C32 ROC d           3.174  10.198  14.333  0.00  0.00    -0.054 C 
+ATOM     98  H49 ROC d           4.075  10.823  14.429  0.00  0.00     0.030 H 
+ATOM     99  H50 ROC d           2.546  10.320  15.228  0.00  0.00     0.030 H 
+ATOM    100  H51 ROC d           2.606  10.507  13.443  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   1  55
+TORSDOF 17
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:     -10.4      1.403      3.382
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C2_4 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C1_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N2_24  and  C1_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK    6  A    between atoms: C9_21  and  O2_22 
+REMARK    7  A    between atoms: CA1_23  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  CM_33 
+REMARK    9  A    between atoms: CA1_23  and  N2_24 
+REMARK   10  A    between atoms: CA1_23  and  CB1_25 
+REMARK   11  A    between atoms: CB1_25  and  CG1_26 
+REMARK   12  A    between atoms: CM_33  and  N11_32 
+REMARK   13  A    between atoms: C21_34  and  CC_35 
+REMARK       I    between atoms: CC_35  and  N3_45 
+REMARK   14  A    between atoms: N3_45  and  CD_46 
+REMARK   15  A    between atoms: CD_46  and  C11_47 
+REMARK   16  A    between atoms: CD_46  and  C22_48 
+REMARK   17  A    between atoms: CD_46  and  C32_49 
+ROOT
+ATOM      1  C9  ROC d           0.097   6.178  10.107  0.00  0.00     0.078 C 
+ATOM      2  H13 ROC d          -0.530   7.039  10.380  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2  ROC d           0.556   6.313   8.794  0.00  0.00    -0.392 OA
+ATOM      4  H14 ROC d           0.328   7.175   8.467  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CA1 ROC d          -0.724   4.883  10.193  0.00  0.00     0.041 C 
+ATOM      6  H15 ROC d          -1.382   4.989  11.069  0.00  0.00     0.076 H 
+BRANCH   5   7
+ATOM      7  N2  ROC d          -1.604   4.764   9.007  0.00  0.00    -0.363 N 
+ATOM      8  C1  ROC d          -2.902   5.235   9.131  0.00  0.00     0.175 C 
+ATOM      9  O1  ROC d          -3.563   5.911  10.075  0.00  0.00    -0.175 OA
+ATOM     10  H16 ROC d          -1.275   4.362   8.153  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CA  ROC d          -3.749   4.910   7.899  0.00  0.00     0.083 C 
+ATOM     12  H8  ROC d          -4.626   4.348   8.250  0.00  0.00     0.086 H 
+BRANCH  11  13
+ATOM     13  N   ROC d          -4.223   6.126   7.287  0.00  0.00    -0.354 N 
+ATOM     14  C   ROC d          -3.271   7.045   6.981  0.00  0.00     0.204 C 
+ATOM     15  O   ROC d          -1.942   7.081   6.999  0.00  0.00    -0.170 OA
+ATOM     16  H7  ROC d          -5.193   6.283   7.098  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C2  ROC d          -3.913   8.366   6.548  0.00  0.00     0.111 A 
+ATOM     18  N1  ROC d          -5.080   8.761   7.150  0.00  0.00    -0.244 NA
+ATOM     19  C8A ROC d          -5.704   9.941   6.777  0.00  0.00     0.068 A 
+ATOM     20  C8  ROC d          -6.879  10.309   7.398  0.00  0.00    -0.054 A 
+ATOM     21  C4A ROC d          -5.139  10.739   5.782  0.00  0.00    -0.007 A 
+ATOM     22  C7  ROC d          -7.521  11.512   7.017  0.00  0.00    -0.081 A 
+ATOM     23  H6  ROC d          -7.308   9.682   8.171  0.00  0.00     0.087 H 
+ATOM     24  C6  ROC d          -6.963  12.305   6.035  0.00  0.00    -0.082 A 
+ATOM     25  H5  ROC d          -8.448  11.808   7.495  0.00  0.00     0.083 H 
+ATOM     26  C5  ROC d          -5.778  11.932   5.412  0.00  0.00    -0.071 A 
+ATOM     27  H4  ROC d          -7.454  13.229   5.747  0.00  0.00     0.083 H 
+ATOM     28  H3  ROC d          -5.349  12.561   4.642  0.00  0.00     0.084 H 
+ATOM     29  C4  ROC d          -3.958  10.349   5.172  0.00  0.00    -0.068 A 
+ATOM     30  C3  ROC d          -3.342   9.162   5.547  0.00  0.00    -0.050 A 
+ATOM     31  H2  ROC d          -3.515  10.970   4.402  0.00  0.00     0.085 H 
+ATOM     32  H1  ROC d          -2.420   8.854   5.067  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ROC d          -3.034   4.027   6.866  0.00  0.00     0.023 C 
+ATOM     34  H9  ROC d          -2.104   3.641   7.311  0.00  0.00     0.049 H 
+ATOM     35  H10 ROC d          -2.793   4.637   5.983  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  CG  ROC d          -3.907   2.830   6.422  0.00  0.00     0.151 C 
+ATOM     37  OD1 ROC d          -3.677   1.710   7.151  0.00  0.00    -0.178 OA
+ATOM     38  ND2 ROC d          -4.710   3.196   5.381  0.00  0.00    -0.381 N 
+ATOM     39  H11 ROC d          -5.338   2.532   4.977  0.00  0.00     0.158 HD
+ATOM     40  H12 ROC d          -4.669   4.129   5.023  0.00  0.00     0.158 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB1 ROC d           0.098   3.621  10.437  0.00  0.00    -0.020 C 
+ATOM     42  H17 ROC d           0.788   3.798  11.275  0.00  0.00     0.043 H 
+ATOM     43  H18 ROC d           0.675   3.387   9.530  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG1 ROC d          -0.811   2.420  10.779  0.00  0.00    -0.056 A 
+ATOM     45  CD1 ROC d          -1.905   2.561  11.612  0.00  0.00    -0.077 A 
+ATOM     46  CE1 ROC d          -2.718   1.445  11.916  0.00  0.00    -0.082 A 
+ATOM     47  H19 ROC d          -2.142   3.532  12.034  0.00  0.00     0.084 H 
+ATOM     48  CZ  ROC d          -2.423   0.198  11.378  0.00  0.00    -0.083 A 
+ATOM     49  H21 ROC d          -3.573   1.561  12.571  0.00  0.00     0.083 H 
+ATOM     50  CE2 ROC d          -1.329   0.051  10.546  0.00  0.00    -0.082 A 
+ATOM     51  H23 ROC d          -3.049  -0.657  11.609  0.00  0.00     0.083 H 
+ATOM     52  CD2 ROC d          -0.519   1.163  10.247  0.00  0.00    -0.077 A 
+ATOM     53  H22 ROC d          -1.095  -0.919  10.124  0.00  0.00     0.083 H 
+ATOM     54  H20 ROC d           0.340   1.042   9.597  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   1   5
+BRANCH   1  55
+ATOM     55  CM  ROC d           1.279   6.097  11.027  0.00  0.00     0.110 C 
+ATOM     56  H25 ROC d           2.179   6.378  10.460  0.00  0.00     0.080 H 
+ATOM     57  H26 ROC d           1.375   5.057  11.375  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N11 ROC d           1.186   6.976  12.215  0.00  0.00    -0.057 N 
+ATOM     59  C21 ROC d           0.930   8.407  11.883  0.00  0.00     0.167 C 
+ATOM     60  C31 ROC d           0.921   9.230  13.159  0.00  0.00    -0.027 C 
+ATOM     61  H27 ROC d          -0.084   8.444  11.458  0.00  0.00     0.098 H 
+ATOM     62  C3A ROC d           2.099   9.056  14.086  0.00  0.00    -0.047 C 
+ATOM     63  H28 ROC d           0.013   8.965  13.720  0.00  0.00     0.037 H 
+ATOM     64  H29 ROC d           0.878  10.291  12.870  0.00  0.00     0.037 H 
+ATOM     65  C41 ROC d           3.346   9.789  13.553  0.00  0.00    -0.061 C 
+ATOM     66  C7A ROC d           2.345   7.602  14.353  0.00  0.00    -0.027 C 
+ATOM     67  H30 ROC d           1.836   9.523  15.047  0.00  0.00     0.040 H 
+ATOM     68  C51 ROC d           4.542   9.608  14.405  0.00  0.00    -0.065 C 
+ATOM     69  H31 ROC d           3.121  10.863  13.492  0.00  0.00     0.033 H 
+ATOM     70  H32 ROC d           3.574   9.404  12.547  0.00  0.00     0.033 H 
+ATOM     71  C61 ROC d           4.830   8.136  14.646  0.00  0.00    -0.065 C 
+ATOM     72  H33 ROC d           4.370  10.102  15.372  0.00  0.00     0.033 H 
+ATOM     73  H34 ROC d           5.409  10.066  13.907  0.00  0.00     0.033 H 
+ATOM     74  C71 ROC d           3.604   7.374  15.156  0.00  0.00    -0.060 C 
+ATOM     75  H35 ROC d           5.634   8.052  15.392  0.00  0.00     0.033 H 
+ATOM     76  H36 ROC d           5.160   7.681  13.700  0.00  0.00     0.033 H 
+ATOM     77  H37 ROC d           3.411   7.688  16.193  0.00  0.00     0.033 H 
+ATOM     78  H38 ROC d           3.835   6.299  15.136  0.00  0.00     0.033 H 
+ATOM     79  C81 ROC d           2.382   6.784  13.047  0.00  0.00     0.088 C 
+ATOM     80  H39 ROC d           1.499   7.232  14.952  0.00  0.00     0.043 H 
+ATOM     81  H40 ROC d           3.266   7.090  12.467  0.00  0.00     0.076 H 
+ATOM     82  H41 ROC d           2.464   5.718  13.304  0.00  0.00     0.076 H 
+ATOM     83  H24 ROC d           0.394   6.663  12.754  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  CC  ROC d           1.843   9.051  10.850  0.00  0.00     0.183 C 
+ATOM     85  O3  ROC d           3.085   8.613  10.807  0.00  0.00    -0.175 OA
+ATOM     86  N3  ROC d           1.175  10.022  10.107  0.00  0.00    -0.362 N 
+ATOM     87  H42 ROC d           0.197  10.169  10.258  0.00  0.00     0.162 HD
+BRANCH  86  88
+ATOM     88  CD  ROC d           1.896  10.852   9.084  0.00  0.00     0.021 C 
+BRANCH  88  89
+ATOM     89  C11 ROC d           2.126   9.953   7.916  0.00  0.00    -0.054 C 
+ATOM     90  H43 ROC d           1.568  10.331   7.047  0.00  0.00     0.030 H 
+ATOM     91  H44 ROC d           1.781   8.938   8.161  0.00  0.00     0.030 H 
+ATOM     92  H45 ROC d           3.200   9.927   7.679  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C22 ROC d           3.213  11.341   9.619  0.00  0.00    -0.054 C 
+ATOM     94  H46 ROC d           3.621  10.601  10.323  0.00  0.00     0.030 H 
+ATOM     95  H47 ROC d           3.064  12.299  10.138  0.00  0.00     0.030 H 
+ATOM     96  H48 ROC d           3.917  11.482   8.786  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C32 ROC d           1.057  12.038   8.651  0.00  0.00    -0.054 C 
+ATOM     98  H49 ROC d          -0.003  11.834   8.861  0.00  0.00     0.030 H 
+ATOM     99  H50 ROC d           1.191  12.208   7.572  0.00  0.00     0.030 H 
+ATOM    100  H51 ROC d           1.374  12.934   9.205  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   1  55
+TORSDOF 17
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:     -10.1      1.032      1.838
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C2_4 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C1_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N2_24  and  C1_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK    6  A    between atoms: C9_21  and  O2_22 
+REMARK    7  A    between atoms: CA1_23  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  CM_33 
+REMARK    9  A    between atoms: CA1_23  and  N2_24 
+REMARK   10  A    between atoms: CA1_23  and  CB1_25 
+REMARK   11  A    between atoms: CB1_25  and  CG1_26 
+REMARK   12  A    between atoms: CM_33  and  N11_32 
+REMARK   13  A    between atoms: C21_34  and  CC_35 
+REMARK       I    between atoms: CC_35  and  N3_45 
+REMARK   14  A    between atoms: N3_45  and  CD_46 
+REMARK   15  A    between atoms: CD_46  and  C11_47 
+REMARK   16  A    between atoms: CD_46  and  C22_48 
+REMARK   17  A    between atoms: CD_46  and  C32_49 
+ROOT
+ATOM      1  C9  ROC d           0.157   5.468   9.191  0.00  0.00     0.078 C 
+ATOM      2  H13 ROC d          -0.227   5.859   8.238  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2  ROC d           1.296   4.690   8.970  0.00  0.00    -0.392 OA
+ATOM      4  H14 ROC d           1.049   3.774   8.928  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CA1 ROC d          -0.903   4.581   9.861  0.00  0.00     0.041 C 
+ATOM      6  H15 ROC d          -1.367   5.191  10.650  0.00  0.00     0.076 H 
+BRANCH   5   7
+ATOM      7  N2  ROC d          -1.970   4.252   8.889  0.00  0.00    -0.363 N 
+ATOM      8  C1  ROC d          -2.465   5.291   8.115  0.00  0.00     0.175 C 
+ATOM      9  O1  ROC d          -2.120   6.570   7.939  0.00  0.00    -0.175 OA
+ATOM     10  H16 ROC d          -2.320   3.320   8.794  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CA  ROC d          -3.666   4.855   7.273  0.00  0.00     0.083 C 
+ATOM     12  H8  ROC d          -4.381   4.372   7.955  0.00  0.00     0.086 H 
+BRANCH  11  13
+ATOM     13  N   ROC d          -4.317   6.007   6.701  0.00  0.00    -0.354 N 
+ATOM     14  C   ROC d          -5.674   5.954   6.647  0.00  0.00     0.204 C 
+ATOM     15  O   ROC d          -6.612   5.129   7.100  0.00  0.00    -0.170 OA
+ATOM     16  H7  ROC d          -3.803   6.797   6.366  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C2  ROC d          -6.229   7.123   5.828  0.00  0.00     0.111 A 
+ATOM     18  N1  ROC d          -5.519   8.295   5.786  0.00  0.00    -0.244 NA
+ATOM     19  C8A ROC d          -5.992   9.383   5.070  0.00  0.00     0.068 A 
+ATOM     20  C8  ROC d          -5.258  10.550   5.051  0.00  0.00    -0.054 A 
+ATOM     21  C4A ROC d          -7.200   9.286   4.380  0.00  0.00    -0.007 A 
+ATOM     22  C7  ROC d          -5.739  11.664   4.324  0.00  0.00    -0.081 A 
+ATOM     23  H6  ROC d          -4.319  10.613   5.589  0.00  0.00     0.087 H 
+ATOM     24  C6  ROC d          -6.933  11.571   3.638  0.00  0.00    -0.082 A 
+ATOM     25  H5  ROC d          -5.173  12.589   4.307  0.00  0.00     0.083 H 
+ATOM     26  C5  ROC d          -7.670  10.393   3.658  0.00  0.00    -0.071 A 
+ATOM     27  H4  ROC d          -7.299  12.424   3.077  0.00  0.00     0.083 H 
+ATOM     28  H3  ROC d          -8.606  10.330   3.116  0.00  0.00     0.084 H 
+ATOM     29  C4  ROC d          -7.921   8.104   4.414  0.00  0.00    -0.068 A 
+ATOM     30  C3  ROC d          -7.444   7.019   5.138  0.00  0.00    -0.050 A 
+ATOM     31  H2  ROC d          -8.858   8.025   3.875  0.00  0.00     0.085 H 
+ATOM     32  H1  ROC d          -8.009   6.095   5.169  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ROC d          -3.325   3.829   6.183  0.00  0.00     0.023 C 
+ATOM     34  H9  ROC d          -2.242   3.635   6.204  0.00  0.00     0.049 H 
+ATOM     35  H10 ROC d          -3.603   4.246   5.203  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  CG  ROC d          -4.075   2.492   6.387  0.00  0.00     0.151 C 
+ATOM     37  OD1 ROC d          -5.242   2.432   5.699  0.00  0.00    -0.178 OA
+ATOM     38  ND2 ROC d          -3.370   1.684   7.230  0.00  0.00    -0.381 N 
+ATOM     39  H11 ROC d          -3.723   0.778   7.465  0.00  0.00     0.158 HD
+ATOM     40  H12 ROC d          -2.501   1.997   7.613  0.00  0.00     0.158 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB1 ROC d          -0.350   3.342  10.560  0.00  0.00    -0.020 C 
+ATOM     42  H17 ROC d           0.099   3.641  11.519  0.00  0.00     0.043 H 
+ATOM     43  H18 ROC d           0.421   2.884   9.922  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG1 ROC d          -1.465   2.307  10.826  0.00  0.00    -0.056 A 
+ATOM     45  CD1 ROC d          -2.630   2.659  11.482  0.00  0.00    -0.077 A 
+ATOM     46  CE1 ROC d          -3.632   1.691  11.721  0.00  0.00    -0.082 A 
+ATOM     47  H19 ROC d          -2.776   3.680  11.816  0.00  0.00     0.084 H 
+ATOM     48  CZ  ROC d          -3.454   0.379  11.295  0.00  0.00    -0.083 A 
+ATOM     49  H21 ROC d          -4.543   1.971  12.237  0.00  0.00     0.083 H 
+ATOM     50  CE2 ROC d          -2.290   0.023  10.641  0.00  0.00    -0.082 A 
+ATOM     51  H23 ROC d          -4.225  -0.361  11.476  0.00  0.00     0.083 H 
+ATOM     52  CD2 ROC d          -1.291   0.987  10.407  0.00  0.00    -0.077 A 
+ATOM     53  H22 ROC d          -2.147  -0.998  10.307  0.00  0.00     0.083 H 
+ATOM     54  H20 ROC d          -0.379   0.702   9.896  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   1   5
+BRANCH   1  55
+ATOM     55  CM  ROC d           0.518   6.608  10.099  0.00  0.00     0.110 C 
+ATOM     56  H25 ROC d           0.924   6.190  11.033  0.00  0.00     0.080 H 
+ATOM     57  H26 ROC d          -0.398   7.176  10.320  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N11 ROC d           1.519   7.541   9.535  0.00  0.00    -0.057 N 
+ATOM     59  C21 ROC d           2.690   7.777  10.427  0.00  0.00     0.167 C 
+ATOM     60  C31 ROC d           3.617   8.796   9.790  0.00  0.00    -0.027 C 
+ATOM     61  H27 ROC d           3.232   6.821  10.477  0.00  0.00     0.098 H 
+ATOM     62  C3A ROC d           2.988  10.082   9.315  0.00  0.00    -0.047 C 
+ATOM     63  H28 ROC d           4.092   8.316   8.921  0.00  0.00     0.037 H 
+ATOM     64  H29 ROC d           4.387   9.055  10.532  0.00  0.00     0.037 H 
+ATOM     65  C41 ROC d           2.672  11.022  10.496  0.00  0.00    -0.061 C 
+ATOM     66  C7A ROC d           1.790   9.795   8.461  0.00  0.00    -0.027 C 
+ATOM     67  H30 ROC d           3.724  10.597   8.680  0.00  0.00     0.040 H 
+ATOM     68  C51 ROC d           2.009  12.278  10.085  0.00  0.00    -0.065 C 
+ATOM     69  H31 ROC d           3.614  11.275  11.003  0.00  0.00     0.033 H 
+ATOM     70  H32 ROC d           2.010  10.492  11.197  0.00  0.00     0.033 H 
+ATOM     71  C61 ROC d           0.766  12.001   9.257  0.00  0.00    -0.065 C 
+ATOM     72  H33 ROC d           2.712  12.875   9.487  0.00  0.00     0.033 H 
+ATOM     73  H34 ROC d           1.721  12.842  10.985  0.00  0.00     0.033 H 
+ATOM     74  C71 ROC d           1.041  11.053   8.087  0.00  0.00    -0.060 C 
+ATOM     75  H35 ROC d           0.388  12.954   8.858  0.00  0.00     0.033 H 
+ATOM     76  H36 ROC d           0.003  11.548   9.906  0.00  0.00     0.033 H 
+ATOM     77  H37 ROC d           1.636  11.596   7.337  0.00  0.00     0.033 H 
+ATOM     78  H38 ROC d           0.076  10.760   7.648  0.00  0.00     0.033 H 
+ATOM     79  C81 ROC d           0.842   8.783   9.135  0.00  0.00     0.088 C 
+ATOM     80  H39 ROC d           2.155   9.338   7.529  0.00  0.00     0.043 H 
+ATOM     81  H40 ROC d           0.409   9.252  10.032  0.00  0.00     0.076 H 
+ATOM     82  H41 ROC d           0.038   8.532   8.428  0.00  0.00     0.076 H 
+ATOM     83  H24 ROC d           1.881   7.115   8.696  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  CC  ROC d           2.394   8.167  11.868  0.00  0.00     0.183 C 
+ATOM     85  O3  ROC d           1.143   8.468  12.152  0.00  0.00    -0.175 OA
+ATOM     86  N3  ROC d           3.541   8.132  12.657  0.00  0.00    -0.362 N 
+ATOM     87  H42 ROC d           4.402   7.816  12.258  0.00  0.00     0.162 HD
+BRANCH  86  88
+ATOM     88  CD  ROC d           3.509   8.560  14.096  0.00  0.00     0.021 C 
+BRANCH  88  89
+ATOM     89  C11 ROC d           3.163  10.011  14.085  0.00  0.00    -0.054 C 
+ATOM     90  H43 ROC d           2.139  10.140  13.705  0.00  0.00     0.030 H 
+ATOM     91  H44 ROC d           3.866  10.551  13.434  0.00  0.00     0.030 H 
+ATOM     92  H45 ROC d           3.228  10.412  15.107  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C22 ROC d           4.849   8.360  14.748  0.00  0.00    -0.054 C 
+ATOM     94  H46 ROC d           5.579   8.033  13.993  0.00  0.00     0.030 H 
+ATOM     95  H47 ROC d           4.764   7.594  15.532  0.00  0.00     0.030 H 
+ATOM     96  H48 ROC d           5.184   9.307  15.195  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C32 ROC d           2.454   7.795  14.871  0.00  0.00    -0.054 C 
+ATOM     98  H49 ROC d           2.081   8.419  15.697  0.00  0.00     0.030 H 
+ATOM     99  H50 ROC d           2.893   6.873  15.278  0.00  0.00     0.030 H 
+ATOM    100  H51 ROC d           1.620   7.539  14.200  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   1  55
+TORSDOF 17
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -9.8      2.195      5.764
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C2_4 
+REMARK    2  A    between atoms: CA_14  and  N_13 
+REMARK    3  A    between atoms: C1_15  and  CA_14 
+REMARK    4  A    between atoms: CA_14  and  CB_17 
+REMARK       I    between atoms: N2_24  and  C1_15 
+REMARK    5  A    between atoms: CB_17  and  CG_18 
+REMARK    6  A    between atoms: C9_21  and  O2_22 
+REMARK    7  A    between atoms: CA1_23  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  CM_33 
+REMARK    9  A    between atoms: CA1_23  and  N2_24 
+REMARK   10  A    between atoms: CA1_23  and  CB1_25 
+REMARK   11  A    between atoms: CB1_25  and  CG1_26 
+REMARK   12  A    between atoms: CM_33  and  N11_32 
+REMARK   13  A    between atoms: C21_34  and  CC_35 
+REMARK       I    between atoms: CC_35  and  N3_45 
+REMARK   14  A    between atoms: N3_45  and  CD_46 
+REMARK   15  A    between atoms: CD_46  and  C11_47 
+REMARK   16  A    between atoms: CD_46  and  C22_48 
+REMARK   17  A    between atoms: CD_46  and  C32_49 
+ROOT
+ATOM      1  C9  ROC d           0.022   6.702   9.940  0.00  0.00     0.078 C 
+ATOM      2  H13 ROC d          -0.556   7.573  10.284  0.00  0.00     0.088 H 
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2  ROC d           0.593   6.964   8.693  0.00  0.00    -0.392 OA
+ATOM      4  H14 ROC d           0.042   7.572   8.215  0.00  0.00     0.210 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  CA1 ROC d          -0.902   5.484   9.794  0.00  0.00     0.041 C 
+ATOM      6  H15 ROC d          -1.792   5.692  10.407  0.00  0.00     0.076 H 
+BRANCH   5   7
+ATOM      7  N2  ROC d          -1.364   5.369   8.391  0.00  0.00    -0.363 N 
+ATOM      8  C1  ROC d          -2.618   5.880   8.093  0.00  0.00     0.175 C 
+ATOM      9  O1  ROC d          -3.521   6.594   8.772  0.00  0.00    -0.175 OA
+ATOM     10  H16 ROC d          -0.796   4.940   7.689  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CA  ROC d          -3.041   5.556   6.658  0.00  0.00     0.083 C 
+ATOM     12  H8  ROC d          -2.149   5.670   6.025  0.00  0.00     0.086 H 
+BRANCH  11  13
+ATOM     13  N   ROC d          -3.472   4.183   6.565  0.00  0.00    -0.354 N 
+ATOM     14  C   ROC d          -4.729   3.926   7.012  0.00  0.00     0.204 C 
+ATOM     15  O   ROC d          -5.756   4.655   7.434  0.00  0.00    -0.170 OA
+ATOM     16  H7  ROC d          -2.882   3.465   6.194  0.00  0.00     0.162 HD
+BRANCH  14  17
+ATOM     17  C2  ROC d          -4.985   2.417   7.067  0.00  0.00     0.111 A 
+ATOM     18  N1  ROC d          -6.107   1.916   6.458  0.00  0.00    -0.244 NA
+ATOM     19  C8A ROC d          -6.385   0.558   6.496  0.00  0.00     0.068 A 
+ATOM     20  C8  ROC d          -7.524   0.085   5.879  0.00  0.00    -0.054 A 
+ATOM     21  C4A ROC d          -5.515  -0.309   7.157  0.00  0.00    -0.007 A 
+ATOM     22  C7  ROC d          -7.813  -1.300   5.920  0.00  0.00    -0.081 A 
+ATOM     23  H6  ROC d          -8.191   0.768   5.368  0.00  0.00     0.087 H 
+ATOM     24  C6  ROC d          -6.953  -2.161   6.570  0.00  0.00    -0.082 A 
+ATOM     25  H5  ROC d          -8.708  -1.682   5.442  0.00  0.00     0.083 H 
+ATOM     26  C5  ROC d          -5.806  -1.681   7.190  0.00  0.00    -0.071 A 
+ATOM     27  H4  ROC d          -7.174  -3.223   6.596  0.00  0.00     0.083 H 
+ATOM     28  H3  ROC d          -5.138  -2.365   7.699  0.00  0.00     0.084 H 
+ATOM     29  C4  ROC d          -4.378   0.190   7.771  0.00  0.00    -0.068 A 
+ATOM     30  C3  ROC d          -4.108   1.551   7.733  0.00  0.00    -0.050 A 
+ATOM     31  H2  ROC d          -3.698  -0.483   8.281  0.00  0.00     0.085 H 
+ATOM     32  H1  ROC d          -3.220   1.943   8.217  0.00  0.00     0.087 H 
+ENDBRANCH  14  17
+ENDBRANCH  11  13
+BRANCH  11  33
+ATOM     33  CB  ROC d          -4.114   6.500   6.096  0.00  0.00     0.023 C 
+ATOM     34  H9  ROC d          -4.877   6.671   6.869  0.00  0.00     0.049 H 
+ATOM     35  H10 ROC d          -4.580   6.025   5.219  0.00  0.00     0.049 H 
+BRANCH  33  36
+ATOM     36  CG  ROC d          -3.522   7.863   5.669  0.00  0.00     0.151 C 
+ATOM     37  OD1 ROC d          -2.166   7.883   5.702  0.00  0.00    -0.178 OA
+ATOM     38  ND2 ROC d          -4.525   8.735   5.362  0.00  0.00    -0.381 N 
+ATOM     39  H11 ROC d          -4.307   9.664   5.067  0.00  0.00     0.158 HD
+ATOM     40  H12 ROC d          -5.479   8.443   5.433  0.00  0.00     0.158 HD
+ENDBRANCH  33  36
+ENDBRANCH  11  33
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+BRANCH   5  41
+ATOM     41  CB1 ROC d          -0.323   4.176  10.326  0.00  0.00    -0.020 C 
+ATOM     42  H17 ROC d           0.296   4.390  11.210  0.00  0.00     0.043 H 
+ATOM     43  H18 ROC d           0.300   3.715   9.545  0.00  0.00     0.043 H 
+BRANCH  41  44
+ATOM     44  CG1 ROC d          -1.445   3.191  10.724  0.00  0.00    -0.056 A 
+ATOM     45  CD1 ROC d          -2.747   3.619  10.904  0.00  0.00    -0.077 A 
+ATOM     46  CE1 ROC d          -3.753   2.698  11.276  0.00  0.00    -0.082 A 
+ATOM     47  H19 ROC d          -2.997   4.664  10.761  0.00  0.00     0.084 H 
+ATOM     48  CZ  ROC d          -3.441   1.356  11.460  0.00  0.00    -0.083 A 
+ATOM     49  H21 ROC d          -4.772   3.039  11.418  0.00  0.00     0.083 H 
+ATOM     50  CE2 ROC d          -2.141   0.925  11.282  0.00  0.00    -0.082 A 
+ATOM     51  H23 ROC d          -4.215   0.651  11.742  0.00  0.00     0.083 H 
+ATOM     52  CD2 ROC d          -1.138   1.843  10.915  0.00  0.00    -0.077 A 
+ATOM     53  H22 ROC d          -1.892  -0.121  11.424  0.00  0.00     0.083 H 
+ATOM     54  H20 ROC d          -0.119   1.499  10.780  0.00  0.00     0.084 H 
+ENDBRANCH  41  44
+ENDBRANCH   5  41
+ENDBRANCH   1   5
+BRANCH   1  55
+ATOM     55  CM  ROC d           1.117   6.399  10.921  0.00  0.00     0.110 C 
+ATOM     56  H25 ROC d           2.083   6.578  10.426  0.00  0.00     0.080 H 
+ATOM     57  H26 ROC d           1.042   5.339  11.205  0.00  0.00     0.080 H 
+BRANCH  55  58
+ATOM     58  N11 ROC d           1.070   7.214  12.155  0.00  0.00    -0.057 N 
+ATOM     59  C21 ROC d           0.850   8.668  11.906  0.00  0.00     0.167 C 
+ATOM     60  C31 ROC d           0.887   9.421  13.224  0.00  0.00    -0.027 C 
+ATOM     61  H27 ROC d          -0.170   8.757  11.503  0.00  0.00     0.098 H 
+ATOM     62  C3A ROC d           2.074   9.163  14.119  0.00  0.00    -0.047 C 
+ATOM     63  H28 ROC d          -0.019   9.151  13.787  0.00  0.00     0.037 H 
+ATOM     64  H29 ROC d           0.870  10.496  12.994  0.00  0.00     0.037 H 
+ATOM     65  C41 ROC d           3.334   9.888  13.602  0.00  0.00    -0.061 C 
+ATOM     66  C7A ROC d           2.283   7.690  14.302  0.00  0.00    -0.027 C 
+ATOM     67  H30 ROC d           1.842   9.584  15.108  0.00  0.00     0.040 H 
+ATOM     68  C51 ROC d           4.538   9.628  14.421  0.00  0.00    -0.065 C 
+ATOM     69  H31 ROC d           3.139  10.970  13.604  0.00  0.00     0.033 H 
+ATOM     70  H32 ROC d           3.533   9.553  12.573  0.00  0.00     0.033 H 
+ATOM     71  C61 ROC d           4.788   8.138  14.576  0.00  0.00    -0.065 C 
+ATOM     72  H33 ROC d           4.397  10.074  15.416  0.00  0.00     0.033 H 
+ATOM     73  H34 ROC d           5.409  10.088  13.932  0.00  0.00     0.033 H 
+ATOM     74  C71 ROC d           3.549   7.384  15.068  0.00  0.00    -0.060 C 
+ATOM     75  H35 ROC d           5.601   7.990  15.302  0.00  0.00     0.033 H 
+ATOM     76  H36 ROC d           5.087   7.726  13.602  0.00  0.00     0.033 H 
+ATOM     77  H37 ROC d           3.383   7.646  16.124  0.00  0.00     0.033 H 
+ATOM     78  H38 ROC d           3.748   6.306  14.985  0.00  0.00     0.033 H 
+ATOM     79  C81 ROC d           2.274   6.944  12.954  0.00  0.00     0.088 C 
+ATOM     80  H39 ROC d           1.438   7.312  14.896  0.00  0.00     0.043 H 
+ATOM     81  H40 ROC d           3.157   7.256  12.374  0.00  0.00     0.076 H 
+ATOM     82  H41 ROC d           2.329   5.864  13.151  0.00  0.00     0.076 H 
+ATOM     83  H24 ROC d           0.278   6.895  12.691  0.00  0.00     0.281 HD
+BRANCH  59  84
+ATOM     84  CC  ROC d           1.763   9.342  10.893  0.00  0.00     0.183 C 
+ATOM     85  O3  ROC d           2.946   8.792  10.709  0.00  0.00    -0.175 OA
+ATOM     86  N3  ROC d           1.160  10.458  10.318  0.00  0.00    -0.362 N 
+ATOM     87  H42 ROC d           0.214  10.682  10.555  0.00  0.00     0.162 HD
+BRANCH  86  88
+ATOM     88  CD  ROC d           1.904  11.333   9.350  0.00  0.00     0.021 C 
+BRANCH  88  89
+ATOM     89  C11 ROC d           0.980  12.456   9.018  0.00  0.00    -0.054 C 
+ATOM     90  H43 ROC d          -0.002  12.051   8.733  0.00  0.00     0.030 H 
+ATOM     91  H44 ROC d           1.395  13.037   8.181  0.00  0.00     0.030 H 
+ATOM     92  H45 ROC d           0.866  13.108   9.896  0.00  0.00     0.030 H 
+ENDBRANCH  88  89
+BRANCH  88  93
+ATOM     93  C22 ROC d           2.255  10.575   8.100  0.00  0.00    -0.054 C 
+ATOM     94  H46 ROC d           1.638   9.667   8.035  0.00  0.00     0.030 H 
+ATOM     95  H47 ROC d           3.318  10.295   8.128  0.00  0.00     0.030 H 
+ATOM     96  H48 ROC d           2.067  11.209   7.222  0.00  0.00     0.030 H 
+ENDBRANCH  88  93
+BRANCH  88  97
+ATOM     97  C32 ROC d           3.169  11.888   9.974  0.00  0.00    -0.054 C 
+ATOM     98  H49 ROC d           3.170  11.674  11.054  0.00  0.00     0.030 H 
+ATOM     99  H50 ROC d           3.209  12.976   9.816  0.00  0.00     0.030 H 
+ATOM    100  H51 ROC d           4.047  11.417   9.506  0.00  0.00     0.030 H 
+ENDBRANCH  88  97
+ENDBRANCH  86  88
+ENDBRANCH  59  84
+ENDBRANCH  55  58
+ENDBRANCH   1  55
+TORSDOF 17
+ENDMDL
